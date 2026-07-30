@@ -2,8 +2,9 @@
 article_id: WLD-01-A01
 title: "Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?"
 slug: "las-brazing-dan-soldering"
-description: "Explain how melting, filler, joint behavior, temperature, and common uses differ so the reader can ask for the right process"
-status: outline
+description: "Membedakan las, brazing, dan soldering agar pembaca dapat menanyakan proses sambungan yang tepat"
+writing_contract_version: "native-id-v2"
+status: draft
 publication_date: "2025-06-11"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,232 +15,93 @@ reader_address: "Kawan Bengkel-las.co.id"
 final_route: "/artikel/las-brazing-dan-soldering.html"
 technical_review: required
 sources:
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
   - "https://www.iso.org/standard/83335.html"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
+  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id! Memilih sambungan bukan sekadar memilih alat yang tersedia. Pertanyaan pertamanya adalah: apakah logam dasar perlu ikut meleleh, atau cukup dipanaskan agar logam pengisi mengalir di celah sambungan? Jika logam dasar dilebur dan menyatu, itu keluarga **las**. Jika logam dasar tetap padat dan hanya bahan pengisi yang mengikatnya, itu **brazing** atau **soldering**.
 
-- **Writer task:** Expand this file into one complete article answering: “Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?”
-- **Reader and situation:** Beginner choosing a joining method
-- **Reader outcome:** Explain how melting, filler, joint behavior, temperature, and common uses differ so the reader can ask for the right process
-- **Primary intent:** Distinguish joining families
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes welding-process selection by metal and access, owned by WLD-01-A02, and excludes production parameters, owned by WLD-08-A01
-- **Final public route:** `/artikel/las-brazing-dan-soldering.html`
-- **Appointed CMS date:** `2025-06-11` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Brazing dan soldering sama-sama memakai bahan pengisi, tetapi bekerja pada tingkat panas dan tuntutan layanan yang berbeda. Soldering biasanya dipakai ketika panas lebih rendah dan komponen perlu terlindungi; brazing dipilih ketika dibutuhkan ikatan pengisi yang lebih tahan terhadap beban atau temperatur dibanding solder biasa. Batas angka temperatur, jenis paduan, dan kekuatan yang diizinkan tidak boleh ditebak dari istilahnya—[NEEDS REVIEW: standar proyek, material, dan data bahan pengisi].
 
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
+<!-- BEGIN MANAGED IMAGE PLAN
+- Image ID: LOCAL-001
+- Source type: local
+- Placement: after opening answer, before first detailed H2
 - **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+- Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+- Selection basis: filename/source metadata only; pixels not inspected.
+- Hard boundary: do not infer visual details, ownership, location, people, brands, condition, performance, or outcome.
+- Substitution: if unavailable or provenance incomplete, use [NEEDS IMAGE REVIEW: LOCAL-001].
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-01-A02` → `/artikel/cara-memilih-proses-las.html` — Cara Memilih Proses Las: SMAW, MIG-MAG, TIG, FCAW, atau Oksi-Bahan Bakar
-- `WLD-01-A03` → `/artikel/anatomi-busur-las.html` — Anatomi Busur Las: Arus, Tegangan, Polaritas, dan Jalur Arus
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**Las (welding)** membentuk sambungan dengan melebur sebagian logam dasar, dengan atau tanpa logam pengisi. Karena bagian benda kerja ikut mengalami siklus panas, bentuk, tegangan sisa, perubahan permukaan, dan kemungkinan distorsi perlu dipertimbangkan. “Las” bukan jaminan bahwa sambungan otomatis cocok untuk beban tertentu; penerimaan akhir tetap mengikuti desain, spesifikasi, dan pemeriksaan yang berlaku.
+
+**Brazing** memanaskan benda kerja tanpa meleburkannya sebagai mekanisme utama. Logam pengisi yang titik lelehnya lebih tinggi daripada solder mengalir ke celah—sering dibantu aksi kapiler—lalu membeku. Lebar celah, kebersihan permukaan, kecocokan bahan pengisi, dan cara pemanasan menentukan apakah aliran benar-benar membasahi kedua sisi. Tanpa data pasangan material dan pengisi, jangan menjanjikan kekuatan atau ketahanan korosi.
+
+**Soldering** juga mempertahankan logam dasar tetap padat, tetapi menggunakan bahan pengisi yang meleleh pada rentang panas lebih rendah daripada brazing. Keuntungannya biasanya berupa panas proses yang lebih ringan dan risiko perubahan bentuk yang lebih kecil, sementara kemampuan menahan panas, getaran, atau beban struktural harus dibuktikan untuk aplikasi spesifik. Istilah “solder kuat” tidak menggantikan data desain.
+
+Batas artikel ini adalah membedakan tiga keluarga sambungan dan membantu Anda menyusun pertanyaan awal. Artikel ini tidak memilih proses las berdasarkan jenis logam dan akses, serta tidak memberi arus, tegangan, ukuran celah, suhu, waktu pemanasan, atau parameter produksi. Nilai tersebut harus datang dari gambar kerja, prosedur yang disetujui, dan peninjauan kompeten.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutan paling mudah dipahami dimulai dari permukaan yang akan disambung. Pada las, operator menyiapkan fit-up, menyalakan sumber panas, mengendalikan kolam leleh, lalu membiarkan logam membeku menjadi jalur sambungan. Pengisi, bila digunakan, menjadi bagian dari logam las. Pemilihan prosedur dan kualifikasi bukan hal yang sama dengan kartu kemampuan seorang juru las; sistem mutu pengelasan memisahkan prosedur, personel, bahan, pemeriksaan, dan penerimaan akhir ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
+
+Pada brazing dan soldering, permukaan harus bersih dan memiliki celah yang memungkinkan pengisi menyebar. Sumber panas diarahkan untuk memanaskan benda kerja secara terkendali, bukan sekadar membakar pengisi di satu titik. Pengisi kemudian mengalir, membasahi permukaan, dan mengeras. Jika celah terlalu besar, permukaan teroksidasi, atau panas tidak merata, jalur yang tampak penuh bisa saja tidak mengikat seluruh bidang.
+
+Perbedaan mekanismenya menghasilkan perilaku sambungan yang berbeda. Las cenderung memusatkan perubahan metalurgi di sekitar daerah panas dan jalur las. Brazing dan soldering dapat menyambungkan kombinasi bagian tanpa meleburkan logam dasarnya, tetapi kinerja sangat dipengaruhi panjang tumpang tindih, celah, kebersihan, dan kompatibilitas pengisi. Semua itu adalah variabel desain, bukan janji yang melekat pada nama proses.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dari fungsi sambungan. Tanyakan apakah sambungan memikul beban utama, menahan kebocoran, meneruskan panas atau listrik, atau hanya memosisikan komponen. Sambungan struktural yang menerima gaya berulang tidak boleh disamakan dengan sambungan penutup ringan. Jika fungsi, beban, atau umur layanan belum tertulis, tandai [NEEDS REVIEW: fungsi dan beban sambungan] sebelum meminta penawaran.
+
+Berikutnya lihat lingkungan kerja: temperatur operasi, getaran, kelembapan, bahan kimia, akses pemanasan, dan kebutuhan pembongkaran. Panas yang lebih rendah dapat menjaga komponen sensitif, tetapi bukan berarti sambungan akan tahan pada temperatur operasi yang sama. Sebaliknya, panas las dapat merusak pelapis, mengubah bentuk, atau menuntut urutan kerja tertentu. Data material dan bahan pengisi harus ditelusuri sampai identitas produk dan batch bila proyek memerlukannya; jangan mengandalkan label generik ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
+
+Tempat pengerjaan juga mengubah keputusan. Bengkel terkontrol memberi peluang lebih baik untuk menata posisi, kebersihan, penyimpanan bahan, dan pemeriksaan. Pekerjaan lapangan menghadapi cuaca, ventilasi, benda mudah terbakar, lalu lintas orang, sumber listrik, serta akses inspeksi yang berubah. Panduan keselamatan pengelasan, pemotongan, dan brazing menekankan perlunya pengendalian bahaya pekerjaan; rujukan OSHA tersebut adalah ilustrasi teknis, bukan pengganti persetujuan K3 Indonesia ([OSHA 29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252)). Kewajiban keselamatan kerja di Indonesia tetap perlu ditinjau terhadap kondisi tugas dan aturan yang berlaku ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970)).
+
+Terakhir, sepakati bukti penerimaan. Tanyakan gambar revisi, identitas sambungan, prosedur, kualifikasi personel bila diwajibkan, metode pemeriksaan, dan siapa yang berwenang menerima atau menolak hasil. Standar atau katalog yang disebut tanpa dokumen proyek belum menjawab apakah sambungan Anda boleh diterima.
+
+Saat meminta pekerjaan, gunakan juga panduan [memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) untuk memeriksa cara penyedia menjelaskan dokumen, ruang lingkup, dan batas tanggung jawabnya.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan tabel ini sebagai percakapan awal, bukan keputusan final:
+
+| Situasi yang diketahui | Arah pertanyaan | Hal yang harus dikonfirmasi |
+|---|---|---|
+| Logam dasar harus menyatu untuk meneruskan beban | “Apakah ini memang sambungan las?” | Desain, prosedur, kualifikasi, dan pemeriksaan yang disyaratkan |
+| Dua komponen perlu disatukan tanpa meleburkan logam dasarnya | “Apakah brazing cukup untuk fungsi dan lingkungan ini?” | Jenis pengisi, celah, kompatibilitas, temperatur layanan, dan bukti uji/proyek |
+| Komponen sensitif panas atau sambungan ringan | “Apakah soldering memenuhi fungsi, bukan hanya mudah dikerjakan?” | Batas panas, getaran, kebocoran, umur layanan, dan cara inspeksi |
+| Pekerjaan harus dilakukan di lokasi | “Apa perubahan risiko dibanding bengkel?” | Izin kerja, isolasi energi, perlindungan kebakaran, ventilasi, akses, dan rencana pemulihan |
+
+Sebagai contoh bersyarat, pipa tipis untuk fungsi nonstruktural mungkin tampak cocok untuk brazing atau soldering. Namun bila cairan panas, tekanan, getaran, atau konsekuensi kebocoran meningkat, keputusan harus kembali ke spesifikasi dan tinjauan kompeten. Jangan mengubah contoh ini menjadi klaim bahwa satu proses selalu aman.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Las, Brazing, dan Soldering: Sambungan Mana yang Sebenarnya Dibutuhkan?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah menyamakan “ada bahan pengisi” dengan “brazing”. Minta nama proses, identitas pengisi, dan rentang layanan yang disetujui. Kesalahan kedua adalah menganggap hasil yang terlihat rapi pasti kuat. Tanyakan bagaimana kebersihan, celah, pemanasan, dan pemeriksaan dicatat.
 
-## Objection or shortcut to address
+Kesalahan ketiga adalah memilih proses karena paling murah atau alatnya sudah tersedia. Biaya awal tidak menunjukkan biaya pembongkaran, perbaikan, pelapisan ulang, penghentian operasi, atau pemeriksaan tambahan. Kesalahan keempat adalah memindahkan pekerjaan ke lapangan hanya karena pengangkutan merepotkan. Kawan Bengkel-las.co.id, mintalah penilaian ulang terhadap kondisi lokasi; perubahan akses dan bahaya dapat mengubah metode yang layak.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Kesalahan terakhir adalah meminta “standar” tanpa menyebut edisi, ruang lingkup, atau dokumen proyek. Untuk pekerjaan yang dikendalikan mutu, paket fabrikasi perlu mengaitkan fungsi, material, identitas sambungan, toleransi, pemeriksaan, dan dasar penerimaan. Katalog publik hanya membantu mengenali dokumen; ia tidak memberi semua ketentuan penerapan.
 
-## Required conclusion
+Jika sambungan berkaitan dengan rangka atau teralis, cocokkan istilah material dan fungsi dengan referensi [bahan teralis jendela yang umum di pasaran](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran), lalu minta konfirmasi teknis sebelum mengubah spesifikasi.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Jalan pintas yang perlu ditolak
 
-## Draft completion checklist
+Jalan pintas yang sering muncul adalah: “Kalau solder bisa menempel, berarti brazing atau las juga pasti bisa.” Logikanya terbalik. Ketiga keluarga memakai mekanisme panas dan perilaku antarmuka berbeda. Pengisi yang mengalir pada panas rendah belum tentu mampu menahan lingkungan atau beban yang sama; las yang meleburkan logam dasar juga membawa pengaruh panas yang berbeda.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Alternatif yang lebih aman adalah menuliskan lembar pertanyaan singkat: fungsi sambungan, material dan ketebalan, beban atau tekanan, temperatur dan lingkungan, lokasi kerja, akses inspeksi, dokumen penerimaan, serta bukti yang harus diserahkan. Jika salah satu jawaban mengubah keselamatan, integritas, atau kepatuhan, hentikan keputusan informal dan minta peninjauan personel kompeten. [NEEDS TECHNICAL REVIEW: proses dan penerimaan akhir untuk proyek nyata].
+
+## Kesimpulan dan langkah berikutnya
+
+Las dipilih ketika logam dasar perlu dilebur dan menyatu; brazing dan soldering mempertahankan logam dasar lalu mengandalkan logam pengisi, dengan tingkat panas dan tuntutan layanan yang berbeda. Tidak ada nama proses yang otomatis menjawab kecocokan. Sobat Bengkel-las.co.id, bawa tabel pertanyaan tadi bersama gambar kerja atau uraian fungsi saat berbicara dengan bengkel dan penanggung jawab teknis.
+
+Minta mereka menyebut proses secara lengkap, menunjukkan dasar pemilihannya, dan menjelaskan bukti pemeriksaan serta batas penggunaannya. Untuk pekerjaan nyata, keputusan akhir tetap memerlukan dokumen proyek dan tinjauan kompeten; artikel ini membantu Anda mengajukan pertanyaan yang tepat, bukan menggantikan persetujuan tersebut.

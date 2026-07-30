@@ -2,8 +2,9 @@
 article_id: WLD-07-A05
 title: "Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran"
 slug: "mengendalikan-distorsi-las"
-description: "Explain causes, symmetry, restraint tradeoffs, preset, sequence, heat distribution, measurement, and correction escalation"
-status: outline
+description: "Panduan mengendalikan distorsi las melalui prediksi susut, keseimbangan urutan dan panas, pengekangan, preset, pengukuran, serta eskalasi koreksi."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-11-17"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,52 +17,25 @@ technical_review: required
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
----
+  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
+  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+---
 
 # Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran
 
-## Assignment lock
+Halo, Sobat Bengkel-las.co.id! Kalau rangka atau pelat melengkung setelah pengelasan, solusi yang paling aman bukan menambah panas secara spontan atau mengencangkan semua klem sekuat mungkin. Kendalikan distorsi sejak sebelum busur menyala: kenali arah susut bebas, seimbangkan urutan dan panas, tahan benda kerja secukupnya, lalu ukur terhadap datum sebelum memutuskan koreksi.
 
-- **Writer task:** Expand this file into one complete article answering: “Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran”
-- **Reader and situation:** Fabricator facing warped assemblies
-- **Reader outcome:** Explain causes, symmetry, restraint tradeoffs, preset, sequence, heat distribution, measurement, and correction escalation
-- **Primary intent:** Reduce dimensional distortion
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes unsafe flame straightening recipes and universal tolerances; WLD-03-A05 owns acceptance
-- **Final public route:** `/artikel/mengendalikan-distorsi-las.html`
-- **Appointed CMS date:** `2025-11-17` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Prediksi tidak boleh berupa satu angka susut yang dipakai untuk semua proyek. Ia harus diturunkan dari gambar revisi, material, geometri sambungan, WPS yang disetujui, urutan aktual, kondisi pengekangan, dan toleransi yang berlaku. Bila salah satu data itu belum ada, keputusan ukuran akhir dan metode pelurusan menjadi **[NEEDS PROJECT EVIDENCE: gambar/datum, WPS, material, urutan, dan toleransi yang disetujui]**. Paket fabrikasi terkendali memang perlu memuat dimensi, datum, material, urutan, inspeksi, dan dasar penerimaan yang jelas ([SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020); [ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
 
-## Opening instructions
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+Aset lokal ini hanya ilustrasi dan bukan dokumentasi proyek tertentu; jangan gunakan sebagai bukti kondisi, hasil, atau kepemilikan pekerjaan.
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-002`
@@ -72,182 +46,74 @@ sources:
 - **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-07-A03` → `/artikel/geometri-tepi-sambungan-las.html` — Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las
-- `WLD-07-A04` → `/artikel/jig-fixture-dan-urutan-tack.html` — Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah
-- `WLD-07-A06` → `/artikel/kebersihan-permukaan-sebelum-las.html` — Kebersihan Permukaan Sebelum Las: Karat, Cat, Galvanis, Minyak, dan Air
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Distorsi adalah perubahan bentuk atau ukuran akibat susut yang tidak seimbang selama siklus pemanasan dan pendinginan. Satu sisi yang menerima panas lebih banyak atau lebih lama cenderung menarik bagian di sekitarnya ketika mendingin; pengekangan dapat menunda gerak itu, tetapi juga menyimpan tegangan yang baru terlihat setelah las selesai atau klem dilepas. Karena itu, “las lebih banyak supaya kuat” dan “jepit sekeras-kerasnya” bukan aturan pengendalian dimensi.
+
+Rencana kerja yang dapat diaudit terdiri dari lima keputusan: tentukan datum dan arah gerak yang masih diizinkan; susun tack dan fixture agar simetris tanpa mengunci pelepasan; bagi panjang las dan urutannya untuk menyebarkan panas; tentukan preset hanya dari data proyek atau uji yang disetujui; kemudian ukur pada titik-titik yang sama di beberapa tahap. Catat hasil aktualnya. Jika hasil melampaui batas proyek, hentikan perubahan dan minta keputusan teknis—jangan menebak toleransi atau resep pelurusan.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Di halaman ini, distorsi berarti masalah dimensional: lengkung, puntir, penyusutan memanjang atau melintang, dan perubahan sudut yang membuat antarmuka tidak lagi bertemu. Itu berbeda dari cacat atau diskontinuitas logam las. Satu gejala dapat muncul bersamaan, tetapi pemeriksaan visual atau satu pembacaan ukuran tidak otomatis menjelaskan penyebab maupun membuktikan penerimaan. Metode, cakupan, teknik, personel, kondisi permukaan, peralatan, laporan, dan dasar penerimaan adalah bukti yang terpisah ([ISO 17635:2025](https://www.iso.org/standard/85705.html)).
+
+Batasnya juga penting: artikel ini tidak memberi toleransi universal, angka penyusutan, pengaturan arus, atau resep pemanasan api untuk meluruskan. Nilai tersebut harus datang dari gambar dan spesifikasi proyek yang berlaku. Pelurusan panas, penggerindaan, pemotongan ulang, atau pengelasan perbaikan memerlukan persetujuan metode dan pemeriksaan ulang. **[NEEDS COMPETENT REVIEW: batas penerimaan dan rencana koreksi untuk komponen ini]**
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dengan lembar kendali sederhana. Tulis nomor revisi gambar, datum, material dan tebal, identitas sambungan, panjang/segmen las, metode, WPS, fixture, urutan, titik ukur, dan siapa yang menyetujui pelepasan atau koreksi. Kebutuhan seperti dimensi, antarmuka, toleransi, urutan fabrikasi, inspeksi, hold point, dan deviasi yang disetujui merupakan bagian dari paket fabrikasi terkendali ([SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020); [ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
+
+Berikut alur sebab-akibat yang dapat dipakai tanpa mengarang angka:
+
+1. **Prediksi arah susut.** Tandai sisi yang akan menerima volume dan panjang las terbesar. Bayangkan arah kontraksi bebasnya, lalu periksa apakah bagian yang berpasangan memiliki distribusi panas dan kekakuan yang serupa. Jika tidak, rencanakan urutan yang menyeimbangkan momen tarik, bukan sekadar urutan termudah dijangkau.
+2. **Tentukan pengekangan.** Jig atau klem menjaga posisi awal, tetapi jangan menganggapnya menghapus susut. Pastikan titik tumpu tidak menghalangi akses, inspeksi, atau pelepasan bertahap. Catat kapan pengekang dilepas; ukuran sebelum dan sesudah pelepasan memberi petunjuk apakah distorsi tersembunyi tersimpan.
+3. **Atur tack dan segmen.** Tack yang seragam membantu menjaga fit-up. Las segmen yang berhadapan atau berpindah sisi sesuai WPS dan rencana kerja, sehingga panas tidak terus terkumpul di satu ujung. Beri jeda untuk pemeriksaan fit-up dan ukuran yang memang ditetapkan proyek, bukan berdasarkan rasa tangan.
+4. **Gunakan preset secara bersyarat.** Preset adalah penyetelan awal berlawanan arah dari gerak yang diperkirakan. Ia hanya layak dipakai bila arah dan besarnya didukung data komponen sejenis yang sah, mock-up, atau persetujuan engineering. Tanpa itu, preset hanyalah asumsi dan dapat menghasilkan distorsi berlawanan arah.
+5. **Ukur dan eskalasi.** Ukur terhadap datum yang sama sebelum tack, setelah tack, pada hold point, setelah las selesai, dan setelah fixture dilepas bila diwajibkan. Foto atau sketsa titik ukur membantu penelusuran. Bila keluar dari batas, tahan produk, dokumentasikan, dan minta disposition; jangan langsung menambah las atau memanaskan area secara acak.
+
+Kualifikasi prosedur, WPS produksi, kualifikasi juru las/operator, rentang material dan posisi, kendali preheat/interpass, kondisi peralatan, serta penerimaan akhir adalah rekaman yang berbeda. Kartu juru las tidak menggantikan WPS, dan WPS tidak membuktikan komponen sudah diterima ([ISO 15614-1:2017](https://www.iso.org/standard/51792.html); [ISO 9606-1:2012](https://www.iso.org/standard/54936.html)).
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Beberapa variabel sering saling menguatkan:
+
+- **Geometri dan kekakuan.** Pelat panjang, penampang tidak simetris, lubang dekat garis las, atau sambungan yang bertemu di sudut mengubah jalur gaya. Perubahan kecil pada fit-up dapat memindahkan pusat panas dan arah tarik.
+- **Distribusi panas.** Volume logam las, panjang lintasan, jeda antarlintasan, dan urutan lintasan menentukan apakah panas terkumpul atau tersebar. Gunakan rentang yang disahkan WPS; jangan menyimpulkan panas hanya dari warna permukaan.
+- **Restraint dan fixture.** Klem terlalu sedikit membuat posisi bergerak saat tack; terlalu kaku dapat menyembunyikan gerak lalu melepaskan tegangan ketika dibuka. Fixture juga harus kompatibel dengan inspeksi dan rencana pelepasan.
+- **Kondisi lapangan.** Memindahkan pekerjaan dari bengkel ke lokasi dapat mengubah akses, pengangkatan, cuaca, listrik, ventilasi, paparan api, lalu lintas, dan akses inspeksi. Keputusan mengelas di lapangan bukan sekadar soal transportasi; kendali tugas dan K3 harus ditinjau untuk kondisi aktual ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970); [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018)).
+- **Pilihan material.** Material yang berbeda dapat mengubah urutan kerja dan respons terhadap panas. Jika Anda masih menyusun pilihan bahan teralis, ringkasan [bahan teralis jendela yang umum di pasaran](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran) dapat membantu membuat daftar opsi; kecocokan akhirnya tetap harus diverifikasi terhadap spesifikasi proyek.
+- **Bukti pengukuran.** Alat, metode referensi, kondisi permukaan, dan personel memengaruhi keterulangan. Satu angka tanpa titik, datum, waktu pengukuran, dan status alat tidak cukup untuk keputusan penerimaan ([ISO 17635:2025](https://www.iso.org/standard/85705.html)).
+
+Kawan Bengkel-las.co.id, apabila material, WPS, atau datum berubah, perlakukan prediksi lama sebagai tidak berlaku sampai ditinjau ulang. Jangan menyalin preset dari pekerjaan lain hanya karena bentuk luarnya tampak serupa.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan rangka persegi panjang dengan dua sisi panjang dan satu pengaku melintang. Ini skenario bersyarat, bukan laporan proyek. Sebelum bekerja, tim memetakan datum pada keempat sudut dan menetapkan titik ukur diagonal. Pilihan kendalinya dapat diringkas sebagai berikut:
+
+| Situasi yang teramati | Tindakan proses | Keputusan bukti |
+|---|---|---|
+| Fit-up awal simetris dan akses dua sisi tersedia | Tack berpasangan, lanjutkan segmen berlawanan sesuai WPS, ukur diagonal pada hold point | Lanjut hanya bila datum dan ukuran masih dalam batas gambar |
+| Satu sisi memiliki las jauh lebih panjang | Tinjau ulang urutan dan pembagian segmen; jangan menambah klem tanpa analisis akses dan pelepasan | Minta persetujuan urutan atau preset dari engineering |
+| Ukuran berubah setelah fixture dilepas | Tahan komponen, catat perubahan sebelum/sesudah pelepasan, telusuri restraint | Jangan meluruskan sebelum metode koreksi dan pemeriksaan disetujui |
+| Hasil ukur tidak konsisten antar pemeriksa | Verifikasi datum, alat, kondisi permukaan, dan cara membaca | Ulangi pengukuran dengan metode yang disepakati; jangan memilih angka yang paling nyaman |
+
+Pada setiap baris, asumsi dan batas harus tertulis di lembar kendali. Jika dokumen proyek tidak menyebut titik ukur, minta klarifikasi sebelum produksi berlanjut. Untuk mencari penyedia yang dapat menjelaskan rekaman proses dan pemeriksaannya, Anda dapat memakai panduan [memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) sebagai pertanyaan awal—bukan sebagai bukti bahwa suatu bengkel memenuhi proyek Anda.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+1. **Mengelas satu sisi penuh agar cepat.** Periksa panjang panas yang menumpuk dan perubahan diagonal setelah setiap tahap. Jika urutan belum disetujui, kecepatan bukan alasan untuk melewati hold point.
+2. **Mengandalkan klem sebagai obat semua distorsi.** Periksa apakah klem menghalangi inspeksi atau menyimpan tegangan. Bandingkan ukuran sebelum dan sesudah pelepasan, lalu minta tinjauan bila perubahannya signifikan menurut batas proyek.
+3. **Menyalin angka preset atau toleransi.** Tanyakan sumber angka, revisi gambar, material, serta bukti mock-up atau pengalaman yang dapat ditelusuri. Tanpa itu, tandai **[NEEDS PROJECT EVIDENCE: dasar preset/toleransi]**.
+4. **Mengoreksi dengan api atau gerinda tanpa prosedur.** Cara tersebut dapat mengubah kondisi material, lapisan, tegangan, atau geometri. Hentikan pekerjaan dan minta metode tertulis serta pemeriksaan setelah koreksi; artikel ini sengaja tidak memberi resep pemanasan.
+5. **Menyamakan sertifikat juru las dengan penerimaan sambungan.** Cocokkan rekaman kualifikasi, WPS, inspeksi, dan disposition nonkonformitas secara terpisah ([ISO 15614-1:2017](https://www.iso.org/standard/51792.html); [ISO 9606-1:2012](https://www.iso.org/standard/54936.html)).
 
-## Objection or shortcut to address
+## Mengapa jalan pintas sering gagal
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+“Kalau distorsi mengganggu, las saja sisi sebaliknya atau panaskan bagian yang tinggi sampai rata.” Shortcut ini mengabaikan penyebab: urutan, restraint, dan distribusi panas yang mungkin belum terkendali. Menambah logam atau panas dapat memindahkan lengkung, memperbesar tegangan, atau membuat pemeriksaan berikutnya lebih sulit. Alternatif yang lebih dapat dipertanggungjawabkan adalah menghentikan tahap, membandingkan catatan ukuran dengan datum, memeriksa WPS dan urutan aktual, lalu meminta disposition engineering. Teman Bengkel-las.co.id, koreksi yang disetujui harus memiliki metode, penanggung jawab, dan pemeriksaan ulang—bukan sekadar hasil yang terlihat rata.
 
-## Required conclusion
+## Kesimpulan
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Pengendalian distorsi las berarti memprediksi arah susut dari data proyek, menyeimbangkan panas dan urutan, memakai restraint serta preset secara bersyarat, kemudian mengukur dengan datum yang konsisten. Mulailah dari lembar kendali yang mencatat revisi gambar, WPS, tack, fixture, urutan, titik ukur, hold point, dan keputusan koreksi. Serahkan batas penerimaan, angka preset, serta metode pelurusan kepada engineering atau personel kompeten yang memegang dokumen proyek. **[NEEDS COMPETENT REVIEW: keputusan akhir dimensi, koreksi, dan penerimaan komponen]**
 
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Aturan operasinya sederhana: jangan lepaskan komponen atau menutup nonkonformitas hanya karena tampak lurus; lepaskan setelah bukti ukuran dan persetujuan yang diwajibkan tersedia.

@@ -2,8 +2,8 @@
 article_id: WLD-09-A05
 title: "Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama"
 slug: "acceptance-criteria-las"
-description: "Explain code/contract hierarchy, quality versus acceptance levels, service consequence, method sensitivity, sampling, and disposition"
-status: outline
+description: "Panduan memahami hierarki dokumen, tingkat mutu, metode inspeksi, pengambilan sampel, dan keputusan penerimaan sambungan las."
+status: draft
 publication_date: "2026-01-09"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,241 +13,113 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Teman Bengkel-las.co.id"
 final_route: "/artikel/acceptance-criteria-las.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
   - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
+  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-001
+Source type: local
+Placement: after the opening has answered the main question, before the first detailed H2
+**Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
+Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+Selection basis: filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
+Hard boundary: do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+Substitution rule: do not replace this image. If unavailable or provenance is incomplete, insert [NEEDS IMAGE REVIEW: LOCAL-001] and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
 # Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama
 
-## Assignment lock
+Halo, Teman Bengkel-las.co.id! Satu cacat yang tampak sama dapat berujung pada keputusan berbeda karena acceptance criteria (kriteria penerimaan) bukan sekadar “terlihat bagus” atau “jelek”. Putusan mengikuti urutan dokumen yang berlaku untuk pekerjaan itu: kontrak dan gambar terbit, spesifikasi material atau struktur, prosedur pengelasan, rencana inspeksi, metode pemeriksaan, lalu otoritas yang menyetujui hasil.
 
-- **Writer task:** Expand this file into one complete article answering: “Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama”
-- **Reader and situation:** Buyer confused by differing inspection outcomes
-- **Reader outcome:** Explain code/contract hierarchy, quality versus acceptance levels, service consequence, method sensitivity, sampling, and disposition
-- **Primary intent:** Understand how weld acceptance is determined
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Teman Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Kawan Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes publishing a universal pass/fail chart or exact clauses without verified project standard
-- **Final public route:** `/artikel/acceptance-criteria-las.html`
-- **Appointed CMS date:** `2026-01-09` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jadi, foto pori, undercut, retak, atau indikasi pada laporan belum cukup untuk menyatakan lulus atau gagal. Anda perlu tahu apa yang diperiksa, dengan metode dan cakupan berapa, terhadap kriteria mana, serta siapa yang berwenang menetapkan disposition (status tindak lanjut). ISO 17635 menjelaskan bahwa pemilihan metode, cakupan, teknik, kondisi permukaan, personel, peralatan, pelaporan, dan acceptance level adalah bukti yang saling terkait; level penerimaan NDT juga tidak otomatis merupakan terjemahan satu banding satu dari level kualitas ISO 5817 ([ISO 17635:2025](https://www.iso.org/standard/85705.html); [ISO 5817:2023](https://www.iso.org/standard/80209.html)).
 
-## Opening instructions
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-- Open with the exact short salutation: **“Halo, Teman Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Kawan Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-09-A03` → `/artikel/memilih-metode-ndt-las.html` — Memilih Metode NDT Las: VT, PT, MT, UT, atau RT
-- `WLD-09-A04` → `/artikel/membaca-laporan-ndt-las.html` — Membaca Laporan Inspeksi dan NDT Las Tanpa Menyamakan Indikasi dengan Kegagalan
-- `WLD-09-A06` → `/artikel/dokumen-handover-pengelasan.html` — Paket Handover Pengelasan: Dokumen Apa yang Membuktikan Pekerjaan Terkendali
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Mulai dari gejala, bukan tebakan penyebab
 
-- **Purpose:** Tentukan apa yang terlihat/terukur, lokasi, waktu, perubahan, dan keterbatasan pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Catat gejalanya secara netral sebelum mencari penyebab. Tulis nomor sambungan atau komponen, lokasi dan sisi yang terlihat, kapan ditemukan, kondisi permukaan, alat yang dipakai, serta apakah pengamatan dilakukan sebelum atau sesudah pengecatan. “Ada garis memanjang di kaki las” adalah observasi. “Pasti retak karena arus kurang” sudah merupakan dugaan yang belum terbukti.
+
+Bedakan juga istilah *indication* (indikasi dari pemeriksaan) dan *imperfection* (ketidaksempurnaan). Indikasi perlu dievaluasi terhadap teknik dan kriteria; ia belum otomatis menjadi cacat yang ditolak. Sebaliknya, hasil visual yang tampak rapi tidak membuktikan kondisi di bawah permukaan. ISO 9712 menempatkan kompetensi dan ruang lingkup personel sebagai bagian dari keandalan pengujian, bukan sebagai pengganti kriteria proyek ([ISO 9712:2021](https://www.iso.org/standard/75614.html)).
+
+Gunakan pertanyaan awal berikut saat menerima dua hasil inspeksi yang berbeda:
+
+| Pertanyaan | Mengapa menentukan putusan |
+| --- | --- |
+| Sambungan dan revisi gambar mana yang diperiksa? | Kriteria dapat berubah menurut fungsi, detail, atau revisi. |
+| Metode, teknik, dan cakupannya apa? | VT, PT, MT, UT, atau RT memiliki sensitivitas dan batas berbeda. |
+| Indikasi diukur atau hanya difoto? | Keputusan memerlukan data yang bisa dibandingkan dengan acceptance basis. |
+| Siapa yang menandatangani laporan? | Tanggung jawab dan kompetensi harus dapat ditelusuri. |
+
+Jika jawaban atas salah satu pertanyaan kosong, hentikan label “lulus/gagal” dan minta rekaman lengkap. [NEEDS PROJECT ACCEPTANCE BASIS: kriteria kontrak, gambar terbit, dan rencana inspeksi belum tersedia di artikel ini.]
 
 ## Saringan risiko langsung
 
-- **Purpose:** Jelaskan kapan pembaca harus membatasi akses, menghentikan pekerjaan, atau meminta pemeriksaan kompeten.
-- **Tie back to this article:** Keep the explanation specific to “Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Acceptance adalah keputusan mutu, tetapi pekerjaan tetap harus dihentikan bila ada risiko keselamatan segera: dugaan retak pada bagian yang sedang menahan beban, perubahan bentuk yang terus bertambah, percikan atau panas dekat bahan mudah terbakar, kabel atau sumber listrik rusak, atau akses pemeriksaan yang membuat orang berada di jalur bahaya. Jangan menggerinda atau menutup area hanya agar foto tampak bersih sebelum kondisi dicatat.
+
+Kerangka keselamatan kerja di Indonesia menuntut pengendalian bahaya pada pekerjaan; UU No. 1 Tahun 1970 dapat menjadi titik rujuk umum, namun kontrol spesifik tetap harus ditetapkan berdasarkan lokasi, energi, peralatan, dan penanggung jawab K3 setempat ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970)). Untuk pekerjaan lapangan, akses, cuaca, ventilasi, antarmuka dengan penghuni, dan inspeksi setelah perbaikan dapat berbeda dari bengkel. Karena itu, keputusan memindahkan pengelasan ke lokasi tidak cukup beralasan “agar mudah diangkut”.
+
+Teman Bengkel-las.co.id, bila gejala menyentuh fungsi struktural atau keselamatan orang, pasang pembatas dan minta pemeriksaan kompeten. Artikel ini tidak memberi izin operasi, jarak aman, durasi *fire watch*, atau pengaturan listrik tertentu; angka dan prosedur tersebut harus berasal dari penilaian tugas yang berlaku.
 
 ## Kemungkinan mekanisme
 
-- **Purpose:** Kelompokkan kemungkinan penyebab tanpa menyatakan diagnosis dari bukti yang belum cukup.
-- **Tie back to this article:** Keep the explanation specific to “Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Perbedaan putusan biasanya muncul dari empat lapisan yang tercampur.
+
+Pertama, **hierarki persyaratan**. Kontrak atau spesifikasi proyek mengikat pekerjaan; gambar dan revisinya menentukan sambungan; prosedur pengelasan menjelaskan cara membuatnya; rencana inspeksi menentukan kapan dan dengan metode apa hasil diverifikasi. Katalog SNI 1729:2020 hanya mengonfirmasi identitas publik standar, bukan isi klausul, toleransi, atau nilai penerimaan. Minta naskah berlisensi dan dokumen *issued for work* sebelum mengutip angka ([SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020)).
+
+Kedua, **level kualitas tidak sama dengan level penerimaan**. ISO 5817 mengelompokkan tingkat kualitas ketidaksempurnaan pada sambungan tertentu, sedangkan ISO 17635 mengingatkan bahwa level penerimaan NDT tidak diterjemahkan langsung satu per satu. Satu indikasi dapat berada dalam batas kualitas pengerjaan tetapi tetap memicu review bila fungsi komponen, lokasi kritis, atau persyaratan kontrak menetapkan pemeriksaan lebih ketat.
+
+Ketiga, **kecocokan layanan**. Sambungan yang tidak ditolak oleh pemeriksaan tertentu belum otomatis cocok untuk semua beban, siklus, korosi, temperatur, atau perubahan penggunaan. Penilaian teknik harus menghubungkan indikasi dengan fungsi dan konsekuensi kegagalan; jangan menggantikan penilaian itu dengan kalimat “sudah biasa dipakai”.
+
+Keempat, **kualifikasi dan ketertelusuran**. Kualifikasi prosedur, WPS produksi, kualifikasi juru las/operator, kendali bahan tambah, dan penerimaan sambungan akhir adalah rekaman berbeda. ISO 15614-1 membahas kualifikasi prosedur, sedangkan ISO 9606-1 membahas kualifikasi juru las; abstrak publik keduanya tidak memberi rentang kualifikasi atau syarat uji yang boleh Anda salin ([ISO 15614-1:2017](https://www.iso.org/standard/51792.html); [ISO 9606-1:2012](https://www.iso.org/standard/54936.html)).
 
 ## Urutan pemeriksaan dan pengujian
 
-- **Purpose:** Susun observasi, dokumen, tes, sampel, atau pengukuran dari yang paling aman dan informatif.
-- **Tie back to this article:** Keep the explanation specific to “Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Susun pemeriksaan dari yang paling aman dan paling informatif:
+
+1. **Bekukan kondisi dan identitas.** Tandai sambungan, ambil foto konteks, catat revisi gambar, waktu, serta siapa yang menemukan. Jangan menghapus indikasi.
+2. **Periksa dokumen pengendali.** Cocokkan material, detail sambungan, WPS, rekaman juru las, hold point, dan acceptance basis. ISO 3834-6 menekankan perlunya sistem informasi dan dokumentasi yang sesuai kebutuhan mutu pengelasan; abstraknya tidak menetapkan formulir tunggal atau nilai toleransi ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html)). Untuk pekerjaan teralis, pertanyaan awal tentang identitas material dapat dilanjutkan lewat panduan [mengenali bahan teralis jendela las yang umum](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran).
+3. **Lakukan VT dengan teknik yang ditetapkan.** Pastikan permukaan, pencahayaan, akses, alat ukur, dan personel sesuai prosedur. Hasil VT adalah data awal, bukan vonis untuk kondisi internal.
+4. **Pilih NDT berdasarkan pertanyaan.** PT atau MT, UT, dan RT tidak menjawab pertanyaan yang sama. Metode, teknik, cakupan, dan kriteria harus tertulis; jangan memilih metode hanya karena alatnya tersedia.
+5. **Tetapkan sampling secara resmi.** Sampel harus memiliki dasar di rencana inspeksi atau instruksi proyek. Temuan pada satu sampel tidak otomatis mewakili semua sambungan, dan hasil bersih pada sampel tidak membuktikan populasi bebas cacat.
+6. **Verifikasi data.** Periksa identitas alat, status kalibrasi atau verifikasi yang disyaratkan, kondisi permukaan, personel, rekaman mentah, dan keterlacakan laporan. Bila salah satu hilang, minta pengulangan atau review sesuai prosedur, bukan memilih hasil yang paling menyenangkan.
+
+Sobat Bengkel-las.co.id, urutan ini mencegah biaya perbaikan muncul sebelum penyebab dan dasar penerimaan jelas. Jika area harus dibuka, rencanakan keselamatan, akses, dan kemungkinan pemeriksaan ulang bersama penanggung jawab pekerjaan.
 
 ## Cara membaca hasil tanpa melompat ke kesimpulan
 
-- **Purpose:** Pisahkan hasil tes, kriteria proyek, sebab, konsekuensi, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pisahkan lima kolom pada lembar review: **hasil tes**, **kriteria yang dipakai**, **makna teknis**, **konsekuensi layanan**, dan **otoritas keputusan**. Contohnya, “indikasi linear 12 mm pada laporan UT” adalah hasil tes. Apakah 12 mm diterima bergantung pada teknik, lokasi, orientasi, kualitas data, dan acceptance basis yang sah; angka tersebut tidak boleh dibandingkan dengan tabel dari proyek lain.
+
+Laporan yang baik menghubungkan nomor sambungan, metode dan teknik, cakupan, kondisi permukaan, personel, alat, tanggal, hasil, ketidaksesuaian, serta status tindak lanjut. ISO 17635 dan ISO 9712 mendukung pemisahan bukti-bukti ini, tetapi abstrak standar tidak memberi nilai batas, interval kalibrasi, atau ekuivalensi sertifikasi yang dapat dipakai tanpa naskah lengkap dan prosedur proyek.
+
+Bila kontrak memakai lebih dari satu rujukan, buat matriks sederhana: dokumen mana yang mengatur mutu pengerjaan, mana yang mengatur metode NDT, mana yang mengatur fungsi atau beban, dan siapa yang menyetujui penyimpangan. Jangan menaikkan status “accepted” hanya karena inspector menulis “no indication”; kalimat itu menjawab lingkup metode yang dilakukan, bukan seluruh kelayakan komponen.
 
 ## Pilihan tindakan dan titik eskalasi
 
-- **Purpose:** Bedakan kontrol sementara, pemantauan, perbaikan, penggantian, dan review profesional.
-- **Tie back to this article:** Keep the explanation specific to “Acceptance Criteria Las: Mengapa Cacat yang Terlihat Belum Tentu Putusannya Sama”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Disposition harus dipilih oleh otoritas yang ditetapkan proyek, bukan oleh orang yang menemukan indikasi seorang diri. Pilihannya dapat berupa:
 
-## Objection or shortcut to address
+- **Terima dengan rekaman**, bila hasil dan acceptance basis selaras serta jejak dokumen lengkap.
+- **Tahan sementara**, bila data kurang, akses belum aman, atau perlu pemeriksaan tambahan.
+- **Perbaiki**, hanya dengan metode perbaikan yang disetujui, pengendalian ulang, dan pemeriksaan ulang pada tahap yang ditentukan.
+- **Ganti atau desain ulang**, bila fungsi, akses, atau riwayat perbaikan membuat penerimaan tidak dapat dipertanggungjawabkan.
+- **Eskalasi engineering/K3**, bila ada dampak pada beban, keselamatan, perubahan layanan, atau pekerjaan lapangan.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Shortcut yang sering dipilih adalah mengulang NDT sampai muncul hasil yang “lulus”. Itu gagal karena metode, cakupan, atau acceptance basis mungkin tetap salah; pengulangan tanpa investigasi hanya menambah laporan. Alternatif yang lebih andal adalah menerbitkan *nonconformance report*, mengunci identitas sambungan, meminta evaluasi kompeten, lalu menyepakati repair dan closeout sebelum pekerjaan ditutup.
 
-## Required conclusion
+Untuk memilih penyedia yang mampu menjaga jejak tersebut, Anda dapat memakai panduan [memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) sebagai pertanyaan awal, lalu tetap minta dokumen proyek dan otoritas persetujuan yang spesifik.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Kesimpulan: putusan mengikuti dasar, bukan penampilan
 
-## Draft completion checklist
+Cacat yang terlihat belum tentu memiliki putusan yang sama karena acceptance criteria menggabungkan hierarki kontrak, tujuan layanan, metode dan cakupan inspeksi, kompetensi personel, kualitas data, sampling, serta wewenang disposition. Langkah Anda berikutnya: minta gambar dan spesifikasi revisi yang berlaku, WPS serta rekaman kualifikasi, rencana inspeksi, laporan lengkap, dan nama penanggung jawab penerimaan. Cocokkan setiap temuan dengan dokumen itu sebelum memperbaiki atau mengoperasikan kembali.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Kawan Bengkel-las.co.id, pegang aturan sederhana ini: **tanpa acceptance basis yang teridentifikasi dan bukti pemeriksaan yang tertelusur, statusnya belum boleh disebut lulus atau gagal**. [NEEDS TECHNICAL REVIEW: keputusan akhir harus dikonfirmasi terhadap standar, kontrak, kondisi aset, dan persetujuan profesional yang berlaku.]

@@ -2,8 +2,9 @@
 article_id: WLD-01-A06
 title: "Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah"
 slug: "sejarah-proses-pengelasan"
-description: "Trace major process changes and the production, material, safety, and quality problems they addressed"
-status: outline
+description: "Menelusuri perubahan utama proses pengelasan dan masalah produksi, material, keselamatan, serta mutu yang mendorongnya"
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-07-01"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -21,47 +22,26 @@ sources:
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/85705.html"
+  - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/75614.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
   - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
+  - "https://www.twi-global.com/technical-knowledge/faqs/the-history-of-welding"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah
 
-## Assignment lock
+Halo, Sobat Bengkel-las.co.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah”
-- **Reader and situation:** General reader seeking context
-- **Reader outcome:** Trace major process changes and the production, material, safety, and quality problems they addressed
-- **Primary intent:** Understand welding-process evolution
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes trend/vendor news, owned by WLD-17-A06, and does not claim a process is universally obsolete
-- **Final public route:** `/artikel/sejarah-proses-pengelasan.html`
-- **Appointed CMS date:** `2025-07-01` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Proses pengelasan terus berubah karena pekerjaan sambungan logam juga berubah: bentuk benda, ketelitian yang dibutuhkan, cara produksi, kondisi lokasi, dan risiko di sekitarnya tidak selalu sama. Tempa dapat memadai untuk sambungan tertentu yang dikerjakan secara langsung, sedangkan las busur memberi cara yang lebih terarah untuk menyambung banyak pekerjaan fabrikasi. Namun, perubahan proses bukan perlombaan mencari metode paling baru. Metode yang tepat ialah yang cocok dengan rancangan, material, sambungan, lingkungan kerja, dan cara hasilnya akan diperiksa.
 
-## Opening instructions
+Jadi, sejarah dari tempa ke las busur lebih berguna dibaca sebagai sejarah pemecahan masalah. Ketika sambungan harus lebih berulang, lebih mudah dikendalikan, atau dibuat pada bentuk dan posisi yang berbeda, cara kerja perlu berkembang. Jawaban itu dapat berubah pada pekerjaan nyata bila dokumen rancangan, material, kondisi lapangan, atau persyaratan penerimaan memberi batas lain. **[NEEDS REVIEW: proses, sambungan, dan persyaratan proyek harus ditetapkan oleh pihak teknis yang berwenang.]**
 
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
+_Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu._
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-002`
@@ -72,174 +52,62 @@ sources:
 - **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Mengapa proses pengelasan terus berubah
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Sejarah pengelasan bukan tangga yang membuat metode lama otomatis salah. Ia lebih mirip catatan bagaimana pembuat sambungan menjawab masalah baru: bentuk makin beragam, bahan makin bervariasi, produksi perlu lebih cepat, dan mutu serta keselamatan harus bisa dibuktikan. Ringkasan sejarah dari [The Welding Institute (TWI)](https://www.twi-global.com/technical-knowledge/faqs/the-history-of-welding) membantu membaca urutan itu tanpa menganggap satu tanggal atau satu tokoh sebagai jawaban untuk semua pekerjaan.
 
-### KR-01
+Fakta tanggal dan kemunculan proses di bawah mengikuti ringkasan TWI; penjelasan tentang masalah produksi, material, keselamatan, atau mutu yang terbantu adalah inferensi teknis dari cara proses bekerja, bukan klaim bahwa satu sumber menemukan sebab tunggal.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+## Tonggak 1: tempa atau las tekan untuk pekerjaan yang bisa dikendalikan tangan
 
-### KR-09
+Bukti arkeologi yang dirangkum TWI menunjukkan penyambungan logam dengan panas dan tekanan sudah dilakukan sekitar 3.000 SM. Potongan dipanaskan, lalu dipukul sampai permukaannya menyatu; praktik ini dikenal sebagai forge welding atau las tempa. Pada Abad Pertengahan, pandai besi menggunakannya untuk perkakas, senjata, paku, dan benda sehari-hari. Kekuatan metode ini ada pada kesederhanaannya: tidak perlu busur atau pasokan gas, dan pekerja dapat menyesuaikan pukulan dengan benda yang sedang dipegang.
 
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
+Batasnya juga jelas. Hasil sangat bergantung pada keterampilan tangan, ukuran benda yang bisa dipanaskan merata, dan akses untuk memukul. Untuk sambungan panjang, tipis, atau berulang, variasi panas dan tekanan dapat menyulitkan konsistensi. Ini adalah pembacaan praktis atas mekanismenya, bukan klaim bahwa semua las tempa buruk; untuk bentuk dan jumlah tertentu, tempa tetap masuk akal.
 
-### KR-08
+## Tonggak 2: busur listrik dan oxy-fuel membuka pilihan panas
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
+Penemuan busur listrik pada awal abad ke-19 memberi sumber panas yang tidak bergantung pada bara dan landasan tempa. TWI mencatat eksperimen busur Davy dan Petrov, lalu teknik carbon-arc yang dipatenkan Benardos dan Olszewski pada 1881–1882. Pada periode yang sama, penemuan asetilena dan perkembangan torch membuat oxy-fuel welding praktis sekitar pergantian abad. Panas kini bisa dibawa ke lokasi sambungan tanpa memanaskan seluruh benda di tungku.
 
-### KR-14
+Perubahan ini menjawab dua kebutuhan produksi: mengerjakan geometri yang tidak cocok ditempa dan menyambung bagian di tempat. Oxy-fuel juga relatif portabel dan murah pada masa awalnya, menurut TWI. Namun, sumber panas terbuka membawa persoalan baru—pengaturan nyala, perlindungan area sekitar, dan pengendalian pekerjaan panas. Karena itu, metode tidak dipilih dari portabilitas saja; penilaian bahaya dan kondisi lokasi tetap mengacu pada [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), serta aturan dan prosedur K3 yang berlaku di lokasi. Rujukan [OSHA 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252) hanya pembanding Amerika Serikat, bukan hukum Indonesia.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
+## Tonggak 3: elektroda berlapis menstabilkan busur dan logam cair
 
-### KR-07
+Busur karbon dapat bekerja, tetapi elektroda logam yang ikut mengisi sambungan membuka peluang produksi lebih cepat. TWI merangkum kemunculan elektroda logam pada 1888–1890 dan elektroda berlapis pada awal 1900-an; lapisan dari bahan seperti tanah liat, kapur, karbonat, dan silikat membantu menstabilkan busur. Secara teknis, lapisan itu juga membantu melindungi logam cair dari atmosfer. Inilah jalur menuju shielded metal arc welding (SMAW), yang akrab sebagai las elektroda atau stick welding.
 
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
+Masalah yang ditangani bukan sekadar kecepatan. Busur yang lebih stabil membuat nyala lebih mudah dikendalikan; perlindungan dari udara membantu mengurangi pengotoran yang dapat mengganggu mutu. TWI juga mencatat bahwa perkembangan flux membuat oxy-fuel kemudian banyak digantikan oleh proses busur pada pekerjaan tertentu. Itu tidak berarti oxy-fuel dilarang atau selalu lebih buruk—material, ketebalan, akses, dan rancangan masih menentukan pilihan.
 
-### KR-15
+## Tonggak 4: produksi massal mendorong SAW, gas-shielded, dan flux-cored
 
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
+Kebutuhan kapal, pipa, dan persenjataan pada dua perang dunia mendorong proses yang lebih andal dan murah. TWI mencatat submerged arc welding (SAW) dikembangkan sekitar 1930 dan makin dipakai di galangan serta pabrik persenjataan; sesudah Perang Dunia II, gas metal arc welding (GMAW/MIG-MAG) dan flux-cored arc welding (FCAW) ikut berkembang. Pada SAW, busur tertutup flux sehingga pekerjaan panjang dapat dikerjakan dengan pengumpanan yang lebih teratur; penerapan awalnya di pabrik pipa menunjukkan sasaran produksinya. Pada GMAW, kawat elektroda diumpankan terus-menerus bersama gas pelindung. FCAW memakai kawat berinti flux dan dapat dikonfigurasi dengan atau tanpa gas luar.
 
-### KR-16
+Secara praktis, transisi itu menjawab antrean produksi dan kebutuhan mengelas baja atau logam non-ferrous dengan lebih konsisten. Tetapi gas, kawat, flux, posisi, dan parameter harus cocok dengan material serta prosedur yang disetujui. Jangan mengubah “laju pengisian tinggi” menjadi janji mutu otomatis; kualitas tetap bergantung pada pengendalian, personel, dan pemeriksaan.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
+## Tonggak 5: energi terarah, proses padat, dan otomasi memperluas batas
 
-### KR-20
+Paruh kedua abad ke-20 menambah laser beam, electron beam, friction welding, friction stir welding, dan proses lain. TWI menjelaskan bahwa laser dan electron beam memberi sumber energi yang sangat terarah, sedangkan friction stir menyambung dalam keadaan padat tanpa melelehkan seluruh logam dasar. Pilihan seperti ini dapat membantu ketika masukan panas, distorsi, material reaktif, atau akses menjadi kendala—kalimat terakhir adalah inferensi dari cara kerja proses, bukan jaminan untuk setiap produk.
 
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
+Otomasi kemudian membuat kawat, gerak torch, atau pemeriksaan dapat diulang pada lingkungan terkontrol. TWI mencatat robot las digunakan di industri saat ini. Namun robot tidak memperbaiki gambar yang salah, material yang tertukar, atau sambungan yang tidak bisa diperiksa. Untuk pekerjaan baja, [SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020) adalah identitas standar yang relevan dalam paket ini; gunakan standar berlisensi, gambar, perhitungan, dan persetujuan proyek sebagai dasar keputusan.
 
-## Evidence gates
+## Dari inovasi proses ke bukti mutu
 
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
+Setiap perubahan proses menambah cara baru untuk mengendalikan hasil. [ISO 15614-1](https://www.iso.org/standard/51792.html) memberi konteks kualifikasi prosedur pengelasan, [ISO 9606-1](https://www.iso.org/standard/54936.html) membahas kualifikasi juru las, dan [ISO 3834-6](https://www.iso.org/standard/83335.html) membantu menata persyaratan mutu; ketiganya bukan bukti yang saling menggantikan. Untuk pemeriksaan, [ISO 17635](https://www.iso.org/standard/85705.html), [ISO 5817](https://www.iso.org/standard/80209.html), dan [ISO 9712](https://www.iso.org/standard/75614.html) memisahkan aturan umum NDT, tingkat mutu ketidaksempurnaan, dan kompetensi personel. Dasar penerimaan final tetap harus datang dari dokumen pekerjaan yang berwenang.
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+Jadi, Sobat Bengkel-las.co.id, saat membaca sejarah jangan hanya bertanya “proses mana yang paling baru?”. Tanyakan masalah apa yang hendak dipecahkan: apakah produksi perlu berulang, material sensitif terhadap panas, sambungan berada di lapangan, bahaya pekerjaan meningkat, atau hasil harus ditelusuri? Jawabannya menentukan proses, perlindungan, rekaman, dan pemeriksaan yang masuk akal.
 
-## Internal-link plan
+## Checklist memilih pelajaran sejarah untuk pekerjaan hari ini
 
-### Existing local routes
+1. Tetapkan fungsi sambungan, material, bentuk, lokasi, dan konsekuensi bila gagal; bila rancangan atau beban struktur belum jelas, mulai dari [konteks konstruksi baja](/konstruksi-baja/).
+2. Pilih keluarga proses berdasarkan kondisi tersebut, bukan karena istilah “modern”, lalu minta prosedur dan personel dengan cakupan yang relevan.
+3. Sepakati titik pemeriksaan, identitas material atau consumable, serta rekaman perubahan sebelum produksi berjalan.
+4. Nilai pekerjaan panas, gas, asap, listrik, dan akses dari kondisi lokasi; aturan K3 setempat lebih penting daripada ringkasan sejarah.
+5. Pada serah terima, minta bukti yang dapat ditemukan: revisi gambar, catatan proses, pemeriksaan, ketidaksesuaian, dan keputusan perbaikan. Limbah atau sisa bahan yang terkontaminasi mengikuti karakterisasi serta ketentuan setempat; [PP No. 22 Tahun 2021](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021) tidak boleh dipakai untuk menebak bahwa semua sisa logam aman dibuang.
 
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
+Untuk langkah komersial, [panduan memilih bengkel las](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/) membantu menyiapkan pertanyaan. Kawan Bengkel-las.co.id, jangan menjadikan daftar itu klaim bahwa suatu penyedia pasti bersertifikat atau mampu mengerjakan semua metode; bukti harus diperiksa untuk pekerjaan aktual.
 
-### Planned sibling articles
+## Penutup: berubah karena tuntutan kendali
 
-These are future routes. Do not link them as live until their HTML exists.
+Perjalanan dari tempa ke busur, elektroda berlapis, SAW dan gas-shielded, lalu energi terarah, proses padat, dan otomasi menunjukkan pola yang konsisten: proses berubah ketika cara lama sulit memenuhi tuntutan produksi, material, keselamatan, atau mutu. Tidak ada pemenang tunggal. Tempa, oxy-fuel, SMAW, GMAW, FCAW, SAW, dan proses modern tetap punya ruang masing-masing ketika fungsi sambungan dan bukti penerimaannya jelas.
 
-- `WLD-01-A04` → `/artikel/posisi-las-dan-jenis-sambungan.html` — Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar
-- `WLD-01-A05` → `/artikel/memilih-mesin-las-dan-peralatan.html` — Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Hasil akhir dan prasyarat
-
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 1 — tetapkan scope
-
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 2 — kumpulkan dan cocokkan bukti
-
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 3 — jalankan urutan kerja
-
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Hold point dan kondisi berhenti
-
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Verifikasi hasil dan handover
-
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Langkah Anda berikutnya, Teman Bengkel-las.co.id: bawa gambar, identitas material, kondisi lokasi, serta cara hasil akan diperiksa kepada pihak teknis dan K3 yang berwenang. Pilih proses setelah masalah yang hendak dipecahkan dan cara membuktikan hasilnya sama-sama terang.

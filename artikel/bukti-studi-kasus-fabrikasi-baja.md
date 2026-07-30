@@ -3,7 +3,7 @@ article_id: WLD-10-A06
 title: "Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim"
 slug: "bukti-studi-kasus-fabrikasi-baja"
 description: "Define required context, approved drawings, constraints, process, inspections, deviations, results, photos, permissions, and lessons"
-status: outline
+status: draft
 publication_date: "2026-02-09"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,287 +13,91 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Kawan Bengkel-las.co.id"
 final_route: "/artikel/bukti-studi-kasus-fabrikasi-baja.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
   - "https://www.iso.org/standard/64838.html"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden"
+  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
   - "https://www.iso.org/standard/77795.html"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
   - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
-  - "https://www.iso.org/standard/64835.html"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id! Sebuah studi kasus fabrikasi baja layak terbit bukan karena fotonya terlihat meyakinkan, melainkan karena pembaca dapat menelusuri apa yang diminta, disetujui, dikerjakan, diperiksa, dan diserahterimakan. Jika gambar, catatan inspeksi, izin penggunaan data, atau hasil yang diklaim tidak tersedia, tulisan harus berhenti pada proses dan batas pengetahuan—bukan berubah menjadi cerita keberhasilan.
 
-- **Writer task:** Expand this file into one complete article answering: “Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim”
-- **Reader and situation:** Editorial or project team preparing a case study
-- **Reader outcome:** Define required context, approved drawings, constraints, process, inspections, deviations, results, photos, permissions, and lessons
-- **Primary intent:** Document a real structural case responsibly
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes invented experience, client data without consent, and generalized performance claims
-- **Final public route:** `/artikel/bukti-studi-kasus-fabrikasi-baja.html`
-- **Appointed CMS date:** `2026-02-09` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: siapkan paket bukti minimum yang menghubungkan konteks proyek, gambar berstatus berlaku, batasan lapangan, rekaman fabrikasi, pemeriksaan, penyimpangan, hasil yang benar-benar terukur, foto berizin, serta pelajaran. Ukuran profil atau satu sertifikat saja tidak membuktikan kecukupan struktur; beban, geometri, sambungan, tumpuan, urutan ereksi, toleransi, lingkungan, inspeksi, dan pemeliharaan ikut menentukan sistem lengkap (lihat [katalog SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020)). Tanpa bukti proyek dan peninjauan kompeten, gunakan penanda **[NEEDS PROJECT EVIDENCE AND TECHNICAL REVIEW]** dan jangan menulis klaim “aman”, “lulus”, atau “sesuai standar”.
 
-## Opening instructions
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-002; placement: setelah pembuka; sumber: aset lokal; **Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`; caption: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+END MANAGED IMAGE PLAN -->
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-002`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-11
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-06
-
-- **Original sources:** [UU No. 8 Tahun 1999 tentang Perlindungan Konsumen — BPK](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden).
-- **Purpose for this article:** Support fair, comparable workshop scopes without inventing market prices or presenting a generic checklist as legal advice.
-- **Safe grounded facts:** A total price alone does not show whether survey, dismantling, design, material grade, consumables, coating preparation, transport, lifting, utilities, access, testing, rework, taxes, or documentation are included. Changes should preserve request, reason, cost/time consequence, approval, and revision history.
-- **Limits:** Do not state a statutory entitlement, deadline, damages formula, or dispute outcome without current legal review. Price examples require dated, local, like-for-like primary market evidence that is not contained here.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-### KR-13
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-18
-
-- **Original sources:** [UU No. 8 Tahun 1999 — BPK](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Define handover as an evidence package and accepted status, not merely physical delivery or payment.
-- **Safe grounded facts:** Warranty scope, duration, conditions, exclusions, response path, and evidence responsibilities should be explicit. A certificate or checklist is meaningful only if it identifies the item, revision, issuer, date, basis, result, and authorization.
-- **Limits:** Do not invent a warranty or imply that a generic dossier proves compliance or fitness. Contract requirements, responsible-party approvals, and actual records govern.
-
-### KR-19
-
-- **Original sources:** [UU No. 8 Tahun 1999 — BPK](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden).
-- **Purpose for this article:** Help a reader document and triage a problem without prejudging fault, destroying evidence, or giving legal advice.
-- **Safe grounded facts:** Immediate safety containment, technical cause investigation, contractual responsibility, consumer remedy, and legal process are different questions. Destructive repair or continued operation can change the condition and evidence.
-- **Limits:** Do not state who is liable, promise a refund/rework outcome, calculate damages, or prescribe a limitation period. Check current law, contract, forum, evidence, and competent Indonesian advice.
-
-### KR-21
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html), [UU No. 8 Tahun 1999 — BPK](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden).
-- **Purpose for this article:** Turn vague claims such as “professional,” “certified,” “experienced,” or “SNI” into verifiable, scope-matched evidence.
-- **Safe grounded facts:** A person certificate has a defined method/process/range and validity; it does not certify the whole company or project. A quality-system claim does not prove a particular design, welder, NDT technician, machine, material, joint, result, or statutory approval.
-- **Limits:** No vendor or `bengkel.co.id` capability is evidenced here. Do not publish badges, client names, project photos, certifications, addresses, response times, or warranties without current attributable primary evidence and permission. ## Topic-family coverage matrix | Topic family | Main evidence records | Safe ground for the article set | Remaining gate before definitive drafting | | --- | --- | --- | --- | | `WLD-01` | KR-01, KR-09, KR-08, KR-14, KR-07, KR-15, KR-16, KR-20 | Welding fundamentals and process selection; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-02` | KR-01, KR-07, KR-08, KR-14, KR-09, KR-15, KR-16, KR-20, KR-02, KR-12 | Metals, weldability, filler, and metallurgy; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-03` | KR-01, KR-11, KR-09, KR-08, KR-15, KR-04, KR-14, KR-13 | Joint design, drawings, WPS, and qualification; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-04` | KR-01, KR-16, KR-14, KR-02, KR-12, KR-10, KR-17, KR-04, KR-08, KR-15 | Arc, electrical, fire, and hot-work K3; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-05` | KR-01, KR-16, KR-09, KR-14, KR-07, KR-20, KR-15, KR-08, KR-04, KR-02, KR-12 | Welding fumes, ventilation, PPE, and occupational health; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-06` | KR-01, KR-16, KR-07, KR-20, KR-12, KR-09, KR-14, KR-15, KR-08, KR-10, KR-17, KR-02 | Gas cylinders, oxy-fuel, and compressed-gas safety; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-07` | KR-01, KR-08, KR-14, KR-07, KR-04, KR-09, KR-15, KR-16, KR-20 | Cutting, edge preparation, fit-up, and distortion planning; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-08` | KR-01, KR-09, KR-14, KR-15, KR-07, KR-08, KR-16, KR-20 | Welding execution and parameter control; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-09` | KR-01, KR-04, KR-15, KR-07, KR-09, KR-14, KR-08, KR-16, KR-20 | Weld defects, inspection, NDT, and acceptance; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-10` | KR-01, KR-11, KR-08, KR-06, KR-07, KR-14, KR-15, KR-09, KR-16, KR-20, KR-13, KR-04, KR-18, KR-19, KR-21 | Structural steel fabrication and field erection; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-11` | KR-01, KR-08, KR-07, KR-14, KR-06, KR-09, KR-15, KR-16, KR-20, KR-04, KR-18, KR-19, KR-21 | Sheet, plate, pipe, bending, and precision fabrication; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-12` | KR-01, KR-14, KR-17, KR-07, KR-08, KR-09, KR-15, KR-16, KR-20, KR-10, KR-04, KR-02, KR-12 | Corrosion control, surface preparation, and finishing; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-13` | KR-01, KR-13, KR-11, KR-18, KR-07, KR-06, KR-17, KR-08, KR-14, KR-16, KR-20, KR-10, KR-04, KR-15, KR-19, KR-21, KR-02, KR-12 | Residential and architectural fabricated products; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-14` | KR-01, KR-07, KR-15, KR-17, KR-09, KR-14, KR-08, KR-16, KR-20, KR-10 | Workshop quality system, traceability, and equipment care; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-15` | KR-01, KR-06, KR-21, KR-18, KR-11, KR-04, KR-07, KR-09, KR-14, KR-15, KR-08, KR-16, KR-20, KR-13, KR-19 | Survey, quotation, vendor selection, and contracting; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-16` | KR-01, KR-17, KR-07, KR-13, KR-11, KR-08, KR-14, KR-16, KR-20, KR-10, KR-04, KR-15 | Maintenance, troubleshooting, repair, and replacement; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-17` | KR-01, KR-18, KR-06, KR-21, KR-14, KR-20, KR-09, KR-15, KR-10, KR-17, KR-19, KR-02, KR-12, KR-16 | Automation, productivity, environment, and future practice; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | Coverage result: **17/17 topic families mapped; 0 families without a starting evidence set.** ## Cross-catalog fact bank 1. A definition, method, regulation, product claim, and complete-system result are different evidence layers. 2. A source supports only its stated jurisdiction, edition, product, specimen, configuration, conditions, and public scope. 3. Standards abstracts identify documents and visible scope; exact requirements require the current full text. 4. Foreign standards and industry guidance do not automatically become Indonesian legal requirements. 5. Procurement and handover claims require current project, supplier, contract, test, warranty, and traceability evidence. ## Evidence gaps and publication gates | Gate | Affected topic families | Resolution required | | --- | --- | --- | | `GATE-01` Current Indonesian rule | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Legal duty, mandatory procedure, credential, inspection route, interval, permit, approval, or compliance | | `GATE-02` Asset and site baseline | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Diagnosis, cause, repair scope, safe continued use, schedule, price, or suitability | | `GATE-03` Exact material, part, consumable, or chemical | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Material grade, weldability, compatibility, coating life, chemical control, part equivalence, or disposal | | `GATE-04` Governing design and acceptance basis | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Dimension, capacity, connection, tolerance, inspection extent, test value, acceptance, or “meets SNI/ISO” | | `GATE-05` Qualified design and intervention approval | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Structural, pressure, rotating, lifting, fatigue, safety-critical, remaining-life, reinforcement, or fitness claim | | `GATE-06` Welding process and personnel | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Welding parameter, approved procedure, personnel capability, or acceptable production/repair weld | | `GATE-07` Inspection, NDT, and measurement | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Defect/no-defect, measurement accuracy, pass/fail, repair closeout, or fitness | | `GATE-08` Task and site K3 controls | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Safe method, safe-to-start, safe-to-enter, safe-to-operate, or adequate PPE/control | | `GATE-09` Pressure and confined-space controls | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Tank/vessel/pipe entry, hot work, repair detail, test pressure, interval, or return to service | | `GATE-10` Commercial and handover evidence | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Price comparison, lowest-cost claim, fixed scope, completion, warranty, or handover adequacy | | `GATE-11` Consumer, complaint, and legal review | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Liability, entitlement, refund/rework outcome, damages, deadline, or dispute prediction | | `GATE-12` Environmental and waste route | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | B3/non-B3 classification, storage/transport/disposal instruction, recyclable claim, or quantified sustainability benefit | | `GATE-13` Vendor-specific capability | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | “Certified,” “SNI,” “professional,” service area, equipment, experience, client/project, response time, or provider capability | ## Source-refresh triggers Recheck a record immediately when: - an Indonesian law, regulation, or official standard status changes; - a standards body publishes a new edition used by the article; - a manufacturer changes product scope, instructions, compatibility, test evidence, or warranty; - an article introduces a number, price, rating, classification, compliance statement, or safety procedure; - the target project/application differs from the exemplar's jurisdiction, user, product, configuration, or operating environment. ## Next authorized stage The later outline and constrained-writing-instruction stage may use this file only when separately authorized. Article drafting, Markdown article creation, HTML hydration, publication dating, sitemap generation, deployment, and Google Search Console submission are intentionally **not performed in this research stage**.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/konstruksi-baja-surabaya.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/konstruksi-baja-surabaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/konstruksi-baja-sidoarjo.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/konstruksi-baja-sidoarjo` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/konstruksi-baja` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/mengapa-harus-pilih-kanopi-baja-ringan-sebagai-teras-rumah` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-10-A04` → `/artikel/erection-baja-dan-hold-point-las.html` — Erection Baja: Temporary Stability, Lifting, dan Hold Point Sebelum Field Weld
-- `WLD-10-A05` → `/artikel/sambungan-baut-dan-las.html` — Sambungan Baut dan Las dalam Satu Struktur: Menghindari Asumsi Berbagi Beban
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+*Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.*
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Studi kasus di sini adalah dokumentasi satu pekerjaan fabrikasi baja nyata, dari kebutuhan awal sampai status serah terima yang dapat dibuktikan. “Nyata” berarti ada pemilik atau penanggung jawab yang dapat mengonfirmasi konteks dan ada rekaman primer, bukan sekadar contoh skenario. Artikel tidak menggantikan desain struktur, persetujuan perubahan, rencana K3, atau keputusan kelayakan pakai.
+
+Bedakan empat lapisan pernyataan. Dokumen standar menerangkan ruang lingkup dokumen; prosedur menerangkan cara kerja; rekaman inspeksi menunjukkan apa yang diamati; hasil sistem menunjukkan kondisi pada konfigurasi dan waktu tertentu. Abstrak [ISO 3834-6](https://www.iso.org/standard/83335.html) dan [ISO 12944-8](https://www.iso.org/standard/64838.html) membantu mengidentifikasi kerangka dokumen, tetapi tidak membuka klausul atau membuktikan proyek tertentu memenuhi persyaratan. Karena itu tulis “dokumen proyek menetapkan…” bila memang ada dokumennya, bukan “proyek ini pasti memenuhi…”.
+
+Data klien, alamat, gambar berstempel, dan foto pekerja hanya boleh muncul setelah izin tertulis menetapkan bagian yang boleh dipublikasikan. Samarkan identitas jika tujuan editorial cukup tercapai tanpa membukanya. Jangan menyebut pengalaman pribadi, harga, kapasitas, atau nama pemasok yang tidak dapat ditautkan ke bukti primer.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulai dengan lembar konteks: fungsi struktur, lokasi dan paparan, pengguna, batas ruang lingkup, pihak yang menyetujui, serta tanggal dan revisi dokumen. Lampirkan gambar *issued for work* atau status setara, daftar material dan sambungan, antarmuka tumpuan/angkur, toleransi, urutan fabrikasi dan pemasangan, persyaratan pelapisan, titik henti inspeksi, dan dasar penerimaan. [ISO 3834-6](https://www.iso.org/standard/83335.html) menekankan kebutuhan informasi terdokumentasi; detail nilai penerimaan tetap harus diambil dari standar berlisensi dan spesifikasi proyek.
+
+Selanjutnya susun jejak pekerjaan menurut urutan sebab-akibat:
+
+1. **Permintaan dan persetujuan.** Simpan notulen klarifikasi, gambar revisi, serta siapa yang mengesahkan perubahan. Harga total tidak otomatis mencakup survei, desain, pengujian, transportasi, pengangkatan, perbaikan, pajak, atau dokumentasi; bandingkan lingkup secara tertulis. Prinsip informasi yang jujur dan dapat dibandingkan selaras dengan [UU Perlindungan Konsumen](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), tanpa menjadikannya nasihat hukum.
+2. **Material dan keterlacakan.** Hubungkan identitas material, ukuran, nomor lebur atau batch bila dipersyaratkan, sertifikat, bahan tambah las, dan produk pelapis ke komponen atau sambungan. Catat substitusi beserta persetujuannya. Lembar data keselamatan dari produk yang tepat perlu disimpan; contoh konsep label dan SDS pada aturan OSHA bukan hukum Indonesia ([hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200)). Jangan menebak komposisi, rasio campur, atau masa simpan dari nama produk saja.
+3. **Fabrikasi.** Catat pemotongan, persiapan tepi, fit-up, pengelasan, pengendalian distorsi, pelapisan, dan identitas operator. WPS, kualifikasi prosedur, dan kualifikasi juru las adalah rekaman berbeda; abstrak [ISO 15614-1](https://www.iso.org/standard/51792.html) dan [ISO 9606-1](https://www.iso.org/standard/54936.html) tidak menyediakan rentang kualifikasi. Tulis nomor dokumen dan statusnya, bukan menyalin angka yang tidak diverifikasi.
+4. **Inspeksi dan penutupan.** Rencana mutu harus mengaitkan nomor sambungan, metode dan cakupan pemeriksaan, kondisi permukaan, alat yang dipakai, status kalibrasi/verifikasi, laporan, ketidaksesuaian, keputusan disposisi, perbaikan, dan penutupan. [ISO 5817](https://www.iso.org/standard/80209.html) membahas tingkat mutu ketidaksempurnaan, sedangkan [ISO 17635](https://www.iso.org/standard/85705.html) membahas pemilihan metode NDT; keduanya bukan tabel penerimaan untuk semua proyek. Kompetensi personel NDT juga harus sesuai ruang lingkup [ISO 9712](https://www.iso.org/standard/75614.html).
+
+Jika pekerjaan pindah ke lapangan, rekam alasan, akses, cuaca, penghuni, sumber listrik, pengangkatan, perlindungan kebakaran, ventilasi, dan akses inspeksi. Kewajiban keselamatan kerja tunduk pada hukum dan kondisi Indonesia—lihat [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970)—serta pengendalian K3 yang disetujui penanggung jawab setempat. Jangan mengimpor jarak atau prosedur dari panduan Amerika sebagai aturan lokal.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Konteks mengubah makna setiap bukti. Struktur dengan fungsi, beban, tumpuan, atau urutan ereksi berbeda tidak dapat diperlakukan sebagai salinan. Lingkungan korosif memerlukan keputusan sistem pelapisan dan pemeliharaan yang spesifik; [ISO 12944-5](https://www.iso.org/standard/77795.html) hanya memberi kerangka pemilihan, bukan umur lapisan untuk proyek Anda. Perubahan detail, material, atau metode harus memiliki alasan, konsekuensi waktu/biaya, persetujuan, dan revisi yang jelas.
+
+Foto juga memiliki batas. Ambil foto bertanda tanggal dan lokasi pengambilan bila aman, kaitkan dengan nomor komponen atau tahapan, dan simpan izin publikasi. Foto tidak membuktikan mutu internal las, kapasitas, atau hasil uji. Bila hasil inspeksi belum ditutup, tulis status “menunggu” dan jangan memakai kata “lulus”. Untuk limbah, identitas, kontaminasi, penyimpanan, pengangkutan, dan penerima berwenang menentukan rute; [PP No. 22 Tahun 2021](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021) tidak membenarkan klasifikasi atau klaim manfaat lingkungan tanpa data setempat.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan tim memiliki gambar revisi terakhir, daftar material, beberapa foto, dan satu laporan pemeriksaan visual. Mereka dapat menerbitkan narasi proses: apa yang direncanakan, tahapan yang terdokumentasi, dan apa yang belum tersedia. Mereka belum boleh menyimpulkan struktur aman atau memenuhi SNI karena dasar desain, cakupan pemeriksaan, dan persetujuan akhir belum terbukti.
+
+Gunakan matriks sederhana berikut sebelum naskah disetujui:
+
+| Pernyataan yang ingin ditulis | Bukti minimum | Jika bukti hilang |
+| --- | --- | --- |
+| “Dibuat menurut gambar revisi …” | Salinan gambar, nomor revisi, otorisasi | Ubah menjadi “mengacu pada gambar yang diklaim tim” dan beri `[NEEDS DRAWING REVIEW]` |
+| “Material terlacak” | Sertifikat/batch terhubung ke komponen | Hapus klaim material spesifik |
+| “Las diperiksa” | Laporan, metode, cakupan, personel, disposisi | Tulis hanya pemeriksaan yang benar-benar tercatat |
+| “Selesai dan diserahterimakan” | Daftar punch, penerimaan, tanggal, pihak berwenang | Nyatakan status pekerjaan terakhir yang diketahui |
+| “Foto proyek dapat dipublikasikan” | Izin tertulis dan batas penggunaan | Samarkan atau jangan tampilkan |
+
+Kawan Bengkel-las.co.id, minta seorang peninjau teknis mencocokkan setiap kalimat hasil dengan satu rekaman. Jika satu kalimat membutuhkan dua asumsi yang tidak ada di berkas, kalimat itu terlalu jauh.
+
+Sobat Bengkel-las.co.id, perlakukan berkas kasus sebagai rantai: konteks memberi arti pada gambar, gambar memberi batas pada pekerjaan, dan laporan memberi arti pada hasil. Memisahkan rantai itu membuat pembaca mudah mengira foto proses sebagai bukti kinerja akhir. Catatan singkat tentang hal yang belum diuji sering lebih berguna daripada paragraf promosi yang sulit diverifikasi.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Studi Kasus Fabrikasi Baja yang Layak Dipublikasikan: Bukti Minimum dan Batas Klaim”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah menjadikan sertifikat juru las sebagai sertifikat proyek. Sertifikat orang memiliki metode, rentang, dan masa berlaku tertentu; ia tidak mengesahkan desain, material, sambungan, atau hasil keseluruhan. Kesalahan kedua adalah menyamakan pemeriksaan visual dengan semua NDT. Catat metode dan cakupan sebenarnya, lalu cocokkan dengan dasar penerimaan proyek.
 
-## Objection or shortcut to address
+Kesalahan ketiga adalah memotong bagian sulit: deviasi, pekerjaan ulang, atau kondisi lapangan. Justru bagian itu menjelaskan keputusan. Tulis permintaan perubahan, alasan teknis yang disetujui, dampak, verifikasi setelah perbaikan, dan siapa yang menutupnya. Kesalahan keempat adalah mempublikasikan logo, nama klien, atau foto pekerja tanpa izin. Periksa lembar persetujuan sebelum unggah.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Shortcut yang sering dipilih adalah mengganti seluruh paket bukti dengan kalimat “dikerjakan profesional dan sesuai standar”. Kalimat itu gagal karena tidak menyebut standar edisi, ruang lingkup, komponen, pemeriksaan, atau pihak yang menyetujui. Alternatif yang lebih dapat diuji ialah menyebut nomor dokumen, status, tanggal, dan batas yang belum diketahui, lalu meminta review teknis sebelum publikasi.
 
-## Required conclusion
+## Kesimpulan
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Studi kasus fabrikasi baja yang bertanggung jawab berisi konteks, gambar dan persetujuan, kendala, jejak material serta proses, inspeksi yang dapat ditelusuri, deviasi dan penutupannya, hasil yang benar-benar terukur, foto berizin, dan pelajaran yang tidak melampaui bukti. Katalog standar dapat mengarahkan dokumen, tetapi tidak menggantikan teks standar, data proyek, atau keputusan profesional.
 
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Sebelum menerbitkan, buat daftar klaim satu per satu, tautkan rekaman pendukung, tandai kekosongan dengan **[NEEDS PROJECT EVIDENCE AND TECHNICAL REVIEW]**, dan minta penanggung jawab desain/K3/QA menyetujui bagian yang menjadi kewenangannya. Untuk pembaca yang sedang memetakan ruang lingkup struktur, rute [konstruksi baja](/konstruksi-baja) dan [contoh layanan konstruksi baja Surabaya](/konstruksi-baja-surabaya.html) dapat menjadi langkah orientasi; keduanya tetap bukan pengganti persetujuan proyek. Teman Bengkel-las.co.id, aturan akhirnya sederhana: publikasikan apa yang dapat dibuktikan, jelaskan apa yang belum diketahui, dan jangan mengubah dokumentasi satu proyek menjadi janji kinerja semua proyek.

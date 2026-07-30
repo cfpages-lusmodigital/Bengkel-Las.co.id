@@ -2,8 +2,8 @@
 article_id: WLD-08-A01
 title: "Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS"
 slug: "membaca-parameter-pengelasan-dari-wps"
-description: "Explain relationships among parameters, arc behavior, deposition, heat input concept, machine display limits, and required records"
-status: outline
+description: "Menjelaskan hubungan arus, tegangan, wire feed, travel speed, konsep heat input, batas tampilan mesin, dan rekaman kerja"
+status: draft
 publication_date: "2025-11-27"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,230 +13,123 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Sobat Bengkel-las.co.id"
 final_route: "/artikel/membaca-parameter-pengelasan-dari-wps.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
   - "https://www.iso.org/standard/83335.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
+  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
+  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS
 
-## Assignment lock
+Halo, Sobat Bengkel-las.co.id! Kebingungan paling mahal bukan saat angka pada WPS sulit dibaca, melainkan saat arus, tegangan, wire feed speed (WFS), dan travel speed dianggap sebagai empat kenop yang boleh diubah sendiri-sendiri. Jawaban singkatnya: baca dulu proses, material, sambungan, posisi, dan rentang yang disahkan pada WPS; lalu cocokkan setelan mesin dengan kondisi aktual dan catat hasilnya. WFS dan arus dapat saling terkait pada proses kawat tertentu, tegangan memengaruhi perilaku busur, sedangkan travel speed mengubah banyaknya energi per panjang las. Hubungan tepatnya tetap bergantung pada proses, mode mesin, kawat, gas, dan rentang WPS.
 
-- **Writer task:** Expand this file into one complete article answering: “Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS”
-- **Reader and situation:** Welder using an approved procedure
-- **Reader outcome:** Explain relationships among parameters, arc behavior, deposition, heat input concept, machine display limits, and required records
-- **Primary intent:** Interpret approved welding variables
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes giving universal settings or authorizing deviations; WLD-03-A03 owns qualification
-- **Final public route:** `/artikel/membaca-parameter-pengelasan-dari-wps.html`
-- **Appointed CMS date:** `2025-11-27` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jadi, tidak ada “angka aman universal” yang bisa dipindahkan dari satu pekerjaan ke pekerjaan lain. Jika tampilan mesin tidak jelas apakah menunjukkan setpoint atau nilai aktual, jika parameter keluar dari rentang, atau jika dokumen dan kondisi sambungan tidak cocok, pekerjaan berhenti untuk klarifikasi. Hasil las tidak dapat dinyatakan sesuai hanya karena busur terdengar halus. Catatan produksi, pemeriksaan yang dipersyaratkan, dan persetujuan personel berwenang melengkapi pembacaan parameter.
 
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-002`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-002
+Source type: local
+Placement: after the opening has answered the main question, before the first detailed H2
 - **Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+Selection basis: filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
+Hard boundary: do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+Substitution rule: do not replace this image. If unavailable or provenance is incomplete, insert [NEEDS IMAGE REVIEW: LOCAL-002] and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-08-A02` → `/artikel/heat-input-preheat-dan-interpass.html` — Heat Input, Preheat, dan Interpass: Konsep Termal Tanpa Angka Tebakan
-- `WLD-08-A03` → `/artikel/urutan-pass-dan-pembersihan-antar-lapis.html` — Urutan Pass dan Pembersihan Antar-Lapis pada Las Multi-Pass
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Untuk konteks pekerjaan lain, telusuri [blog Bengkel-las.co.id](/blog) atau mulai dari [halaman utama Bengkel-las.co.id](/#top).
 
 ## Hasil akhir dan prasyarat
 
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil yang dicari dari pembacaan WPS adalah keputusan yang dapat ditelusuri: operator mengetahui rentang yang berlaku, penyelia dapat melihat bahwa setelan dan kondisi sambungan cocok, dan tim mutu memiliki rekaman untuk menilai pekerjaan. WPS yang sudah disetujui, gambar atau instruksi sambungan yang berlaku, identitas material dan bahan tambah, mesin yang statusnya diketahui, serta formulir rekaman harus tersedia sebelum pengelasan dimulai. Orang yang mengubah atau menyetujui prosedur harus memiliki kewenangan sesuai sistem proyek; artikel ini tidak memberikan kewenangan tersebut.
 
-## Langkah 1 — tetapkan scope
+Bedakan tiga hal yang sering tertukar. Kualifikasi prosedur membuktikan bahwa suatu prosedur telah diuji dalam lingkup tertentu, sedangkan WPS produksi menerjemahkan prosedur itu menjadi instruksi kerja. Kualifikasi welder atau operator adalah catatan terpisah tentang kemampuan orang pada lingkup yang ditetapkan. Abstrak resmi [ISO 15614-1](https://www.iso.org/standard/51792.html) dan [ISO 9606-1](https://www.iso.org/standard/54936.html) membantu menjaga pembedaan ini; keduanya tidak menggantikan teks standar berlisensi atau spesifikasi proyek. Karena itu, kartu welder tidak otomatis mengesahkan perubahan WPS, dan WPS tidak otomatis membuktikan penerimaan sambungan jadi.
 
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Langkah 1 — tetapkan batas pekerjaan
+
+Mulailah dari identitas, bukan dari kenop mesin. Tandai nomor dan revisi WPS, nomor sambungan, proses las, material dasar, ketebalan, posisi, jenis sambungan, bahan tambah, gas pelindung, serta urutan atau batasan lain yang memang tercantum. Cocokkan juga antarmuka: apakah sambungan berada di bengkel atau lapangan, apakah akses dan posisi berubah, dan siapa yang melakukan inspeksi. Bila salah satu identitas itu tidak jelas, jangan menebak dengan WPS yang namanya mirip.
+
+Scope ini sengaja sempit. Kita membaca variabel yang sudah disetujui, bukan merancang prosedur baru, menentukan universal setting, atau menggantikan kualifikasi. Perubahan material, diameter kawat, mode transfer, posisi, ketebalan, atau kondisi lingkungan dapat mengubah relevansi rentang. Abstrak standar hanya membantu mengenali tujuan dan status dokumen; rentang kualifikasi dan persyaratan pengujian harus diambil dari dokumen proyek dan teks standar yang berlaku.
 
 ## Langkah 2 — kumpulkan dan cocokkan bukti
 
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Buat satu lembar pencocokan sebelum busur dinyalakan. Isinya dapat disusun seperti berikut.
+
+| Yang dibaca | Yang dicocokkan | Jika tidak cocok |
+| --- | --- | --- |
+| WPS dan revisi | Nomor sambungan, proses, posisi, material, dan rentang variabel | Tahan pekerjaan dan minta dokumen yang berlaku |
+| Arus, tegangan, WFS, travel speed | Satuan, batas bawah-atas, mode mesin, serta nilai yang harus direkam | Jangan mengisi angka dari pengalaman; minta klarifikasi |
+| Mesin dan alat ukur | Identitas mesin, status pemeriksaan atau verifikasi, dan cara mengambil nilai aktual | Tandai keterbatasan pembacaan dan panggil penanggung jawab mutu |
+| Kawat, elektroda, gas, dan penyimpanan | Klasifikasi, batch, kondisi, dan instruksi WPS | Pisahkan bahan yang belum terverifikasi |
+| Sambungan dan kondisi kerja | Fit-up, posisi, preheat/interpass bila dipersyaratkan, akses, dan lingkungan | Hentikan sebelum kondisi keluar dari prosedur |
+
+Catatan mutu yang rapi menghubungkan bahan, peralatan, personel, pemeriksaan, dan keputusan. [ISO 3834-6:2024](https://www.iso.org/standard/83335.html) adalah titik rujuk untuk memahami bahwa sistem mutu pengelasan memerlukan pengendalian yang lebih luas daripada angka pada panel mesin; abstraknya tidak memberi formulir atau nilai proyek Anda. Simpan salinan WPS yang benar-benar dipakai, bukan hanya nama filenya.
 
 ## Langkah 3 — jalankan urutan kerja
 
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pertama, baca kolom variabel dari kiri ke kanan dan pastikan satuannya. Kedua, pilih mode proses yang ditentukan; jangan menganggap tombol dengan nama serupa menghasilkan perilaku yang sama pada semua sumber daya. Ketiga, pasang bahan tambah dan gas yang telah dicocokkan, lalu masukkan setelan dalam rentang yang ditentukan. Keempat, lakukan verifikasi awal yang diwajibkan prosedur—misalnya pemeriksaan kesiapan sambungan atau pembacaan awal—bukan percobaan bebas untuk mencari angka baru.
 
-## Hold point dan kondisi berhenti
+Saat mengelas, amati kestabilan busur, bentuk genangan, dan kemampuan mengikuti sambungan sebagai tanda proses, bukan sebagai bukti tunggal penerimaan. Rekam nilai yang diminta pada setiap pass atau segmen sesuai formulir. Bila operator perlu melakukan koreksi kecil yang masih diizinkan WPS, tulis nilai sebelum, sesudah, waktu, lokasi, dan alasan. Koreksi di luar rentang adalah perubahan prosedur dan memerlukan jalur persetujuan yang berbeda.
 
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kawan Bengkel-las.co.id, biasakan mengajukan satu pertanyaan sederhana sebelum menarik pelatuk: “Angka ini berasal dari WPS, dari setpoint mesin, atau dari pengukuran aktual?” Tiga sumber itu bisa tampak sama di layar, tetapi maknanya tidak sama untuk rekaman.
 
-## Verifikasi hasil dan handover
+### Membaca hubungan empat parameter
 
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Arus, Tegangan, Wire Feed, dan Travel Speed: Membaca Parameter dari WPS”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+- **Arus.** Dalam proses kawat tertentu, arus berkaitan dengan laju peleburan dan deposisi. Namun polaritas, diameter kawat, mode transfer, dan karakter sumber daya ikut menentukan. Jangan mengubah arus hanya untuk mengejar suara busur tanpa memeriksa parameter lain.
+- **Wire feed speed.** WFS adalah laju pengumpanan kawat. Pada sistem tegangan-konstan, perubahan WFS sering memengaruhi arus, tetapi hubungan itu bukan izin untuk memakai kurva dari merek atau proses lain. Pastikan WPS menyatakan WFS atau padanannya dan gunakan satuan yang sama.
+- **Tegangan.** Tegangan berhubungan dengan panjang dan karakter busur. Perubahan tegangan dapat mengubah pembasahan dan bentuk bead, tetapi gejalanya dipengaruhi stick-out, gas, posisi, dan gerakan tangan. Baca pasangan arus–tegangan, bukan satu angka terisolasi.
+- **Travel speed.** Ini adalah kecepatan gerak relatif sepanjang sambungan. Pada kondisi lain yang sama, gerak lebih lambat cenderung memberi lebih banyak energi per panjang dan gerak lebih cepat cenderung memberi lebih sedikit. “Kondisi lain yang sama” penting: weave, diameter bead, posisi, dan jeda juga memengaruhi hasil.
 
-## Objection or shortcut to address
+Jika satu parameter berubah, periksa dampaknya pada tiga parameter lain dan pada batas WPS. Itulah sebabnya tampilan angka yang masih berada di dalam rentang belum cukup bila mode proses atau kondisi sambungannya berbeda.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+### Memahami konsep heat input tanpa angka tebakan
 
-## Required conclusion
+Secara konseptual, energi per panjang meningkat ketika kombinasi arus dan tegangan meningkat atau ketika travel speed melambat. Perhitungan formal memerlukan satuan waktu dan panjang, faktor efisiensi proses, serta metode yang ditetapkan proyek. Gunakan lembar perhitungan atau formulir yang disahkan; jangan memasukkan faktor efisiensi dari internet lalu menyimpulkan sambungan pasti memenuhi syarat. [NEEDS PROJECT REVIEW: metode perhitungan heat input, faktor efisiensi, satuan, dan batas yang berlaku pada WPS belum tersedia dalam paket artikel ini.]
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+### Batas pembacaan panel mesin
 
-## Draft completion checklist
+Panel bisa menampilkan setpoint, nilai rata-rata, atau nilai aktual yang dibaca sensor; resolusi dan jedanya pun bergantung pada mesin. Karena itu, tulis label sumber nilai pada rekaman. Bila WPS atau rencana mutu mensyaratkan nilai aktual, sepakati cara pengukuran dan status verifikasi alat sebelum pekerjaan. Jika hanya setpoint yang dapat disimpan, nyatakan keterbatasan itu dan minta keputusan mutu—jangan mengubahnya menjadi klaim bahwa nilai aktual pasti sama.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+## Titik berhenti dan kondisi wajib ditinjau
+
+Hentikan pekerjaan dan minta review ketika WPS atau revisinya tidak tersedia, identitas sambungan berubah, parameter keluar dari rentang, mesin atau alat ukur tidak berstatus, bahan tambah tidak terlacak, atau preheat/interpass yang dipersyaratkan tidak dapat dibuktikan. Perubahan lokasi ke lapangan juga bukan sekadar memindahkan mesin: akses, cuaca, pasokan listrik, paparan fume, pekerjaan sekitar, dan perlindungan kebakaran perlu dinilai oleh penanggung jawab setempat. Kewajiban keselamatan kerja bersumber pada konteks tugas dan aturan yang berlaku, termasuk [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) dan [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018); artikel ini tidak menetapkan jarak, durasi, ventilasi, atau setelan K3.
+
+Untuk paket ini, bukti proyek dan persetujuan kompeten belum tersedia untuk menutup seluruh pemeriksaan yang ditandai koordinator. **[NEEDS PROJECT REVIEW: GATE-01 s.d. GATE-13 — cocokkan WPS, rentang kualifikasi, mesin, bahan, kondisi kerja, inspeksi, dan rekaman dengan dokumen proyek sebelum melanjutkan.]**
+
+## Verifikasi hasil dan serah terima
+
+Sebelum area dilepas, periksa apakah berkas berikut dapat ditelusuri sampai ke sambungan:
+
+1. WPS, revisi, gambar, dan identitas joint yang digunakan.
+2. Identitas welder atau operator serta status kualifikasinya.
+3. Nomor mesin, alat ukur, status verifikasi, dan cara pembacaan nilai.
+4. Setpoint dan nilai aktual yang berhasil direkam untuk arus, tegangan, WFS, dan travel speed sesuai kebutuhan prosedur.
+5. Material dasar, bahan tambah, batch, serta kondisi penyimpanan yang relevan.
+6. Catatan fit-up, preheat/interpass, waktu, lokasi, dan koreksi parameter bila dipersyaratkan.
+7. Pemeriksaan visual, NDT, atau pemeriksaan lain beserta personel, metode, extent, laporan, dan otoritas penerimaan.
+8. Ketidaksesuaian, disposisi, siklus repair, dan persetujuan penutupan.
+
+Teman Bengkel-las.co.id, serahkan paket ini bersama daftar ketidaksesuaian yang masih terbuka; penerima handover perlu tahu mana yang sudah diverifikasi dan mana yang menunggu keputusan.
+
+[ISO 5817:2023](https://www.iso.org/standard/80209.html) membahas tingkat kualitas terkait ketidaksempurnaan pada sambungan, tetapi angka penerimaan tetap mengikuti basis proyek. [ISO 17635:2025](https://www.iso.org/standard/85705.html) memberi kerangka umum pemilihan metode NDT, sedangkan [ISO 9712:2021](https://www.iso.org/standard/75614.html) berkaitan dengan kualifikasi dan sertifikasi personel NDT. Ketiganya membantu memisahkan pekerjaan las, teknik pemeriksaan, kompetensi pemeriksa, dan keputusan engineering. Jangan menulis “lulus” hanya dari rekaman panel atau tampilan bead.
+
+## Jalan pintas yang perlu ditolak
+
+Menyalin setelan dari pekerjaan yang “kelihatannya sama” memang cepat, tetapi dapat gagal ketika material, posisi, diameter kawat, mode transfer, atau revisi WPS berbeda. Jalan pintas lain adalah memutar kenop sampai suara busur terasa nyaman. Suara dan tampilan hanya observasi proses; keduanya tidak membuktikan rentang kualifikasi, heat input, atau penerimaan akhir.
+
+Alternatif yang lebih dapat dipertanggungjawabkan adalah menyalin identitas WPS dan rentangnya, menguji kecocokan material dan consumable, menyepakati cara membaca nilai aktual, lalu mencatat setiap perubahan yang diizinkan. Jika kecocokan tidak dapat dibuktikan, berhenti di hold point dan minta keputusan personel berwenang.
+
+## Kesimpulan
+
+Arus, tegangan, WFS, dan travel speed harus dibaca sebagai satu sistem di dalam rentang WPS, bukan sebagai empat angka bebas. Arus dan WFS dapat berhubungan pada proses kawat tertentu, tegangan memengaruhi busur, dan travel speed ikut menentukan energi per panjang; efek akhirnya baru bermakna setelah proses, material, sambungan, mesin, dan satuan cocok.
+
+Langkah berikutnya adalah mengambil WPS beserta revisinya, mengisi lembar pencocokan, menandai sumber setiap nilai (setpoint atau aktual), dan meminta review atas marker **[NEEDS PROJECT REVIEW: GATE-01 s.d. GATE-13]** sebelum pengelasan berjalan. Operating rule-nya sederhana: bila angka, kondisi sambungan, atau bukti rekaman tidak cocok, jangan mengompensasi dengan feeling—tahan pekerjaan sampai prosedur dan persetujuan yang benar tersedia.

@@ -2,8 +2,9 @@
 article_id: WLD-03-A03
 title: "WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing"
 slug: "wps-pqr-dan-kualifikasi-welder"
-description: "Explain what procedure qualification, production instruction, and welder performance evidence do and do not prove"
-status: outline
+description: "Membedakan fungsi WPS, PQR atau WPQR, dan bukti kualifikasi welder saat memeriksa berkas pekerjaan las"
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-08-05"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,50 +17,12 @@ technical_review: required
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/64838.html"
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/64835.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing”
-- **Reader and situation:** Buyer or supervisor reviewing documents
-- **Reader outcome:** Explain what procedure qualification, production instruction, and welder performance evidence do and do not prove
-- **Primary intent:** Distinguish welding qualification records
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes creating or approving a project WPS from the article; WLD-14-A03 owns record control
-- **Final public route:** `/artikel/wps-pqr-dan-kualifikasi-welder.html`
-- **Appointed CMS date:** `2025-08-05` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -70,173 +33,93 @@ sources:
 - **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Sobat Bengkel-las.co.id! Saat memeriksa berkas pekerjaan las, tiga istilah sering terlihat berdampingan: WPS, PQR atau WPQR, dan kualifikasi welder. Ketiganya bukan tiga nama untuk kartu yang sama. WPS memberi instruksi kerja produksi; PQR/WPQR merekam bukti bahwa suatu prosedur telah diuji atau dikualifikasi; kualifikasi welder menunjukkan kemampuan orang tertentu membuat sambungan dalam cakupan yang ditetapkan. Jadi, satu dokumen tidak otomatis menggantikan dua lainnya.
 
-### KR-01
+Pembedaan ini penting ketika buyer atau supervisor menerima kalimat “welder sudah bersertifikat” lalu menganggap sambungan pasti memenuhi spesifikasi. Rekaman welder tidak membuktikan prosedurnya cocok untuk material dan sambungan itu. Sebaliknya, prosedur yang berkualifikasi tidak membuktikan setiap orang yang memakainya mampu menghasilkan las yang dapat diterima. Kesesuaian akhir masih bergantung pada dokumen proyek, rentang kualifikasi, pengendalian produksi, inspeksi, dan keputusan penerimaan yang berlaku. [NEEDS PROJECT REVIEW: identitas sambungan, edisi standar, rentang kualifikasi, dan basis penerimaan harus dicocokkan pada paket kerja yang berlaku.]
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-### KR-11
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-13
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-03-A01` → `/artikel/cara-membaca-simbol-las.html` — Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak
-- `WLD-03-A02` → `/artikel/desain-sambungan-las-yang-dapat-difabrikasi.html` — Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat
-- `WLD-03-A04` → `/artikel/ukuran-las-fillet-dan-throat.html` — Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar
-- `WLD-03-A05` → `/artikel/toleransi-fabrikasi-las.html` — Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**WPS (Welding Procedure Specification)** adalah instruksi terkendali untuk pekerjaan produksi. Isinya biasanya mengarahkan variabel yang harus diikuti—misalnya proses, material dan sambungan yang dituju, posisi, bahan tambah, serta pengendalian panas—sesuai spesifikasi proyek dan standar yang dirujuk. WPS menjawab pertanyaan, “Dengan aturan kerja apa sambungan ini dibuat?” Ia bukan laporan bahwa satu sambungan tertentu sudah lulus.
+
+**PQR (Procedure Qualification Record)** adalah rekaman hasil pengujian atau kualifikasi prosedur. **WPQR (Welding Procedure Qualification Record)** kerap dipakai sebagai istilah setara atau istilah yang dipilih oleh sistem atau standar tertentu. Yang menentukan bukan singkatannya, melainkan isi rekaman dan rujukan yang mengaturnya. ISO 15614-1 membahas kualifikasi prosedur pengelasan berbasis pengujian, sementara ISO 3834-6 mengingatkan bahwa persyaratan sistem mutu perlu dibaca bersama standar dan persyaratan kontrak yang relevan. [ISO 15614-1:2017](https://www.iso.org/standard/51792.html) dan [ISO 3834-6:2024](https://www.iso.org/standard/83335.html)
+
+**Kualifikasi welder** atau kualifikasi operator adalah bukti performa personel dalam membuat kupon atau sambungan uji pada kondisi yang didefinisikan. ISO 9606-1 membahas pengujian kualifikasi welder untuk pengelasan lebur pada baja. Ringkasan katalog publik tidak memuat seluruh rentang ketebalan, posisi, proses, atau masa berlaku; karena itu angka pada satu kartu tidak boleh diperluas dengan menebak. [ISO 9606-1:2012](https://www.iso.org/standard/54936.html)
+
+Batas artikel ini adalah membaca fungsi dan hubungan rekaman tersebut. Artikel ini tidak membuat atau menyetujui WPS untuk proyek tertentu. Desain sambungan, ukuran anggota, beban, stabilitas, tumpuan, urutan erection, toleransi, dan kondisi kebakaran atau korosi tetap memerlukan dokumen desain serta review kompeten; katalog resmi SNI 1729:2020 sendiri tidak menyediakan dasar untuk menebak kapasitas dari nama profil saja. [Katalog SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020)
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutan logisnya dimulai dari kebutuhan proyek. Gambar, spesifikasi, material, kategori sambungan, posisi pengerjaan, dan rencana inspeksi menetapkan apa yang harus dikendalikan. Dari sana, organisasi menetapkan WPS yang dapat dipakai untuk produksi. WPS itu harus menunjuk pada prosedur kualifikasi yang relevan—PQR/WPQR—atau dasar kualifikasi lain yang diizinkan oleh spesifikasi. Jika variabel penting berubah di luar cakupan, WPS tidak boleh dianggap tetap sah hanya karena judulnya sama.
+
+Kemudian, personel yang mengelas diperiksa terhadap kualifikasi welder yang sesuai. Supervisor mencocokkan identitas welder, proses, posisi, material, rentang ukuran, dan status kontinuitas atau validitas sebagaimana disyaratkan. Rekaman itu menjawab “siapa yang berwenang mengerjakan dalam cakupan ini”, bukan “semua hasilnya pasti diterima”.
+
+Di lantai produksi, WPS menjadi instruksi yang dikendalikan: revisinya jelas, tersedia di titik kerja, dan tidak diganti dengan foto dokumen lama atau kebiasaan lisan. Peralatan, bahan tambah, penyimpanan, preheat/interpass bila disyaratkan, fit-up, dan urutan kerja dikendalikan sesuai paket tersebut. ISO 3834-6 menempatkan pengaturan mutu pengelasan sebagai bagian dari persyaratan yang perlu ditetapkan dan didokumentasikan, bukan sekadar klaim kompetensi. [ISO 3834-6:2024](https://www.iso.org/standard/83335.html)
+
+Untuk menata berkas dan pertanyaan awal sebelum rapat teknis, Anda dapat memakai [halaman utama Bengkel-las.co.id](/) sebagai titik kembali; tautan itu bukan pengganti dokumen proyek atau persetujuan profesional.
+
+Jika paket kerja ini terkait rangka atau komponen utama, [lihat konteks konstruksi baja](/konstruksi-baja) sebagai konteks layanan; halaman itu tetap bukan pengganti gambar, spesifikasi, atau review teknis proyek.
+
+Terakhir, inspeksi dan penerimaan berjalan sebagai jalur bukti yang berbeda. Laporan visual atau NDT (non-destructive testing, pengujian tak merusak) mengidentifikasi hasil pemeriksaan dengan metode, cakupan, personel, peralatan, dan basis penerimaan yang jelas. ISO 17635 menekankan bahwa metode dan tingkat penerimaan NDT harus dibaca terhadap sistem standar yang berlaku; hasil inspeksi tidak boleh disamakan dengan kualifikasi welder. [ISO 17635:2025](https://www.iso.org/standard/85705.html)
+
+| Rekaman | Pertanyaan yang dijawab | Yang tidak dibuktikan sendirian |
+|---|---|---|
+| WPS | Bagaimana pekerjaan produksi harus dilakukan? | Bahwa setiap welder atau sambungan sudah lulus. |
+| PQR/WPQR | Dasar bukti apa yang mendukung kualifikasi prosedur? | Kecocokan otomatis untuk semua material, posisi, ukuran, dan proyek. |
+| Kualifikasi welder | Siapa yang terbukti mampu dalam cakupan uji tertentu? | Kecocokan WPS, pengendalian produksi, atau penerimaan sambungan akhir. |
+| Laporan inspeksi/NDT | Apa yang diperiksa dan bagaimana hasilnya? | Penggantian terhadap tiga rekaman kualifikasi di atas. |
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Perubahan pertama adalah **cakupan**. Proses, kelompok material, ketebalan atau diameter, posisi, jenis sambungan, dan bahan tambah dapat membatasi penggunaan rekaman. Ringkasan ISO yang tersedia untuk publik tidak memberikan tabel rentang itu, dan standar sedang memiliki edisi yang perlu diverifikasi. Kawan Bengkel-las.co.id, minta lembar kualifikasi lengkap dan cocokkan variabelnya; jangan menyimpulkan dari cap atau nomor sertifikat saja. [NEEDS PROJECT REVIEW: edisi standar dan rentang yang diterapkan pada kontrak ini.]
+
+Kedua adalah **status waktu dan identitas**. Rekaman harus dapat ditelusuri ke welder, WPS, revisi, kupon atau sambungan uji, dan pekerjaan yang sedang diperiksa. Kontinuitas atau validitas juga dapat menjadi syarat tersendiri. Salinan tanpa tanggal, tanda pengesahan, atau identitas yang dapat diverifikasi adalah alasan untuk menahan keputusan, bukan alasan untuk mengisi kolom yang kosong.
+
+Ketiga adalah **kondisi produksi**. Bengkel dan pekerjaan lapangan dapat menghadapi akses, posisi, cuaca, listrik, ventilasi, material mudah terbakar, lalu lintas, atau operasi sekitar yang berbeda. Perubahan lokasi dapat mengubah cara fit-up, perlindungan, inspeksi, dan pemulihan lapisan. Jika kondisi aktual tidak tercakup oleh metode kerja dan rencana K3, penanggung jawab proyek harus meninjau pengendalian spesifiknya sebelum pengelasan dilanjutkan.
+
+Keempat adalah **sistem terpasang**. Mutu logam las bukan satu-satunya pertanyaan: geometri, tumpuan, anchor, drainage, paparan, akses perawatan, dan urutan pemasangan dapat menentukan apakah komponen aman digunakan. Dokumen kualifikasi tidak mengesahkan desain atau kapasitas sistem. Gunakan gambar dan spesifikasi yang diterbitkan untuk pekerjaan, lalu minta review profesional ketika informasi antarmuka atau kondisi eksisting belum lengkap.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan supervisor menerima paket untuk sambungan baja dengan tiga berkas: WPS bertanda revisi terbaru, PQR yang dirujuk WPS, dan kartu welder. Keputusan “boleh mulai” baru masuk akal setelah empat pertanyaan berikut terjawab:
+
+1. Apakah WPS menunjuk PQR/WPQR yang benar dan mencakup variabel sambungan pada gambar?
+2. Apakah welder yang ditugaskan memiliki kualifikasi yang mencakup proses, posisi, material, dan ukuran yang dipersyaratkan?
+3. Apakah revisi, kontinuitas, bahan tambah, peralatan, serta kontrol sebelum dan selama pengelasan tersedia dan dapat ditelusuri?
+4. Apakah rencana inspeksi dan basis penerimaan sudah ditetapkan oleh spesifikasi proyek?
+
+Jika jawaban pertama atau kedua “belum”, tahan penugasan dan eskalasikan untuk review—jangan memperluas rentang dengan analogi. Jika keduanya “ya” tetapi WPS di lantai kerja sudah kedaluwarsa atau material tidak dapat diidentifikasi, tahan pekerjaan sampai kontrol dokumennya pulih. Jika rekaman lengkap tetapi hasil inspeksi menunjukkan ketidaksesuaian, jalur keputusan berpindah ke nonconformance dan disposisi yang berwenang; kartu welder tidak menutup temuan tersebut.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan yang sering terjadi adalah menganggap “ada WPQR” berarti semua WPS boleh dipakai. Periksa apakah nomor WPS benar-benar merujuk rekaman prosedur yang relevan dan apakah variabelnya masih dalam cakupan. Kesalahan kedua adalah memakai kartu welder sebagai bukti mutu sambungan. Cocokkan identitas personel, status, dan cakupan; lalu cari rekaman produksi serta inspeksi.
 
-## Objection or shortcut to address
+Kesalahan ketiga adalah mengutip nomor standar tanpa membaca edisi dan persyaratan proyek. Halaman katalog atau abstrak membuktikan identitas dan ruang lingkup publik, bukan seluruh tabel uji, batas penerimaan, atau kewajiban proyek. Kesalahan keempat adalah menyamakan inspeksi visual dengan penerimaan lengkap. Tanyakan metode, extent, kondisi permukaan, alat, personel, laporan, dan siapa yang berwenang menerima atau menolak.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Checklist ringkas untuk meja review:
 
-## Required conclusion
+- nomor dokumen, revisi, dan sambungan yang dituju saling cocok;
+- PQR/WPQR memiliki identitas uji dan rujukan yang dapat ditelusuri;
+- kualifikasi welder masih berlaku untuk cakupan yang dibutuhkan;
+- WPS tersedia di titik kerja dan perubahan dikendalikan;
+- material, bahan tambah, peralatan, dan catatan inspeksi dapat ditelusuri;
+- celah data ditandai `[NEEDS PROJECT REVIEW]`, bukan diisi berdasarkan kebiasaan.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Jalan pintas yang perlu dihindari
 
-## Draft completion checklist
+Shortcut yang terdengar praktis adalah, “Welder ini sudah lama bekerja; pakai saja WPS lama.” Pengalaman dapat membantu keterampilan, tetapi tidak menggantikan bukti kualifikasi yang dipersyaratkan atau kecocokan prosedur. WPS lama juga bisa merujuk material, revisi gambar, atau basis penerimaan yang berbeda. Alternatif yang lebih aman adalah menghentikan asumsi, mengumpulkan rekaman yang hilang, dan meminta penanggung jawab teknis menyatakan apakah dokumen tersebut masih berlaku untuk pekerjaan spesifik.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+## Kesimpulan
+
+WPS menjelaskan cara produksi, PQR/WPQR memberi dasar bukti kualifikasi prosedur, dan kualifikasi welder memberi bukti kemampuan personel dalam cakupan uji tertentu. Tidak satu pun, sendirian, membuktikan desain aman atau sambungan akhir otomatis diterima. Teman Bengkel-las.co.id, sebelum menyetujui pekerjaan, cocokkan ketiga rekaman dengan gambar, spesifikasi, status personel, rencana inspeksi, dan kondisi lapangan; serahkan celah atau perubahan kepada reviewer kompeten.
+
+Aturan operasionalnya sederhana: tidak ada kecocokan dokumen, tidak ada lampu hijau untuk mengelas. [NEEDS TECHNICAL REVIEW: keputusan akhir tetap mengikuti standar edisi yang ditetapkan proyek dan persetujuan penanggung jawab yang berwenang.]
+
+Simpan daftar pemeriksaan dan versi dokumen bersama paket kerja. Jika ada dokumen yang belum jelas untuk dibahas bersama penanggung jawab, gunakan [halaman kontak Bengkel-las.co.id](/kontak-kami) untuk menyampaikan pertanyaan; lalu minta reviewer teknis menutup setiap celah sebelum pekerjaan dimulai.

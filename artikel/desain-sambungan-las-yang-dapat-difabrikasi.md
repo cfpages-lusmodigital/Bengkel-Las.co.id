@@ -1,9 +1,10 @@
 ---
 article_id: WLD-03-A02
+writing_contract_version: "native-id-v2"
 title: "Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat"
 slug: "desain-sambungan-las-yang-dapat-difabrikasi"
 description: "Show how load path, access, sequence, inspection, drainage, replaceability, and tolerances shape a buildable joint"
-status: outline
+status: draft
 publication_date: "2025-08-01"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -29,218 +30,101 @@ sources:
   - "https://www.iso.org/standard/64835.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+<!-- BEGIN MANAGED IMAGE PLAN
+## Image plan
+
+- Image ID: LOCAL-001
+- Source type: local
+- Placement: setelah pembukaan yang menjawab pertanyaan utama, sebelum H2 pertama
+- **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
+- Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+- Selection basis: filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
+- Hard boundary: jangan menyimpulkan detail visual, kepemilikan proyek, lokasi, orang, merek, kondisi, kinerja, atau hasil.
+- Substitution rule: jika aset tidak tersedia atau provenance tidak lengkap, gunakan [NEEDS IMAGE REVIEW: LOCAL-001].
+END MANAGED IMAGE PLAN -->
 
 # Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat
 
-## Assignment lock
+Halo, Sobat Bengkel-las.co.id! Sambungan las yang tampak sederhana di gambar bisa menjadi sulit dibuat ketika jalur bebannya tidak jelas, torch tidak punya ruang, urutan pengelasan mengunci bagian lain, atau hasil las tidak dapat diperiksa. Karena itu, sambungan yang dapat difabrikasi bukan sekadar sambungan yang “kuat” di atas kertas. Sambungan harus dapat dicapai alat, dipasang dengan toleransi yang masuk akal, diperiksa dengan bukti yang sesuai, dan dibuka atau diperbaiki tanpa merusak bagian yang masih baik.
 
-- **Writer task:** Expand this file into one complete article answering: “Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat”
-- **Reader and situation:** Designer or buyer before fabrication
-- **Reader outcome:** Show how load path, access, sequence, inspection, drainage, replaceability, and tolerances shape a buildable joint
-- **Primary intent:** Review joint constructability
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes member sizing and final structural approval; WLD-10-A01 owns structural workflow
-- **Final public route:** `/artikel/desain-sambungan-las-yang-dapat-difabrikasi.html`
-- **Appointed CMS date:** `2025-08-01` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: mulai dari jalur beban dan fungsi sambungan, lalu rancang akses, urutan kerja, titik pemeriksaan, pembuangan air, dan kemungkinan penggantian. Ukuran anggota, ukuran las, kapasitas, angkur, serta persetujuan struktur berada di luar artikel ini dan harus diputuskan dari data proyek oleh pihak berkompeten. **[NEEDS PROJECT REVIEW: jalur beban, kombinasi beban, detail sambungan, toleransi, dan persetujuan struktur belum tersedia.]**
 
-## Opening instructions
+Gambar kerja yang baik membuat keputusan itu terlihat. Ia menyebut identitas material dan joint, datum serta toleransi, antarmuka dengan komponen lain, urutan fabrikasi, syarat pengelasan, inspeksi, penanganan, pemasangan, dan cara menyetujui penyimpangan. Katalog resmi [SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020) dan abstrak [ISO 3834-6:2024](https://www.iso.org/standard/83335.html) dapat menjadi penunjuk dokumen acuan; detail pasal, nilai, dan kriteria penerimaan tetap harus diambil dari standar berlisensi serta dokumen proyek yang diterbitkan untuk pekerjaan.
 
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-11
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-13
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/inspirasi-desain-tangga-besi-untuk-hunian-idaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-desain-railing-balkon-besi-favorit-sepanjang-masa` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/inspirasi-desain-tangga-besi-untuk-hunian-idaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-03-A01` → `/artikel/cara-membaca-simbol-las.html` — Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak
-- `WLD-03-A03` → `/artikel/wps-pqr-dan-kualifikasi-welder.html` — WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing
-- `WLD-03-A04` → `/artikel/ukuran-las-fillet-dan-throat.html` — Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Yang dirancang di sini adalah *joint constructability*: apakah sebuah detail sambungan dapat diwujudkan secara terkendali dari pemotongan, penyetelan awal (*fit-up*), pengelasan, pemeriksaan, sampai perawatan. “Dapat dibuat” berarti alat dan orang dapat mengakses area kerja, komponen dapat diposisikan, dan urutan tidak menimbulkan distorsi yang tidak tertangani. “Dapat diperiksa” berarti permukaan, metode pemeriksaan, cakupan, dan catatan hasil sudah dipikirkan sejak gambar dibuat. “Dapat dirawat” berarti air tidak terperangkap, lapisan pelindung dapat dipulihkan, dan komponen yang aus dapat diganti.
+
+Ini bukan tabel ukuran profil atau pengganti perhitungan. Kecukupan sistem dipengaruhi beban, kombinasi, geometri, stabilitas, tumpuan, kondisi eksisting, urutan ereksi, toleransi, paparan api atau korosi, serta inspeksi dan pemeliharaan. Sumber katalog dan abstrak hanya mengonfirmasi identitas serta lingkup publikasi, bukan memberi izin untuk menyatakan suatu detail “pasti aman”. Jika fungsi sambungan atau konsekuensi kegagalannya belum ditetapkan, hentikan penerbitan gambar kerja sampai **[NEEDS REVIEW: fungsi, pengguna, kondisi batas, dan kriteria penerimaan proyek]** disepakati.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan alur sebab-akibat berikut saat meninjau satu sambungan.
+
+1. **Petakan jalur beban.** Tulis dari mana gaya datang, melewati las, pelat atau profil, baut bila ada, lalu menuju tumpuan. Tandai juga beban tak sengaja seperti benturan, getaran, atau berat saat pemasangan. Bila alurnya berakhir pada elemen eksisting yang tidak terukur, catat sebagai kebutuhan verifikasi, bukan asumsi.
+2. **Tetapkan antarmuka dan datum.** Tentukan bidang referensi, celah, arah pemasangan, ruang untuk elektroda atau torch, serta ruang untuk kunci dan alat ukur. Datum yang sama harus dipakai di gambar, jig, pemeriksaan, dan berita penyimpangan agar semua orang mengukur hal yang sama.
+3. **Pilih urutan yang dapat dikendalikan.** Rancang tack weld, penyangga sementara, urutan lintasan, pembalikan benda, dan pelepasan jig. Urutan yang hanya bisa dilakukan setelah bagian tertutup biasanya menyembunyikan cacat dan menyulitkan koreksi distorsi.
+4. **Rencanakan bukti mutu.** Pisahkan catatan kualifikasi prosedur, WPS produksi, kualifikasi welder/operator, identitas material, kontrol consumable, kondisi peralatan, pemeriksaan, dan penerimaan akhir. [ISO 15614-1:2017](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012](https://www.iso.org/standard/54936.html), dan [ISO 3834-6:2024](https://www.iso.org/standard/83335.html) menunjukkan bahwa kelompok rekaman tersebut bukan satu hal yang dapat saling menggantikan; rentang kualifikasi dan persyaratan uji harus dilihat pada edisi terkini, teks berlisensi, dan spesifikasi proyek.
+5. **Sisakan jalan untuk perawatan.** Sediakan akses inspeksi ulang, lubang drainase atau ventilasi bila diperlukan oleh konfigurasi, area untuk memperbaiki lapisan, dan sambungan yang bisa dilepas bila komponen memang diperkirakan aus. Jangan membuat rongga tertutup yang mengumpulkan air tanpa rencana pengeringan dan pemeriksaan.
+
+Sobat Bengkel-las.co.id, minta setiap keputusan di atas muncul sebagai catatan yang bisa dibaca operator dan pemeriksa. Jika hanya tersimpan sebagai instruksi lisan, perubahan orang atau shift dapat mengubah hasil tanpa jejak.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**Geometri dan akses.** Sudut sempit, sisi belakang yang tertutup, atau dua las yang berhadapan dapat menghalangi pandangan dan gerak alat. Detail yang mudah dirakit di meja belum tentu dapat dilas setelah dipasang. Tinjau posisi tubuh, arah pandang, perlindungan panas, serta ruang untuk membersihkan dan mengukur.
+
+**Material dan urutan.** Identitas material, ketebalan, proses, posisi, dan kondisi tepi memengaruhi prosedur yang boleh dipakai. Jangan menyalin WPS dari pekerjaan lain hanya karena bentuknya mirip. Catat nomor material, lot consumable, dan perubahan yang memerlukan persetujuan.
+
+**Toleransi dan distorsi.** Toleransi bukan angka “asal muat”. Ia harus terhubung dengan datum, fungsi, cara ukur, dan keputusan bila nilai melampaui batas. Beri ruang untuk penyetelan yang tidak mengandalkan pemanasan atau pemaksaan tanpa otorisasi. Setelah pengelasan, ukur kembali antarmuka yang menentukan pemasangan komponen berikutnya.
+
+**Inspeksi dan penerimaan.** Pemeriksaan visual, metode uji tak merusak (*non-destructive testing* atau NDT), evaluasi indikasi, kompetensi personel, status alat, dan penerimaan teknik adalah bukti yang berbeda. Abstrak [ISO 5817:2023](https://www.iso.org/standard/80209.html), [ISO 17635:2025](https://www.iso.org/standard/85705.html), dan [ISO 9712:2021](https://www.iso.org/standard/75614.html) tidak menyediakan tabel batas atau setelan teknik; gunakan kode yang mengatur proyek dan prosedur tertulisnya. ISO 17635 juga mengingatkan bahwa tingkat penerimaan NDT tidak otomatis diterjemahkan satu banding satu menjadi tingkat mutu pengelasan.
+
+**Lingkungan dan pemeliharaan.** Air, garam, bahan kimia, pasangan logam berbeda, dan akses yang sulit mempercepat masalah pada detail yang menahan air. Gunakan prinsip kategori lingkungan dan desain proteksi dari [ISO 12944-3:2017](https://www.iso.org/standard/64835.html) serta panduan perencanaan pengecatan pemeliharaan pada [ISO 12944-8:2017](https://www.iso.org/standard/64838.html), tanpa mengarang sistem coating atau interval pengecatan. Drainase, tepi yang bisa dibersihkan, dan ruang inspeksi perlu terlihat di detail.
+
+**Fabrikasi di bengkel atau di lapangan.** Memindahkan las ke lokasi tidak otomatis menyelesaikan masalah transportasi. Di lapangan, fit-up, posisi, pengangkatan, cuaca, listrik, asap, sumber api, operasi sekitar, lalu lintas, kondisi coating, dan akses pemeriksaan berubah. Prinsip keselamatan dari [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), dan [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026) perlu diterjemahkan oleh penanggung jawab K3 Indonesia menjadi pengendalian tugas yang spesifik. Jangan mengimpor jarak, izin, atau resep dari yurisdiksi lain.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan sambungan rangka luar ruang yang akan menerima panel dan perlu dicat ulang. Sebelum menyetujui gambar, gunakan tabel keputusan ini.
+
+| Pertanyaan | Jika jawabannya “belum” | Keputusan sementara |
+|---|---|---|
+| Jalur beban dan tumpuan sudah ditinjau? | Gaya dan reaksi tidak jelas | Tahan detail; minta review struktur |
+| Semua sisi las dapat dicapai dan dibersihkan? | Ada sisi tertutup atau terlalu sempit | Ubah urutan, bukaan, atau metode; jangan menebak |
+| Datum, toleransi, dan cara ukur tertulis? | Operator memakai patokan berbeda | Terbitkan ulang gambar dengan datum bersama |
+| WPS, kualifikasi, dan identitas material tersedia? | Rekaman hanya berupa ucapan | Jadikan dokumen dan *hold point* sebelum produksi |
+| Permukaan dapat diperiksa dan coating dipulihkan? | Ada rongga atau air terjebak | Tambahkan drainase/akses atau minta persetujuan deviasi |
+| Komponen aus bisa dilepas tanpa memotong struktur utama? | Penggantian berarti membongkar area luas | Pertimbangkan baut atau modul yang dapat diganti |
+
+Tabel ini bukan keputusan kapasitas. Ia adalah saringan konstruktabilitas. Kawan Bengkel-las.co.id, bila satu baris belum terpenuhi, tulis siapa yang harus menjawab, bukti apa yang diminta, dan kapan *hold point* dibuka. Untuk memilih pelaksana, Anda dapat membandingkan rekaman dan cara kerja melalui [panduan memilih bengkel las profesional](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman), lalu tetap meminta tinjauan teknis proyek.
+
+Jika sambungan berada pada akses rumah seperti tangga, gunakan pertanyaan konstruktabilitas yang sama sambil memeriksa fungsi pengguna dan ruang perawatan; contoh konteksnya dapat dilihat pada [inspirasi desain tangga besi untuk hunian](/update/inspirasi-desain-tangga-besi-untuk-hunian-idaman).
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**“Ukuran las diperbesar agar pasti kuat.”** Penambahan logam tidak menggantikan jalur beban, akses, atau tinjauan distorsi. Periksa fungsi dan dasar desainnya; jangan mengubah ukuran di bengkel tanpa revisi yang disetujui.
 
-## Objection or shortcut to address
+**“Ada kartu welder, berarti semua sambungan boleh dikerjakan.”** Kualifikasi personel memiliki ruang lingkup dan masa berlaku yang harus dicocokkan dengan proses, posisi, material, dan ketebalan proyek. Minta rekaman yang relevan, bukan foto kartu saja.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+**“Hasil visual rapi berarti lulus.”** Penampilan adalah satu observasi. Pastikan metode, cakupan, kondisi permukaan, personel, alat, laporan, dan dasar penerimaan telah ditetapkan. **[NEEDS QA REVIEW: metode, cakupan NDT, status alat, dan kriteria penerimaan spesifik proyek.]**
 
-## Required conclusion
+**“Drainase bisa dibor belakangan.”** Lubang yang dibuat setelah coating atau setelah komponen terpasang dapat melemahkan perlindungan dan mengotori area tertutup. Tunjukkan lokasi, ukuran, pembersihan, dan pemulihan coating dalam paket kerja, setelah disetujui penanggung jawab desain.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+**“Las lapangan lebih murah karena tidak perlu mengirim rangka.”** Bandingkan total pekerjaan: penyangga, pengangkatan, isolasi area, listrik, ventilasi, pengamanan kebakaran, perlindungan cuaca, pemeriksaan, dan pemulihan lokasi. Jika kondisi itu belum bisa dikendalikan, pilihan bengkel mungkin lebih dapat dilacak—tetapi keputusan akhir tetap berbasis risiko proyek.
 
-## Draft completion checklist
+## Objection: “Buat saja detail standar yang biasa dipakai”
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Shortcut ini terasa efisien ketika bentuk sambungan terlihat sama. Masalahnya, fungsi, tumpuan, toleransi, akses alat, urutan ereksi, dan lingkungan bisa berbeda. Detail lama mungkin tidak menyertakan bukti material, WPS, titik inspeksi, drainase, atau cara memperbaiki coating. Akibatnya, operator memaksa komponen agar pas, pemeriksa tidak bisa menjangkau sisi kritis, dan perawatan pertama sudah memerlukan pemotongan ulang.
+
+Alternatif yang lebih andal adalah memakai detail lama hanya sebagai referensi visual, kemudian menerbitkan paket kerja baru: jalur beban yang direview, datum dan toleransi, urutan, identitas dokumen pengelasan, inspeksi dan penerimaan, drainase, serta prosedur deviasi. Tandai bagian yang belum memiliki bukti dengan **[NEEDS PROJECT REVIEW: kecocokan detail acuan dengan fungsi dan kondisi lokasi.]** Jangan menganggap cap “standar” sebagai persetujuan untuk proyek baru.
+
+## Penutup: aturan operasi sebelum gambar disetujui
+
+Sambungan las yang dapat dibuat, diperiksa, dan dirawat lahir dari keputusan yang saling terhubung: jalur beban jelas, akses dan urutan realistis, toleransi dapat diukur, bukti pengelasan terpisah dan terlacak, permukaan bisa diperiksa, air punya jalan keluar, dan komponen yang aus punya rencana penggantian. Semua itu menyiapkan pekerjaan; bukan menggantikan desain struktur atau persetujuan profesional.
+
+Langkah Anda berikutnya adalah mengadakan *design review* singkat dengan gambar, daftar antarmuka, urutan fabrikasi, rencana inspeksi, dan rencana pemeliharaan di meja yang sama. Minta penanggung jawab proyek mengisi tiga hal yang masih kosong: data beban/tumpuan, kriteria penerimaan, dan pengendalian K3 lokasi. **[NEEDS TECHNICAL REVIEW: artikel ini tidak memuat ukuran anggota, kapasitas, detail angkur, atau persetujuan akhir.]** Aturan operasinya sederhana: bila suatu sambungan tidak dapat dijangkau, dibuktikan, atau dirawat sesuai fungsi proyek, jangan produksi sebelum detail dan buktinya disetujui.

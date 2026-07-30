@@ -3,7 +3,8 @@ article_id: WLD-03-A06
 title: "Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak"
 slug: "hierarki-persyaratan-proyek-las"
 description: "Provide a question-and-escalation workflow for conflicting drawings, specifications, standards, codes, and approved changes"
-status: outline
+writing_contract_version: "native-id-v2"
+status: draft
 publication_date: "2025-08-18"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -24,220 +25,99 @@ sources:
   - "https://www.iso.org/standard/75614.html"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.iso.org/standard/64835.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-001
+Source type: local
+Placement: after the opening answer, before the first detailed H2
+**Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
+Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+Selection basis: filename/source metadata identifies bengkel las as relevant content media; no pixels were inspected.
+Hard boundary: do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+Substitution rule: do not replace this image. If unavailable or provenance is incomplete, insert [NEEDS IMAGE REVIEW: LOCAL-001] and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak”
-- **Reader and situation:** Contractor or buyer facing inconsistent documents
-- **Reader outcome:** Provide a question-and-escalation workflow for conflicting drawings, specifications, standards, codes, and approved changes
-- **Primary intent:** Resolve document conflicts
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes legal advice and unilateral field changes; WLD-15-A05 owns contract change control
-- **Final public route:** `/artikel/hierarki-persyaratan-proyek-las.html`
-- **Appointed CMS date:** `2025-08-18` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Ketika gambar kerja, spesifikasi, standar, dan kontrak tampak saling bertentangan, jangan memilih dokumen yang paling mudah dikerjakan. Hentikan pekerjaan pada bagian yang terdampak, catat konflik berdasarkan nomor dokumen dan revisi, lalu minta keputusan tertulis dari pihak yang berwenang. “Hierarki” yang aman bukan urutan tetap yang boleh ditebak dari kebiasaan bengkel; urutan itu harus dibaca dari kontrak, prosedur pengendalian dokumen, dan status penerbitan proyek.
 
-## Opening instructions
+Sebagai aturan pemeriksaan, dahulukan kewajiban hukum dan K3 yang berlaku, kemudian kontrak serta perubahan yang sudah disetujui, lalu dokumen proyek terkendali (gambar dan spesifikasi) dan standar yang memang dirujuk. Namun, siapa yang berwenang mengubah urutan, dokumen mana yang *issued for work*, dan apakah perubahan sudah disetujui harus dibuktikan dari paket proyek. **[NEEDS PROJECT DOCUMENT-CONTROL REVIEW: matriks prioritas, status penerbitan, dan otoritas persetujuan belum tersedia di artikel ini.]** Katalog resmi SNI 1729:2020 dan abstrak ISO hanya mengidentifikasi standar serta cakupannya; halaman itu tidak memberikan klausul, nilai penerimaan, atau desain sambungan yang boleh ditebak. [SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020)
 
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-11
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-13
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-03-A04` → `/artikel/ukuran-las-fillet-dan-throat.html` — Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar
-- `WLD-03-A05` → `/artikel/toleransi-fabrikasi-las.html` — Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Yang dimaksud persyaratan proyek las di sini adalah informasi terkendali yang mengarahkan apa yang dibuat, dari bahan dan sambungan sampai pemeriksaan serta penerimaan. Gambar biasanya menjawab “bentuk, posisi, ukuran, dan antarmuka apa yang ditunjukkan”; spesifikasi memperjelas material, proses, toleransi, pelapisan, inspeksi, dan rekaman; standar memberi kerangka teknis yang dirujuk; kontrak dan perubahan yang disetujui menetapkan kewajiban serta kewenangan. Pembagian ini adalah alat membaca dokumen, bukan putusan hukum otomatis.
+
+Batas pentingnya: halaman ini tidak menetapkan kapasitas, ukuran profil, detail angkur, nilai toleransi, tingkat cacat, atau keputusan “lulus”. Kecukupan elemen tidak bisa disimpulkan dari ukuran anggota saja karena beban, kombinasi, geometri, stabilitas, sambungan, tumpuan, kondisi eksisting, urutan ereksi, toleransi, paparan, inspeksi, dan pemeliharaan ikut menentukan sistem lengkap. [ISO 3834-6:2024](https://www.iso.org/standard/83335.html) membantu menempatkan kebutuhan dokumentasi mutu, sedangkan dokumen desain dan standar berlisensi tetap harus diperoleh untuk keputusan proyek.
+
+Karena itu, pembaca artikel ini adalah kontraktor atau pembeli yang menemukan ketidakkonsistenan dan membutuhkan pertanyaan eskalasi. Ini bukan nasihat hukum dan bukan izin melakukan perubahan lapangan sepihak. Perubahan lingkup serta administrasi kontrak harus mengikuti jalur pengendalian perubahan proyek yang berlaku.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan urutan berikut setiap kali menemukan konflik.
+
+1. **Bekukan bagian yang berkonflik.** Tandai komponen, sambungan, atau aktivitas yang terdampak. Pisahkan material yang sudah dipotong atau dirakit agar tidak tercampur dengan paket revisi lain. Jangan menutup konflik dengan mengandalkan “biasanya begitu”.
+
+2. **Buat lembar konflik satu halaman.** Tulis nomor gambar, spesifikasi, standar yang dirujuk, kontrak atau instruksi perubahan, revisi, tanggal terbit, lokasi detail, dan kalimat yang tidak selaras. Lampirkan foto atau pengukuran hanya sebagai identifikasi kondisi, bukan sebagai bukti penerimaan.
+
+3. **Periksa status dan revisi.** Bandingkan stempel atau metadata *issued for work*, *for construction*, *approved*, atau status lain yang didefinisikan proyek. Dokumen lama tetap berguna untuk jejak perubahan, tetapi tidak otomatis menjadi dasar produksi. Jika statusnya kabur, perlakukan sebagai belum siap kerja sampai pengendali dokumen mengonfirmasi. **[NEEDS CURRENT PROJECT EVIDENCE: daftar induk dokumen dan riwayat revisi.]**
+
+4. **Pisahkan jenis kewajiban.** Tanyakan: apakah konflik menyentuh keselamatan dan K3, fungsi atau beban, geometri, bahan, metode las, inspeksi, atau administrasi kontrak? Kewajiban K3 Indonesia berasal dari aturan yang berlaku dan pengendalian tempat kerja, bukan dari gambar semata; mulai pemeriksaan dari [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) dan aturan pelaksana yang ditetapkan untuk lokasi kerja, termasuk [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018). Penerapan spesifik tetap memerlukan penanggung jawab K3 setempat.
+
+5. **Telusuri maksud teknisnya.** Gambar yang berbeda ukuran mungkin terkait fungsi, datum, atau perubahan antarmuka; spesifikasi yang berbeda mungkin mengubah bahan, proses, atau pemeriksaan. Jangan menerjemahkan satu simbol menjadi keputusan desain. Untuk mutu las, prosedur kualifikasi, WPS produksi, kualifikasi juru las/operator, kendali bahan habis pakai, dan penerimaan sambungan adalah rekaman yang berbeda. [ISO 15614-1:2017](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012](https://www.iso.org/standard/54936.html)
+
+6. **Ajukan pertanyaan yang bisa dijawab.** Kirim RFI atau formulir klarifikasi dengan pilihan konflik yang diberi nomor: “Untuk detail A pada grid B, apakah revisi gambar X atau spesifikasi Y yang berlaku? Jika X, mohon terbitkan gambar pengganti dan nyatakan dampak pada material, WPS, inspeksi, serta jadwal.” Minta nama pemberi keputusan, tanggal, revisi pengganti, dan daftar dokumen yang harus ditarik. **[NEEDS APPROVED WRITTEN DECISION: jawaban lisan belum cukup untuk mengubah paket kerja.]**
+
+7. **Sebarkan dan verifikasi keputusan.** Pengendali dokumen mendistribusikan revisi, pengawas memastikan salinan lama ditarik, dan QA/QC memperbarui titik inspeksi. Rencana mutu perlu mengikat identitas sambungan dan pemeriksaan, metode serta cakupan, personel, status peralatan, kondisi permukaan, laporan, ketidaksesuaian, kewenangan disposisi, perbaikan, dan penutupan. [ISO 17635:2025](https://www.iso.org/standard/85705.html), [ISO 9712:2021](https://www.iso.org/standard/75614.html)
+
+Jika konflik memengaruhi kestabilan, beban, angkur, urutan ereksi, atau kondisi eksisting, eskalasikan kepada perancang atau insinyur yang bertanggung jawab. Katalog standar tidak memberi izin untuk membuat tabel bentang, memilih profil, atau menyatakan “sesuai SNI”. **[NEEDS COMPETENT TECHNICAL REVIEW: konsekuensi struktur dan sambungan harus dinilai memakai data proyek lengkap.]**
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pertama, **fungsi dan antarmuka**. Pagar, tangga, kanopi, kisi, rangka, atau furnitur bukan sekadar benda dekoratif setelah dipasang. Penggunaan, pengguna, tepi, kemungkinan terjepit, beban dan benturan, substrat tumpuan, drainase, korosi, akses operasi, perbaikan lapisan, serta pemeliharaan dapat mengubah persyaratan. [ISO 12944-3:2017](https://www.iso.org/standard/64835.html) dan [ISO 12944-8:2017](https://www.iso.org/standard/64838.html) dapat menjadi rujukan perlindungan korosi dan perencanaan, tetapi dimensi, angkur, dan persyaratan aksesibilitas tetap berasal dari proyek serta aturan setempat.
+
+Kedua, **cara fabrikasi**. Pekerjaan di bengkel dan di lapangan tidak identik. Pemindahan ke lapangan dapat mengubah akses, posisi pengelasan, pengangkatan, cuaca, pasokan listrik, pengendalian asap, paparan api, aktivitas sekitar, akses inspeksi, kondisi pelapisan, dan pemulihan area. Perubahan metode harus dibuktikan melalui penilaian risiko dan persetujuan pengelola pekerjaan; alasan “sulit diangkut” bukan persetujuan otomatis. **[NEEDS SITE-SPECIFIC K3 REVIEW: kontrol kerja panas, izin, isolasi, dan pemulihan area.]**
+
+Ketiga, **bukti mutu dan penerimaan**. Sertifikat juru las tidak menggantikan WPS; WPS tidak membuktikan setiap hasil sambungan diterima; laporan NDT tidak otomatis menetapkan kelayakan sistem. Abstrak [ISO 17635:2025](https://www.iso.org/standard/85705.html) juga mengingatkan bahwa tingkat penerimaan NDT bukan terjemahan satu banding satu dari tingkat mutu [ISO 5817:2023](https://www.iso.org/standard/80209.html). Gunakan standar dan prosedur proyek yang lengkap untuk menentukan teknik, cakupan, kriteria, kalibrasi, serta kewenangan penerimaan; jangan menyalin angka dari ringkasan internet.
+
+Keempat, **perubahan yang disetujui**. Revisi yang mengubah detail mungkin memengaruhi pembelian bahan, rentang kualifikasi, urutan produksi, inspeksi, pelapisan, dan pekerjaan yang sudah selesai. Setiap dampak perlu dicatat sebelum pelaksanaan. **[NEEDS CHANGE-IMPACT REVIEW: status material, pekerjaan terpasang, dan biaya/waktu mengikuti administrasi kontrak proyek.]**
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan pembeli menerima gambar revisi B yang menunjukkan ukuran berbeda dari gambar A, sementara spesifikasi masih menyebut detail lama. Jangan langsung mengubah potongan. Gunakan tabel keputusan berikut sebagai pemicu eskalasi, bukan sebagai pengganti persetujuan.
+
+| Temuan | Pertanyaan yang diajukan | Tindakan sementara |
+| --- | --- | --- |
+| Revisi B berstatus resmi dan menyebut gambar A diganti | Apakah spesifikasi juga direvisi, dan mulai titik mana berlaku? | Hentikan bagian terdampak; gunakan B hanya setelah paket pengganti lengkap. |
+| Gambar B tidak memiliki status penerbitan | Siapa penerbit dan siapa yang menyetujui untuk kerja? | Karantina salinan; minta konfirmasi tertulis pengendali dokumen. |
+| Spesifikasi mensyaratkan pemeriksaan tambahan | Apakah WPS, personel, alat, dan titik tahan sudah tersedia? | Jangan menutup sambungan sebelum rencana inspeksi disetujui. |
+| Detail tidak cocok dengan kondisi eksisting | Apakah perubahan menyentuh beban, tumpuan, atau keselamatan? | Minta tinjauan perancang/insinyur dan survei kondisi; jangan menyesuaikan di lapangan sepihak. |
+
+Pada setiap baris, simpan keputusan, dokumen yang diganti, dan siapa yang menerima dampaknya. Sobat Bengkel-las.co.id, nilai praktisnya bukan menemukan “pemenang” antara gambar dan spesifikasi, melainkan meninggalkan satu instruksi kerja yang dapat dilacak.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Shortcut pertama adalah memakai **dokumen terbaru yang ditemukan di grup pesan**. Periksa nomor revisi, status, penerbit, dan daftar distribusinya; tangkapan layar tanpa konteks bukan paket terkendali.
 
-## Objection or shortcut to address
+Shortcut kedua adalah menganggap **kontrak selalu mengalahkan semua hal**. Kontrak memang penting untuk kewajiban dan perubahan, tetapi hukum/K3 yang berlaku, persetujuan teknis, serta prosedur dokumen menentukan bagaimana konflik diproses. Minta matriks prioritas yang benar-benar ditandatangani proyek. **[NEEDS CONTRACT-CONTROL REVIEW: jangan simpulkan urutan hukum dari artikel ini.]**
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Shortcut ketiga adalah menyamakan **hasil visual dengan penerimaan**. Permukaan tampak rapi tidak membuktikan metode, cakupan pemeriksaan, kualifikasi personel, atau kesesuaian terhadap kriteria. Cocokkan identitas sambungan, WPS, laporan, alat, dan otoritas disposisi sebelum menutup NCR atau menerima pekerjaan.
 
-## Required conclusion
+Shortcut keempat adalah melakukan **perubahan lapangan agar pekerjaan tidak terlambat**. Jika perubahan menyentuh tumpuan, beban, akses, kebakaran, atau pelapisan, hentikan dan eskalasikan. Teman Bengkel-las.co.id, keterlambatan klarifikasi dapat dikelola; perubahan tanpa jejak dapat menghilangkan dasar pemeriksaan dan memperbesar pekerjaan ulang.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Jalan pintas yang perlu diwaspadai
 
-## Draft completion checklist
+“Kami sudah sering mengerjakan detail seperti ini; cukup ikuti gambar.” Keberatan itu masuk akal untuk detail yang benar-benar identik dan paketnya terkendali. Masalah muncul ketika satu kata pada spesifikasi mengubah bahan, proses, atau pemeriksaan, atau ketika revisi mengubah antarmuka. Pengalaman mempercepat pertanyaan yang tepat, tetapi tidak menggantikan status dokumen dan persetujuan. Alternatif yang lebih andal adalah membuat lembar konflik singkat, menahan pekerjaan terdampak, lalu meminta satu jawaban tertulis yang memperbarui semua dokumen turunan.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+## Kesimpulan
+
+Hierarki persyaratan proyek las bukan perlombaan memilih gambar, spesifikasi, standar, atau kontrak secara mutlak. Baca kewajiban hukum/K3, kontrak dan perubahan yang disetujui, status dokumen proyek, lalu standar yang dirujuk sebagai satu rantai kendali. Saat ada konflik, bekukan bagian terdampak, catat revisi, ajukan pertanyaan bernomor, dapatkan keputusan tertulis, distribusikan revisi, dan verifikasi mutu serta K3.
+
+Langkah Anda sekarang: minta daftar induk dokumen, matriks prioritas, dan formulir klarifikasi untuk konflik yang sedang dihadapi; sertakan tinjauan kompeten bila menyentuh struktur, sambungan, kondisi eksisting, atau keselamatan. Jika konflik berujung pada pemilihan pelaksana, gunakan [panduan memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) sebagai pertanyaan awal, bukan sebagai bukti kualifikasi proyek tertentu. Untuk konflik yang khusus menyebut teralis, Anda dapat membandingkan [bahan teralis jendela yang umum di pasaran](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran) setelah persyaratan proyeknya jelas. Kawan Bengkel-las.co.id, tanpa bukti proyek tersebut, artikel ini tidak dapat menyatakan detail mana yang “pasti benar”—aturan kerjanya adalah jangan mengelas bagian yang persyaratannya belum terkendali.

@@ -2,8 +2,8 @@
 article_id: WLD-11-A03
 title: "Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet"
 slug: "bend-allowance-springback-dan-radius"
-description: "Explain neutral axis concept, bend allowance/deduction, inside radius, springback, grain/material effects, and trial validation"
-status: outline
+description: "Panduan memahami garis netral, allowance, radius dalam, springback, dan validasi tekuk plat sebelum membuat bent part."
+status: draft
 publication_date: "2026-02-23"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,58 +13,21 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Kawan Bengkel-las.co.id"
 final_route: "/artikel/bend-allowance-springback-dan-radius.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id! Kesalahan yang sering membuat bent part meleset bukan semata-mata mesin kurang kuat, melainkan gambar datar yang menganggap garis tekuk berada di tengah ketebalan plat dan sudut akhir pasti sama dengan sudut saat ditekan. Padahal material memanjang dan memendek di zona berbeda, lalu sebagian deformasi elastis kembali ketika beban dilepas.
 
-- **Writer task:** Expand this file into one complete article answering: “Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet”
-- **Reader and situation:** Estimator or designer preparing bent parts
-- **Reader outcome:** Explain neutral axis concept, bend allowance/deduction, inside radius, springback, grain/material effects, and trial validation
-- **Primary intent:** Understand sheet-bending geometry
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes final tooling values and machine setup; `/bending/plat/` owns service execution
-- **Final public route:** `/artikel/bend-allowance-springback-dan-radius.html`
-- **Appointed CMS date:** `2026-02-23` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: hitung panjang bentangan dari posisi garis netral, gunakan radius dalam yang benar, dan perlakukan springback sebagai perubahan yang harus divalidasi—bukan angka koreksi universal. Bend allowance (panjang tambahan di area busur) dipakai untuk menyusun flat pattern; bend deduction (pengurang tekukan) dipakai ketika dimensi luar menjadi acuan. Sudut akhir, radius aktual, arah serat, mutu material, tepi hasil potong, serta proses dan perkakas dapat mengubah hasil. Karena itu, nilai final harus dikonfirmasi dengan kupon uji dari material dan proses yang benar-benar akan dipakai.
 
-## Opening instructions
+Jika spesifikasi part membawa beban, harus menyambung ke komponen presisi, atau masuk pekerjaan yang memiliki basis penerimaan tertentu, perhitungan ini belum menjadi persetujuan desain. Paket kerja perlu memuat revisi gambar, datum, material, toleransi, urutan fabrikasi, titik inspeksi, dan dasar penerimaan yang disepakati. Halaman katalog [SNI 1729:2020 di BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020) hanya menunjukkan identitas dan ruang lingkup publik standar; ia bukan pengganti teks berlisensi atau dokumen proyek.
 
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
+<!-- BEGIN MANAGED IMAGE PLAN
 - **Image ID:** `LOCAL-002`
 - **Source type:** `local`
 - **Placement:** after the opening has answered the main question, before the first detailed H2
@@ -73,213 +36,75 @@ sources:
 - **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-06
-
-- **Original sources:** [UU No. 8 Tahun 1999 tentang Perlindungan Konsumen — BPK](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden).
-- **Purpose for this article:** Support fair, comparable workshop scopes without inventing market prices or presenting a generic checklist as legal advice.
-- **Safe grounded facts:** A total price alone does not show whether survey, dismantling, design, material grade, consumables, coating preparation, transport, lifting, utilities, access, testing, rework, taxes, or documentation are included. Changes should preserve request, reason, cost/time consequence, approval, and revision history.
-- **Limits:** Do not state a statutory entitlement, deadline, damages formula, or dispute outcome without current legal review. Price examples require dated, local, like-for-like primary market evidence that is not contained here.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-18
-
-- **Original sources:** [UU No. 8 Tahun 1999 — BPK](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Define handover as an evidence package and accepted status, not merely physical delivery or payment.
-- **Safe grounded facts:** Warranty scope, duration, conditions, exclusions, response path, and evidence responsibilities should be explicit. A certificate or checklist is meaningful only if it identifies the item, revision, issuer, date, basis, result, and authorization.
-- **Limits:** Do not invent a warranty or imply that a generic dossier proves compliance or fitness. Contract requirements, responsible-party approvals, and actual records govern.
-
-### KR-19
-
-- **Original sources:** [UU No. 8 Tahun 1999 — BPK](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden).
-- **Purpose for this article:** Help a reader document and triage a problem without prejudging fault, destroying evidence, or giving legal advice.
-- **Safe grounded facts:** Immediate safety containment, technical cause investigation, contractual responsibility, consumer remedy, and legal process are different questions. Destructive repair or continued operation can change the condition and evidence.
-- **Limits:** Do not state who is liable, promise a refund/rework outcome, calculate damages, or prescribe a limitation period. Check current law, contract, forum, evidence, and competent Indonesian advice.
-
-### KR-21
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html), [UU No. 8 Tahun 1999 — BPK](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999.8Presiden).
-- **Purpose for this article:** Turn vague claims such as “professional,” “certified,” “experienced,” or “SNI” into verifiable, scope-matched evidence.
-- **Safe grounded facts:** A person certificate has a defined method/process/range and validity; it does not certify the whole company or project. A quality-system claim does not prove a particular design, welder, NDT technician, machine, material, joint, result, or statutory approval.
-- **Limits:** No vendor or `bengkel.co.id` capability is evidenced here. Do not publish badges, client names, project photos, certifications, addresses, response times, or warranties without current attributable primary evidence and permission. ## Topic-family coverage matrix | Topic family | Main evidence records | Safe ground for the article set | Remaining gate before definitive drafting | | --- | --- | --- | --- | | `WLD-01` | KR-01, KR-09, KR-08, KR-14, KR-07, KR-15, KR-16, KR-20 | Welding fundamentals and process selection; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-02` | KR-01, KR-07, KR-08, KR-14, KR-09, KR-15, KR-16, KR-20, KR-02, KR-12 | Metals, weldability, filler, and metallurgy; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-03` | KR-01, KR-11, KR-09, KR-08, KR-15, KR-04, KR-14, KR-13 | Joint design, drawings, WPS, and qualification; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-04` | KR-01, KR-16, KR-14, KR-02, KR-12, KR-10, KR-17, KR-04, KR-08, KR-15 | Arc, electrical, fire, and hot-work K3; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-05` | KR-01, KR-16, KR-09, KR-14, KR-07, KR-20, KR-15, KR-08, KR-04, KR-02, KR-12 | Welding fumes, ventilation, PPE, and occupational health; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-06` | KR-01, KR-16, KR-07, KR-20, KR-12, KR-09, KR-14, KR-15, KR-08, KR-10, KR-17, KR-02 | Gas cylinders, oxy-fuel, and compressed-gas safety; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-07` | KR-01, KR-08, KR-14, KR-07, KR-04, KR-09, KR-15, KR-16, KR-20 | Cutting, edge preparation, fit-up, and distortion planning; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-08` | KR-01, KR-09, KR-14, KR-15, KR-07, KR-08, KR-16, KR-20 | Welding execution and parameter control; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-09` | KR-01, KR-04, KR-15, KR-07, KR-09, KR-14, KR-08, KR-16, KR-20 | Weld defects, inspection, NDT, and acceptance; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-10` | KR-01, KR-11, KR-08, KR-06, KR-07, KR-14, KR-15, KR-09, KR-16, KR-20, KR-13, KR-04, KR-18, KR-19, KR-21 | Structural steel fabrication and field erection; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-11` | KR-01, KR-08, KR-07, KR-14, KR-06, KR-09, KR-15, KR-16, KR-20, KR-04, KR-18, KR-19, KR-21 | Sheet, plate, pipe, bending, and precision fabrication; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-12` | KR-01, KR-14, KR-17, KR-07, KR-08, KR-09, KR-15, KR-16, KR-20, KR-10, KR-04, KR-02, KR-12 | Corrosion control, surface preparation, and finishing; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-13` | KR-01, KR-13, KR-11, KR-18, KR-07, KR-06, KR-17, KR-08, KR-14, KR-16, KR-20, KR-10, KR-04, KR-15, KR-19, KR-21, KR-02, KR-12 | Residential and architectural fabricated products; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-14` | KR-01, KR-07, KR-15, KR-17, KR-09, KR-14, KR-08, KR-16, KR-20, KR-10 | Workshop quality system, traceability, and equipment care; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-15` | KR-01, KR-06, KR-21, KR-18, KR-11, KR-04, KR-07, KR-09, KR-14, KR-15, KR-08, KR-16, KR-20, KR-13, KR-19 | Survey, quotation, vendor selection, and contracting; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-16` | KR-01, KR-17, KR-07, KR-13, KR-11, KR-08, KR-14, KR-16, KR-20, KR-10, KR-04, KR-15 | Maintenance, troubleshooting, repair, and replacement; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | | `WLD-17` | KR-01, KR-18, KR-06, KR-21, KR-14, KR-20, KR-09, KR-15, KR-10, KR-17, KR-19, KR-02, KR-12, KR-16 | Automation, productivity, environment, and future practice; use only the sourced definitions, decision inputs, system boundaries, and evidence practices in those records. | GATE-01, GATE-02, GATE-03, GATE-04, GATE-05, GATE-06, GATE-07, GATE-08, GATE-09, GATE-10, GATE-11, GATE-12, GATE-13; resolve the applicable project/product/professional evidence before exact selection, dimensions, ratings, compliance, or warranty claims. | Coverage result: **17/17 topic families mapped; 0 families without a starting evidence set.** ## Cross-catalog fact bank 1. A definition, method, regulation, product claim, and complete-system result are different evidence layers. 2. A source supports only its stated jurisdiction, edition, product, specimen, configuration, conditions, and public scope. 3. Standards abstracts identify documents and visible scope; exact requirements require the current full text. 4. Foreign standards and industry guidance do not automatically become Indonesian legal requirements. 5. Procurement and handover claims require current project, supplier, contract, test, warranty, and traceability evidence. ## Evidence gaps and publication gates | Gate | Affected topic families | Resolution required | | --- | --- | --- | | `GATE-01` Current Indonesian rule | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Legal duty, mandatory procedure, credential, inspection route, interval, permit, approval, or compliance | | `GATE-02` Asset and site baseline | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Diagnosis, cause, repair scope, safe continued use, schedule, price, or suitability | | `GATE-03` Exact material, part, consumable, or chemical | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Material grade, weldability, compatibility, coating life, chemical control, part equivalence, or disposal | | `GATE-04` Governing design and acceptance basis | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Dimension, capacity, connection, tolerance, inspection extent, test value, acceptance, or “meets SNI/ISO” | | `GATE-05` Qualified design and intervention approval | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Structural, pressure, rotating, lifting, fatigue, safety-critical, remaining-life, reinforcement, or fitness claim | | `GATE-06` Welding process and personnel | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Welding parameter, approved procedure, personnel capability, or acceptable production/repair weld | | `GATE-07` Inspection, NDT, and measurement | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Defect/no-defect, measurement accuracy, pass/fail, repair closeout, or fitness | | `GATE-08` Task and site K3 controls | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Safe method, safe-to-start, safe-to-enter, safe-to-operate, or adequate PPE/control | | `GATE-09` Pressure and confined-space controls | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Tank/vessel/pipe entry, hot work, repair detail, test pressure, interval, or return to service | | `GATE-10` Commercial and handover evidence | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Price comparison, lowest-cost claim, fixed scope, completion, warranty, or handover adequacy | | `GATE-11` Consumer, complaint, and legal review | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | Liability, entitlement, refund/rework outcome, damages, deadline, or dispute prediction | | `GATE-12` Environmental and waste route | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | B3/non-B3 classification, storage/transport/disposal instruction, recyclable claim, or quantified sustainability benefit | | `GATE-13` Vendor-specific capability | `WLD-01`, `WLD-02`, `WLD-03`, `WLD-04`, `WLD-05`, `WLD-06`, `WLD-07`, `WLD-08`, `WLD-09`, `WLD-10`, `WLD-11`, `WLD-12`, `WLD-13`, `WLD-14`, `WLD-15`, `WLD-16`, `WLD-17` | “Certified,” “SNI,” “professional,” service area, equipment, experience, client/project, response time, or provider capability | ## Source-refresh triggers Recheck a record immediately when: - an Indonesian law, regulation, or official standard status changes; - a standards body publishes a new edition used by the article; - a manufacturer changes product scope, instructions, compatibility, test evidence, or warranty; - an article introduces a number, price, rating, classification, compliance statement, or safety procedure; - the target project/application differs from the exemplar's jurisdiction, user, product, configuration, or operating environment. ## Next authorized stage The later outline and constrained-writing-instruction stage may use this file only when separately authorized. Article drafting, Markdown article creation, HTML hydration, publication dating, sitemap generation, deployment, and Google Search Console submission are intentionally **not performed in this research stage**.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/bending-plat-yogyakarta.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/bending-plat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/bending-plat-tuban.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/bending-plat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/bending-plat-ternate.html` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/bending-plat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-11-A01` → `/artikel/perbandingan-proses-potong-logam.html` — Laser, Plasma, Oxy-Fuel, Shear, atau Gergaji: Memilih Proses Potong Logam
-- `WLD-11-A02` → `/artikel/kerf-haz-dan-kualitas-tepi-potong.html` — Kerf, Heat-Affected Zone, dan Edge Quality pada Pemotongan Termal
-- `WLD-11-A04` → `/artikel/bending-pipa-dan-profil.html` — Bending Pipa dan Profil: Ovality, Wrinkling, Springback, dan Minimum Bend yang Realistis
-- `WLD-11-A05` → `/artikel/datum-dan-toleransi-part-cnc.html` — Datum dan Toleransi pada Part CNC untuk Rakitan Las
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+[NEEDS IMAGE REVIEW: LOCAL-002]
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Dalam artikel ini, plat atau lembaran logam dibahas sebagai benda yang ditekuk pada satu atau beberapa garis sehingga terbentuk flange dan sudut. *Bend allowance* adalah panjang yang dialokasikan untuk bagian lengkung ketika Anda mengembangkan bentuk menjadi pola datar. *Bend deduction* adalah cara lain untuk mendapatkan ukuran potong dari dimensi luar yang sudah diketahui; keduanya bukan dua panjang fisik yang harus dijumlahkan sekaligus.
+
+Radius tekuk yang dimaksud adalah radius pada sisi dalam lipatan. Radius pada garis netral lebih besar karena berada lebih jauh dari pusat lengkung, sedangkan radius sisi luar lebih besar lagi. Istilah radius ujung punch atau radius die adalah ukuran perkakas, bukan otomatis radius dalam yang akan terbaca pada part. Perbedaan istilah ini menjelaskan mengapa angka pada gambar, tabel perkakas, dan hasil ukur bisa tampak tidak cocok.
+
+Batas halaman ini adalah geometri dan cara memvalidasi asumsi. Ia tidak menetapkan pilihan punch, die, gaya tekan, urutan langkah mesin, kompensasi CNC, atau angka perkakas final. Semua itu bergantung pada mesin, material, ketebalan, panjang tekuk, dan toleransi proyek. Untuk kebutuhan pelaksanaan, siapkan paket kerja yang jelas. Panduan mutu pengelasan [ISO 3834-6:2024 di ISO](https://www.iso.org/standard/83335.html) dapat menjadi pengingat bahwa dokumen, identitas material, urutan, inspeksi, dan penerimaan perlu dikendalikan; abstrak publiknya tetap tidak memberi angka allowance untuk part Anda.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan penampang plat sebelum ditekuk. Serat di sisi dalam busur tertekan dan memendek, sementara serat di sisi luar tertarik dan memanjang. Di antara keduanya ada zona yang perubahan panjangnya paling kecil. Zona itu disebut garis netral. Letaknya tidak selalu tepat di tengah ketebalan karena dipengaruhi radius terhadap tebal, material, dan proses. Dalam perhitungan sederhana, letaknya didekati dengan faktor K sehingga radius garis netral dapat ditulis sebagai radius dalam ditambah K kali tebal.
+
+Untuk sudut tekuk dalam radian, bentuk umum bend allowance adalah:
+
+`BA = θ × (R + K × t)`
+
+Di sini `BA` adalah panjang busur pada garis netral, `θ` sudut tekuk dalam radian, `R` radius dalam, `t` tebal material, dan `K` faktor posisi garis netral. Rumus ini membantu membaca hubungan antarbesaran, bukan memberikan nilai K yang boleh disalin dari satu part ke semua part. Jika gambar memakai sudut luar, sudut pelipatan, atau dimensi sampai perpotongan garis luar, konvensinya harus disamakan terlebih dahulu.
+
+Ada dua alur ukuran yang umum. Pada metode bend allowance, panjang blank adalah jumlah panjang flange lurus sesuai datum ditambah BA untuk setiap tekukan. Pada metode bend deduction, Anda mulai dari ukuran luar dan mengurangi nilai yang mewakili area tekukan, yang sering dirumuskan dari outside setback dan BA. Kesalahan terbesar biasanya terjadi ketika satu ukuran dari dimensi luar dicampur dengan rumus yang diasumsikan untuk dimensi sampai garis tajam. Tulis titik ukur dan arah datum pada gambar sebelum menghitung.
+
+Saat punch menekan, material mengalami deformasi plastis dan elastis. Ketika beban dilepas, bagian elastis pulih sehingga sudut biasanya membuka dan radius dalam dapat berubah. Fenomena ini disebut *springback*, atau pemulihan elastis. Koreksi yang tepat tidak dapat ditentukan hanya dari nama material. Kekuatan material, rasio radius terhadap tebal, lebar dan panjang tekuk, arah serat, kondisi tepi, metode tekuk, serta riwayat pembentukan ikut berpengaruh.
+
+Maka urutannya sebaiknya begini: tetapkan definisi dimensi, pilih asumsi awal untuk R dan K dari sumber proses yang disetujui, buat flat pattern, lakukan satu kupon, ukur hasil setelah dilepas dari perkakas, lalu perbarui data untuk produksi. Ukur sudut dari datum yang sama dan ukur radius dengan metode yang konsisten. Jangan mengubah angka gambar secara diam-diam hanya agar satu kupon terlihat cocok.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**Material dan tebal.** Dua plat dengan label umum yang sama belum tentu memberi respons yang sama. Grade, kondisi pengerasan, variasi tebal aktual, dan arah pengerolan dapat menggeser lokasi garis netral dan springback. Bila sertifikat material, lot, atau tebal aktual belum jelas, hasil perhitungan pantas diberi status asumsi, bukan nilai produksi.
+
+**Arah serat dan tepi potong.** Tekukan melintang terhadap arah pengerolan dapat berperilaku berbeda dari tekukan sejajar. Tepi hasil potong termal atau mekanis juga dapat memiliki kondisi permukaan dan cacat awal yang memengaruhi risiko retak pada radius kecil. Tandai orientasi serat di blank bila orientasi itu penting bagi bentuk atau mutu permukaan. Jangan menyimpulkan bahwa satu kupon memvalidasi semua arah.
+
+**Radius dan ketebalan.** Radius dalam yang lebih kecil meningkatkan tuntutan regangan di sisi luar; radius yang lebih besar mengubah panjang busur dan respons elastis. “Radius minimum” bukan angka tunggal yang aman untuk semua jenis plat. Ia harus berasal dari persyaratan material, proses yang digunakan, dan konsekuensi retak atau perubahan bentuk pada part tertentu. Bila part kritis, minta tinjauan desain sebelum radius diperkecil untuk mengejar ukuran flange.
+
+**Geometri dan urutan.** Flange pendek, lubang dekat garis tekuk, beberapa tekukan yang saling berdekatan, serta datum yang berpindah dapat membuat hasil ukur menipu. Tekukan pertama bisa mengubah akses dan orientasi untuk tekukan berikutnya. Sisakan zona bebas sesuai gambar dan verifikasi bahwa urutan yang direncanakan tidak menjadikan alat ukur atau perkakas bertabrakan.
+
+**Proses dan catatan.** Gaya, kecepatan, kondisi perkakas, penjepitan, dan urutan pembentukan memengaruhi hasil; namun artikel ini tidak menetapkan setelan mesin. Catat material, tebal aktual, orientasi, radius sasaran, asumsi K, alat yang dipakai, urutan, dan ukuran hasil. Dengan catatan itu, penyimpangan dapat ditelusuri dan tidak berubah menjadi kebiasaan menebak.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Misalkan estimator menerima gambar dengan dua flange, sudut nominal, dan toleransi yang ketat, tetapi tidak ada keterangan apakah dimensi flange diukur dari sisi luar atau dari garis teoritis. Keputusan pertama bukan memilih die. Tandai pertanyaan datum kepada perancang. Tanpa jawaban itu, BA dan BD dapat menghasilkan blank yang berbeda walaupun memakai R dan t yang sama.
+
+Untuk part pertama dari material dan tebal yang belum pernah diproses, gunakan alur berikut:
+
+1. Kunci revisi gambar, satuan, datum, sudut, radius dalam, tebal nominal, dan toleransi.
+2. Minta identitas grade serta kondisi material; catat arah serat bila tersedia.
+3. Pilih asumsi BA/K dan radius awal dari prosedur atau data proses yang disetujui, lalu beri label “perlu uji”.
+4. Buat kupon dengan lebar, orientasi, tepi, dan urutan yang mewakili part, tanpa menganggap kupon sebagai bukti kinerja komponen akhir.
+5. Setelah pembebanan dilepas, ukur sudut, radius, dan semua flange dari datum yang sama. Catat juga retak, gores, atau distorsi yang terlihat.
+6. Bandingkan hasil dengan toleransi. Bila tidak masuk, hentikan pelepasan lot dan lakukan tinjauan teknis; jangan sekadar mengganti satu angka tanpa mencari penyebab.
+
+Kawan Bengkel-las.co.id, bila hasil kupon belum stabil, pertanyaan yang berguna kepada bengkel adalah “data aktual apa yang akan dicatat dan pada titik mana keputusan lanjut dibuat?” Bukan “berapa faktor K yang biasanya dipakai?”. Untuk pekerjaan yang perlu eksekusi bengkel, pembaca dapat meneruskan kebutuhan yang sudah terdokumentasi ke [layanan bending plat di Yogyakarta](/bending-plat-yogyakarta.html) atau [opsi bending plat di Tuban](/bending-plat-tuban.html), sambil tetap meminta konfirmasi proses dan toleransi yang berlaku untuk partnya.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Bend Allowance, Springback, dan Radius Tekuk: Konsep untuk Plat dan Sheet”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Shortcut “pakai setengah tebal sebagai garis netral” memang mudah, tetapi hanya asumsi awal. Periksa apakah radius terhadap tebal dan kondisi material membuat asumsi itu masuk akal; jika tidak ada basis, pertahankan penanda perlu validasi.
 
-## Objection or shortcut to address
+Kesalahan kedua adalah menyamakan radius punch dengan radius dalam. Ukur hasil part, bukan hanya membaca label perkakas. Kesalahan ketiga adalah mengoreksi springback dengan menambahkan sudut secara tetap pada semua tekukan. Bandingkan minimal kupon dengan material, arah serat, radius, dan urutan yang sama sebelum menetapkan koreksi proses.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Kesalahan berikutnya adalah mengabaikan sisi yang menjadi acuan. Sebuah flange bisa “benar” dari sisi luar namun salah dari datum rakitan. Tandai apakah ukuran berasal dari outer mold line, inner mold line, tangent point, atau garis teoritis. Minta perancang mengesahkan konvensi itu bila gambar ambigu.
 
-## Required conclusion
+Jangan menganggap hasil satu part sebagai bukti bahwa seluruh batch, grade, atau arah serat pasti sama. Simpan lembar catatan yang memuat nomor revisi, identitas material, ukuran aktual, alat ukur, tanggal, operator atau pelaksana, dan keputusan setelah pengukuran. Data itu membuat rework dapat dibahas dengan fakta, bukan ingatan.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Sobat Bengkel-las.co.id, hentikan pekerjaan dan minta review kompeten jika part berkaitan dengan keselamatan, beban, tekanan, kelelahan, sambungan presisi, atau toleransi yang tidak dapat ditoleransi ulang. Perhitungan geometri tidak membuktikan kecukupan struktur, mutu material, kelayakan sambungan, atau kepatuhan terhadap aturan proyek. Hindari juga menyatakan part “memenuhi SNI/ISO” hanya karena satu nilai sudut terlihat sesuai; dasar penerimaan dan edisi dokumen harus benar-benar tersedia.
 
-## Draft completion checklist
+## Penutup: aturan kerja sebelum produksi
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Bend allowance menjelaskan panjang area busur pada garis netral; bend deduction membantu menerjemahkan dimensi luar menjadi ukuran blank; radius dalam adalah geometri sisi dalam yang harus dibedakan dari radius perkakas; dan springback adalah pemulihan elastis yang membuat sudut serta radius setelah pelepasan beban tidak sama dengan kondisi saat ditekan. Material, arah serat, tepi, geometri, dan proses menentukan seberapa jauh asumsi awal dapat dipercaya.
+
+Langkah berikutnya adalah membuat satu lembar verifikasi berisi datum, konvensi dimensi, R, t, asumsi K, identitas material, orientasi serat, hasil kupon, dan keputusan tinjauan. Minta persetujuan atas lembar itu sebelum blank produksi atau perubahan setelan dilakukan. Aturan praktisnya: jangan lepaskan part ke produksi hanya karena rumusnya selesai; lepaskan setelah geometri terukur, basis penerimaan jelas, dan batas profesional yang relevan sudah ditinjau.

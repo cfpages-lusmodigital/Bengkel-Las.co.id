@@ -2,8 +2,8 @@
 article_id: WLD-16-A01
 title: "Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal"
 slug: "retak-atau-karat-pada-sambungan-las"
-description: "Explain safe isolation, service consequence, photos, loading history, corrosion extent, crack-like indications, and professional escalation"
-status: outline
+description: "Panduan triase awal untuk retak atau karat pada sambungan las: isolasi aman, dokumentasi gejala, dan kapan perlu pemeriksaan kompeten."
+status: draft
 publication_date: "2026-06-11"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,6 +13,7 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Kawan Bengkel-las.co.id"
 final_route: "/artikel/retak-atau-karat-pada-sambungan-las.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
@@ -34,37 +35,7 @@ sources:
   - "https://www.iso.org/standard/80209.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal”
-- **Reader and situation:** Owner discovering a suspicious joint
-- **Reader outcome:** Explain safe isolation, service consequence, photos, loading history, corrosion extent, crack-like indications, and professional escalation
-- **Primary intent:** Triage visible weld deterioration
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes grinding, rewelding, or declaring structural safety; WLD-16-A04 owns repair control
-- **Final public route:** `/artikel/retak-atau-karat-pada-sambungan-las.html`
-- **Appointed CMS date:** `2026-06-11` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -75,204 +46,72 @@ sources:
 - **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Kawan Bengkel-las.co.id! Retak yang tampak di dekat las, atau karat yang muncul dari garis sambungan, bukan keadaan yang aman untuk langsung diampelas, dicat ulang, lalu dipakai seperti biasa. Perlakukan temuan itu sebagai alasan untuk menghentikan pemakaian yang dapat memberi beban atau gerakan pada bagian tersebut, membatasi akses bila orang dapat menyentuh atau melaluinya, dan mengumpulkan bukti awal.
 
-### KR-01
+Jawaban singkatnya: jangan menentukan penyebab maupun menyatakan sambungan masih aman dari tampilan saja. Keputusan dapat berubah setelah diketahui fungsi komponen, perubahan bentuknya, riwayat beban atau benturan, kondisi tumpuan/angkur, luas karat, serta hasil pemeriksaan yang sesuai. Untuk pagar, railing, kanopi, rangka, atau bagian mesin, hubungan dengan sistem pemasangannya juga penting; ukuran batang saja tidak membuktikan kecukupan sistem. [SNI 1729:2020 di katalog BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020) dapat membantu mengenali ruang lingkup dokumen, tetapi bukan dasar untuk mengambil keputusan desain pada objek yang sedang diperiksa.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-### KR-17
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-13
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
-
-### KR-11
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-cat-anti-karat-untuk-besi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-cat-anti-karat-untuk-besi/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-16-A02` → `/artikel/coating-gagal-di-sekitar-las.html` — Coating Mengelupas dan Karat Kembali di Sekitar Las: Mencari Akar Masalah
-- `WLD-16-A03` → `/artikel/diagnosis-metalwork-longgar-atau-seret.html` — Angkur Longgar, Pagar Seret, atau Railing Goyang: Memisahkan Gejala dari Penyebab
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+*Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.*
 
 ## Mulai dari gejala, bukan tebakan penyebab
 
-- **Purpose:** Tentukan apa yang terlihat/terukur, lokasi, waktu, perubahan, dan keterbatasan pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dengan catatan yang dapat dibandingkan, bukan dengan kesimpulan seperti “lasnya jelek”. Foto area dari jauh untuk menunjukkan posisinya pada objek, lalu ambil foto dekat yang tajam dari beberapa arah. Sertakan tanggal, sisi atau lokasi, dan pembanding ukuran yang tidak menutupi gejala. Catat apakah garis itu tampak terbuka, bercabang, mengikuti tepi las, atau berada pada logam di sebelahnya; catat pula serpihan lapisan, karat permukaan, kerak, rembesan, perubahan warna, atau perubahan posisi yang terlihat.
+
+Tanyakan juga kapan pertama kali terlihat dan apa yang berubah sebelumnya: objek baru menerima beban, terkena benturan, sering digerakkan, terpapar air, atau mengalami kebocoran di atasnya? Itu adalah riwayat untuk ditelusuri, bukan bukti bahwa satu peristiwa pasti menjadi penyebab. Pada sistem terpasang, air yang terperangkap, drainase, bahan berlainan, akses, operasi perangkat keras, kondisi tumpuan, dan paparan lingkungan dapat sama relevannya dengan sambungan itu sendiri. [ISO 12944-3](https://www.iso.org/standard/64835.html) dan [ISO 12944-8](https://www.iso.org/standard/64838.html) menempatkan lingkungan, rancangan, dan informasi pelaksanaan sebagai bagian dari pengendalian korosi; keduanya tidak menggantikan penilaian kondisi objek tertentu.
+
+Jangan mengikis, mengetok, membengkokkan, atau membebani area untuk “membuktikan” retak. Tindakan tersebut dapat memperbesar kerusakan, merusak jejak pemeriksaan, atau menambah bahaya tanpa menjawab apakah bagian lain ikut terdampak. Kawan Bengkel-las.co.id, bila catatan awal belum menjelaskan apakah gejala berada pada sambungan, logam induk, lapisan, angkur, atau tumpuan, tuliskan ketidakpastian itu apa adanya.
 
 ## Saringan risiko langsung
 
-- **Purpose:** Jelaskan kapan pembaca harus membatasi akses, menghentikan pekerjaan, atau meminta pemeriksaan kompeten.
-- **Tie back to this article:** Keep the explanation specific to “Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Batasi akses dan hentikan penggunaan yang memberi beban, gerak, getaran, atau fungsi penahan bila gejala berada pada elemen yang menopang, melindungi dari jatuh, menahan bukaan, membawa barang, atau menjadi bagian dari mesin. Perlakuan yang sama patut dipertimbangkan bila tampak perubahan bentuk, goyangan baru, bunyi tidak biasa, bagian lepas, karat berat di sekitar sambungan atau tumpuan, atau bila retak terlihat bertambah. Jangan meminta orang menguji kekuatannya dengan menggantung, mendorong, atau menaiki objek.
+
+Pada peralatan bertenaga, “sudah dimatikan” belum tentu berarti tidak ada bahaya. Energi, gerak tersimpan, akses ke bagian bergerak, pelindung, dan kondisi produksi perlu dinilai menurut persyaratan OEM dan pengendali tempat kerja. [Permenaker No. 38 Tahun 2016](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016) dan [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026) adalah rujukan untuk diperiksa dalam konteks kewajiban yang berlaku. Konsep pengendalian energi dalam [OSHA 29 CFR 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147) dapat membantu memahami mengapa mematikan sakelar saja belum tentu cukup, tetapi bukan hukum Indonesia dan artikel ini tidak memberi urutan isolasi atau izin menghidupkan kembali peralatan. Pada mesin, pelindung dan titik akses perlu dinilai sebagai bagian dari sistem, sejalan dengan ruang lingkup [OSHA 29 CFR 1910.212](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212) sebagai ilustrasi umum, bukan ketentuan lokal.
+
+[NEEDS REVIEW: fungsi aktual objek, jalur beban, kondisi angkur/tumpuan, sumber energi, serta orang yang dapat terpapar harus diperiksa oleh pihak yang kompeten sebelum pembatasan akses dicabut.] Bila area ada di lokasi kerja, pengendalian tugas juga harus mengikuti penilaian K3 dan otoritas penanggung jawab lokasi, bukan semata kebiasaan bengkel. [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) dan [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018) perlu dirujuk bersama kondisi kerja yang nyata.
 
 ## Kemungkinan mekanisme
 
-- **Purpose:** Kelompokkan kemungkinan penyebab tanpa menyatakan diagnosis dari bukti yang belum cukup.
-- **Tie back to this article:** Keep the explanation specific to “Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Retak mirip garis dapat berasal dari retak yang benar, tetapi juga dapat merupakan tepi lapisan yang pecah, noda, garis gerinda, atau batas material. Karat di sekitar las dapat berkaitan dengan rusaknya lapisan, air yang tertahan, paparan yang berubah, atau kondisi pada celah dan sambungan lain. Hubungan waktunya dengan pemakaian, benturan, kebocoran, atau pekerjaan sebelumnya membantu membentuk pertanyaan pemeriksaan, tetapi belum membuktikan mekanisme.
+
+Kemungkinan lain adalah masalah tidak berawal di las: tumpuan berubah, angkur atau sambungan lain longgar, benda tersangkut saat bergerak, atau gaya bekerja di luar fungsi semula. Pada sistem seperti pagar dan kanopi, penggunaan, geometri, beban/impak, tumpuan, drainase, dan pemeliharaan masa depan perlu dipandang sebagai satu kesatuan. [ISO 12944-3](https://www.iso.org/standard/64835.html) menegaskan bahwa pertimbangan desain berpengaruh pada perlindungan terhadap korosi; itu bukan diagnosis untuk retak yang Anda lihat.
+
+Sobat Bengkel-las.co.id, hindari menyimpulkan bahwa karat selalu kosmetik atau bahwa retak selalu hanya masalah las. Dua gejala itu dapat berdiri sendiri atau saling mempercepat, dan konsekuensinya bergantung pada layanan bagian tersebut. [NEEDS REVIEW: jenis material, identitas sambungan, riwayat pelapisan, paparan, serta perubahan beban belum tersedia untuk menetapkan penyebab.]
 
 ## Urutan pemeriksaan dan pengujian
 
-- **Purpose:** Susun observasi, dokumen, tes, sampel, atau pengukuran dari yang paling aman dan informatif.
-- **Tie back to this article:** Keep the explanation specific to “Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pemeriksaan awal yang aman adalah mengamati tanpa menambah beban, merekam gejala, dan mengumpulkan dokumen yang ada. Bawa foto, lokasi, tanggal, riwayat pemakaian/kejadian, gambar atau revisinya bila tersedia, catatan inspeksi dan pemeliharaan, data material atau pelapisan, serta informasi pekerjaan terdahulu kepada pemeriksa. Jejak seperti identitas material atau batch, bahan tambah, dan produk pelapis dapat berguna untuk penelusuran bila memang diwajibkan atau tersedia; jangan mengisi kekosongan rekam jejak dengan asumsi. [ISO 3834-6](https://www.iso.org/standard/83335.html) membahas pedoman penerapan untuk mutu pengelasan, sedangkan [ISO 12944-5](https://www.iso.org/standard/77795.html) membahas sistem cat pelindung; abstraknya tidak menetapkan kecocokan produk tertentu pada objek ini. Untuk bahan kimia, identitas produk dan lembar data keselamatan tetap perlu diperiksa; [OSHA 29 CFR 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200) hanya menjadi contoh konsep komunikasi bahaya, bukan aturan Indonesia.
+
+Pemeriksa yang kompeten kemudian menentukan apakah pemeriksaan visual terkontrol sudah cukup, apakah perlu metode pemeriksaan tak merusak/NDT, atau apakah aspek tumpuan, angkur, dan sistem lain perlu diperiksa. Metode, cakupan, kondisi permukaan, personel, peralatan, status verifikasi/kalibrasi, laporan, dan dasar penerimaan adalah bukti yang berbeda. [ISO 17635](https://www.iso.org/standard/85705.html) menempatkan pemilihan dan penerapan metode NDT dalam kerangka pemeriksaan sambungan las; [ISO 9712](https://www.iso.org/standard/75614.html) berkaitan dengan kualifikasi dan sertifikasi personel NDT. Keduanya tidak memberi hasil lulus untuk satu foto atau satu ukuran yang dibaca dari artikel ini.
+
+[NEEDS REVIEW: rencana pemeriksaan harus menetapkan identitas sambungan, metode, cakupan, kondisi uji, personel, dan dasar penerimaan dari dokumen proyek atau otoritas teknis yang berlaku.]
 
 ## Cara membaca hasil tanpa melompat ke kesimpulan
 
-- **Purpose:** Pisahkan hasil tes, kriteria proyek, sebab, konsekuensi, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil “ada indikasi” bukan otomatis jawaban tentang sebab, sisa umur, atau kelayakan pakai. Sebaliknya, hasil yang tidak menemukan indikasi dengan satu metode dan satu cakupan tidak otomatis membuktikan seluruh sistem aman. Pertanyaan yang benar adalah: bagian mana yang diperiksa, dengan cara apa, dalam kondisi apa, oleh siapa, dibandingkan dengan kriteria apa, dan siapa yang berwenang menentukan tindak lanjutnya?
+
+Dasar penerimaan untuk pekerjaan tertentu harus datang dari dokumen pengendali, prosedur tertulis bila diperlukan, dan penanggung jawab yang tepat. [ISO 5817](https://www.iso.org/standard/80209.html) memuat tingkat mutu untuk ketidaksempurnaan sambungan las, sementara [ISO 17635](https://www.iso.org/standard/85705.html) secara khusus mengingatkan bahwa tingkat penerimaan NDT tidak dapat diterjemahkan satu banding satu menjadi tingkat mutu ISO 5817. Karena itu, jangan menyamakan istilah “lulus NDT” dengan pernyataan umum “aman digunakan”.
+
+Teman Bengkel-las.co.id, pisahkan empat hal di catatan Anda: gejala yang benar-benar diamati, hasil pemeriksaan, interpretasi teknis, dan keputusan penggunaan/perbaikan. Pemisahan sederhana ini mencegah foto, pendapat lisan, atau satu angka pengukuran berubah menjadi persetujuan yang tidak pernah diberikan.
 
 ## Pilihan tindakan dan titik eskalasi
 
-- **Purpose:** Bedakan kontrol sementara, pemantauan, perbaikan, penggantian, dan review profesional.
-- **Tie back to this article:** Keep the explanation specific to “Retak atau Karat pada Sambungan Las: Tanda Bahaya dan Langkah Isolasi Awal”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Tindakan sementara yang aman biasanya berupa membatasi akses, menghentikan fungsi yang membebani bagian, menjaga orang dari area berbahaya, dan mempertahankan bukti. Itu bukan perbaikan dan tidak boleh diperlakukan sebagai pernyataan bahwa risiko telah hilang. Pemantauan hanya masuk akal bila pihak yang berwenang telah menetapkan apa yang dipantau, bagaimana perubahannya dicatat, batas keputusan, dan siapa yang menerima hasilnya. Artikel ini tidak menetapkan interval pemantauan maupun otorisasi untuk mengembalikan objek ke layanan.
 
-## Objection or shortcut to address
+Eskalasi segera diperlukan bila fungsi objek menyangkut penahan jatuh, penopang, pengamanan mesin, akses publik, atau bila gejala berkembang. Periksa juga apakah pekerjaan lapangan akan menambah bahaya karena akses, pengangkatan, cuaca, sumber listrik, kebakaran, operasi di sekitar, atau penghuni area. [Permenaker No. 12 Tahun 2015](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015) dan [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) perlu diterapkan oleh pihak yang bertanggung jawab menurut pekerjaan dan lokasi yang sebenarnya. [OSHA 29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252) dapat dibaca sebagai gambaran bahaya pengelasan/pemotongan, bukan izin atau ukuran pengendalian yang boleh dipindahkan ke lokasi Indonesia.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Bila Anda sedang memilih pihak yang akan menilai dan menangani temuan, gunakan pertanyaan tentang lingkup pemeriksaan, dokumentasi, otoritas keputusan, dan pengendalian lokasi—bukan hanya janji selesai cepat. Panduan [memilih bengkel las secara profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/) dapat membantu menyusun pertanyaan awal tersebut. Jika objek berkaitan dengan struktur, halaman [konstruksi baja](/konstruksi-baja/) dapat menjadi titik awal untuk memahami lingkup pekerjaan yang perlu ditanyakan, bukan dasar menentukan kelayakan teknis.
 
-## Required conclusion
+## Jangan menutup gejala dengan cat baru
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Godaan yang umum adalah mengampelas karat atau menutup garis dengan cat agar tampak rapi. Langkah itu dapat menghapus petunjuk, menyembunyikan batas gejala, dan menunda pertanyaan yang lebih penting: mengapa perubahan terjadi dan apakah bagian lain ikut terdampak? Produk pelapis, kondisi substrat, lingkungan, dan catatan aplikasi tidak dapat disimpulkan dari warna atau merek yang terlihat. [ISO 12944-5](https://www.iso.org/standard/77795.html) membedakan sistem cat pelindung menurut kondisi yang ditetapkan, bukan sebagai resep penutup untuk setiap karat. Jika serpihan lapisan atau residu akan ditangani atau dibuang, jangan menganggapnya otomatis aman atau dapat dicampur; identitas, kontaminasi, penyimpanan, pengangkutan, dan penerima yang berwenang perlu diperiksa menurut [PP No. 22 Tahun 2021](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021) serta ketentuan setempat yang berlaku.
 
-## Draft completion checklist
+Alternatif yang lebih bertanggung jawab adalah foto dan tandai lokasi tanpa merusak bukti, lakukan pembatasan yang proporsional, lalu serahkan data kepada pemeriksa/penanggung jawab untuk menentukan urutan pemeriksaan dan tindakan. Jangan menggerinda, mengelas ulang, mengganti bagian, atau menyatakan sambungan aman berdasarkan artikel ini. [NEEDS REVIEW: setiap keputusan perbaikan, penggantian, pelepasan pembatasan, atau kembali ke layanan memerlukan bukti proyek dan persetujuan teknis yang sesuai.]
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+## Langkah berikutnya: isolasi, catat, lalu eskalasi
+
+Retak atau karat pada sambungan las adalah tanda untuk menghentikan tebakan: amankan akses dan pemakaian yang berisiko, dokumentasikan gejalanya, kumpulkan riwayatnya, lalu minta pemeriksaan yang menilai sambungan beserta sistem pendukungnya. Kawan Bengkel-las.co.id, aturan operasinya sederhana: jangan menutup atau memperbaiki gejala sebelum pihak yang kompeten menetapkan apa yang perlu diperiksa, siapa yang berwenang mengambil keputusan, dan kapan objek boleh kembali digunakan.

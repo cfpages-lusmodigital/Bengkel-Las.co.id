@@ -1,9 +1,10 @@
 ---
 article_id: WLD-01-A05
+writing_contract_version: "native-id-v2"
 title: "Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan"
 slug: "memilih-mesin-las-dan-peralatan"
-description: "Explain duty cycle, output range, process support, feeder/torch, leads, power supply, portability, serviceability, and extraction interfaces"
-status: outline
+description: "Panduan mencocokkan duty cycle, rentang keluaran, proses, feeder atau torch, kabel, suplai listrik, portabilitas, servis, dan ekstraksi asap dengan pekerjaan las."
+status: draft
 publication_date: "2025-06-26"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,235 +15,100 @@ reader_address: "Teman Bengkel-las.co.id"
 final_route: "/artikel/memilih-mesin-las-dan-peralatan.html"
 technical_review: required
 sources:
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
   - "https://www.iso.org/standard/83335.html"
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
----
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+---
 
 # Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan
 
-## Assignment lock
+Halo, Teman Bengkel-las.co.id! Mesin las yang “besar” belum tentu cocok untuk semua pekerjaan. Pilihan yang masuk akal dimulai dari sambungan yang harus dibuat, proses yang diizinkan, material, posisi kerja, dan ritme produksi. Setelah itu barulah Anda mencocokkan duty cycle (siklus kerja), rentang keluaran, suplai listrik, pengumpan kawat atau torch, kabel, serta kebutuhan pemindahan dan penghisapan asap.
 
-- **Writer task:** Expand this file into one complete article answering: “Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan”
-- **Reader and situation:** Small workshop planning equipment
-- **Reader outcome:** Explain duty cycle, output range, process support, feeder/torch, leads, power supply, portability, serviceability, and extraction interfaces
-- **Primary intent:** Compare welding equipment capability
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Teman Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Kawan Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes brand rankings and prices; WLD-14-A05 owns maintenance and WLD-04-A02 owns electrical safety
-- **Final public route:** `/artikel/memilih-mesin-las-dan-peralatan.html`
-- **Appointed CMS date:** `2025-06-26` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Kesimpulan singkatnya: pilih satu sistem kerja, bukan sekadar kotak mesin. Jika pekerjaan membutuhkan las kontinu pada arus tertentu, mesin dengan duty cycle rendah akan sering berhenti untuk mendingin. Jika pekerjaan berpindah-pindah, kabel terlalu pendek atau sumber listrik tidak sesuai justru menjadi hambatan. Spesifikasi pekerjaan, kondisi lokasi, dan pemeriksaan teknis yang kompeten dapat mengubah keputusan ini; jangan mengisi kekosongan itu dengan angka dari brosur.
 
-## Opening instructions
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-- Open with the exact short salutation: **“Halo, Teman Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Kawan Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-002`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/mengapa-harus-pilih-kanopi-baja-ringan-sebagai-teras-rumah` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/mengapa-harus-pilih-kanopi-baja-ringan-sebagai-teras-rumah/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-01-A03` → `/artikel/anatomi-busur-las.html` — Anatomi Busur Las: Arus, Tegangan, Polaritas, dan Jalur Arus
-- `WLD-01-A04` → `/artikel/posisi-las-dan-jenis-sambungan.html` — Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar
-- `WLD-01-A06` → `/artikel/sejarah-proses-pengelasan.html` — Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+“Peralatan” di sini berarti rangkaian yang membuat proses pengelasan dapat berlangsung dan dikendalikan: sumber daya las, panel kendali, feeder atau torch, kabel dan konektor, penjepit massa, regulator serta selang bila memakai gas pelindung, meja atau jig, alat ukur, dan antarmuka ventilasi setempat. Fokusnya adalah kecocokan kemampuan dengan pekerjaan di bengkel kecil.
+
+Artikel ini tidak merangking merek, menghitung harga, atau menggantikan desain sambungan dan persetujuan proyek. WLD-14-A05 menangani pemeliharaan, sedangkan keselamatan kelistrikan memerlukan pembahasan khusus. Untuk paket fabrikasi, dokumen yang dikendalikan dapat memuat material, identitas sambungan, toleransi, urutan fabrikasi, inspeksi, dan dasar penerimaan. Katalog BSN untuk SNI 1729:2020 hanya menunjukkan identitas dan status standar; isi klausul serta nilai penerimaan harus diambil dari dokumen berlisensi dan dokumen kerja yang diterbitkan ([BSN, SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020)).
+
+Karena itu, lembar pilihan sebaiknya memisahkan tiga hal: kemampuan mesin, kelengkapan antarmuka, dan bukti bahwa proses tersebut boleh dipakai untuk pekerjaan tertentu. ISO 3834-6 menjelaskan bahwa persyaratan mutu pengelasan perlu ditetapkan sesuai konteks, bukan disimpulkan dari nama alat saja ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dari kartu pekerjaan. Catat material dan ketebalan, jenis sambungan, posisi, panjang atau durasi pengelasan, proses yang ditentukan, bahan tambah, akses, dan target pemeriksaan. Lalu cocokkan setiap catatan dengan bagian sistem berikut.
+
+1. **Sumber daya dan keluaran.** Rentang arus dan tegangan harus mencakup parameter kerja yang ditetapkan. Angka maksimum bukan target harian; yang penting adalah kestabilan pada rentang yang benar serta pengaturan yang dapat diulang.
+2. **Duty cycle.** Duty cycle adalah persentase waktu mesin boleh bekerja dalam satu periode uji sebelum jeda pendinginan. Bandingkan nilai pada arus yang benar dengan pola kerja nyata. Pekerjaan titik-titik pendek dan pekerjaan jalur panjang menghasilkan beban panas berbeda, sehingga jangan membandingkan persentase tanpa melihat kondisi pengukurannya.
+3. **Proses dan kendali.** Pastikan sumber mendukung proses yang dibutuhkan, termasuk mode arus, polaritas, pengaturan awal, dan kendali jarak jauh bila diperlukan. Sebuah mesin yang dapat menyala belum tentu menyediakan kendali yang dibutuhkan oleh prosedur kerja.
+4. **Feeder, torch, dan bahan tambah.** Pada proses kawat, feeder harus sesuai dengan jenis dan ukuran kawat, konektor, laju umpan, serta panjang torch. Pada proses elektroda atau tungsten, periksa dudukan, kabel, selang gas, dan ruang gerak. Antarmuka yang tidak serasi dapat menyebabkan pekerjaan tersendat walaupun sumber dayanya memadai.
+5. **Leads dan massa.** Panjang kabel memengaruhi jangkauan dan pengaturan area kerja. Periksa penampang, konektor, kondisi isolasi, penjepit massa, dan cara kabel dilindungi dari tepi tajam atau lalu lintas. Jangan menjadikan kabel sambungan darurat sebagai desain tetap.
+6. **Suplai listrik.** Cocokkan tegangan, fase, frekuensi, arus masuk, proteksi, dan kapasitas sumber yang benar-benar tersedia. Pemeriksaan instalasi dan pengaturan perlindungan adalah urusan personel berwenang; artikel ini tidak menetapkan ukuran kabel atau setelan pemutus.
+7. **Portabilitas dan servis.** Berat, roda, pegangan, titik angkat, panjang kabel, dan ketersediaan suku cadang menentukan apakah alat dapat dipakai konsisten. Mintalah manual, daftar komponen, interval pemeriksaan, serta jalur layanan sebelum menjadikan satu model sebagai standar bengkel.
+8. **Ekstraksi dan lingkungan kerja.** Asap las perlu dikendalikan dengan tata letak, ventilasi umum, atau ekstraksi lokal yang sesuai kondisi. OSHA 29 CFR 1910.252 dapat menjadi referensi umum tentang pengelasan dan pengendalian bahaya, tetapi bukan pengganti ketentuan K3 Indonesia atau penilaian lokasi ([OSHA 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252)).
+
+Urutan tersebut mencegah kesalahan membeli mesin dahulu lalu memaksa pekerjaan mengikutinya. Bukti mutu juga bukan hanya kartu operator. Prosedur yang disetujui, kondisi peralatan, kendali bahan habis pakai, inspeksi, dan penerimaan sambungan adalah rekaman yang berbeda; bila proyek mempersyaratkannya, mintalah seluruh paket itu dan lakukan tinjauan teknis.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**Beban dan ritme.** Dua pekerjaan dengan arus sama dapat membutuhkan pilihan berbeda bila satu berjalan sebentar dan yang lain berulang sepanjang shift. Sisakan kapasitas untuk jeda, perubahan posisi, dan pendinginan; jangan menganggap duty cycle pada lembar data sama dengan produktivitas yang dijamin di bengkel Anda.
+
+**Material dan persiapan.** Kontaminasi, lapisan permukaan, celah, dan ketebalan mengubah kebutuhan pembersihan, bahan tambah, pemanasan awal, serta akses torch. Tidak ada angka universal yang boleh ditempelkan pada semua baja atau paduan. Parameter final harus mengikuti prosedur dan spesifikasi pekerjaan.
+
+Jika bahan benda kerja belum jelas, gunakan penjelasan tentang [bahan teralis yang umum di pasaran](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran) hanya untuk menyusun pertanyaan material; itu bukan pengganti identifikasi material proyek.
+
+**Ruang serta perpindahan.** Pekerjaan di meja jig terkendali berbeda dari pekerjaan di area sempit atau di lapangan. Pindah lokasi dapat mengubah fit-up, posisi, cuaca, pasokan listrik, penyebaran asap, akses inspeksi, dan paparan orang sekitar. UU No. 1 Tahun 1970 menempatkan keselamatan kerja sebagai tanggung jawab pengendalian kondisi kerja; keputusan lapangan perlu penilaian K3 yang berlaku ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970)).
+
+**Bahan habis pakai dan jejaknya.** Catat identitas kawat atau elektroda, lot bila diwajibkan, cara penyimpanan, dan penggantian yang disetujui. Jangan menyimpulkan kecocokan, masa simpan, atau kondisi penyimpanan hanya dari label generik. Bila ada bahan kimia, lembar data keselamatan dan aturan Indonesia yang sedang berlaku harus menjadi rujukan; Permenaker No. 5 Tahun 2018 menyediakan kerangka keselamatan dan kesehatan kerja lingkungan kerja, bukan angka spesifik untuk setiap produk ([Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018)).
+
+**Bukti dan penerimaan.** Bila sambungan akan diperiksa, rencanakan sejak awal identitas joint, metode pemeriksaan, personel, status alat ukur, laporan, penanganan ketidaksesuaian, dan otoritas penerimaan. Ringkasan standar tidak cukup untuk menetapkan batas cacat, teknik uji, atau interval kalibrasi. [NEEDS TECHNICAL REVIEW: tetapkan parameter, rentang kualifikasi, inspeksi, dan dasar penerimaan dari spesifikasi proyek serta standar berlisensi yang berlaku.]
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan tabel berikut sebagai percakapan awal, bukan keputusan otomatis.
+
+| Situasi kerja | Prioritas pencocokan | Pertanyaan sebelum membeli |
+|---|---|---|
+| Jalur panjang berulang di meja | Duty cycle pada arus kerja, pendinginan, feeder/torch | Berapa lama siklus nyata dan bagaimana jedanya dicatat? |
+| Reparasi kecil yang sering berpindah | Bobot, kabel, pegangan, suplai di titik kerja | Apakah sumber listrik di semua titik memenuhi kebutuhan masuk? |
+| Material dan posisi beragam | Rentang keluaran, mode proses, kendali halus | Prosedur mana yang mengizinkan mode tersebut pada material ini? |
+| Ruang dengan asap atau lapisan permukaan | Ekstraksi lokal, tata letak, pembersihan | Ke mana udara dibuang dan siapa memverifikasi efektivitasnya? |
+| Pekerjaan dengan rekaman mutu | Identitas alat, bahan tambah, inspeksi, dan laporan | Dokumen apa yang harus ditutup sebelum sambungan diterima? |
+
+Contohnya, jika bengkel membuat beberapa sambungan pendek pada rangka tipis, portabilitas dan kontrol arus rendah mungkin lebih berguna daripada angka arus puncak. Sebaliknya, jalur panjang pada komponen lebih tebal dapat menuntut duty cycle dan pendinginan yang lebih baik. Keduanya tetap bergantung pada prosedur pekerjaan; contoh ini tidak membuktikan kapasitas produk tertentu.
+
+Untuk keputusan pembelian, minta pemasok mengisi matriks yang sama: proses, rentang keluaran, duty cycle pada kondisi yang dinyatakan, kebutuhan listrik, isi paket torch/feeder, panjang dan jenis leads, akses servis, serta rekomendasi ekstraksi. Simpan lembar data dan revisinya bersama dokumen pekerjaan. Jika perlu menilai penyedia jasa, Anda dapat melanjutkan dengan [pertanyaan memilih bengkel las yang profesional](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) tanpa menganggap peralatan yang disebut di sana otomatis cocok untuk proyek Anda.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah memilih berdasarkan arus maksimum. Periksa nilai pada arus kerja, durasi nyata, dan pendinginan. Kedua, menganggap aksesori adalah bonus. Pastikan konektor, torch, feeder, regulator, selang, dan massa benar-benar serasi; daftar isi paket harus tertulis.
 
-## Objection or shortcut to address
+Ketiga, mengabaikan suplai listrik karena mesin “bisa dinyalakan”. Minta pemeriksaan instalasi dan sumber yang berwenang. Keempat, menaruh mesin yang portabel di lokasi yang tidak memiliki jalur kabel dan ekstraksi aman. Buat sketsa posisi alat, benda kerja, orang yang lewat, dan arah pembuangan sebelum memindahkannya.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Kelima, menyamakan hasil uji coba singkat dengan penerimaan proyek. Uji coba dapat menunjukkan fungsi dasar, tetapi tidak menggantikan WPS, kualifikasi, inspeksi, atau persetujuan. Kawan Bengkel-las.co.id, bila dokumen tersebut belum tersedia, tandai keputusan sebagai bersyarat dan eskalasikan kepada penanggung jawab teknis.
 
-## Required conclusion
+Shortcut yang paling menggoda adalah membeli satu mesin serbaguna lalu menggunakannya untuk semua pekerjaan. Cara itu dapat gagal karena proses, duty cycle, antarmuka, dan kondisi lokasi berbeda. Alternatif yang lebih aman adalah membuat matriks kebutuhan per keluarga pekerjaan, menguji kecocokan pada parameter yang disetujui, kemudian meminta tinjauan kompeten sebelum alat dijadikan standar.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Langkah berikutnya
 
-## Draft completion checklist
+Jawaban atas judul ini bukan “mesin dengan angka terbesar”, melainkan sistem yang cocok dengan proses, beban, material, akses, suplai, pengendalian asap, dan bukti mutu pekerjaan. Sobat Bengkel-las.co.id, sebelum meminta penawaran, siapkan satu lembar berisi kartu pekerjaan, rentang keluaran, duty cycle pada kondisi pembanding, daftar aksesori, kebutuhan listrik, rencana ekstraksi, dan dokumen penerimaan.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Minta pemasok mengisi lembar itu tanpa menghapus asumsi. Mintalah personel teknis dan K3 memeriksa bagian yang menyangkut sambungan, listrik, lingkungan, serta penerimaan. Aturan operasinya sederhana: alat dipilih setelah pekerjaan didefinisikan, dan dipakai setelah batas kemampuan serta kontrolnya dibuktikan; bila bukti belum ada, sisakan penanda review, bukan tebakan.
+
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-002
+Source type: local
+Placement: after opening answer, before first detailed H2
+**Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`
+Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+Selection basis: filename/source metadata identifies the asset as relevant; pixels were not inspected.
+Hard boundary: do not infer visible details, project ownership, location, people, brands, condition, performance, or outcome.
+Substitution rule: do not replace this image; use [NEEDS IMAGE REVIEW: LOCAL-002] if unavailable or provenance changes.
+END MANAGED IMAGE PLAN -->

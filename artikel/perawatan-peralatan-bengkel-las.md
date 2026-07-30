@@ -3,7 +3,8 @@ article_id: WLD-14-A05
 title: "Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor"
 slug: "perawatan-peralatan-bengkel-las"
 description: "Define inspection and service questions for power source, leads, connections, torch, feeder, cooling, gas, extraction, and defect tagging"
-status: outline
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-05-06"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,56 +16,85 @@ final_route: "/artikel/perawatan-peralatan-bengkel-las.html"
 technical_review: required
 sources:
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
+  - "https://www.iso.org/standard/51792.html"
+  - "https://www.iso.org/standard/54936.html"
   - "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
   - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
----
+  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+---
 
 # Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor
 
-## Assignment lock
+Halo, Sobat Bengkel-las.co.id! Perawatan peralatan las bukan sekadar membersihkan mesin setelah dipakai. Tim perlu memastikan sumber daya, kabel dan sambungan, torch, wire feeder, pendingin, gas pelindung, serta fume extractor berada pada kondisi yang dapat dipakai untuk pekerjaan yang disetujui. Jawaban praktisnya: mulai dari identitas aset dan kondisi aman, catat gejala yang dapat diamati, lalu pilih tindakan berdasarkan risiko dan kewenangan—bukan berdasarkan kalender seragam.
 
-- **Writer task:** Expand this file into one complete article answering: “Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor”
-- **Reader and situation:** Workshop maintenance team
-- **Reader outcome:** Define inspection and service questions for power source, leads, connections, torch, feeder, cooling, gas, extraction, and defect tagging
-- **Primary intent:** Maintain equipment capability safely
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes energized repair and manufacturer warranty work; authorized technicians own service
-- **Final public route:** `/artikel/perawatan-peralatan-bengkel-las.html`
-- **Appointed CMS date:** `2026-05-06` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Pemeriksaan visual dan pencatatan tidak memberi izin membuka bagian bertegangan, mengubah rangkaian, atau mengabaikan instruksi pabrikan. Isolasi energi, pekerjaan listrik, pengujian keselamatan, dan pekerjaan garansi harus diserahkan kepada personel berwenang. Rujukan pengendalian energi berbahaya OSHA 1910.147 dan kerangka keselamatan kerja Indonesia perlu dibaca bersama manual OEM dan kondisi tempat kerja, bukan dipakai untuk menyalin angka universal ([OSHA 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970)).
 
-## Opening instructions
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+Gambar ilustrasi; aset lokal proyek ini bukan dokumentasi proyek tertentu.
 
+## Tentukan objek, kondisi, dan tahap siklus hidup
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+Buat satu kartu aset untuk setiap power source, paket kabel, torch, feeder, unit pendingin, regulator dan selang gas, serta extractor. Cantumkan nomor aset, merek dan model bila tersedia, lokasi, fungsi proses, tanggal pemeriksaan, status operasi, dan dokumen yang menjadi acuan. Pisahkan “siap digunakan”, “boleh digunakan dengan batasan yang disetujui”, “menunggu perbaikan”, dan “dilarang dioperasikan”. Label ini adalah keputusan pengendalian, bukan penilaian mutu hasil las.
+
+Mulailah dengan pertanyaan: peralatan ini dipakai untuk proses apa, dengan material dan consumable apa, dan pada tahap mana dalam siklus hidupnya? Aset baru memerlukan verifikasi pemasangan dan dokumen; aset yang berpindah lokasi memerlukan pemeriksaan sambungan dan lingkungan; aset setelah gangguan memerlukan evaluasi sebelum dikembalikan. Untuk pekerjaan yang memengaruhi mutu, rencana mutu perlu mengaitkan identitas peralatan, status verifikasi, kondisi pengujian, laporan, ketidaksesuaian, dan otoritas pelepasan. Abstrak ISO 3834-6 dan ISO 17635 mendukung kebutuhan dokumentasi tersebut, tetapi tidak memberi interval servis atau nilai penerimaan ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html), [ISO 17635:2025](https://www.iso.org/standard/85705.html)).
+
+## Mekanisme perubahan atau penurunan kinerja
+
+Penurunan kinerja biasanya terlihat sebagai rangkaian gejala, bukan satu penyebab pasti. Panas, debu logam, percikan, kelembapan, tarikan dan tekukan kabel, getaran, sisa wire, aliran gas yang terganggu, atau filter extractor yang jenuh dapat mengubah kondisi operasi. Catat gejala tanpa menyimpulkan penyebab: busur tidak stabil, wire tersendat, torch terlalu panas, suara kipas berubah, hisapan melemah, indikator alarm muncul, atau selang menunjukkan kerusakan.
+
+Hubungkan gejala dengan konteks: material dan consumable, durasi kerja, posisi torch, perubahan spool, ventilasi ruangan, dan kejadian terakhir seperti pemindahan atau tumpahan. Jangan mengubah gejala menjadi klaim bahwa sambungan pasti gagal atau bahwa kapasitas mesin telah turun sekian persen. Tingkat penerimaan cacat dan metode pemeriksaan harus berasal dari spesifikasi pekerjaan dan standar yang berlaku; abstrak ISO 5817 dan ISO 17635 hanya membantu membedakan kerangka mutu, metode pemeriksaan, dan evaluasi indikasi ([ISO 5817:2023](https://www.iso.org/standard/80209.html), [ISO 17635:2025](https://www.iso.org/standard/85705.html)).
+
+Sobat Bengkel-las.co.id, bila asap terlihat menyebar ke area napas atau extractor tidak menarik seperti biasanya, hentikan pekerjaan yang memerlukan penghisapan itu dan naikkan sebagai temuan keselamatan. Identitas bahan kimia, label, dan lembar data keselamatan harus dapat ditelusuri; contoh konsep komunikasi bahaya OSHA bukan pengganti ketentuan Indonesia ([OSHA 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200)). Untuk peninjauan lingkungan kerja, gunakan ketentuan nasional yang berlaku seperti [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), bukan menyalin batas dari yurisdiksi lain.
+
+## Inspeksi dan data yang perlu dicatat
+
+Gunakan urutan yang konsisten dan kondisi aman. Sebelum pemeriksaan, pastikan operator memahami status alat dan energi telah dikendalikan sesuai prosedur setempat. Pemeriksaan pengguna dapat meliputi:
+
+- **Power source:** kondisi casing, ventilasi dan saringan yang dapat diakses tanpa membongkar, kabel masuk, konektor, indikator, alarm, dan kebersihan area sekitar. Jangan membuka panel atau mengukur bagian bertegangan.
+- **Leads dan sambungan:** selubung terkelupas, bekas panas, retak, puntiran, strain relief, lug, clamp massa, konektor, dan tanda longgar. Foto lokasi temuan dan tandai nomor aset.
+- **Torch dan feeder:** nozzle, contact tip, liner, trigger, leher torch, jalur wire, rol penekan, spool, serta serpihan yang terlihat. Cocokkan komponen pengganti dengan identitas dan instruksi OEM; jangan mengasumsikan semua ukuran kompatibel.
+- **Pendingin dan gas:** kebocoran yang tampak, selang, sambungan, indikator yang tersedia, kondisi regulator, pelindung silinder, serta label isi. Pengaturan atau pengujian yang memerlukan alat khusus menjadi tugas teknisi berwenang.
+- **Fume extractor:** posisi hood, selang, sambungan, bunyi tidak lazim, indikator atau alarm, dan kondisi filter dari sisi yang memang boleh diakses. Jangan menyatakan laju hisap memenuhi batas tanpa pengukuran dan peninjauan kompeten.
+
+Catat tanggal, pemeriksa, kondisi awal, temuan, foto atau bacaan yang benar-benar diambil, tindakan sementara, nomor work order, komponen dan batch pengganti bila relevan, serta siapa yang menyetujui pelepasan. Jika tidak ada angka atau alat ukur yang tervalidasi, tulis “tidak diukur”, bukan perkiraan.
+
+## Pilihan perawatan atau intervensi
+
+Pilih tindakan dari yang paling kecil namun cukup untuk mengendalikan risiko. Pemantauan cocok untuk deviasi yang dipahami dan tidak mengganggu keselamatan, dengan pemicu pemeriksaan ulang yang jelas. Pembersihan eksternal, penataan kabel, penggantian consumable aus, atau perbaikan selang dapat dilakukan sesuai manual dan kewenangan. Perbaikan internal, pengujian isolasi, pengaturan kontrol, perubahan rangkaian, dan pekerjaan garansi harus dibuatkan work order untuk teknisi atau pihak yang ditunjuk.
+
+Bila pelindung kabel rusak, sambungan panas, kebocoran gas, interlock tidak berfungsi, atau extractor gagal mengendalikan paparan, beri tag cacat dan keluarkan alat dari operasi terkait. Jangan “mengakali” dengan isolasi seadanya, menaikkan setelan, mem-bypass pengaman, atau meminjam komponen tanpa verifikasi. Setelah tindakan, tentukan uji pelepasan yang disetujui: pemeriksaan visual ulang, verifikasi fungsi oleh personel berwenang, atau pemeriksaan mutu sesuai rencana. Status “sudah diperbaiki” tidak otomatis berarti “siap produksi”.
+
+## Cara menentukan prioritas
+
+Prioritaskan dengan empat pertanyaan: apakah ada bahaya langsung; apakah kegagalan dapat memengaruhi mutu atau keterlacakan; apakah alat adalah satu-satunya jalur kerja; dan apakah akses teknisi atau suku cadang memerlukan perencanaan. Bahaya langsung seperti energi tidak terkendali, kerusakan isolasi yang terlihat, kebocoran, atau kegagalan penghisapan pada pekerjaan berasap mendapat tindakan penghentian dan eskalasi. Temuan yang hanya berupa kotoran dapat masuk rencana perawatan bila tidak mengubah kondisi aman.
+
+Bedakan jadwal kalender, jam operasi, kondisi aktual, tindakan korektif, dan kewajiban pemeriksaan menurut aturan. Riwayat work order, kode kegagalan, bacaan inspeksi, identitas suku cadang, cacat tertunda, pengujian, serta otoritas pelepasan dipakai untuk melihat tren. Tidak ada interval universal, jumlah stok, atau keputusan mulai ulang yang dapat ditetapkan dari artikel ini; gunakan manual OEM, riwayat aset, konteks operasi, dan persetujuan penanggung jawab ([Permenaker No. 38 Tahun 2016](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026)).
+
+## Rekaman, serah-terima, dan pemicu pemeriksaan ulang
+
+Satu rekaman harus memungkinkan orang berikutnya menjawab: alat mana, ditemukan kapan, pada kondisi apa, siapa yang memeriksa, apa yang diubah, dan siapa yang menyatakan boleh dipakai. Simpan foto, tag cacat, work order, dokumen komponen, hasil uji, dan alasan menerima atau menunda. Saat serah-terima shift, sebutkan aset yang dilarang digunakan, pekerjaan yang masih terbuka, isolasi yang masih terpasang, serta batas penggunaan yang telah disetujui. Bila tim perlu menilai kesiapan pekerjaan atau memilih penyedia jasa, gunakan panduan [memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) sebagai pertanyaan lanjutan, bukan sebagai bukti bahwa aset tertentu sudah aman.
+
+Tetapkan pemicu pemeriksaan ulang, misalnya setelah perpindahan lokasi, perubahan proses atau consumable, alarm, kejadian panas berlebih, kerusakan mekanis, pekerjaan pada sambungan gas, penggantian filter, atau hasil las yang menyimpang dari kriteria proyek. Pemicu itu bukan angka rekaan; supervisor dan teknisi menetapkan bentuk pemeriksaan berdasarkan manual, prosedur tempat kerja, dan risiko. Jika keputusan menyangkut kualifikasi personel, prosedur las, atau penerimaan sambungan, rujuk dokumen proyek dan tenaga yang kompeten; standar kualifikasi tidak boleh disamakan dengan bukti penerimaan produk ([ISO 15614-1:2017](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012](https://www.iso.org/standard/54936.html), dan [ISO 9712:2021](https://www.iso.org/standard/75614.html)). Untuk membandingkan kebutuhan material sebelum pekerjaan, pembaca dapat melihat ringkasan [bahan teralis jendela las yang umum](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran), tetapi kompatibilitas aktual tetap harus diverifikasi pada dokumen proyek.
+
+## Jalan pintas yang sering dipilih
+
+Jalan pintas yang umum adalah menyemprot, mengganti tip, lalu langsung menyalakan mesin karena “kemarin masih normal”. Cara itu dapat melewatkan kerusakan kabel, sambungan yang memanas, filter yang jenuh, atau tag cacat yang belum ditutup. Alternatif yang lebih dapat dipertanggungjawabkan hanya membutuhkan beberapa menit tambahan: cocokkan nomor aset, lakukan pemeriksaan aman, tulis temuan, dan minta otoritas yang tepat menentukan apakah alat dilepas atau dikarantina. Membersihkan alat membantu, tetapi tidak menggantikan verifikasi fungsi maupun pengendalian energi.
+
+## Kesimpulan: rawat berdasarkan bukti, lepaskan berdasarkan kewenangan
+
+Perawatan mesin las, kabel, torch, feeder, pendingin, gas, dan fume extractor dimulai dari identitas aset, kondisi yang dapat diamati, serta catatan yang dapat ditelusuri. Pilih pemantauan, perawatan, perbaikan, penggantian, atau penghentian sesuai konsekuensi; jangan mengarang interval atau ambang. Kawan Bengkel-las.co.id, langkah berikutnya adalah membuat satu formulir inspeksi per aset, menandai temuan yang memerlukan penghentian, dan meminta teknisi atau penanggung jawab K3 meninjau pekerjaan yang berada di luar pemeriksaan pengguna.
+
+Aturan operasinya sederhana: tanpa isolasi dan kewenangan, jangan buka bagian berenergi; tanpa bukti pemeriksaan dan pelepasan, jangan kembalikan alat ke produksi. [NEEDS TECHNICAL REVIEW: GATE-01–GATE-13 untuk memastikan prosedur, kewenangan, dan pemicu pemeriksaan sesuai OEM, kondisi tempat kerja, serta ketentuan Indonesia yang berlaku.]
+
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -72,192 +102,7 @@ sources:
 - **Placement:** after the opening has answered the main question, before the first detailed H2
 - **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
 - **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
+- **Selection basis:** filename/source metadata only; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-14-A03` → `/artikel/pengendalian-dokumen-pengelasan.html` — Mengendalikan WPS, Kualifikasi Welder, dan Rekaman Produksi
-- `WLD-14-A04` → `/artikel/kalibrasi-alat-ukur-fabrikasi.html` — Kalibrasi dan Verifikasi Alat Ukur Fabrikasi: Mana yang Mempengaruhi Keputusan
-- `WLD-14-A06` → `/artikel/ncr-dan-rework-pengelasan.html` — NCR dan Rework Las: Mencatat Masalah, Disposisi, Perbaikan, dan Verifikasi Ulang
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Tentukan objek, kondisi, dan tahap siklus hidup
-
-- **Purpose:** Jelaskan apa yang dikelola dan bukti kondisi awalnya.
-- **Tie back to this article:** Keep the explanation specific to “Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Mekanisme perubahan atau penurunan kinerja
-
-- **Purpose:** Hubungkan penggunaan, lingkungan, material/sistem, dan waktu tanpa mengarang umur layanan.
-- **Tie back to this article:** Keep the explanation specific to “Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Inspeksi dan data yang perlu dicatat
-
-- **Purpose:** Buat baseline, indikator, foto/ukur, riwayat, dan batas pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Pilihan perawatan atau intervensi
-
-- **Purpose:** Bandingkan pemantauan, perawatan, perbaikan, penguatan, penggantian, atau penghentian.
-- **Tie back to this article:** Keep the explanation specific to “Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara menentukan prioritas
-
-- **Purpose:** Gunakan konsekuensi, urgensi, akses, biaya siklus hidup, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Rekaman, handover, dan pemicu pemeriksaan ulang
-
-- **Purpose:** Tentukan bukti yang harus bertahan untuk pemilik dan peninjau berikutnya.
-- **Tie back to this article:** Keep the explanation specific to “Perawatan Mesin Las, Kabel, Torch, Feeder, dan Fume Extractor”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+END MANAGED IMAGE PLAN -->

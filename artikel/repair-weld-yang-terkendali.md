@@ -2,8 +2,8 @@
 article_id: WLD-16-A04
 title: "Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection"
 slug: "repair-weld-yang-terkendali"
-description: "Map defect confirmation, technical disposition, repair procedure, excavation, examination, rewelding, NDT, records, and repeat-failure escalation"
-status: outline
+description: "Panduan memahami urutan perbaikan las yang disetujui, dari konfirmasi cacat hingga pemeriksaan ulang dan pencatatan hasil."
+status: draft
 publication_date: "2026-06-24"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,58 +13,17 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Teman Bengkel-las.co.id"
 final_route: "/artikel/repair-weld-yang-terkendali.html"
 technical_review: required
+writing_contract_version: native-id-v2
 sources:
-  - "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://www.iso.org/standard/64835.html"
-  - "https://www.iso.org/standard/64838.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
   - "https://www.iso.org/standard/80209.html"
+  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
+  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection”
-- **Reader and situation:** Fabricator or owner facing rejected welds
-- **Reader outcome:** Map defect confirmation, technical disposition, repair procedure, excavation, examination, rewelding, NDT, records, and repeat-failure escalation
-- **Primary intent:** Understand approved weld repair cycle
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Teman Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Kawan Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes DIY repair and universal excavation methods; engineer/welding coordinator and WLD-14-A06 own authorization/NCR
-- **Final public route:** `/artikel/repair-weld-yang-terkendali.html`
-- **Appointed CMS date:** `2026-06-24` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Teman Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Kawan Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-002`
@@ -75,201 +34,82 @@ sources:
 - **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Teman Bengkel-las.co.id! Las yang ditolak tidak aman bila langsung ditimpa manik baru atau digerinda sekadarnya lalu dilas ulang. Jawaban singkatnya: repair weld harus berjalan sebagai siklus terkendali—temuan dikonfirmasi, batas perbaikan dan metodenya disetujui, bagian cacat dihilangkan sesuai prosedur, sambungan dilas ulang, lalu diperiksa kembali terhadap dasar penerimaan yang sama atau yang telah ditetapkan ulang.
 
-### KR-01
+Urutan itu penting karena retak, porositas, kurang lebur, atau bentuk sambungan yang tampak buruk belum otomatis menjelaskan penyebab maupun luas masalahnya. Hasil akhir dapat berubah oleh fungsi komponen, material dan riwayatnya, desain sambungan, beban, lingkungan kerja, prosedur pengelasan, serta bukti inspeksi yang tersedia. Untuk komponen penahan beban, bagian mesin, atau pekerjaan di lokasi aktif, keputusan repair tetap memerlukan persetujuan engineer atau welding coordinator yang berwenang.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-### KR-17
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-13
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
-
-### KR-11
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-16-A02` → `/artikel/coating-gagal-di-sekitar-las.html` — Coating Mengelupas dan Karat Kembali di Sekitar Las: Mencari Akar Masalah
-- `WLD-16-A03` → `/artikel/diagnosis-metalwork-longgar-atau-seret.html` — Angkur Longgar, Pagar Seret, atau Railing Goyang: Memisahkan Gejala dari Penyebab
-- `WLD-16-A05` → `/artikel/repair-reinforce-atau-ganti-produk-besi.html` — Repair, Reinforce, atau Ganti? Kerangka Keputusan untuk Produk Besi
-- `WLD-16-A06` → `/artikel/kapan-jangan-mengelas-ulang-komponen.html` — Material Tidak Dikenal, Bekas Terbakar, atau Komponen Penahan Beban: Kapan Jangan Dilas Ulang
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+*Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.*
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Repair weld bukan sekadar pekerjaan mengisi kembali cekungan pada logam. Yang diperbaiki adalah sambungan dalam sebuah sistem: ada identitas joint, fungsi komponen, dasar penerimaan, dan catatan yang harus dapat ditelusuri. Karena itu, “sudah tampak penuh” bukan bukti bahwa repair selesai. Pemeriksaan visual boleh menemukan gejala awal, tetapi metode, cakupan, kondisi permukaan, personel, peralatan, pelaporan, dan dasar penerimaan merupakan bukti yang berbeda-beda dalam pemeriksaan las ([ISO 17635:2025](https://www.iso.org/standard/85705.html)).
+
+Sebelum menyebut pekerjaan sebagai repair, bedakan dulu antara indikasi, cacat yang telah dievaluasi, dan keputusan tindak lanjut. Sebuah tanda pada permukaan bisa mengarahkan pemeriksaan, tetapi tidak memberi jawaban sendiri mengenai kelayakan komponen. Sebaliknya, tidak ditemukannya tanda kasatmata tidak membuktikan seluruh area telah memenuhi persyaratan. Pemisahan istilah ini membantu pemilik, pengawas, dan pelaksana berhenti pada titik yang benar: kumpulkan bukti, minta disposition, baru tentukan tindakan.
+
+Kesalahpahaman yang mahal adalah menganggap semua cacat dapat diperlakukan sama. Menggerinda terlalu dalam dapat mengubah penampang atau membuka masalah yang lebih luas; mengelas di atas indikasi dapat menyembunyikan, bukan menghilangkan, sumber kegagalan. Teman Bengkel-las.co.id, bila tidak ada identitas sambungan, gambar/revisi yang berlaku, atau kriteria penerimaan, hentikan keputusan lapangan dan minta penetapan teknis. [NEEDS REVIEW: batas removal, proses pengelasan, dan kriteria penerimaan untuk joint ini harus ditetapkan dari dokumen proyek yang berlaku.]
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Artikel ini membahas siklus repair pada sambungan las yang telah ditemukan bermasalah atau ditolak: konfirmasi temuan, disposition teknis, removal atau excavation, reweld, dan reinspection. *Disposition* berarti keputusan tertulis tentang tindakan terhadap ketidaksesuaian, misalnya menerima dengan syarat, memperbaiki, melakukan evaluasi tambahan, atau menolak komponen. Artikel ini tidak memberi metode penggalian universal, ukuran gerinda, parameter las, atau izin untuk memperbaiki sendiri.
+
+Batas ini mengubah keputusan. Pada pagar, rangka, tangga, kanopi, atau komponen terpasang, sambungan bukan benda dekoratif yang berdiri sendiri. Fungsi, tumpuan, angkur, geometri, beban, akses, korosi, urutan pemasangan, dan kondisi eksisting dapat menentukan apakah repair layak dipertimbangkan. Ukuran batang saja tidak cukup untuk menetapkan kecukupan sistem. [NEEDS REVIEW: fungsi, beban, kondisi penyangga, dan risiko kegagalan komponen harus diverifikasi oleh pihak berwenang.]
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Siklus yang terkendali dimulai dengan mengamankan pekerjaan dan membekukan asumsi. Tandai lokasi serta identitas joint, rekam indikasi dan kondisi permukaan, lalu kaitkan dengan gambar, revisi, prosedur, material/consumable bila tersedia, dan riwayat repair sebelumnya. Sistem mutu pengelasan yang baik membutuhkan pengendalian yang sesuai untuk pekerjaannya; katalog ISO 3834-6 menjelaskan penerapan pedoman mutu bagi pengelasan fusi logam ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html)). Itu bukan pengganti prosedur proyek, tetapi alasan praktis untuk tidak memisahkan repair dari pencatatannya.
+
+Berikutnya, pihak yang memiliki otoritas disposition menentukan apakah indikasi perlu dikonfirmasi dengan pemeriksaan lain, seberapa jauh area cacat boleh dihilangkan, dan prosedur reweld mana yang berlaku. Removal dilakukan hanya setelah batas, akses, keselamatan, dan cara memeriksa dasar excavation disetujui. Setelah material cacat dihilangkan, kondisi hasil removal diperiksa sebelum reweld; jangan menganggap dasar cekungan bersih hanya karena terlihat mengilap.
+
+Reweld lalu mengikuti prosedur yang disetujui untuk joint tersebut, termasuk identitas material dan consumable yang dapat ditelusuri bila persyaratan pekerjaan memintanya. Kawan Bengkel-las.co.id, pada pekerjaan lapangan, akses, posisi, listrik, asap, cuaca, kebakaran, kegiatan sekitar, dan kemampuan memeriksa ulang dapat mengubah apakah repair boleh diteruskan. Pengendalian K3 harus ditetapkan untuk kondisi tugas nyata, bukan disalin dari pekerjaan lain; kerangka keselamatan kerja Indonesia juga menempatkan perlindungan tenaga kerja dan tempat kerja sebagai pertimbangan pokok ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970); [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018)).
+
+Paket catatan sebaiknya bergerak bersama pekerjaan, bukan dirapikan setelahnya dari ingatan. Nomor laporan, foto kondisi bila prosedur proyek mengizinkan, identitas pemeriksa, tanggal, area yang ditangani, hasil pemeriksaan antar-tahap, dan keputusan akhir membuat repair berikutnya dapat dibaca sebagai riwayat, bukan tebakan. Bila ada perubahan dari rencana awal, catat siapa yang menyetujui perubahan itu dan alasan teknisnya. [NEEDS REVIEW: format rekaman, masa simpan, dan tanda tangan/otorisasi yang diwajibkan harus mengikuti sistem mutu proyek.]
+
+Tahap terakhir adalah reinspection. Rencana pemeriksaan perlu menyebut joint yang diperiksa, metode dan cakupan, kondisi uji, identitas peralatan serta status verifikasi/kalibrasinya bila dipersyaratkan, pelapor, hasil, dan disposition. Personel NDT juga mempunyai ruang lingkup kompetensi tersendiri; sertifikasi personel tidak sama dengan keputusan penerimaan engineering ([ISO 9712:2021](https://www.iso.org/standard/75614.html)). [NEEDS REVIEW: metode NDT, cakupan, teknik, dan personel yang diperlukan harus ditentukan dalam rencana inspeksi proyek.]
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pertama, penyebab cacat menentukan apakah repair masuk akal. Indikasi yang berulang di lokasi serupa dapat berhubungan dengan persiapan joint, fit-up, akses, urutan kerja, pemilihan proses, kondisi permukaan, atau kondisi penggunaan. Repair yang hanya menghapus gejalanya dapat kembali gagal apabila penyebabnya tidak dicari. Catat pola lokasi, waktu, posisi, batch consumable, dan perubahan metode tanpa menyimpulkan sebab sebelum bukti cukup.
+
+Kedua, material dan riwayat komponen menentukan batas kehati-hatian. Material tidak dikenal, area yang pernah terbakar, komponen yang telah beberapa kali direpair, atau bagian dengan korosi tersembunyi tidak boleh diperlakukan sebagai baja baru yang seragam. Sobat Bengkel-las.co.id, hentikan pekerjaan bila identitas material, riwayat paparan, atau konfigurasi sambungan membuat metode aman tidak dapat dipastikan. [NEEDS REVIEW: material, kondisi metal dasar, dan jumlah/riwayat repair sebelumnya perlu dinilai sebelum reweld.]
+
+Ketiga, dasar penerimaan harus dipisahkan dari teknik pemeriksaan. ISO 17635 menegaskan bahwa tingkat penerimaan NDT tidak dapat diterjemahkan satu banding satu ke tingkat mutu ISO 5817 ([ISO 17635:2025](https://www.iso.org/standard/85705.html); [ISO 5817:2023](https://www.iso.org/standard/80209.html)). Dengan kata lain, laporan metode tertentu bukan izin otomatis untuk menyatakan seluruh joint layak. [NEEDS REVIEW: gunakan kode, standar lengkap, kontrak, dan prosedur tertulis yang benar-benar mengatur pekerjaan ini.]
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Misalkan pemeriksaan awal menemukan indikasi pada sambungan sebuah bracket yang terpasang. Contoh ini bukan diagnosis untuk semua bracket dan tidak menetapkan apakah komponen tersebut dapat dipakai. Ia menunjukkan pertanyaan yang perlu dijawab sebelum repair.
+
+| Kondisi yang diketahui | Keputusan kerja yang lebih aman | Bukti sebelum lanjut |
+| --- | --- | --- |
+| Lokasi joint dan dokumen revisi jelas, tetapi batas indikasi belum jelas | Jangan tetapkan kedalaman removal; konfirmasi temuan lebih dulu | Identitas joint, laporan inspeksi awal, dasar penerimaan |
+| Indikasi berulang setelah repair sebelumnya | Eskalasi untuk telaah penyebab; jangan mengulang metode yang sama secara otomatis | Riwayat repair, parameter/prosedur yang disetujui, kondisi penggunaan |
+| Material atau fungsi penahan beban tidak terkonfirmasi | Tahan reweld sampai evaluasi kompeten selesai | Identitas material, gambar, fungsi, beban dan persetujuan otoritas |
+| Pekerjaan harus dilakukan di lokasi aktif | Nilai ulang akses, isolasi energi, api/asap, dan pemeriksaan akhir | Rencana K3, izin/kontrol tugas, rencana inspeksi dan release authority |
+
+Tabel tersebut tidak mengubah kewenangan NCR atau otorisasi repair. [NEEDS REVIEW: pihak yang berhak menyetujui disposition dan release harus ditetapkan oleh sistem proyek.]
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Repair Weld yang Terkendali: Removal, Persetujuan, Reweld, dan Reinspection”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Shortcut yang sering dipilih adalah “gerinda sampai indikasinya hilang, lalu isi lagi.” Pendekatan ini gagal bila operator tidak mengetahui batas cacat, mengurangi bagian yang masih diperlukan, memasukkan kontaminasi, atau melewatkan pemeriksaan sebelum dan sesudah reweld. Shortcut lain adalah memakai hasil visual saja untuk menghapus catatan penolakan, padahal visual tidak menjawab semua kemungkinan kondisi bawah permukaan.
 
-## Objection or shortcut to address
+Ubah shortcut menjadi daftar cek sederhana sebelum menyalakan mesin las:
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+- Apakah joint, komponen, gambar/revisi, dan fungsi sudah teridentifikasi?
+- Siapa yang menyetujui disposition, prosedur removal, dan prosedur reweld?
+- Bagaimana batas removal serta kondisi dasar excavation akan diperiksa?
+- Metode dan cakupan reinspection apa yang disetujui, dengan dasar penerimaan apa?
+- Catatan apa yang menghubungkan temuan awal, repair, hasil pemeriksaan, dan keputusan release?
+- Jika temuan berulang, apakah pekerjaan dihentikan untuk mencari penyebab, bukan sekadar memperbaiki tampilan?
 
-## Required conclusion
+Jika satu jawaban menentukan keselamatan, fungsi, atau penerimaan namun belum ada, jangan mengisinya dengan kebiasaan workshop. [NEEDS REVIEW: semua ketidakpastian konsekuensial—termasuk isolasi energi, pengamanan mesin, izin kerja, dan otoritas restart—harus ditutup dengan bukti kondisi aktual.]
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Aturan kerja sebelum repair ditutup
 
-## Draft completion checklist
+Repair weld yang terkendali berarti cacat tidak hanya ditutup, melainkan ditelusuri melalui removal yang disetujui, reweld yang dapat ditelusuri, dan reinspection yang punya dasar penerimaan. Langkah berikutnya adalah membuat satu paket repair untuk joint tersebut: laporan temuan, disposition berwenang, prosedur yang berlaku, catatan removal/reweld, laporan pemeriksaan ulang, dan keputusan release. Anda dapat kembali ke [halaman utama Bengkel-las.co.id](/) untuk menata pertanyaan pekerjaan berikutnya, membaca [FAQ Bengkel-las.co.id](/faq), atau membuka [halaman kontak Bengkel-las.co.id](/kontak-kami) saat menyiapkan paket proyek.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Teman Bengkel-las.co.id, aturan operasionalnya sederhana: bila fungsi komponen, identitas material, batas repair, atau dasar penerimaan belum jelas, jangan lanjutkan reweld sampai review teknis dan bukti proyek menutup celah tersebut.

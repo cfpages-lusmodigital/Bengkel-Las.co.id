@@ -2,8 +2,9 @@
 article_id: WLD-03-A01
 title: "Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak"
 slug: "cara-membaca-simbol-las"
-description: "Explain reference line, arrow, joint side, size, length, contour, finish, and supplementary information with ambiguity checks"
-status: outline
+description: "Panduan membaca garis referensi, anak panah, sisi sambungan, ukuran, panjang, kontur, dan keterangan tambahan sambil memeriksa ambiguitas gambar."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-07-28"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,228 +17,117 @@ technical_review: required
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/64838.html"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
   - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/64835.html"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id! Simbol las dibaca sebagai satu kalimat grafis, bukan sebagai gambar hiasan. Mulailah dari garis referensi, ikuti anak panah ke sambungan, lalu baca simbol dasar, ukuran, panjang, kontur, dan keterangan tambahan. Dengan urutan itu, Anda dapat menerjemahkan maksud gambar menjadi pertanyaan kerja yang jelas tanpa mengarang ukuran atau mutu sambungan.
 
-- **Writer task:** Expand this file into one complete article answering: “Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak”
-- **Reader and situation:** Estimator, fabricator, or buyer reading drawings
-- **Reader outcome:** Explain reference line, arrow, joint side, size, length, contour, finish, and supplementary information with ambiguity checks
-- **Primary intent:** Interpret welding symbols
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes inventing missing design requirements; WLD-03-A02 owns design inputs and the project designer resolves conflicts
-- **Final public route:** `/artikel/cara-membaca-simbol-las.html`
-- **Appointed CMS date:** `2025-07-28` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: jangan langsung memilih elektroda, proses, atau harga dari satu lambang. Pastikan lebih dulu sisi sambungan yang ditunjuk, dimensi yang tertulis, jumlah dan jarak segmen, serta dokumen yang mengatur penerimaan. Jika legenda gambar, standar yang dipakai, atau revisinya tidak tersedia, arti yang tampak “umum” tetap harus ditahan untuk konfirmasi: **[NEEDS PROJECT DRAWING LEGEND AND GOVERNING SYMBOL STANDARD]**.
 
-## Opening instructions
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-11
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-13
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-03-A02` → `/artikel/desain-sambungan-las-yang-dapat-difabrikasi.html` — Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat
-- `WLD-03-A03` → `/artikel/wps-pqr-dan-kualifikasi-welder.html` — WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-001
+Placement: after opening, before first detailed H2
+**Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
+Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+Selection basis: filename/source metadata identifies bengkel las as relevant content media; no pixels were inspected.
+Hard boundary: do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+Substitution rule: do not replace this image. If unavailable or provenance is incomplete, insert [NEEDS IMAGE REVIEW: LOCAL-001].
+END MANAGED IMAGE PLAN -->
 
 ## Hasil akhir dan prasyarat
 
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil yang dicari adalah lembar kerja yang menyebutkan dengan tegas: sambungan mana yang dilas, di sisi mana, bentuk lasnya, seberapa besar atau panjang, bagaimana ujungnya diselesaikan, dan dokumen apa yang menjadi dasar penerimaan. Yang berwenang menetapkan maksud desain tetap perancang atau pihak yang menyetujui gambar; estimator dan fabrikator bertugas mengidentifikasi informasi yang ada dan mengembalikan pertanyaan yang belum terjawab.
 
-## Langkah 1 — tetapkan scope
+Sediakan gambar teknik edisi berlaku, legenda simbol, detail potongan, daftar material, spesifikasi proyek, dan lembar perubahan. Paket fabrikasi yang terkendali biasanya juga perlu identitas sambungan, toleransi, urutan kerja, inspeksi, dan titik tahan (hold point), bukan hanya satu tanda las. Katalog BSN untuk SNI 1729:2020 dan abstrak ISO 3834-6:2024 dapat menjadi penanda dokumen rujukan, tetapi halaman katalog tidak membuka ketentuan desain atau nilai penerimaan; gunakan dokumen proyek dan teks standar berlisensi saat keputusan teknis diperlukan ([BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
 
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Langkah 1 — tetapkan lingkup pekerjaan
+
+Sebelum membaca lambang, tandai objek, batas pekerjaan, dan antarmukanya. Apakah garis menunjuk sambungan pelat ke pelat, pipa, rangka, atau komponen yang sudah terpasang? Catat nomor detail dan revisi. Jangan mencampur simbol pada tampak utama dengan simbol pada potongan yang mungkin memiliki konteks berbeda.
+
+Pisahkan tiga hal: apa yang benar-benar digambar, apa yang disimpulkan dari kebiasaan, dan apa yang belum diketahui. Ukuran batang atau profil, misalnya, tidak otomatis membuktikan kecukupan sistem; beban, geometri, stabilitas, tumpuan, urutan pemasangan, dan pemeriksaan ikut menentukan ([BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020)). Jika salah satu data itu hilang, scope Anda berhenti pada interpretasi simbol, bukan persetujuan desain.
 
 ## Langkah 2 — kumpulkan dan cocokkan bukti
 
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+### 1. Garis referensi dan anak panah
+
+Anggap garis referensi sebagai sumbu pembacaan. Ikuti anak panah sampai menyentuh garis atau titik sambungan yang dimaksud. Periksa apakah ada garis patah, lingkaran di pangkal anak panah, atau ekor (tail) yang membawa catatan. Posisi simbol terhadap garis referensi dan bentuk anak panah hanya boleh ditafsirkan menurut legenda atau standar yang dinyatakan pada gambar. Bila salinan buram atau anak panah menyentuh garis yang salah, jangan memilih sisi sambungan berdasarkan posisi di layar.
+
+### 2. Sisi anak panah dan sisi lain
+
+Tentukan pasangan sisi dengan menyebutnya secara verbal: “sisi yang ditunjuk anak panah” dan “sisi berlawanan”. Lalu cocokkan letak simbol di atas atau di bawah garis referensi sesuai konvensi gambar. Jangan mengganti istilah itu dengan “kiri” atau “kanan”, karena orientasi tampak dapat berubah ketika detail diputar. Minta perancang menegaskan bila simbol tampak simetris, bertumpuk, atau tidak konsisten dengan potongan.
+
+### 3. Simbol dasar sambungan
+
+Kenali dulu keluarga bentuknya—misalnya fillet, groove, plug/slot, atau simbol permukaan—tanpa langsung mengisi ukuran. Bentuk yang mirip dapat mempunyai arti berbeda di standar yang berbeda. Tulis nama simbol sebagaimana tercantum di legenda, kemudian tandai **[NEEDS SYMBOL-IDENTITY CONFIRMATION]** bila legenda tidak ada. Ini mencegah pengadaan dan persiapan sambungan berjalan dari tebakan.
+
+### 4. Ukuran, panjang, dan jumlah
+
+Cari angka di kiri atau kanan simbol, tetapi jangan mengasumsikan letaknya universal. Catat satuannya, apakah angka menyatakan ukuran efektif, panjang las, jarak antarsegmen, pitch, atau jumlah. Untuk las terputus-putus, bedakan panjang setiap segmen dari jarak pusat-ke-pusat. Jika angka berada dalam tanda kurung, memiliki awalan, atau muncul di ekor, salin persis dan minta klarifikasi sebelum mengonversi ke instruksi produksi.
+
+### 5. Kontur dan finish
+
+Simbol kontur memberi petunjuk bentuk permukaan akhir; tanda finish dapat menyertakan cara pengerjaan atau kode yang harus dicari di legenda. Jangan menerjemahkan huruf finish menjadi tingkat kehalusan, metode gerinda, atau toleransi tanpa spesifikasi. Tanyakan apakah permukaan harus rata, cembung, cekung, dibiarkan seperti dilas, atau dikerjakan dengan metode tertentu—dan siapa yang memeriksa hasilnya.
+
+### 6. Informasi tambahan
+
+Ekor dapat menunjuk proses, spesifikasi, WPS (welding procedure specification), elektroda, atau catatan umum. Simbol sekeliling sambungan, lapangan, backing, atau pengujian tambahan juga harus dicari pada legenda. Perlakukan kode itu sebagai referensi dokumen, bukan izin untuk menyalin parameter. ISO 3834-6 menempatkan persyaratan mutu pengelasan dalam kerangka yang perlu ditetapkan oleh dokumen dan organisasi proyek; abstraknya tidak menyediakan rentang kualifikasi atau parameter kerja ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html)).
+
+Gunakan tabel kecil berikut saat menandai gambar:
+
+| Yang dibaca | Pertanyaan pemeriksaan |
+| --- | --- |
+| Referensi dan anak panah | Garis atau titik sambungan mana yang benar-benar ditunjuk? |
+| Sisi sambungan | Simbol berada pada sisi anak panah atau sisi berlawanan menurut legenda apa? |
+| Bentuk | Simbol dasar dan orientasinya cocok dengan detail potongan? |
+| Dimensi | Angka berarti ukuran, panjang, pitch, atau jumlah; satuannya apa? |
+| Kontur/finish | Bentuk akhir dan metode pengerjaan dirujuk ke dokumen mana? |
+| Ekor/catatan | Apakah ada proses, WPS, inspeksi, atau pengecualian yang wajib dibaca? |
 
 ## Langkah 3 — jalankan urutan kerja
 
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kerjakan dari kiri ke kanan pada setiap callout, kemudian bandingkan dengan tampak dan potongan. Tandai sambungan pada daftar joint; beri satu identitas yang sama pada gambar, daftar material, WPS, dan rencana inspeksi. Setelah itu, buat pertanyaan klarifikasi berformat “simbol—lokasi—dampak”: misalnya, “simbol di detail B-4 tidak jelas sisi anak panah; apakah las berada di sisi luar atau sisi dalam?”
 
-## Hold point dan kondisi berhenti
+Jangan mengisi celah dengan standar yang kebetulan Anda kenal. Standar mutu seperti ISO 5817:2023 dan pengujian NDT seperti ISO 17635:2025 memiliki ruang lingkup dan dokumen penerapan masing-masing; abstrak resmi tidak memberikan tabel cacat, teknik, atau tingkat penerimaan yang boleh disalin ke proyek ([ISO 5817:2023](https://www.iso.org/standard/80209.html), [ISO 17635:2025](https://www.iso.org/standard/85705.html)). Hubungkan simbol ke spesifikasi proyek, prosedur tertulis, personel, peralatan, dan rekaman yang benar.
 
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sobat Bengkel-las.co.id, bila gambar berubah setelah material dipotong, hentikan alur yang terdampak dan cocokkan nomor revisi. Revisi bukan sekadar mengganti judul file: ia dapat mengubah sisi las, panjang, urutan, atau pemeriksaan. Simpan salinan beranotasi dan daftar pertanyaan agar keputusan dapat ditelusuri.
 
-## Verifikasi hasil dan handover
+## Titik tahan dan kondisi berhenti
 
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Simbol Las pada Gambar Teknik: Cara Membaca Tanpa Menebak”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pekerjaan tidak boleh diteruskan ke pemotongan, fit-up, pengelasan, atau pengiriman ketika salah satu kondisi ini terjadi:
 
-## Objection or shortcut to address
+- simbol dan legenda menggunakan standar berbeda atau edisinya tidak diketahui;
+- anak panah, angka, satuan, atau kode ekor tidak terbaca;
+- detail potongan bertentangan dengan tampak utama;
+- revisi gambar, material, atau identitas sambungan tidak cocok;
+- persyaratan inspeksi dan dasar penerimaan belum ditunjuk.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Buat hold point tertulis dan minta jawaban pihak desain atau penanggung jawab proyek. [NEEDS COMPETENT PROJECT REVIEW: SYMBOL CONVENTION, DESIGN INTENT, AND ACCEPTANCE BASIS]. Membaca simbol tidak sama dengan menyetujui kecukupan sambungan; isu beban, tumpuan, stabilitas, dan kondisi terpasang tetap berada di luar scope artikel ini.
 
-## Required conclusion
+## Serah terima dan verifikasi hasil
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Sebelum handover, lakukan pemeriksaan silang: setiap joint pada daftar memiliki callout; setiap callout punya detail, material, revisi, dan instruksi inspeksi; ukuran dan panjang tidak berubah saat dipindahkan ke lembar kerja; serta pertanyaan yang pernah terbuka memiliki jawaban atau status ditahan. Simpan gambar berstempel berlaku, markup, klarifikasi, WPS atau rujukan prosedur, laporan pemeriksaan, dan catatan penyimpangan.
 
-## Draft completion checklist
+Jika pemeriksaan visual menemukan gejala, jangan menyebutnya otomatis lulus atau gagal. Metode, cakupan, teknik, kondisi permukaan, personel, status verifikasi peralatan, pelaporan, dan dasar penerimaan adalah bukti terpisah. ISO 17635 juga mengingatkan bahwa tingkat penerimaan NDT tidak diterjemahkan satu banding satu dari tingkat mutu ISO 5817 ([ISO 17635:2025](https://www.iso.org/standard/85705.html)). Minta otoritas penerimaan menetapkan disposisi, termasuk bila diperlukan pemeriksaan lanjutan atau perbaikan.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Untuk langkah pengadaan atau fabrikasi berikutnya, Anda dapat memakai panduan [memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) sebagai pertanyaan awal tentang kemampuan membaca paket gambar dan menjaga rekaman. Tautan itu bukan pengganti review gambar proyek.
+
+Jika callout menyebut material tetapi daftar material belum cocok, gunakan [panduan mengenali bahan teralis jendela yang umum](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran) hanya untuk menyiapkan pertanyaan identifikasi; keputusan material tetap mengikuti gambar dan spesifikasi proyek.
+
+## Jalan pintas yang sering gagal
+
+Jalan pintas yang umum adalah mengirim potongan gambar ke grup kerja lalu meminta “las saja seperti biasanya”. Cara itu menghapus konteks garis referensi, sisi sambungan, revisi, dan dasar penerimaan. Bahkan welder yang berpengalaman tidak dapat menebak maksud desain yang tidak tertulis tanpa menanggung risiko salah produksi dan pekerjaan ulang.
+
+Alternatif yang lebih aman ialah membuat satu lembar klarifikasi per callout ambigu, melampirkan potongan yang diberi tanda, dan menunggu jawaban berwenang. Setelah disetujui, perbarui daftar joint dan distribusikan hanya revisi yang berlaku. Kawan Bengkel-las.co.id, kecepatan yang dapat ditelusuri lebih berharga daripada pekerjaan cepat yang harus dibongkar.
+
+## Kesimpulan
+
+Cara membaca simbol las tanpa menebak adalah mengikuti urutan: identifikasi garis referensi dan anak panah, tetapkan sisi sambungan menurut legenda, kenali simbol dasar, baca ukuran–panjang–pitch, lalu periksa kontur, finish, dan catatan tambahan. Cocokkan semuanya dengan detail, revisi, spesifikasi, dan rencana inspeksi.
+
+Tindakan berikutnya: ambil satu callout yang akan dikerjakan, isi tabel pemeriksaan, dan kirim setiap kolom yang belum pasti kepada perancang atau penanggung jawab proyek. Jangan mengubah simbol yang ambigu menjadi instruksi produksi sebelum **[NEEDS COMPETENT REVIEW]** terpenuhi; artikel ini membantu interpretasi awal, bukan persetujuan desain atau penerimaan hasil las.

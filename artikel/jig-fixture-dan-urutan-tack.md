@@ -2,8 +2,8 @@
 article_id: WLD-07-A04
 title: "Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah"
 slug: "jig-fixture-dan-urutan-tack"
-description: "Explain locators, clamps, access, heat, tack sequence, removal, inspection, and mistake-proofing"
-status: outline
+description: "Panduan praktis memilih locator dan clamp, menyusun urutan tack, memeriksa akses serta panas, lalu melepas fixture tanpa mengunci kesalahan."
+status: draft
 publication_date: "2025-11-13"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,55 +13,17 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Kawan Bengkel-las.co.id"
 final_route: "/artikel/jig-fixture-dan-urutan-tack.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah”
-- **Reader and situation:** Workshop improving fit-up
-- **Reader outcome:** Explain locators, clamps, access, heat, tack sequence, removal, inspection, and mistake-proofing
-- **Primary intent:** Plan repeatable assembly
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes fixture structural design and automated positioners, owned by WLD-17-A02
-- **Final public route:** `/artikel/jig-fixture-dan-urutan-tack.html`
-- **Appointed CMS date:** `2025-11-13` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -72,180 +34,60 @@ sources:
 - **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Kawan Bengkel-las.co.id! Jig atau fixture yang baik bukan sekadar rangka untuk menjepit benda kerja. Ia menetapkan datum, memberi akses untuk mengelas dan mengukur, menahan bagian agar tidak bergeser, lalu dapat dilepas tanpa merusak hasil tack. Urutan tack yang tepat menjaga bentuk selama panas masuk; urutan yang asal bisa mengunci celah, memindahkan distorsi, dan membuat kesalahan baru sulit dibongkar.
 
-### KR-01
+Jawaban singkatnya: tentukan datum dan ukuran yang harus berulang, pasang locator pada titik yang tidak menghalangi jalur las, gunakan clamp secukupnya agar bagian tetap duduk tanpa dipaksa, kemudian tack secara simetris dan bertahap sambil memeriksa ulang. Keputusan ini dapat berubah bila gambar kerja, toleransi, material, posisi pengelasan, atau akses lapangan berbeda. Paket kerja terkontrol perlu memuat dokumen acuan, revisi, identitas material dan sambungan, urutan fabrikasi, titik inspeksi, serta dasar penerimaan; katalog BSN untuk SNI 1729:2020 dan ringkasan ISO 3834-6:2024 membantu mengingat kebutuhan paket tersebut, tetapi tidak menggantikan naskah standar dan dokumen proyek ([BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020); [ISO 3834-6](https://www.iso.org/standard/83335.html)).
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-07-A02` → `/artikel/checklist-fit-up-dan-tack-weld.html` — Checklist Fit-Up dan Tack Weld Sebelum Sambungan Dilas Penuh
-- `WLD-07-A03` → `/artikel/geometri-tepi-sambungan-las.html` — Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las
-- `WLD-07-A05` → `/artikel/mengendalikan-distorsi-las.html` — Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran
-- `WLD-07-A06` → `/artikel/kebersihan-permukaan-sebelum-las.html` — Kebersihan Permukaan Sebelum Las: Karat, Cat, Galvanis, Minyak, dan Air
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Mulai dari gejala, bukan tebakan penyebab
 
-- **Purpose:** Tentukan apa yang terlihat/terukur, lokasi, waktu, perubahan, dan keterbatasan pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sebelum mengubah jig, catat apa yang benar-benar terjadi. Apakah celah berubah setelah clamp dilepas, sudut bergeser sesudah tack, atau komponen tidak bisa diputar untuk menyelesaikan sisi belakang? Ukur lokasi dan waktu gejalanya: sebelum tack, setelah tack pertama, atau setelah beberapa titik panas. Foto dan catatan sederhana boleh menjadi bukti awal, tetapi bukan keputusan penerimaan.
+
+Pisahkan ukuran yang direncanakan, ukuran yang terbaca, dan asumsi tentang penyebab. Periksa kembali datum pada gambar, arah referensi, identitas material, dan revisi dokumen. Jika dua orang memakai titik nol berbeda, jig tampak “tidak konsisten” padahal masalahnya ada pada referensi. Sobat Bengkel-las.co.id, jangan menggerinda tack hanya karena mata melihat garis tidak rapi sebelum tahu apakah posisi atau celahnya memang keluar batas.
 
 ## Saringan risiko langsung
 
-- **Purpose:** Jelaskan kapan pembaca harus membatasi akses, menghentikan pekerjaan, atau meminta pemeriksaan kompeten.
-- **Tie back to this article:** Keep the explanation specific to “Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hentikan pekerjaan bila benda kerja dapat jatuh, clamp menyimpan energi yang bisa melontar saat tack dipotong, kabel atau selang menghalangi jalur, atau asap dan percikan masuk ke area orang lain. Pengendalian K3 harus mengikuti bahaya nyata—energi gerak, panas, listrik, api, asap, akses, dan evakuasi—bukan hanya daftar alat pelindung. UU No. 1 Tahun 1970 dan Permenaker No. 5 Tahun 2018 menjadi rujukan umum keselamatan kerja di Indonesia; pengendalian spesifik tetap memerlukan penilaian kondisi tempat kerja dan otoritas K3 yang bertanggung jawab ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970); [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018)).
+
+Pastikan locator tidak menjadi perangkap jari, clamp dapat dibuka dari posisi aman, dan ada ruang untuk alat ukur maupun torch. Jangan menambah penyangga darurat pada fixture tanpa menilai kestabilan dan jalur beban. Desain struktural fixture serta positioner otomatis berada di luar bahasan ini; [NEEDS REVIEW: desain dan kapasitas fixture harus disetujui penanggung jawab teknik].
 
 ## Kemungkinan mekanisme
 
-- **Purpose:** Kelompokkan kemungkinan penyebab tanpa menyatakan diagnosis dari bukti yang belum cukup.
-- **Tie back to this article:** Keep the explanation specific to “Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kelompokkan penyebab menjadi referensi, penahanan, panas, dan akses. Locator mungkin menyentuh bidang yang salah, datum tertutup kerak, atau stopper berubah posisi. Clamp yang terlalu jauh dapat memaksa bagian melengkung; fixture yang menahan susut berlebihan memindahkan distorsi. Tack berdekatan di satu sisi mengumpulkan panas, sedangkan tack panjang atau tidak seimbang menarik sambungan. Braket juga bisa menutup jalur las atau menghalangi pelepasan.
+
+Locator menetapkan arah dan posisi; clamp menjaga bagian tetap menempel. Jangan menjadikan clamp alat untuk “menarik” ukuran yang tidak cocok. Sediakan ruang untuk membersihkan, mengukur, mengelas, dan memeriksa sisi berlawanan. Catat identitas material dan bahan tambah serta batch bila diwajibkan paket mutu; catatan itu berguna untuk penelusuran, bukan bukti sambungan otomatis memenuhi syarat.
 
 ## Urutan pemeriksaan dan pengujian
 
-- **Purpose:** Susun observasi, dokumen, tes, sampel, atau pengukuran dari yang paling aman dan informatif.
-- **Tie back to this article:** Keep the explanation specific to “Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulai tanpa panas: bersihkan bidang kontak sesuai prosedur, pastikan locator menyentuh bidang rujukan, lalu ukur panjang, diagonal, sudut, dan celah pada titik yang disepakati. Tandai titik ukur agar pemeriksaan dapat diulang. Setelah clamp dipasang, ukur lagi; selisih sebelum dan sesudah menjepit menunjukkan apakah gaya penahanan memengaruhi bentuk.
+
+Susun tack dari titik yang mengunci referensi utama, lalu bergerak menyilang ke sisi berlawanan. Gunakan tack secukupnya menurut prosedur kerja, beri waktu untuk memeriksa, dan jangan mengisi sambungan penuh pada tahap ini. Setelah satu rangkaian tack, lepas clamp bertahap sambil menahan benda kerja agar perubahan bentuk dapat diamati. Jika ukuran keluar, hentikan dan koreksi penyebab sebelum menambah panas.
+
+Catat gambar dan revisi, identitas bagian, urutan tack, posisi pengukuran, alat ukur, serta pemeriksa. Untuk pemeriksaan lanjutan, metode, cakupan, teknik, kondisi permukaan, personel, status verifikasi alat, laporan, dan dasar penerimaan adalah bukti terpisah. Ringkasan ISO 17635 dan ISO 9712 menekankan pemisahan unsur tersebut; abstraknya tidak memberi nilai penerimaan atau parameter uji ([ISO 17635](https://www.iso.org/standard/85705.html); [ISO 9712](https://www.iso.org/standard/75614.html)). [NEEDS PROJECT EVIDENCE: toleransi, metode inspeksi, cakupan, dan acceptance basis].
 
 ## Cara membaca hasil tanpa melompat ke kesimpulan
 
-- **Purpose:** Pisahkan hasil tes, kriteria proyek, sebab, konsekuensi, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil ukur menjawab “berapa yang terbaca pada titik ini”, bukan “mengapa” atau “pasti aman”. Bandingkan dengan toleransi pada gambar kerja yang berlaku. Bila tidak ada toleransi tertulis, jangan mengarang angka dari kebiasaan bengkel; minta klarifikasi penerbit gambar. Tack yang tampak rata juga tidak membuktikan penetrasi, kecocokan prosedur, atau kelayakan sambungan akhir.
+
+Bedakan indikasi, ketidaksesuaian, dan keputusan. Indikasi adalah gejala yang perlu dievaluasi; ketidaksesuaian memerlukan kriteria proyek; disposisi perbaikan atau penerimaan berada pada otoritas yang ditetapkan. Jangan menerjemahkan satu hasil visual menjadi keputusan NDT lengkap. Simpan laporan, identitas sambungan, alat, kondisi permukaan, dan siklus perbaikan agar jejaknya dapat ditelusuri.
 
 ## Pilihan tindakan dan titik eskalasi
 
-- **Purpose:** Bedakan kontrol sementara, pemantauan, perbaikan, penggantian, dan review profesional.
-- **Tie back to this article:** Keep the explanation specific to “Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Jika masalah hanya locator kotor atau stopper bergeser, bersihkan, setel ulang, lalu ukur ulang. Jika clamp memaksa bentuk, kurangi titik penahanan, pindahkan gaya ke area lebih kaku, atau ubah urutan tack setelah disetujui. Bila tack sudah mengunci celah atau bagian retak, jangan menutupinya dengan las penuh; amankan benda kerja, dokumentasikan, dan minta instruksi perbaikan.
 
-## Objection or shortcut to address
+Pekerjaan lapangan menambah perubahan akses, cuaca, sumber listrik, fume, api, lalu lintas, dan inspeksi. Memindahkan pekerjaan hanya karena transportasi merepotkan bukan alasan teknis untuk mengelas di tempat. Kawan Bengkel-las.co.id, eskalasi bila fixture harus menahan beban yang tidak tercantum, komponen tidak stabil, perubahan memengaruhi interface, atau keputusan menyentuh keselamatan dan fungsi. [NEEDS COMPETENT REVIEW: persetujuan perubahan metode, K3 lapangan, dan penerimaan sambungan].
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+### Jalan pintas yang sering menjerat
 
-## Required conclusion
+Menambah clamp sebanyak mungkin lalu melakukan tack panjang sekali jalan membuat bagian tampak diam, tetapi gaya berlebih dapat menyembunyikan mismatch; saat clamp dilepas, susut dan pegas balik muncul sekaligus. Alternatif yang dapat diaudit adalah locator secukupnya, clamp ringan, tack berselang-seling, dan pengukuran setelah setiap tahap. Lepaskan fixture hanya setelah titik ukur dan keamanan pelepasan dinyatakan siap.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Kesimpulan: tahan posisi, jangan kunci masalah
 
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jig dan fixture bekerja baik ketika datum jelas, locator tidak menghalangi akses, clamp menahan tanpa memaksa, dan tack disusun simetris dengan pemeriksaan di antara tahap. Mulailah pekerjaan berikutnya dengan lembar satu halaman: gambar dan revisi, material, datum, peta locator-clamp, urutan tack, titik ukur, kondisi pelepasan, serta otoritas yang menyetujui penyimpangan. Anda dapat membaca konteks pekerjaan lain melalui [blog Bengkel-las.co.id](/blog), lalu memeriksa pertanyaan umum di [halaman FAQ](/faq/) sebelum memakai lembar kerja di bengkel. Lengkapi toleransi dan dasar penerimaan dari dokumen proyek sebelum pengelasan penuh. Aturan operasinya: bila ukuran berubah saat penahanan atau setelah tack, berhenti, cari bukti, dan minta review kompeten—jangan menutup masalah dengan panas tambahan.

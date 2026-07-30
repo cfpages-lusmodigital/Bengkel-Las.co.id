@@ -2,8 +2,8 @@
 article_id: WLD-05-A02
 title: "Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber"
 slug: "ventilasi-dan-local-exhaust-las"
-description: "Explain source capture, hood placement, airflow interference, make-up air, recirculation questions, inspection, and performance verification"
-status: outline
+description: "Panduan memilih pengendalian asap las dengan penangkapan di sumber, menata posisi tudung, dan memeriksa hasilnya tanpa menebak ukuran sistem."
+status: draft
 publication_date: "2025-09-20"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,55 +15,19 @@ final_route: "/artikel/ventilasi-dan-local-exhaust-las.html"
 technical_review: required
 sources:
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/83335.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016"
   - "https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023"
+writing_contract_version: "native-id-v2"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber
 
-## Assignment lock
+Halo, Sobat Bengkel-las.co.id! Ketika asap las mulai terlihat mengarah ke wajah juru las, godaan yang paling cepat biasanya membuka pintu lebar-lebar atau menyalakan kipas yang ada. Itu mungkin membuat ruangan terasa lebih enak sesaat, tetapi belum tentu menangkap kontaminan sebelum terhirup atau sebelum menyebar ke orang lain di area kerja.
 
-- **Writer task:** Expand this file into one complete article answering: “Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber”
-- **Reader and situation:** Workshop planning fume control
-- **Reader outcome:** Explain source capture, hood placement, airflow interference, make-up air, recirculation questions, inspection, and performance verification
-- **Primary intent:** Select ventilation-control approach
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes DIY fan sizing for hazardous spaces and respirator substitution, owned by WLD-05-A03
-- **Final public route:** `/artikel/ventilasi-dan-local-exhaust-las.html`
-- **Appointed CMS date:** `2025-09-20` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: untuk pekerjaan las yang menghasilkan asap, pengendalian yang paling masuk akal dimulai dari menangkap asap sedekat mungkin dengan titik terbentuknya, lalu membuang atau mengolah aliran itu melalui sistem yang dirancang dan diperiksa. Sistem ini biasa disebut *local exhaust ventilation* atau ventilasi hisap setempat. Ventilasi umum ruangan tetap dapat berperan, tetapi jangan disamakan dengan penangkapan di sumber. Pilihan akhirnya berubah menurut proses las, bahan dan pelapis, posisi kerja, tata letak, pekerjaan sekitar, serta hasil penilaian K3 yang kompeten. Kerangka pengendalian K3 menempatkan pengendalian teknis dan administratif sebelum perlindungan perorangan, bukan membebankan seluruh risiko kepada pekerja. [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) dan [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018) perlu dibaca bersama kondisi tempat kerja yang nyata.
 
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -74,196 +38,65 @@ sources:
 - **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
-### KR-01
+## Mengapa menangkap di sumber lebih dulu
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+Asap las bukan persoalan yang selesai hanya karena tidak lagi tampak tebal. Partikel dan gas terbentuk di dekat busur las; jika dibiarkan bergerak melewati zona napas pekerja, langkah berikutnya sudah terlambat untuk menangkapnya di titik asal. Karena itu, ventilasi hisap setempat bekerja dengan menarik udara dari dekat pekerjaan melalui tudung atau mulut hisap, saluran, pengolah bila diperlukan, dan titik buang yang sesuai rancangan.
 
-### KR-16
+Bayangkan mengelap air setelah tumpah ke lantai dibanding menahan alirannya dekat keran. Keduanya mungkin berguna, tetapi fungsi dan hasilnya berbeda. Ventilasi umum dapat membantu mengencerkan atau mengganti udara dalam ruang, sedangkan hisap setempat ditujukan agar asap tidak sempat menyebar jauh. Dalam pekerjaan [konstruksi baja](/konstruksi-baja/), perbedaan ini penting karena benda kerja, posisi sambungan, dan urutan pekerjaan dapat berubah dari satu titik ke titik lain.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
+Kawan Bengkel-las.co.id, jangan menyimpulkan bahwa satu kipas dinding otomatis menjadi sistem pengendali asap. Kipas yang arahnya keliru dapat justru meniup asap melintasi wajah juru las atau membawa kontaminan ke pekerja di sebelahnya. Yang perlu dinilai bukan hanya apakah udara bergerak, melainkan dari mana udara datang, ke mana asap bergerak, dan apakah mulut hisap benar-benar berada pada sisi yang dapat menangkap aliran tersebut.
 
-### KR-09
+## Memahami bagian sistem tanpa menebak ukurannya
 
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
+Istilah *local exhaust* terdengar rumit, padahal gambaran dasarnya sederhana. Ada bagian yang menerima asap di dekat pekerjaan, ada jalur yang membawa udara, ada penggerak aliran, dan ada penanganan sebelum atau saat udara dilepas sesuai kebutuhan sistem. Keempatnya saling bergantung. Tudung yang baik posisinya tidak akan menolong jika jalurnya bermasalah; penggerak yang bekerja juga tidak membuktikan asap sudah tertangkap di tempat yang tepat.
 
-### KR-14
+Posisi tudung perlu mengikuti cara asap bergerak, akses tangan, gerak kepala pekerja, dan kemungkinan penghalang di antara sumber asap dan mulut hisap. Menaruh tudung sangat dekat tetapi menghalangi pengelasan dapat membuatnya sering disingkirkan. Menaruhnya terlalu jauh membuat asap terlebih dahulu bercampur dengan udara ruang. Maka pertanyaan praktisnya bukan “berapa besar kipas yang harus dibeli?”, melainkan “di mana asap muncul, dari mana pekerja bernapas, dan apakah posisi alat dapat dipertahankan sepanjang pekerjaan?”
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
+[NEEDS K3/ENGINEERING REVIEW: ukuran tudung, debit aliran, jenis kipas, konfigurasi saluran, media penyaring, lokasi pembuangan, dan batas penerimaan harus ditetapkan dari proses, bahan/pelapis, tata letak, pengukuran, serta ketentuan Indonesia yang berlaku; artikel ini tidak memberikan ukuran atau nilai desain.]
 
-### KR-07
+## Aliran pengganti dan gangguan yang sering luput
 
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
+Udara yang dihisap harus digantikan. Jika tidak, ruangan dapat terasa tidak nyaman, pintu sulit dibuka, atau pola aliran menjadi tidak stabil. Namun memasukkan udara pengganti juga bukan sekadar membuka semua pintu. Arah masuknya udara perlu direncanakan agar membantu membawa asap menuju hisap setempat, bukan memecah atau mendorongnya ke arah yang salah.
 
-### KR-20
+Gangguan kecil sering menentukan hasil: pintu terbuka, kipas portabel, kendaraan yang melintas, kerja di dekat bukaan, atau orang lain yang lalu-lalang. Pada pekerjaan lapangan, cuaca, akses, pekerjaan sekitar, dan antarmuka dengan publik dapat mengubah penyebaran asap dan pengendaliannya. Itu sebabnya pemindahan pekerjaan las dari bengkel ke lokasi tidak boleh dibenarkan hanya karena benda kerja sulit diangkut; pengendaliannya perlu disetujui sesuai tugas dan lokasi saat itu. [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018) serta catatan pembaruan regulasi pada [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026) mengingatkan bahwa pemeriksaan ketentuan yang berlaku tidak boleh berhenti pada kebiasaan lama.
 
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
+Teman Bengkel-las.co.id, perhatikan juga pertanyaan tentang sirkulasi ulang. Udara yang sudah dihisap tidak boleh begitu saja dianggap aman untuk kembali ke ruang kerja hanya karena baunya berkurang atau filternya tampak bersih. Keputusan tentang pengolahan, pelepasan, atau pengembalian udara memerlukan identifikasi proses, logam, bahan tambah, kondisi pelapis, dan bukti kinerja sistem yang relevan. Catat bahan dan produk yang digunakan; data keselamatan produk dapat mengubah penilaian bahaya dan cara pengendaliannya.
 
-### KR-15
+## Memilih pendekatan menurut situasi kerja
 
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
+Tidak setiap pekerjaan menuntut bentuk tudung yang sama. Sambungan kecil di meja, pekerjaan pada komponen besar, dan pengelasan di lokasi dapat memberi ruang gerak yang sangat berbeda. Yang tetap sama adalah urutan berpikirnya: kenali sumber asap, lihat jalur asap terhadap zona napas, pilih cara tangkap yang tidak mengganggu proses, lalu buktikan bahwa cara itu bekerja saat kondisi pekerjaan nyata.
 
-### KR-08
+| Situasi yang perlu dinilai | Pertanyaan keputusan | Bukti sebelum pekerjaan diteruskan |
+| --- | --- | --- |
+| Pengelasan berulang di meja tetap | Dapatkah tudung diposisikan konsisten tanpa mengganggu tangan dan sambungan? | Uji fungsi saat posisi kerja normal, bukan hanya saat alat kosong. |
+| Benda kerja besar atau berpindah | Apakah titik hisap dapat mengikuti sumber asap dan tetap aman dari benturan atau kabel? | Rencana penempatan, pemeriksaan operator, dan penyesuaian ketika urutan kerja berubah. |
+| Area dengan bukaan atau kipas lain | Apakah aliran silang membawa asap melewati pekerja? | Observasi pola aliran pada kondisi kerja sebenarnya dan tindakan koreksi yang dicatat. |
+| Bahan atau pelapis belum jelas | Apakah identitas bahan, bahan tambah, dan produk terkait sudah tersedia? | Dokumen produk dan penilaian kompeten sebelum menentukan pengendalian. |
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
+Tabel ini bukan resep desain. Ia membantu mandor, pemilik bengkel, atau pengawas proyek mengumpulkan pertanyaan yang benar sebelum membeli alat atau menyetujui metode kerja. Saat memilih penyedia pekerjaan, pertanyaan tentang cara mengendalikan asap, catatan inspeksi, dan siapa yang berwenang menghentikan pekerjaan sama bergunanya dengan menilai [cara memilih bengkel las yang profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/).
 
-### KR-04
+## Verifikasi: alat menyala belum berarti pengendalian berhasil
 
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
+Pemeriksaan yang baik dimulai sebelum pekerjaan: pastikan bagian yang dapat dilihat tidak rusak, sambungan dan posisi tudung sesuai rencana, serta tidak ada perubahan bahan atau tata letak yang belum ditinjau. Saat pekerjaan berjalan, amati apakah asap ditarik ke arah yang diharapkan tanpa melewati zona napas. Setelah itu, catat temuan, tindakan koreksi, dan siapa yang menilai hasilnya. Ini membuat gangguan berulang lebih mudah dilacak daripada mengandalkan ingatan.
 
-### KR-02
+Verifikasi kinerja yang sungguh-sungguh harus sesuai dengan risiko dan kondisi aktual, bukan cukup dengan melihat lampu indikator menyala. Metode pengukuran, cakupan, kondisi uji, personel, alat ukur, dan dasar penerimaan perlu ditetapkan dalam rencana yang berlaku. [NEEDS PROJECT/K3 REVIEW: tetapkan metode pengukuran paparan atau kinerja, frekuensi, personel berwenang, kondisi uji, catatan hasil, dan dasar keputusan berdasarkan penilaian risiko serta ketentuan yang berlaku.]
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Anchor workshop-safety content in current Indonesian law and prevent reliance on pre-July-2026 copies of sector K3 regulations.
-- **Safe grounded facts:** The 2026 record identifies partial revocations affecting, among others, workplace environment, electrical work, pressure vessels and tanks, powered/production machinery, lifting equipment, work at height, and confined spaces. A legacy regulation may still be in force while some provisions no longer are.
-- **Limits:** This register does not perform legal consolidation or interpret amended clauses. Recheck BPK and official Kemnaker text at outline approval and obtain competent Indonesian legal/K3 review for prescriptive claims.
+Ada batas tegas yang tidak boleh dikaburkan: ventilasi umum maupun local exhaust bukan alasan untuk menganggap pekerjaan di ruang terbatas aman. Tangki, bejana, pipa, atau ruang serupa dapat menyimpan risiko atmosfer, sisa bahan berbahaya, kebakaran, dan kebutuhan penyelamatan, meskipun tampak kosong atau tidak beroperasi. Pekerjaan semacam itu memerlukan penilaian dan pengendalian khusus oleh pihak yang berwenang; lihat konteks K3 ruang terbatas pada [Permenaker No. 11 Tahun 2023](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023). Jangan memakai artikel ini sebagai prosedur masuk ruang terbatas.
 
-### KR-12
+## Jalan pintas yang tampak praktis, tetapi gagal di lapangan
 
-- **Original sources:** [Permenaker No. 37 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016), [Permenaker No. 11 Tahun 2023 tentang K3 di Ruang Terbatas — BPK](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Create a hard boundary around pressure-retaining equipment, hazardous contents, entry, isolation, testing, and statutory inspection.
-- **Safe grounded facts:** Vessel/tank/pipe work can combine stored pressure, hazardous residue, oxygen deficiency/enrichment, toxic or flammable atmosphere, engulfment, hot work, line breaking, cleaning, ventilation, rescue, and integrity risks. “Empty” or “not operating” does not by itself establish a safe condition.
-- **Limits:** Do not provide a pressure design, repair detail, entry procedure, gas-test value, test pressure, interval, or return-to-service approval from this file. Specialist owner, K3, engineering, inspection, and legal review are required.
+“Asal ada kipas besar, beres” adalah jalan pintas yang paling sering terdengar. Masalahnya, kipas besar menjawab pertanyaan tentang gerak udara, bukan otomatis pertanyaan tentang arah tangkap, gangguan aliran, atau paparan di zona napas. Asap dapat terlihat menjauh dari titik las, padahal sedang diarahkan menuju rekan kerja atau menyebar ke seluruh area.
 
-## Evidence gates
+Sobat Bengkel-las.co.id, alternatif yang lebih dapat dipertanggungjawabkan ialah meminta rancangan dan pemeriksaan berdasarkan pekerjaan yang benar-benar dilakukan. Tahan pekerjaan bila bahan, pelapis, ruang kerja, atau kondisi aliran berubah secara penting sampai pengendaliannya ditinjau. Alat pelindung diri tetap perlu dipilih sesuai penilaian risiko, tetapi ia bukan pengganti pengendalian di sumber dan bukan pembenaran untuk membiarkan sistem hisap gagal.
 
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
+## Aturan kerja yang perlu dibawa pulang
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+Ventilasi untuk asap las bekerja paling baik saat asap ditangkap sedekat mungkin dengan sumbernya, aliran pengganti tidak merusak arah tangkap, dan hasilnya diperiksa ketika pekerjaan berlangsung. Mulailah dengan memetakan proses, bahan, posisi pekerja, aliran silang, serta orang di sekitar; kemudian minta pihak K3 dan teknis yang kompeten menetapkan rancangan dan ukuran sistemnya.
 
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-05-A01` → `/artikel/sumber-dan-risiko-asap-las.html` — Asap Las Itu Apa? Sumber, Kandungan, dan Mengapa Logam serta Pelapis Mengubah Risikonya
-- `WLD-05-A03` → `/artikel/respirator-untuk-pengelasan.html` — Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi
-- `WLD-05-A04` → `/artikel/apd-mata-wajah-kulit-dan-pendengaran-las.html` — Pelindung Mata, Wajah, Kulit, dan Pendengaran untuk Pekerjaan Las
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Aturan sederhananya: jangan menilai pengendalian dari suara kipas atau rasa sejuk ruangan. Nilailah dari apakah asap tertangkap sebelum melewati zona napas, apakah kondisi kerja yang berubah sudah ditinjau, dan apakah ada bukti pemeriksaan yang cukup. Bila jawabannya belum jelas—terutama untuk bahan berlapis, pekerjaan lapangan, atau ruang terbatas—hentikan asumsi dan minta penilaian kompeten terlebih dahulu.

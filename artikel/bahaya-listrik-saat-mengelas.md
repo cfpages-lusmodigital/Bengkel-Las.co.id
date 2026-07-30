@@ -2,8 +2,8 @@
 article_id: WLD-04-A02
 title: "Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman"
 slug: "bahaya-listrik-saat-mengelas"
-description: "Explain insulation, dry conditions, equipment condition, return connection, unintended current paths, isolation, and stop conditions"
-status: outline
+description: "Panduan mencegah sengatan listrik saat mengelas melalui isolasi, kondisi kering, pemeriksaan peralatan, jalur arus balik, pengamanan energi, dan tanda berhenti"
+status: draft
 publication_date: "2025-08-25"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,246 +13,99 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Teman Bengkel-las.co.id"
 final_route: "/artikel/bahaya-listrik-saat-mengelas.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023"
-  - "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/80209.html"
+  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman
 
-## Assignment lock
+Halo, Teman Bengkel-las.co.id! Sengatan saat mengelas bukan hanya terjadi ketika tangan menyentuh kabel yang terkelupas. Tubuh bisa menjadi bagian dari rangkaian bila isolasi rusak, lantai atau benda kerja basah, atau arus balik mencari jalan lain karena penjepit massa tidak terhubung baik. Karena itu, keputusan aman dimulai sebelum busur dinyalakan: pastikan sumber energi dapat diisolasi, area dan sarung tangan tetap kering, peralatan layak, lalu pasang jalur arus balik yang pendek dan langsung ke benda kerja.
 
-- **Writer task:** Expand this file into one complete article answering: “Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman”
-- **Reader and situation:** Welder or supervisor in wet/metallic surroundings
-- **Reader outcome:** Explain insulation, dry conditions, equipment condition, return connection, unintended current paths, isolation, and stop conditions
-- **Primary intent:** Prevent welding electrical shock
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Teman Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Kawan Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes electrical repair, supply installation, and energized work; those require authorized electrical personnel
-- **Final public route:** `/artikel/bahaya-listrik-saat-mengelas.html`
-- **Appointed CMS date:** `2025-08-25` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jangan menganggap tegangan “tidak terasa” berarti aman. Nilai yang relevan di lapangan dipengaruhi jenis mesin, kondisi kulit, kelembapan, jalur sentuh, dan cara tubuh terhubung ke tanah. Jika ada kabel, konektor, dudukan elektroda, atau penjepit massa yang meragukan, hentikan pekerjaan. Perbaikan instalasi dan pekerjaan pada bagian bertegangan bukan tugas operator las; serahkan kepada personel listrik yang berwenang. Kerangka kewajiban keselamatan kerja di Indonesia dapat ditelusuri pada [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) dan ketentuan K3 listrik yang perlu dicek pada [Permenaker No. 12 Tahun 2015](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015) sesuai kondisi tempat kerja.
 
-## Opening instructions
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-001; placement: after opening; local asset; do not infer visual details or claim a project.
+**Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
+END MANAGED IMAGE PLAN -->
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-- Open with the exact short salutation: **“Halo, Teman Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Kawan Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Anchor workshop-safety content in current Indonesian law and prevent reliance on pre-July-2026 copies of sector K3 regulations.
-- **Safe grounded facts:** The 2026 record identifies partial revocations affecting, among others, workplace environment, electrical work, pressure vessels and tanks, powered/production machinery, lifting equipment, work at height, and confined spaces. A legacy regulation may still be in force while some provisions no longer are.
-- **Limits:** This register does not perform legal consolidation or interpret amended clauses. Recheck BPK and official Kemnaker text at outline approval and obtain competent Indonesian legal/K3 review for prescriptive claims.
-
-### KR-12
-
-- **Original sources:** [Permenaker No. 37 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016), [Permenaker No. 11 Tahun 2023 tentang K3 di Ruang Terbatas — BPK](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Create a hard boundary around pressure-retaining equipment, hazardous contents, entry, isolation, testing, and statutory inspection.
-- **Safe grounded facts:** Vessel/tank/pipe work can combine stored pressure, hazardous residue, oxygen deficiency/enrichment, toxic or flammable atmosphere, engulfment, hot work, line breaking, cleaning, ventilation, rescue, and integrity risks. “Empty” or “not operating” does not by itself establish a safe condition.
-- **Limits:** Do not provide a pressure design, repair detail, entry procedure, gas-test value, test pressure, interval, or return-to-service approval from this file. Specialist owner, K3, engineering, inspection, and legal review are required.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-04-A01` → `/artikel/izin-kerja-panas-dan-fire-watch.html` — Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan
-- `WLD-04-A03` → `/artikel/mencegah-kebakaran-setelah-pengelasan.html` — Percikan, Terak, dan Panas Tersembunyi: Mencegah Kebakaran Setelah Las Selesai
-- `WLD-04-A04` → `/artikel/pengelasan-di-ruang-terbatas.html` — Pengelasan di Ruang Terbatas dan Area Berpenghuni: Kapan Pekerjaan Harus Berhenti
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bahaya utama muncul ketika arus pengelasan memiliki jalur tak terkendali. Arus harus mengalir dari mesin melalui kabel elektroda atau obor las (torch), melewati busur dan benda kerja, kemudian kembali melalui kabel massa menuju terminal balik mesin. Jalur itu harus utuh, berisolasi, dan terhubung pada titik yang sesuai. Bila penjepit massa longgar atau menempel pada permukaan berkarat, arus dapat melewati meja, rangka, rantai, pipa, atau tubuh orang yang menyentuhnya. Panduan pengelasan OSHA juga menempatkan pembumian (grounding), kondisi kabel, pemegang elektroda, dan perlindungan dari lingkungan basah sebagai bagian dari pengendalian bahaya—bukan sekadar tambahan APD ([29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252)).
+
+Salah paham yang sering terjadi adalah mengira “massa” sama dengan menancapkan kabel ke sembarang logam atau ke tanah. Arus balik bukan perintah untuk memakai struktur bangunan sebagai penghantar. Penjepit massa sebaiknya dipasang pada benda kerja atau meja las yang memang dirancang untuk itu, pada permukaan bersih dan kuat, lalu kabelnya diarahkan agar tidak terjepit, terpotong, atau terendam. Bila benda kerja terhubung ke instalasi lain, minta penilaian penanggung jawab sebelum mulai karena sambungan tidak sengaja dapat memindahkan arus ke sistem yang tidak dimaksudkan.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Artikel ini membahas pencegahan sengatan pada operasi las yang sumber energinya dapat dihentikan dan diisolasi: pemeriksaan isolasi, pengendalian kelembapan, kondisi mesin serta kabel, sambungan arus balik, dan tanda berhenti. “Kering” berarti tangan, sarung tangan, pakaian, alas kaki, lantai, dan titik berdiri tidak menjadi media basah yang memudahkan arus. Kain yang tampak kering tetapi menyerap air, keringat berlebih, atau genangan di bawah kaki tetap harus diperlakukan sebagai risiko.
+
+Yang tidak dibahas adalah membongkar mesin, mengubah panel, memilih ukuran pengaman, menguji instalasi gedung, atau bekerja pada rangkaian yang masih bertegangan. Semua itu memerlukan prosedur perusahaan dan personel listrik berwenang. Artikel ini juga tidak menetapkan angka tegangan, setelan pemutus, nilai tahanan, atau jenis APD universal; kesesuaiannya harus ditentukan dari mesin, lokasi, penilaian risiko, dan aturan yang berlaku. Catatan status peraturan perlu diperbarui karena [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026) mencatat perubahan dan pencabutan sebagian ketentuan tertentu. [NEEDS REVIEW: koordinator K3 atau ahli listrik perlu memastikan rujukan dan prosedur lokal yang berlaku untuk lokasi kerja ini.]
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sebelum menyentuh benda kerja, lakukan urutan sederhana berikut.
+
+1. **Hentikan dan amankan sumber.** Matikan mesin pada sakelar, lepaskan hubungan yang diizinkan oleh prosedur, dan pastikan tidak ada bagian yang masih berenergi sebelum mengganti kabel, elektroda, atau memperbaiki sambungan. Untuk pekerjaan servis, gunakan pengendalian energi berbahaya yang terdokumentasi; konsep penguncian dan penandaan sumber energi (lockout/tagout) menjelaskan perlunya mematikan, mengisolasi, dan memverifikasi energi sebelum pekerjaan dilakukan ([29 CFR 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147)). Prosedur tersebut adalah kerangka rujukan, bukan pengganti aturan Indonesia atau instruksi mesin.
+
+2. **Periksa isolasi dan konektor.** Lihat seluruh panjang kabel elektroda, kabel massa, selubung torch, steker, dan konektor. Retak, bagian tembaga terbuka, sambungan panas, pin longgar, atau bekas terbakar berarti pekerjaan ditunda. Jangan membalut kerusakan kritis dengan lakban lalu menganggapnya selesai. Label kondisi mesin, catatan pemeriksaan, dan riwayat perbaikan membantu supervisor menentukan apakah alat boleh dipakai; pengujian internal dilakukan oleh teknisi yang kompeten.
+
+3. **Kendalikan air dan posisi tubuh.** Pindahkan pekerjaan dari genangan, lindungi mesin dari hujan dan percikan, serta gunakan alas dan sarung tangan yang sesuai dan utuh. Jangan memegang elektroda, torch, atau benda kerja dengan sarung tangan basah. Atur kabel agar tidak berada di jalur air, tepi tajam, roda, atau titik jepit. Sobat Bengkel-las.co.id, bila lingkungan tidak dapat dibuat kering dan penghalang yang tepat tidak tersedia, keputusan yang benar adalah berhenti, bukan menambah kecepatan kerja.
+
+4. **Pasang jalur arus balik.** Tempatkan penjepit massa sedekat dan sejelas mungkin ke area pengelasan pada benda kerja atau meja yang ditetapkan. Bersihkan karat, cat tebal, oli, atau kerak tepat di area kontak tanpa merusak benda kerja. Pastikan rahang mencengkeram kuat. Jangan mengandalkan engsel, rantai pengangkat, rel, pipa utilitas, atau struktur gedung sebagai kabel pengganti. Setelah terpasang, ikuti rute kabel yang terlihat dan terlindung; jangan biarkan kabel tertarik atau menjadi lintasan orang.
+
+5. **Uji kondisi tanpa mengambil risiko.** Nyalakan mesin hanya setelah pemeriksaan selesai dan orang lain berada di luar jalur potensi sentuh. Saat mengelas, jangan mengubah posisi sambungan atau menarik kabel dengan tangan yang memegang benda konduktif. Jika busur tidak stabil, muncul panas pada konektor, terdengar suara abnormal, atau penjepit massa berulang kali lepas, matikan mesin dan isolasi sebelum mencari penyebab.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Beberapa kondisi dapat mengubah tingkat bahaya walaupun urutan kerja sama.
+
+- **Kelembapan dan ruang sempit.** Lantai logam, hujan, kondensasi, keringat, atau pakaian basah menurunkan hambatan jalur tubuh. Di ruang terbatas, menyentuh dinding dan benda kerja sekaligus memperbesar kemungkinan tubuh menjembatani rangkaian. Pekerjaan seperti ini memerlukan penilaian lokasi, ventilasi, komunikasi, dan penyelamatan oleh tim berwenang; jangan membuat prosedur ruang terbatas dari artikel ini.
+- **Benda kerja terhubung ke sistem lain.** Pipa, tangki, rangka mesin, atau komponen yang masih tersambung dapat membawa arus ke bagian jauh dari titik las. Tanyakan apakah sambungan tersebut sudah dipisahkan dari sumber energi dan apakah ada jalur lain yang sengaja dipertahankan. “Tidak sedang beroperasi” tidak sama dengan “sudah diisolasi”.
+- **Kondisi mesin dan aksesori.** Kabel yang terlalu panjang, sambungan berulang, terminal yang panas, pemegang elektroda retak, atau torch dengan pemicu macet menambah peluang kontak. Hanya gunakan aksesori yang sesuai dengan mesin dan masih dapat ditelusuri status pemeriksaannya.
+- **Posisi dan interaksi orang.** Operator yang berlutut di lantai basah, memegang benda kerja sementara orang lain menyalakan mesin, atau bekerja tanpa pembatas komunikasi dapat menjadi jalur arus atau korban salah pemahaman. Tetapkan siapa yang berwenang menyalakan, mematikan, dan memberi izin mulai.
+
+Jika satu faktor di atas belum diketahui, tulis sebagai temuan dan minta penilaian K3. Jangan menggantinya dengan asumsi bahwa arus akan “pasti kembali” melalui massa.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan tabel ini sebagai penyaring awal, bukan izin otomatis untuk bekerja.
+
+| Temuan sebelum mulai | Keputusan aman | Alasan yang perlu dicatat |
+| --- | --- | --- |
+| Kabel utuh, area kering, massa mencengkeram bersih pada benda kerja | Lanjut setelah pemeriksaan supervisor dan prosedur setempat dipenuhi | Jalur arus terlihat dan tidak melewati tubuh |
+| Ada genangan atau sarung tangan basah | Hentikan; keringkan dan kendalikan sumber air lebih dulu | Kelembapan mengubah jalur sentuh dan hambatan tubuh |
+| Massa hanya bisa dipasang pada rantai, pipa, atau struktur gedung | Hentikan dan minta rancangan sambungan yang benar | Jalur tak sengaja dapat mengaliri sistem lain |
+| Selubung kabel terkelupas, konektor panas, atau pemegang retak | Isolasi alat dan panggil teknisi berwenang | Kerusakan tidak diselesaikan dengan pembalutan sementara |
+| Benda kerja tersambung ke mesin yang belum di-lockout | Jangan mengelas; lakukan isolasi dan verifikasi | Energi tersimpan atau sumber lain belum terkendali |
+| Tidak jelas siapa yang boleh mematikan atau memeriksa | Tunda pekerjaan dan tetapkan penanggung jawab | Kebingungan peran dapat membuat mesin hidup saat orang menyentuh rangkaian |
+
+Kawan Bengkel-las.co.id, catat alasan berhenti pada lembar pemeriksaan atau izin kerja yang berlaku di tempat Anda. Rekaman sederhana tentang temuan, tindakan, dan orang yang menyetujui mulai jauh lebih berguna daripada tanda tangan tanpa pemeriksaan nyata.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**“Massa dipasang di mana saja yang logam.”** Periksa apakah titik kontak memang bagian dari rangkaian balik yang disetujui, bukan hanya logam yang kebetulan dekat. Pastikan permukaannya bersih dan penjepit tidak mudah terlepas.
 
-## Objection or shortcut to address
+**“Sarung tangan cukup untuk melindungi.”** Sarung tangan adalah lapisan pengendalian terakhir. Periksa kekeringan, keutuhan, dan kecocokannya, tetapi tetap hilangkan sumber bahaya: air, kabel rusak, dan jalur balik yang salah.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+**“Mesin sudah mati, jadi boleh langsung dibetulkan.”** Untuk servis, matikan, isolasi, kunci atau tandai sesuai prosedur, lalu verifikasi ketiadaan energi dengan cara yang ditetapkan personel kompeten. Jangan menguji dengan menyentuh.
 
-## Required conclusion
+**“Busur tidak stabil tinggal menaikkan arus.”** Busur yang tidak stabil bisa menunjukkan kontak massa buruk, kabel rusak, atau setelan yang tidak sesuai. Matikan dan cari penyebabnya; jangan mengubah setelan secara coba-coba saat rangkaian atau tubuh berada pada posisi berisiko.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+**“Orang lain pasti tahu mesin sedang diperbaiki.”** Pasang komunikasi dan pembatas yang terlihat. Hanya petugas yang ditunjuk yang boleh mengembalikan energi setelah pemeriksaan selesai.
 
-## Draft completion checklist
+## Jalan pintas yang perlu ditolak
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jalan pintas paling berbahaya adalah tetap mengelas sambil berdiri di area basah dengan alasan pekerjaan hanya sebentar, lalu mengganti kabel massa dengan benda logam terdekat. Cara ini gagal karena menggabungkan dua ketidakpastian: tubuh lebih mudah menjadi penghantar dan arus balik tidak lagi memiliki rute yang dapat diprediksi. Alternatif yang lebih andal adalah menghentikan pekerjaan, mengeringkan atau memindahkan area, menyediakan sambungan balik yang ditetapkan, dan meminta pemeriksaan kompeten bila kondisi instalasi atau benda kerja belum jelas.
+
+## Kesimpulan dan langkah berikutnya
+
+Bahaya sengatan listrik saat mengelas dikendalikan dengan rangkaian yang terisolasi, area kerja kering, mesin dan aksesori yang layak, serta kabel massa yang terhubung kuat dan langsung ke benda kerja atau titik balik yang disetujui. Jangan biarkan tubuh, rantai, pipa, atau struktur bangunan menjadi jalur pengganti. Sebelum mulai, lakukan pemeriksaan tertulis atas air, isolasi, titik massa, sumber energi, dan pembagian kewenangan.
+
+Teman Bengkel-las.co.id, bila satu saja dari pemeriksaan itu gagal, beri tanda **STOP**, matikan dan isolasi sesuai prosedur, lalu minta supervisor K3 atau personel listrik berwenang menilai kondisi setempat. Untuk langkah lanjutan dan konteks pekerjaan lain, mulai dari [beranda Bengkel-las.co.id](/), lalu gunakan [halaman FAQ](/faq/) untuk pertanyaan umum atau [halaman kontak](/kontak-kami/) bila perlu menyampaikan kondisi yang harus dinilai. Artikel ini tidak menggantikan perbaikan instalasi, pekerjaan bertegangan, atau persetujuan proyek; pekerjaan baru boleh dilanjutkan setelah bukti pemeriksaan dan otorisasi yang berlaku tersedia.

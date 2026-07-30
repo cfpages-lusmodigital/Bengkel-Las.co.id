@@ -2,8 +2,8 @@
 article_id: WLD-05-A03
 title: "Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi"
 slug: "respirator-untuk-pengelasan"
-description: "Explain hazard assessment, selection, fit, facial hair, maintenance, change schedule, medical/program needs, and hierarchy of controls"
-status: outline
+description: "Panduan memahami peran respirator, ventilasi, kecocokan pemakai, dan program perlindungan pernapasan pada pekerjaan pengelasan."
+status: draft
 publication_date: "2025-09-23"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,57 +13,14 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Kawan Bengkel-las.co.id"
 final_route: "/artikel/respirator-untuk-pengelasan.html"
 technical_review: required
+writing_contract_version: native-id-v2
 sources:
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/83335.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi”
-- **Reader and situation:** Employer or welder considering respiratory PPE
-- **Reader outcome:** Explain hazard assessment, selection, fit, facial hair, maintenance, change schedule, medical/program needs, and hierarchy of controls
-- **Primary intent:** Understand respirator-program requirements
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes prescribing a cartridge from a generic article; WLD-05-A02 owns source control
-- **Final public route:** `/artikel/respirator-untuk-pengelasan.html`
-- **Appointed CMS date:** `2025-09-23` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-002`
@@ -74,194 +31,77 @@ sources:
 - **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Kawan Bengkel-las.co.id! Jika asap las terasa menyengat, jalan keluarnya bukan sekadar membagikan masker lalu meneruskan pekerjaan. Respirator dapat menjadi bagian penting dari perlindungan pernapasan, tetapi ia tidak menggantikan pengendalian asap di sumber dan pengaturan kerja yang mengurangi paparan sejak awal.
 
-### KR-01
+Jawaban singkatnya: pilih dan pakai respirator hanya setelah bahaya tugas dinilai, sementara ventilasi atau pengendalian teknik tetap diperiksa sebagai penghalang utama. Urutan pengendalian K3 menempatkan penghilangan atau penggantian bahaya, pengendalian teknik dan administratif, lalu APD yang sesuai; pendekatan ini selaras dengan kerangka pengendalian risiko di [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) dan [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018). Kesimpulan dapat berubah bila bahan, pelapis, proses las, posisi kerja, ruang, atau hasil penilaian paparan berubah.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-### KR-16
+_Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu._
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
+## Apa yang dimaksud respirator, dan apa yang tidak diselesaikannya
 
-### KR-09
+Respirator adalah APD untuk mengurangi masuknya kontaminan dari udara ke pernapasan pemakai melalui rancangan dan penggunaan yang tepat. Ia bukan tanda bahwa udara kerja sudah aman, bukan pengganti penyedot lokal, dan bukan izin untuk mengabaikan bahan yang sedang dipanaskan. Dalam pengelasan, risiko dapat berubah bersama logam dasar, bahan tambah, cat atau pelapis, pembersih, serta kondisi ruang kerja. Karena itu, satu jenis perangkat tidak dapat ditetapkan dari judul pekerjaan saja.
 
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
+Ventilasi umum pun belum tentu sama dengan pengendalian di titik timbulnya asap. Pertanyaan praktisnya adalah: dari mana asap muncul, ke mana alirannya bergerak, dan apakah pekerja atau orang lain berada pada jalurnya? Bila asap tetap melewati zona napas, menambah respirator tanpa memperbaiki pengendalian sumber hanya memindahkan beban perlindungan kepada individu.
 
-### KR-14
+Kawan Bengkel-las.co.id, jangan menggunakan artikel ini untuk menentukan kartrid, kelas perangkat, atau batas waktu pakainya. **[NEEDS REVIEW: identitas bahan, SDS mutakhir, proses, konsentrasi paparan, oksigen/atmosfer ruang, dan evaluasi K3 yang kompeten sebelum menentukan respirator.]** Catatan keselamatan bahan dan label produk membantu mengenali bahaya bahan kimia; konsep tersebut dijelaskan dalam [aturan hazard communication OSHA](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), yang merupakan rujukan konsep, bukan pengganti hukum Indonesia.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
+## Cara kerja program perlindungan pernapasan
 
-### KR-07
+Perangkat yang baik tidak bekerja sendiri. Program dimulai dengan inventaris tugas: bahan yang dilas atau dipotong, bahan tambahan, pelapis dan sisa kontaminan, lokasi, durasi, pekerja sekitar, serta perubahan yang mungkin terjadi. Tim kemudian menilai apakah pekerjaan dapat dihilangkan, diganti, dipindahkan, atau diatur ulang; setelah itu mereka memeriksa pengendalian teknik seperti penangkapan asap di sumber dan aliran udara yang tidak membawa asap ke wajah pekerja. Pengaturan jadwal, pembatasan akses, pembersihan, dan komunikasi bahaya melengkapi langkah tersebut.
 
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
+Baru setelah itu ada keputusan tentang respirator. Keputusan yang dapat diaudit seharusnya menyebutkan tugas dan bahan yang dinilai, alasan pemilihan, pengguna yang dilindungi, pemeriksaan sebelum dipakai, pelatihan, pengawasan, serta siapa yang berwenang menghentikan kerja. [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018) menjadi salah satu rujukan Indonesia untuk pengendalian lingkungan kerja, tetapi rincian pilihan perangkat harus ditautkan pada bukti lokasi dan produk yang aktual.
 
-### KR-20
+Ada tiga pemeriksaan yang sebaiknya tidak disatukan. Pertama, kecocokan model dengan bahaya tugas. Kedua, kecocokan perangkat dengan wajah pemakai, termasuk kondisi yang dapat mengganggu bidang kontak. Ketiga, kondisi perangkat pada hari pemakaian: bagian penutup, pengikat, katup, dan komponen yang dapat diganti perlu diperiksa menurut instruksi pabrikan dan program kerja. **[NEEDS REVIEW: metode uji kecocokan, kebijakan rambut wajah, kelayakan medis, dan personel yang berwenang harus ditetapkan oleh program K3 setempat.]**
 
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
+Perawatan bukan kegiatan yang menunggu perangkat terlihat rusak. Program yang rapi menetapkan cara membersihkan dan menyimpan perangkat, siapa yang memeriksa kondisinya, dan bagaimana komponen yang aus atau tercemar ditangani tanpa tercampur dengan barang layak pakai. Catatan itu membantu membedakan kerusakan biasa dari masalah yang perlu menghentikan pemakaian atau memicu penilaian ulang.
 
-### KR-15
+Begitu pula jadwal penggantian. Jadwal tidak seharusnya dibuat dari perkiraan “sudah lama dipakai” atau dari aroma yang baru terasa. Dasarnya perlu menghubungkan model dan petunjuk pabrikan dengan tugas, bahan, kondisi pemakaian, serta hasil penilaian paparan. Bila catatan dasar tersebut belum tersedia, keputusan yang aman adalah menahan penggunaan atau meminta penetapan dari penanggung jawab program. **[NEEDS REVIEW: jadwal penggantian dan kriteria perangkat tidak layak pakai harus disahkan untuk model dan kondisi kerja yang sebenarnya.]**
 
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
+## Mengapa hasilnya berubah dari satu pekerjaan ke pekerjaan lain
 
-### KR-08
+Asumsi “lasnya sama, maskernya sama” gagal karena konteks kerja ikut menentukan paparan. Mengelas komponen bersih di area terbuka berbeda dengan memperbaiki benda berlapis, bekerja di sudut sempit, atau melakukan pekerjaan panas di sekitar proses lain. Posisi kepala terhadap asap, arah aliran udara, ruang yang membatasi pelepasan asap, dan pekerjaan orang di sekitarnya dapat mengubah keputusan kendali.
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
+Sobat Bengkel-las.co.id, perubahan kecil pada bahan juga perlu dihitung sebagai perubahan tugas. Jangan mengandalkan ingatan atau warna kemasan. Catat identitas produk dan batch bila relevan, cek label serta SDS yang berlaku, lalu bawa perubahan itu ke penilaian ulang. Rujukan OSHA tentang komunikasi bahaya menegaskan kegunaan identitas produk, label, dan safety data sheet untuk memahami bahaya; penerapannya tetap harus disesuaikan dengan ketentuan Indonesia dan kondisi lokasi.
 
-### KR-04
+Perhatikan pula keadaan pemakai. Respirator yang tidak dipakai konsisten, tidak terpasang dengan baik, atau digunakan melewati kondisi yang ditetapkan program dapat memberi rasa aman palsu. Rambut wajah, perubahan ukuran wajah, keringat, gerakan berulang, atau perangkat pelindung lain yang berbenturan dapat menjadi alasan untuk berhenti dan meminta pemeriksaan, bukan alasan untuk mengencangkan tali tanpa evaluasi. **[NEEDS REVIEW: kriteria fit, pembersihan, penyimpanan, penggantian komponen, dan jadwal ganti harus mengikuti model, pabrikan, hasil penilaian paparan, serta program K3 yang disetujui.]**
 
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
+## Contoh keputusan praktis sebelum menyalakan busur
 
-### KR-02
+Tabel ini bukan resep pemilihan respirator. Gunakan sebagai daftar pertanyaan untuk memutuskan apakah pekerjaan sudah cukup dipahami untuk dimulai.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Anchor workshop-safety content in current Indonesian law and prevent reliance on pre-July-2026 copies of sector K3 regulations.
-- **Safe grounded facts:** The 2026 record identifies partial revocations affecting, among others, workplace environment, electrical work, pressure vessels and tanks, powered/production machinery, lifting equipment, work at height, and confined spaces. A legacy regulation may still be in force while some provisions no longer are.
-- **Limits:** This register does not perform legal consolidation or interpret amended clauses. Recheck BPK and official Kemnaker text at outline approval and obtain competent Indonesian legal/K3 review for prescriptive claims.
+| Situasi yang ditemukan | Keputusan awal yang lebih aman | Bukti yang perlu ada |
+| --- | --- | --- |
+| Bahan atau pelapis belum dikenal | Tunda keputusan APD spesifik; identifikasi bahan dan telaah SDS. | Identitas produk/bahan dan informasi keselamatan yang mutakhir. |
+| Asap melintas di depan wajah meski pekerja memakai respirator | Periksa penangkapan asap di sumber, arah aliran udara, dan posisi kerja. | Hasil pemeriksaan pengendalian teknik dan penilaian K3. |
+| Pemakai tidak pernah dievaluasi untuk model yang tersedia | Jangan menganggap satu ukuran cocok untuk semua. | Catatan pelatihan, pemeriksaan kecocokan, dan persetujuan program. |
+| Pekerjaan berada di ruang dengan kondisi atmosfer belum dipastikan | Hentikan dan eskalasi ke penanggung jawab K3/ruang terbatas. | Penilaian tugas serta prosedur dan izin yang berlaku. |
 
-### KR-12
+Teman Bengkel-las.co.id, skenario terakhir perlu diperlakukan sangat hati-hati. Ruang atau peralatan yang terlihat kosong tidak otomatis aman; pekerjaan pada bejana, tangki, atau pipa dapat melibatkan sisa bahan berbahaya, atmosfer kekurangan atau kelebihan oksigen, serta risiko kebakaran. Kondisi ini memerlukan kajian khusus oleh pihak yang berwenang, bukan keputusan dari artikel umum.
 
-- **Original sources:** [Permenaker No. 37 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016), [Permenaker No. 11 Tahun 2023 tentang K3 di Ruang Terbatas — BPK](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Create a hard boundary around pressure-retaining equipment, hazardous contents, entry, isolation, testing, and statutory inspection.
-- **Safe grounded facts:** Vessel/tank/pipe work can combine stored pressure, hazardous residue, oxygen deficiency/enrichment, toxic or flammable atmosphere, engulfment, hot work, line breaking, cleaning, ventilation, rescue, and integrity risks. “Empty” or “not operating” does not by itself establish a safe condition.
-- **Limits:** Do not provide a pressure design, repair detail, entry procedure, gas-test value, test pressure, interval, or return-to-service approval from this file. Specialist owner, K3, engineering, inspection, and legal review are required.
+Saat menilai calon penyedia pekerjaan, gunakan pertanyaan dalam [panduan memilih bengkel las secara profesional](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/) untuk membahas kesiapan dan pengendalian kerja sebelum pekerjaan dimulai. Untuk pekerjaan struktur, [halaman konstruksi baja](/konstruksi-baja/) dapat menjadi titik awal pembicaraan tentang pengendalian asap las sebelum pekerjaan dimulai.
 
-## Evidence gates
+## Kesalahan umum: menjadikan masker sebagai jawaban pertama
 
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
+Shortcut yang paling sering muncul adalah membeli perangkat yang mudah didapat, lalu menganggap masalah asap selesai. Cara ini dapat gagal karena tidak menjawab sumber paparan, tidak membuktikan kecocokan dengan pemakai, dan tidak menjelaskan kapan komponen perlu dirawat atau diganti. Ia juga dapat membuat masalah ventilasi tidak terlihat sampai pekerja mengalami gangguan atau kondisi kerja memburuk.
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+Ubah shortcut itu menjadi pemeriksaan singkat sebelum kerja:
 
-## Internal-link plan
+- Apakah tugas, bahan, pelapis, dan bahan kimia terkait sudah diidentifikasi?
+- Apakah pengendalian di sumber dan aliran udara sudah diperiksa, bukan hanya tersedia?
+- Apakah pemakai masuk dalam program, mendapat pelatihan, dan tahu kapan berhenti?
+- Apakah pemeriksaan perangkat, perawatan, penyimpanan, serta penggantian komponen memiliki penanggung jawab dan catatan?
+- Apakah perubahan pekerjaan memicu penilaian ulang sebelum perangkat yang sama dipakai lagi?
 
-### Existing local routes
+Jika salah satu jawaban penting belum ada, jangan mengisi kekosongan dengan tebakan. Ketentuan keselamatan menuntut pengendalian risiko yang sesuai dengan kondisi kerja nyata, dan UU keselamatan kerja memberi dasar bahwa tempat kerja perlu dikelola secara aman; lihat [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
 
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
+## Langkah berikutnya: bangun keputusan, bukan sekadar stok masker
 
-### Planned sibling articles
+Respirator untuk pengelasan adalah lapisan perlindungan terakhir yang harus cocok dengan bahaya dan pemakainya; ia tidak pernah menggantikan ventilasi dan pengendalian asap di sumber. Sebelum membeli atau meneruskan pekerjaan, minta penanggung jawab mengumpulkan identitas bahan dan SDS, menilai pekerjaan serta ventilasinya, lalu menetapkan program tertulis yang mencakup pemilihan, kecocokan, kelayakan pemakai, pemeliharaan, dan penggantian.
 
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-05-A01` → `/artikel/sumber-dan-risiko-asap-las.html` — Asap Las Itu Apa? Sumber, Kandungan, dan Mengapa Logam serta Pelapis Mengubah Risikonya
-- `WLD-05-A02` → `/artikel/ventilasi-dan-local-exhaust-las.html` — Ventilasi dan Local Exhaust untuk Asap Las: Menangkap Kontaminan di Sumber
-- `WLD-05-A04` → `/artikel/apd-mata-wajah-kulit-dan-pendengaran-las.html` — Pelindung Mata, Wajah, Kulit, dan Pendengaran untuk Pekerjaan Las
-- `WLD-05-A05` → `/artikel/pemantauan-paparan-bengkel-las.html` — Pemantauan Paparan di Bengkel Las: Dari Inventaris Bahan hingga Pengukuran
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Respirator untuk Pengelasan: Mengapa Masker Bukan Pengganti Ventilasi”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Kawan Bengkel-las.co.id, aturan operasionalnya sederhana: bila bahaya, aliran udara, atau kecocokan pemakai belum dapat dibuktikan, hentikan keputusan respirator spesifik dan mintakan tinjauan K3 yang kompeten. Tidak ada artikel umum yang dapat menggantikan penilaian untuk kondisi tersebut.

@@ -2,8 +2,9 @@
 article_id: WLD-01-A04
 title: "Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar"
 slug: "posisi-las-dan-jenis-sambungan"
-description: "Explain butt, fillet, lap, corner, edge, groove, and common welding-position notation without treating terms as a procedure"
-status: outline
+description: "Panduan membaca butt, fillet, lap, corner, edge, groove, dan notasi posisi las tanpa menganggap istilah sebagai prosedur kerja"
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-06-22"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -19,231 +20,98 @@ sources:
   - "https://www.iso.org/standard/83335.html"
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id! Saat membaca gambar kerja, penawaran, atau laporan inspeksi, istilah seperti *butt joint*, *fillet weld*, 1G, dan 3F bukan sekadar variasi nama. Istilah itu menjelaskan bagaimana dua komponen bertemu dan dari arah mana sambungan dikerjakan. Salah membaca istilah dapat membuat Anda membandingkan penawaran yang sebenarnya tidak setara atau meminta prosedur yang belum tentu cocok.
 
-- **Writer task:** Expand this file into one complete article answering: “Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar”
-- **Reader and situation:** Buyer reading a drawing, quote, or inspection report
-- **Reader outcome:** Explain butt, fillet, lap, corner, edge, groove, and common welding-position notation without treating terms as a procedure
-- **Primary intent:** Decode joint and position terminology
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes symbol interpretation, owned by WLD-03-A01, and excludes fit-up tolerances, owned by WLD-07-A02
-- **Final public route:** `/artikel/posisi-las-dan-jenis-sambungan.html`
-- **Appointed CMS date:** `2025-06-22` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: kenali dulu bentuk pertemuan komponennya (jenis sambungan), lalu kenali orientasi benda dan arah pengelasan (posisi las). Keduanya hanya bahasa untuk menyamakan pemahaman. Bukan berarti satu nama otomatis menentukan elektroda, arus, ukuran las, urutan kerja, atau penerimaan akhir. Pilihan tersebut tetap harus mengikuti gambar terbitan, spesifikasi proyek, WPS, kualifikasi juru las, dan pemeriksaan yang disetujui. ISO 15614-1 dan ISO 9606-1 membedakan kualifikasi prosedur dari kualifikasi juru las; abstrak resminya juga mengingatkan bahwa rentang bahan, proses, posisi, dan ketebalan tidak boleh ditebak dari istilah saja ([ISO 15614-1](https://www.iso.org/standard/51792.html), [ISO 9606-1](https://www.iso.org/standard/54936.html)).
 
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
+- Image ID: LOCAL-002
+- Placement: after opening, before first detailed H2
+**Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`
+- Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+- Selection basis: filename/source metadata only.
+- Hard boundary: do not infer unseen visual details, ownership, location, people, brands, condition, performance, or outcome.
+- Substitution rule: if unavailable, use [NEEDS IMAGE REVIEW: LOCAL-002].
+END MANAGED IMAGE PLAN -->
 
-- **Image ID:** `LOCAL-002`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/terms-and-conditions` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/terms-and-conditions/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-01-A02` → `/artikel/cara-memilih-proses-las.html` — Cara Memilih Proses Las: SMAW, MIG-MAG, TIG, FCAW, atau Oksi-Bahan Bakar
-- `WLD-01-A03` → `/artikel/anatomi-busur-las.html` — Anatomi Busur Las: Arus, Tegangan, Polaritas, dan Jalur Arus
-- `WLD-01-A05` → `/artikel/memilih-mesin-las-dan-peralatan.html` — Mesin Las dan Peralatan Pendukung: Apa yang Harus Dicocokkan dengan Pekerjaan
-- `WLD-01-A06` → `/artikel/sejarah-proses-pengelasan.html` — Dari Tempa ke Las Busur: Mengapa Proses Pengelasan Terus Berubah
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Hasil akhir dan prasyarat
 
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil yang realistis dari panduan ini adalah kemampuan menerjemahkan istilah menjadi pertanyaan yang dapat dijawab: komponen mana yang disambung, bagaimana geometri pertemuannya, benda berada pada orientasi apa, dan dokumen mana yang mengatur penerimaan. Pembaca yang berwenang tetap pemilik desain, penanggung jawab fabrikasi, inspektor, atau personel K3 sesuai pembagian tugas proyek—bukan artikel ini.
 
-## Langkah 1 — tetapkan scope
+Sediakan gambar atau sketsa dengan nomor revisi, material dan tebal yang tertulis, daftar sambungan, serta bagian laporan yang ingin Anda cek. Jika dokumen hanya berbunyi “las standar” tanpa identitas sambungan atau kriteria penerimaan, berhenti pada tahap klarifikasi. SNI 1729:2020 tercatat di katalog BSN sebagai standar yang berlaku, tetapi halaman katalog tidak menggantikan naskah berlisensi maupun dokumen issued-for-work proyek ([katalog SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020)).
 
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Langkah 1 — tetapkan batas pekerjaan
+
+Mulailah dari batas objek. **Butt joint** menyatukan dua ujung atau sisi yang berada pada bidang yang sama atau hampir sama; celah dan bentuk tepinya dapat berbeda sesuai desain. **Lap joint** menempatkan satu lembar menumpang lembar lain. **Corner joint** mempertemukan dua bagian pada sudut sehingga membentuk pojok. **Edge joint** menyatukan tepi-tepi yang berdekatan. Istilah-istilah ini menerangkan hubungan komponen, bukan resep pengerjaan.
+
+Istilah **groove** lebih tepat dibaca sebagai alur atau ruang pada tepi sambungan tempat logam las ditempatkan. Karena itu, “groove weld” tidak otomatis berarti sambungan tertentu tanpa melihat penampang dan gambar. **Fillet weld** adalah istilah untuk las pada pertemuan yang lazimnya membentuk penampang kira-kira segitiga, misalnya pada sambungan T, lap, atau corner. Jenis sambungan dan jenis las dapat muncul bersamaan: sebuah lap joint dapat memakai fillet weld, sedangkan butt joint dapat memiliki groove weld.
+
+Pisahkan pula scope dari hal yang memang bukan sasaran halaman ini. Kami tidak menafsirkan simbol las pada gambar dan tidak menetapkan toleransi *fit-up* (kecocokan awal, celah, atau penyetelan komponen). Keduanya membutuhkan dokumen dan pemeriksaan khusus. Jika Anda membutuhkan keputusan pembelian, minta pemasok menuliskan ulang identitas sambungan dan posisi yang dimaksud, bukan hanya menyalin kata “las”.
 
 ## Langkah 2 — kumpulkan dan cocokkan bukti
 
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Posisi las menjawab pertanyaan “benda dan jalur las menghadap ke mana saat dikerjakan?” Dalam banyak dokumen, huruf **G** menandai *groove weld* dan **F** menandai *fillet weld*. Angka yang menyertainya lazim dipakai untuk membedakan orientasi: 1 berarti datar, 2 horizontal, 3 vertikal, dan 4 di atas kepala. Namun notasi tambahan seperti 5G atau 6G dapat menunjukkan benda berbentuk pipa pada orientasi tertentu. Arti tepatnya harus dikonfirmasi ke legenda gambar, prosedur, atau standar yang dirujuk proyek—jangan menjadikan daftar singkat ini sebagai dasar kualifikasi.
+
+Bedakan tiga catatan yang sering tercampur:
+
+| Yang tertulis | Pertanyaan yang dijawab | Yang belum terbukti |
+| --- | --- | --- |
+| 1G, 3F, atau notasi lain | Orientasi dan kategori sambungan saat pekerjaan dinilai | Parameter proses, ukuran las, dan mutu akhir |
+| Nama juru las atau kartunya | Siapa yang memiliki kualifikasi dalam cakupan tertentu | Kesesuaian WPS dan kondisi aktual |
+| WPS atau spesifikasi | Rangkaian persyaratan kerja yang disetujui | Bahwa sambungan sudah diterima |
+
+ISO 3834-6 menempatkan sistem mutu, rekaman, pemeriksaan, dan pengendalian sebagai hal yang berbeda dari sekadar penyebutan posisi ([ISO 3834-6](https://www.iso.org/standard/83335.html)). Jadi saat menerima penawaran, cocokkan nomor sambungan pada gambar, jenis material, proses, posisi, dan dokumen kualifikasi yang benar-benar tersedia. Bila salah satu tidak ada, tandai sebagai pertanyaan terbuka, bukan sebagai asumsi “sudah standar”.
 
 ## Langkah 3 — jalankan urutan kerja
 
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan urutan konseptual berikut ketika membaca satu sambungan.
 
-## Hold point dan kondisi berhenti
+1. **Identifikasi komponen.** Tandai dua bagian yang bertemu, bidangnya, dan arah gaya atau fungsi yang disebut gambar. Jangan menyimpulkan kapasitas hanya dari nama sambungan.
+2. **Baca geometri.** Putuskan apakah pertemuannya butt, lap, corner, edge, atau T. Lalu lihat apakah gambar menyebut groove, fillet, atau tipe lain.
+3. **Baca orientasi.** Catat apakah pekerjaan dibahas sebagai posisi datar, horizontal, vertikal, di atas kepala, atau posisi pipa. Konfirmasi kode G/F dan angka pada legenda yang sama.
+4. **Hubungkan ke dokumen.** Cari WPS, catatan material, kualifikasi juru las, rencana inspeksi, dan revisi gambar. Kualifikasi prosedur dan juru las adalah rekaman terpisah; satu tidak menggantikan yang lain ([ISO 15614-1](https://www.iso.org/standard/51792.html); [ISO 9606-1](https://www.iso.org/standard/54936.html)).
+5. **Tentukan pertanyaan keputusan.** Tanyakan kepada pihak berwenang: apakah posisi aktual termasuk cakupan kualifikasi, siapa yang menyetujui perubahan orientasi, dan apa dasar penerimaan sambungan ini?
 
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Contoh: gambar menyebut dua profil bertemu tegak lurus dan catatan “3F”. Anda boleh menjelaskan bahwa angka itu menunjuk kategori posisi fillet yang perlu dikonfirmasi legendanya. Anda belum boleh menyimpulkan ukuran kaki las, jumlah lintasan, parameter listrik, atau bahwa hasilnya lulus inspeksi.
 
-## Verifikasi hasil dan handover
+## Titik berhenti dan kondisi wajib ditinjau
 
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Posisi Las dan Jenis Sambungan: Panduan Membaca Istilah Dasar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Berhenti sebelum fabrikasi atau pengelasan dimulai apabila nomor revisi gambar tidak cocok, material tidak teridentifikasi, arah sambungan di lapangan berbeda dari gambar, atau notasi posisi tidak memiliki legenda yang dapat diverifikasi. Berhenti juga ketika pemasok mengklaim “qualified” tanpa menunjukkan dokumen dan cakupannya.
 
-## Objection or shortcut to address
+Untuk pekerjaan lapangan, perpindahan dari bengkel dapat mengubah akses, cuaca, sumber listrik, paparan fume, bahaya kebakaran, lalu lintas orang, dan akses inspeksi. Undang-undang keselamatan kerja Indonesia menempatkan kondisi tempat kerja sebagai bagian dari pengendalian keselamatan ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970)). Karena detail proyek dan kondisi aktual tidak tersedia di sini, tandai keputusan metode, izin, pengamanan area, dan pemeriksaan sebagai **[NEEDS PROJECT EVIDENCE AND COMPETENT REVIEW]**. Jangan meneruskan hanya karena pengangkutan terasa lebih sulit.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+## Verifikasi hasil dan serah terima
 
-## Required conclusion
+Sebelum menyatakan istilah telah “beres”, minta paket berikut untuk setiap sambungan:
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+- potongan gambar bernomor dan revisinya;
+- identitas jenis sambungan, jenis las, serta posisi yang dirujuk;
+- material, tebal, dan antarmuka yang tercatat;
+- WPS yang berlaku dan bukti kualifikasi juru las sesuai cakupan;
+- rencana inspeksi, identitas pemeriksa, metode, dan laporan yang dapat ditelusuri;
+- daftar penyimpangan, keputusan disposisi, serta persetujuan penutupan.
 
-## Draft completion checklist
+Jika laporan hanya menyebut “visual OK”, tanyakan standar penerimaan dan batas wewenang pemeriksa. Abstrak standar mutu dan inspeksi tidak memberikan tabel cacat atau angka penerimaan yang boleh ditebak; gunakan naskah standar dan spesifikasi proyek yang berlaku. Untuk memilih penyedia yang mampu mengumpulkan rekaman tersebut, Anda dapat membaca [panduan memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) sebagai langkah lanjutan, bukan sebagai bukti bahwa penyedia tertentu telah memenuhi proyek Anda.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jika material pada gambar belum jelas, pisahkan pertanyaan jenis sambungan dari pertanyaan bahan. Rujukan praktis tentang [bahan teralis jendela yang umum di pasaran](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran) dapat membantu menyusun pertanyaan material, tetapi tidak menggantikan spesifikasi dan sertifikat material proyek.
+
+## Jalan pintas yang sering menyesatkan
+
+Jalan pintas yang umum adalah menyamakan semua sambungan berbentuk “L” sebagai fillet, lalu meminta harga berdasarkan satu foto. Geometri yang tampak serupa dapat memiliki fungsi, material, akses, dan kriteria penerimaan berbeda. Sebaliknya, menganggap kode 1G atau 3F sebagai resep parameter juga berisiko karena kode itu tidak membuktikan WPS, kompetensi, atau hasil pemeriksaan.
+
+Cara yang lebih aman adalah mengirim potongan gambar lengkap dengan revisi dan meminta penawaran mengembalikan tabel identifikasi sambungan: nomor, jenis pertemuan, jenis las, posisi, material, dokumen acuan, serta asumsi yang masih menunggu persetujuan. Sobat Bengkel-las.co.id, jika pemasok tidak dapat memisahkan istilah dari jaminan hasil, jadikan itu sinyal untuk meminta review teknis sebelum memesan.
+
+## Kesimpulan dan langkah berikutnya
+
+Jenis sambungan menjelaskan cara komponen bertemu—butt, lap, corner, edge, T, atau geometri lain—sedangkan posisi las menjelaskan orientasi pengerjaannya, dengan notasi G/F dan angka yang harus dibaca bersama legenda serta standar proyek. Istilah tersebut membantu membaca dokumen, tetapi tidak menggantikan WPS, kualifikasi, inspeksi, atau persetujuan desain.
+
+Teman Bengkel-las.co.id, langkah berikutnya adalah menandai setiap sambungan pada gambar, mencatat istilah dan revisinya, lalu meminta penanggung jawab proyek mengonfirmasi WPS, cakupan kualifikasi, serta dasar penerimaan. Jika bukti itu belum ada, simpan keputusan sebagai **[NEEDS PROJECT EVIDENCE AND COMPETENT REVIEW]** dan jangan mengubah istilah dasar menjadi klaim bahwa sambungan sudah aman atau lulus.

@@ -2,8 +2,9 @@
 article_id: WLD-07-A03
 title: "Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las"
 slug: "geometri-tepi-sambungan-las"
-description: "Explain how edge geometry affects access, fusion, volume, heat, backing, and inspection while showing measurement points"
-status: outline
+description: "Panduan memahami pengaruh kemiringan tepi, bidang akar, dan celah akar terhadap akses, fusi, volume logam, panas, penopang akar, serta pemeriksaan sambungan las"
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-11-09"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,239 +17,107 @@ technical_review: required
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
   - "https://www.iso.org/standard/80209.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las
 
-## Assignment lock
+Halo, Teman Bengkel-las.co.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las”
-- **Reader and situation:** Fabricator reading a WPS or drawing
-- **Reader outcome:** Explain how edge geometry affects access, fusion, volume, heat, backing, and inspection while showing measurement points
-- **Primary intent:** Understand groove-preparation variables
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Teman Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Kawan Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes specifying dimensions for a live joint; approved drawing/WPS and WLD-03-A03 own values
-- **Final public route:** `/artikel/geometri-tepi-sambungan-las.html`
-- **Appointed CMS date:** `2025-11-09` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Bevel, root face, dan root gap bukan hiasan pada gambar sambungan. Ketiganya mengatur apakah elektroda atau torch (gagang pembakar) dapat mencapai akar, apakah kedua sisi dinding alur menyatu, berapa banyak logam pengisi yang perlu ditambahkan, bagaimana panas menyebar, dan seberapa mudah hasilnya diperiksa. Perubahan kecil pada salah satu ukuran dapat mengubah perilaku root pass (lintasan akar), terutama ketika backing (penopang akar) tidak tersedia atau akses hanya dari satu sisi.
 
-## Opening instructions
+Jawaban singkatnya: geometri tepi harus dibaca sebagai satu paket. Bevel menyediakan ruang dan arah akses, root face menjadi bagian tepi yang tersisa di akar, sedangkan root gap adalah jarak antarkedua akar setelah fit-up (penyetelan posisi sebelum las). Nilai yang tepat tidak boleh ditebak dari kebiasaan bengkel atau disalin dari pekerjaan lama. Nilai itu harus mengikuti drawing dan WPS (welding procedure specification) yang disetujui, termasuk kondisi material, proses, posisi, backing, dan rencana pemeriksaan. [NEEDS PROJECT REVIEW: nilai bevel, root face, root gap, toleransi fit-up, dan acceptance basis untuk sambungan tertentu.]
 
-- Open with the exact short salutation: **“Halo, Teman Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Kawan Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
+- Image ID: `LOCAL-001`
+- Source type: `local`
+- Placement: after the opening has answered the main question, before the first detailed H2
 - **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+- Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+- Selection basis: filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
+- Hard boundary: do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+- Substitution rule: do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-07-A01` → `/artikel/memilih-proses-potong-sebelum-las.html` — Memilih Proses Potong dan Persiapan Tepi Sebelum Pengelasan
-- `WLD-07-A02` → `/artikel/checklist-fit-up-dan-tack-weld.html` — Checklist Fit-Up dan Tack Weld Sebelum Sambungan Dilas Penuh
-- `WLD-07-A04` → `/artikel/jig-fixture-dan-urutan-tack.html` — Jig, Fixture, dan Urutan Tack: Menahan Posisi Tanpa Menjebak Masalah
-- `WLD-07-A05` → `/artikel/mengendalikan-distorsi-las.html` — Mengendalikan Distorsi Las: Prediksi Susut, Urutan, dan Pengukuran
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**Bevel** adalah bidang miring yang dibuat pada tepi pelat atau pipa. Dua bevel yang saling berhadapan membentuk groove atau alur. **Root face** (sering disebut land) adalah bagian tepi yang sengaja tidak dimiringkan di dekat akar. **Root gap** adalah celah di antara kedua root face setelah komponen diposisikan. Istilah *included angle* juga perlu dibedakan: ia menggambarkan sudut total alur, bukan otomatis sudut bevel pada satu sisi.
+
+Ketiga istilah itu menjawab pertanyaan yang berbeda. Sudut dan arah bevel menentukan apakah ujung elektroda, kawat, atau torch mempunyai jalur pandang ke dinding alur. Root face memengaruhi ketebalan logam yang harus dilewati panas pada titik akar. Root gap menyediakan ruang bagi logam las untuk menjembatani akar, tetapi sekaligus mengubah kebutuhan dukungan dari backing dan risiko logam cair menembus celah. Karena itu, menyebut “alur sudah dibuat” belum cukup; cara mengukurnya dan kondisi saat fit-up harus jelas.
+
+Artikel ini menerangkan hubungan sebab-akibat dan titik pemeriksaannya, bukan menetapkan ukuran untuk sambungan hidup. Paket fabrikasi yang terkendali perlu menghubungkan dokumen yang berlaku, revisi, identitas material dan joint, dimensi serta datum, toleransi, urutan fabrikasi, persyaratan las, titik hold, dan dasar penerimaan. Rujukan katalog resmi [SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020) dan ringkasan [ISO 3834-6:2024](https://www.iso.org/standard/83335.html) membantu mengingatkan bahwa keputusan teknis harus ditautkan ke dokumen proyek yang berlaku; keduanya bukan pengganti teks standar berlisensi atau WPS terbitan proyek.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dari drawing dan WPS dengan revisi yang sama. Tandai joint, material, posisi pengelasan, proses, dan apakah root dikerjakan dengan backing, tanpa backing, atau dibuka untuk proses dari sisi berlawanan. Jika salah satu informasi belum ada, tahan pekerjaan pada titik itu; jangan mengisi kekosongan dengan angka dari ingatan.
+
+Berikut urutan yang membantu saat membaca atau memeriksa persiapan tepi:
+
+1. **Tetapkan arah alur.** Lihat dari penampang dan datum pada drawing. Sudut bevel yang tampak benar dari satu sisi bisa salah orientasi bila datum atau sisi aksesnya tertukar.
+2. **Periksa permukaan bevel dan root face.** Pastikan bidang yang akan dilas tidak tertutup kerak, cat, minyak, atau geram pemotongan. Ukur lebar root face pada beberapa lokasi yang mewakili panjang joint, bukan hanya di ujung.
+3. **Periksa root gap setelah fit-up.** Celah yang benar di meja bisa berubah ketika tack, clamp, atau komponen dipindahkan. Catat kondisi aktual dan mismatch (perbedaan ketinggian kedua permukaan) sesuai cara ukur yang dipakai proyek.
+4. **Cocokkan dengan backing dan akses.** Backing dapat menahan logam cair dan mengubah bentuk akar, tetapi tidak otomatis menjamin fusi. Pastikan jenis dan kontaknya memang diizinkan WPS serta tidak menghalangi pemeriksaan yang diwajibkan.
+5. **Jalankan root pass dengan kendali yang ditetapkan.** Kombinasi akses, root face, gap, posisi, dan teknik gerak menentukan apakah panas mencapai kedua dinding. Jika fit-up keluar dari rentang WPS, hentikan dan minta keputusan teknis; jangan “mengompensasi” dengan menaikkan panas secara sembarang.
+6. **Periksa sebelum menutup alur.** Gejala di permukaan akar hanya satu bukti. Metode, cakupan, teknik, kondisi permukaan, peralatan, personel, pelaporan, dan acceptance basis adalah bukti terpisah. [ISO 17635:2025](https://www.iso.org/standard/85705.html) menegaskan bahwa pemilihan dan evaluasi NDT tidak boleh diperlakukan sebagai terjemahan satu banding satu dari level mutu; [ISO 9712:2021](https://www.iso.org/standard/75614.html) juga menjadi rujukan identitas kualifikasi personel, bukan keputusan penerimaan joint tertentu.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bevel yang sama tidak menghasilkan perilaku yang sama pada semua pekerjaan. Periksa kelompok faktor berikut sebelum menyimpulkan bahwa masalah berasal dari operator.
+
+- **Sambungan dan material.** Ketebalan, konduktivitas panas, bentuk komponen, dan arah gaya menentukan seberapa cepat panas menjalar dan seberapa mudah akar dijangkau. Identitas material dan joint harus berasal dari drawing, sertifikat, atau catatan yang dipersyaratkan, bukan asumsi visual.
+- Untuk sambungan pada teralis, Anda dapat membandingkan istilah bahan melalui [ringkasan bahan teralis jendela yang umum di pasaran](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran), lalu kembali ke drawing dan WPS untuk memastikan material joint yang sebenarnya.
+- **Proses dan posisi.** Proses dengan elektroda atau torch yang berbeda memiliki ruang gerak dan cara pengisian yang berbeda. Posisi mendatar, vertikal, atau di atas kepala mengubah cara logam cair ditahan. WPS-lah yang menetapkan rentang proses dan kendalinya.
+- **Backing dan akses.** Backing permanen, backing sementara, atau tanpa backing membuat kebutuhan root face dan gap berbeda. Akses satu sisi juga membuat sudut pendekatan dan peluang memeriksa akar lebih terbatas. Jangan mengubah detail hanya karena akses pengangkutan atau fixture berubah.
+- **Fit-up dan distorsi.** Tack, clamp, dan urutan pengelasan dapat menarik tepi sehingga gap menjadi tidak seragam. Gap yang terbuka di satu lokasi dan tertutup di lokasi lain menimbulkan kondisi root pass yang berbeda pada joint yang sama.
+- **Kondisi pelaksanaan.** Pekerjaan di lapangan dapat menghadirkan cuaca, ruang gerak, sumber listrik, fume, lalu lintas, dan permukaan yang berbeda dari workshop. Perubahan lokasi atau antarmuka perlu ditinjau bersama pengendalian K3, revisi dokumen, dan akses inspeksi yang berlaku; ia bukan alasan untuk mengabaikan fit-up.
+- **Rekam jejak.** [ISO 15614-1:2017](https://www.iso.org/standard/51792.html) membahas kualifikasi prosedur, sedangkan [ISO 9606-1:2012](https://www.iso.org/standard/54936.html) membahas kualifikasi juru las. Keduanya tidak sama dengan bukti bahwa WPS dipakai pada kondisi yang benar atau bahwa joint selesai telah diterima. Simpan identitas consumable, kondisi penyimpanan, parameter yang diwajibkan, hasil pemeriksaan, dan keputusan atas penyimpangan.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan skenario berikut sebagai cara bertanya, bukan sebagai pengganti angka pada WPS.
+
+| Kondisi yang terlihat | Mengapa geometri penting | Pertanyaan keputusan |
+| --- | --- | --- |
+| Root dikerjakan satu sisi dengan backing | Gap dan root face menentukan seberapa stabil logam cair ditopang dan seberapa mudah akar dibersihkan atau diperiksa | Apakah backing, kontak, dan aksesnya tercantum pada drawing/WPS yang sama? |
+| Alur dalam memerlukan beberapa lapis | Volume groove yang lebih besar biasanya berarti lebih banyak logam pengisi serta waktu dan panas kumulatif yang perlu dikendalikan | Apakah urutan pass, kendali panas, dan inspeksi antar-lapis sudah disetujui? |
+| Gap berubah sepanjang joint | Satu pengukuran rata-rata dapat menyembunyikan lokasi yang terlalu rapat atau terlalu terbuka | Di titik mana pengukuran dilakukan, siapa yang mencatat, dan apa batas tindakan bila keluar rentang? |
+| Komponen harus dilas di lokasi | Ruang gerak, cuaca, perlindungan area sekitar, dan akses pemeriksaan dapat berbeda dari workshop | Apakah perubahan lokasi sudah masuk peninjauan metode, K3, dan rencana inspeksi? |
+
+Kawan Bengkel-las.co.id, bila jawaban atas salah satu pertanyaan itu belum tersedia, keputusan yang aman adalah membuat hold point dan meminta penanggung jawab teknis menerbitkan arahan. Jangan mengubah bevel atau memperlebar gap agar pekerjaan “bisa masuk” tanpa jejak revisi.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Bevel, Root Face, dan Root Gap: Mengapa Geometri Tepi Mengubah Hasil Las”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah menyalin ukuran dari sambungan lama karena bentuknya tampak serupa. Material, proses, backing, dan acceptance basis bisa berbeda. Kesalahan kedua adalah mengukur gap hanya saat komponen masih di meja. Setelah tack atau dipindahkan, kondisi akar dapat berubah. Kesalahan ketiga adalah menyamakan sudut bevel dengan sudut total alur, lalu mengarahkan torch berdasarkan istilah yang keliru.
 
-## Objection or shortcut to address
+Kesalahan lain ialah menganggap root gap dapat “menebus” bevel yang tidak terjangkau, atau menaikkan panas untuk mengatasi root face yang terlalu tebal. Langkah seperti itu dapat mengubah fusi, bentuk akar, distorsi, dan volume logam tanpa persetujuan prosedur. Visual yang rapi pun tidak membuktikan seluruh volume joint diterima. [ISO 5817:2023](https://www.iso.org/standard/80209.html) dan [ISO 17635:2025](https://www.iso.org/standard/85705.html) sebaiknya dipakai sebagai pintu menuju dasar mutu dan metode pemeriksaan yang lengkap, bukan untuk mencomot tabel penerimaan dari ringkasan katalog.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Sebelum root pass dimulai, gunakan checklist singkat berikut:
 
-## Required conclusion
+- revisi drawing dan WPS cocok dengan identitas joint;
+- arah bevel, root face, dan datum sudah ditandai;
+- bevel, root face, gap, mismatch, kebersihan, dan kondisi tack dicatat pada lokasi ukur yang disepakati;
+- backing dan akses sisi akar cocok dengan dokumen;
+- material, consumable, posisi, dan kendali panas yang diwajibkan dapat ditelusuri;
+- titik inspeksi, personel, peralatan, laporan, dan wewenang disposisi penyimpangan sudah jelas.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Mengapa penyesuaian spontan berisiko
 
-## Draft completion checklist
+“Selisih kecil tidak penting; operator berpengalaman bisa menyesuaikan.” Pengalaman membantu mengenali perubahan, tetapi tidak mengubah batas yang disetujui. Selisih geometri mengubah ruang gerak, jembatan akar, kebutuhan pengisian, dan cara panas diterapkan. Penyesuaian spontan juga sulit ditelusuri ketika hasil perlu diperiksa atau diperbaiki.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Alternatif yang lebih andal adalah menghentikan langkah berikutnya pada hold point, mengukur ulang dengan alat dan datum yang sama, lalu meminta keputusan dari pemilik WPS atau engineering yang berwenang. Catat kondisi aktual dan keputusan tersebut. Jika diperlukan kualifikasi prosedur atau juru las baru, rujuk dokumen penuh dan rentang yang berlaku; abstrak [ISO 15614-1:2017](https://www.iso.org/standard/51792.html) dan [ISO 9606-1:2012](https://www.iso.org/standard/54936.html) tidak menyediakan rentang kualifikasi untuk ditebak.
+
+## Kesimpulan
+
+Bevel mengatur ruang dan arah akses, root face mengubah ketebalan logam di akar, dan root gap mengubah jembatan logam cair serta kebutuhan backing. Bersama-sama, geometri itu memengaruhi fusi, volume pengisian, panas kumulatif, distorsi, dan bukti inspeksi. Tidak ada satu ukuran “aman” yang dapat dipindahkan antarproyek.
+
+Langkah berikutnya adalah mengambil drawing dan WPS yang disetujui, menandai datum serta titik ukur, mencatat kondisi fit-up aktual, kemudian meminta tinjauan teknis bila ada penyimpangan. Bila Anda perlu menilai kemampuan penyedia pekerjaan membaca dan menahan pekerjaan berdasarkan dokumen, lihat [panduan memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman). Teman Bengkel-las.co.id, pegang aturan ini: jangan ubah geometri tepi untuk mengejar kemudahan pengelasan sebelum dampaknya, persetujuan, dan cara pemeriksaannya tertulis.

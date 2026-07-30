@@ -2,8 +2,9 @@
 article_id: WLD-03-A04
 title: "Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar"
 slug: "ukuran-las-fillet-dan-throat"
-description: "Explain leg, throat, effective length, intermittent weld concept, measurement limits, and why bigger is not automatically better"
-status: outline
+description: "Panduan membaca kaki las, throat, panjang efektif, dan las putus-putus pada gambar tanpa menebak ukuran sambungan."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-08-08"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,50 +17,19 @@ technical_review: required
 sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/64838.html"
   - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/64835.html"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id! Saat melihat simbol las fillet pada gambar, angka di dekat simbol sering dianggap sebagai perintah sederhana: buat las sebesar angka itu, lalu pekerjaan selesai. Padahal angka tersebut baru bermakna jika kita tahu bagian mana yang sedang ditunjuk, satuan apa yang dipakai, dan apakah gambar meminta las menerus atau las putus-putus.
 
-- **Writer task:** Expand this file into one complete article answering: “Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar”
-- **Reader and situation:** Estimator or inspector checking specified dimensions
-- **Reader outcome:** Explain leg, throat, effective length, intermittent weld concept, measurement limits, and why bigger is not automatically better
-- **Primary intent:** Understand weld-size notation
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes sizing a live connection; the structural designer and WLD-10-A01 own load calculations
-- **Final public route:** `/artikel/ukuran-las-fillet-dan-throat.html`
-- **Appointed CMS date:** `2025-08-08` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: **leg** adalah kaki las yang dibaca dari akar sambungan ke tepi las pada masing-masing bidang, **throat** adalah jarak efektif dari akar menuju bidang kerja las, sedangkan **panjang efektif** adalah bagian panjang las yang benar-benar dihitung menurut detail yang berlaku. Ketiganya membantu estimator dan inspector membaca maksud gambar; ketiganya bukan izin untuk memilih ukuran las bagi sambungan nyata. Ukuran akhir tetap harus berasal dari gambar terbitan, spesifikasi, dan keputusan perancang struktur atau penanggung jawab proyek.
 
-## Opening instructions
+[NEEDS IMAGE REVIEW: LOCAL-002]
 
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-002`
@@ -70,176 +40,76 @@ sources:
 - **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Membaca ukuran tanpa melompati keputusan desain
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Las fillet lazim dipakai ketika dua bidang bertemu membentuk sudut. Bayangkan pelat menempel pada sisi profil; penampang endapan las di sudut itu kira-kira membentuk segitiga. Gambar kerja dapat menyebut ukuran kaki, throat, atau panjang, tetapi pembaca tidak boleh menukar satu istilah dengan istilah lain hanya karena semuanya tampak sebagai angka di dekat simbol.
 
-### KR-01
+Ukuran kaki las menjawab pertanyaan, “seberapa jauh las menjangkau pada permukaan yang disambung?” Pada fillet yang kedua sisinya sama, dua kaki dapat tampak setara. Namun bentuk sambungan, persiapan tepi, posisi, dan detail gambar tetap dapat membuat cara pemeriksaannya berbeda. Karena itu, jangan mengambil mistar lalu menyimpulkan bahwa setiap ukuran yang terlihat sama sudah memenuhi maksud desain.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+Throat, atau tebal efektif las, menjawab pertanyaan yang berbeda: seberapa jauh penampang las bekerja dari akar sambungan menuju bidang yang relevan. Pada gambar, istilah ini penting karena sebuah angka untuk kaki las tidak otomatis dapat diperlakukan sebagai angka throat. Hubungan keduanya tergantung geometri yang direncanakan, sehingga artikel ini sengaja tidak memberikan rumus atau angka pengganti detail proyek.
 
-### KR-11
+Panjang efektif juga bukan sekadar panjang garis las yang terlihat oleh mata. Gambar dan spesifikasi perlu dibaca bersama untuk mengetahui bagian mana yang dimaksud, dari mana pengukuran dimulai dan berakhir, serta bagaimana ujung las atau pola putus-putus diperlakukan. Dalam pekerjaan yang terkendali, identitas sambungan, dimensi, toleransi, urutan fabrikasi, persyaratan las, titik pemeriksaan, dan dasar penerimaan perlu saling cocok, bukan berdiri sendiri ([SNI 1729:2020 pada katalog BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020); [ISO 3834-6](https://www.iso.org/standard/83335.html)).
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
+Sobat Bengkel-las.co.id, pegang batas ini sejak awal: membaca notasi berarti menerjemahkan informasi gambar menjadi pertanyaan pemeriksaan. Menentukan apakah sambungan cukup kuat berarti pekerjaan desain yang membutuhkan beban, geometri, tumpuan, kondisi eksisting, urutan pemasangan, dan banyak informasi lain. Untuk memahami konteks sambungan sebagai bagian dari sistem, lihat juga [pembahasan konstruksi baja](/konstruksi-baja/).
 
-### KR-09
+## Tiga ukuran yang tampak mirip, tetapi tugasnya berbeda
 
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
+Cara paling aman membedakannya adalah dengan membayangkan Anda sedang menjawab tiga pertanyaan berbeda pada satu detail. Pertanyaan pertama: “bagian permukaan mana yang dijangkau las?” Itu mengarahkan perhatian ke leg. Pertanyaan kedua: “penampang kerja mana yang dimaksud?” Itu mengarahkan perhatian ke throat. Pertanyaan ketiga: “sepanjang apa las yang dinilai sesuai detail?” Itu mengarahkan perhatian ke panjang efektif.
 
-### KR-08
+| Istilah | Cara memahaminya saat membaca gambar | Yang tidak boleh disimpulkan |
+| --- | --- | --- |
+| Kaki las (*leg*) | Jarak dari akar sambungan ke tepi las pada bidang yang ditunjuk. | Bahwa semua fillet memiliki bentuk dan ukuran kaki yang sama. |
+| Tebal efektif (*throat*) | Jarak efektif dari akar ke bidang kerja las sesuai geometri yang dirancang. | Bahwa nilainya selalu sama dengan leg atau boleh dihitung tanpa detail yang berlaku. |
+| Panjang efektif | Bagian panjang las yang dimaksud gambar dan spesifikasi untuk detail tersebut. | Bahwa seluruh jejak las yang tampak otomatis masuk hitungan. |
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
+Tabel ini adalah alat baca, bukan tabel desain. Misalnya, bila catatan gambar menyebut satu ukuran di samping simbol fillet, jangan buru-buru menamai angka itu sebagai leg atau throat sebelum memeriksa konvensi gambar dan catatan proyek. Jika informasi kunci tidak ada, yang benar bukan mengisi kekosongan dengan kebiasaan bengkel, melainkan menahan keputusan dan meminta klarifikasi.
 
-### KR-15
+Istilah *intermittent weld* atau las putus-putus perlu dibaca dengan kehati-hatian yang sama. Pola ini menunjukkan segmen las dan jarak antarsegmen sebagaimana ditetapkan pada detail. Ia tidak berarti tukang las bebas memilih panjang segmen, titik awal, atau jaraknya agar lebih cepat. Yang diperiksa adalah kecocokan dengan simbol, arah sambungan, catatan gambar, dan dokumen revisi yang berlaku.
 
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
+## Urutan membaca simbol sebelum mengukur
 
-### KR-04
+Kawan Bengkel-las.co.id, kesalahan ukur sering berawal sebelum alat ukur menyentuh benda kerja: pembaca belum memastikan detail mana yang sedang dilihat. Mulailah dengan nomor gambar, revisi, tanda sambungan, dan lokasi detail. Setelah itu, baca simbol las beserta garis penunjuknya; garis tersebut membantu menunjukkan sambungan yang dimaksud, bukan hiasan di pinggir gambar.
 
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
+Lalu cari apakah gambar menyatakan las menerus atau putus-putus, serta apakah ada ukuran, panjang, pola, catatan proses, atau rujukan ke spesifikasi. Untuk pemeriksaan produksi, cocokkan informasi itu dengan identitas material dan sambungan di lapangan. Langkah sederhana ini mencegah inspector mengukur sambungan yang benar secara fisik tetapi salah secara administratif.
 
-### KR-14
+Baru setelah itu pilih cara ukur yang sesuai dengan tujuan pemeriksaan. Mengukur kaki las dapat menjawab apakah dimensi permukaan mendekati yang ditunjukkan. Namun satu hasil ukur tidak dengan sendirinya membuktikan throat, mutu endapan, prosedur yang dipakai, atau penerimaan akhir. Standar mutu dan inspeksi membedakan dasar penerimaan, identitas sambungan, metode serta cakupan pemeriksaan, kondisi permukaan, peralatan, pelaporan, dan tindak lanjut ketidaksesuaian ([ISO 17635](https://www.iso.org/standard/85705.html)).
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
+Sederhananya, angka yang cocok pada alat ukur adalah satu bukti, bukan seluruh putusan. Catat juga nomor sambungan, lokasi ukur, gambar/revisi yang dipakai, alat yang digunakan, dan siapa yang menyaksikan atau memeriksa bila prosedur proyek memintanya. Catatan itulah yang membuat hasil ukur dapat ditelusuri kembali saat ada pertanyaan.
 
-### KR-13
+## Mengapa las yang lebih besar belum tentu lebih baik
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
+Godaan paling umum adalah membesarkan las supaya terasa “lebih aman”. Cara pikir ini keliru karena ukuran bukan satu-satunya unsur sambungan. Las yang diperbesar dapat mengubah kebutuhan panas, urutan pengerjaan, akses, bentuk sambungan, atau pekerjaan lanjutan; dampaknya tidak boleh ditebak dari tampilan las saja. Kecukupan sistem juga bergantung pada beban, geometri, stabilitas, tumpuan atau angkur, kondisi eksisting, toleransi, lingkungan, pemeriksaan, dan pemeliharaan ([SNI 1729:2020 pada katalog BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020); [ISO 3834-6](https://www.iso.org/standard/83335.html)).
 
-## Evidence gates
+Begitu juga sebaliknya: las yang tampak tipis tidak otomatis boleh dinyatakan gagal tanpa mengetahui ukuran yang benar-benar ditetapkan pada dokumen pengendali. Pembacaan visual dapat memunculkan pertanyaan yang baik, tetapi bukan putusan desain. Bila ada perbedaan antara kondisi lapangan dan gambar, hentikan asumsi, tandai lokasi, lalu arahkan ke pihak yang berwenang untuk menilai perubahan tersebut.
 
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
+Selain ukuran, proses dan bukti pelaksanaan juga berbeda perannya. Kualifikasi prosedur, instruksi prosedur produksi, kualifikasi juru las atau operator, kendali bahan habis pakai, kondisi peralatan, pemeriksaan, dan penerimaan akhir bukan dokumen yang saling menggantikan ([ISO 15614-1](https://www.iso.org/standard/51792.html); [ISO 3834-6](https://www.iso.org/standard/83335.html)). Jadi, kartu juru las atau satu pengukuran yang terlihat baik tidak cukup untuk mengesahkan sebuah sambungan.
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+## Contoh aman: mengubah kebingungan menjadi pertanyaan
 
-## Internal-link plan
+Anggap seorang estimator menerima detail yang memuat simbol fillet dan keterangan las putus-putus. Ia dapat membuat daftar kebutuhan kerja dari gambar, tetapi ia tidak boleh mengubah keterangan itu menjadi ukuran baru hanya karena bahan yang tersedia berbeda. Pertama, ia pisahkan apa yang jelas tertulis: identitas detail, simbol, ukuran yang disebut, panjang atau pola bila dicantumkan, dan revisinya. Kedua, ia tandai apa yang belum jelas: satuan, sisi sambungan, batas panjang, atau rujukan spesifikasi.
 
-### Existing local routes
+Teman Bengkel-las.co.id, untuk inspector skenarionya mirip. Katakanlah sebuah sambungan sudah jadi dan ukuran kaki las dapat diukur di beberapa titik. Hasil itu dapat dibandingkan dengan keterangan gambar yang tepat, tetapi jangan langsung diubah menjadi pernyataan kapasitas atau kelayakan struktur. Pertanyaan yang lebih berguna ialah: apakah saya mengukur detail yang benar, apakah gambar ini revisi terakhir, apakah pola lasnya sesuai, dan siapa yang berwenang memutuskan bila ada selisih?
 
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
+Gunakan daftar singkat berikut sebelum memberi catatan “sesuai” atau “perlu klarifikasi”.
 
-### Planned sibling articles
+- Cocokkan nomor detail, revisi, dan lokasi sambungan sebelum membaca angka.
+- Bedakan ukuran kaki, throat, dan panjang; jangan menggantikan satu istilah dengan yang lain.
+- Periksa apakah simbol menunjukkan las menerus atau pola las putus-putus.
+- Catat hasil ukur bersama titik ukur dan dokumen acuan, bukan sebagai angka lepas.
+- Jika ada perubahan detail, minta konfirmasi tertulis dari perancang atau otoritas proyek.
 
-These are future routes. Do not link them as live until their HTML exists.
+[NEEDS PROJECT REVIEW: Untuk sambungan nyata, perancang struktur dan penanggung jawab proyek harus menilai beban, geometri, tumpuan, kondisi pemasangan, gambar terbitan, serta dasar penerimaannya sebelum ukuran atau perubahan sambungan disetujui.]
 
-- `WLD-03-A02` → `/artikel/desain-sambungan-las-yang-dapat-difabrikasi.html` — Merancang Sambungan Las yang Bisa Dibuat, Diperiksa, dan Dirawat
-- `WLD-03-A03` → `/artikel/wps-pqr-dan-kualifikasi-welder.html` — WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing
-- `WLD-03-A05` → `/artikel/toleransi-fabrikasi-las.html` — Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur
-- `WLD-03-A06` → `/artikel/hierarki-persyaratan-proyek-las.html` — Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak
+## Cara cepat yang perlu dihentikan
 
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+"Kalau saya buat lebih besar saja, bukankah risikonya berkurang?" Belum tentu. Cara cepat ini mengabaikan bahwa gambar adalah bagian dari paket pengendalian, bukan sekadar daftar angka. Membuat ukuran berbeda tanpa persetujuan dapat membuat hasil lapangan tidak lagi cocok dengan detail, urutan kerja, pemeriksaan, atau kebutuhan bagian lain dari sistem.
 
-## Jawaban singkat dan salah paham utama
+Cara cepat lain adalah memakai penggaris las sebagai alat keputusan tunggal. Alat itu berguna untuk mengamati dimensi tertentu, tetapi tidak menggantikan pemeriksaan terhadap dokumen, proses, kondisi sambungan, dan dasar penerimaan. Jika Anda sedang memilih pihak yang akan mengerjakan atau memeriksa detail, gunakan juga [pertanyaan saat memilih bengkel las yang profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/) untuk menilai cara mereka mengelola klarifikasi dan dokumen, bukan hanya melihat hasil yang tampak rapi.
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Penutup: baca notasi, jangan mendesain dari angka
 
-## Definisi dan batas objek
+Ukuran leg, throat, dan panjang efektif adalah bahasa pada gambar untuk membantu Anda memahami bagian, penampang, dan rentang las yang sedang dibicarakan. Cara membaca yang baik dimulai dengan detail serta revisinya, lalu memisahkan apa yang bisa diukur dari apa yang masih memerlukan keputusan desain dan penerimaan proyek.
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Sebelum memperkirakan pekerjaan atau menyatakan hasil ukur, Kawan Bengkel-las.co.id, pegang satu aturan kerja: cocokkan simbol dengan gambar terbitan, catat bukti pemeriksaan, dan jangan mengubah ukuran sambungan karena asumsi. Bila ukuran atau pola tidak jelas, minta klarifikasi tertulis; bila sambungan nyata harus dinilai, serahkan penetapan dan perubahan kepada perancang struktur serta otoritas proyek yang berwenang.

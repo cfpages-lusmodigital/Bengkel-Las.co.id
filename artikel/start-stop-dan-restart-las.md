@@ -2,8 +2,8 @@
 article_id: WLD-08-A04
 title: "Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat"
 slug: "start-stop-dan-restart-las"
-description: "Explain crater and restart risks, preparation, overlap concept, cleaning, observation, and recording under the WPS"
-status: outline
+description: "Panduan mengenali risiko pada titik start, stop, crater, dan restart las serta kapan perlu mengikuti WPS dan meminta pemeriksaan."
+status: draft
 publication_date: "2025-12-10"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -29,39 +29,12 @@ sources:
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
   - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
+writing_contract_version: "native-id-v2"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat
 
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat”
-- **Reader and situation:** Welder improving consistency
-- **Reader outcome:** Explain crater and restart risks, preparation, overlap concept, cleaning, observation, and recording under the WPS
-- **Primary intent:** Prevent start-stop discontinuities
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes repair excavation and acceptance, owned by WLD-16-A04 and WLD-09-A05
-- **Final public route:** `/artikel/start-stop-dan-restart-las.html`
-- **Appointed CMS date:** `2025-12-10` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -72,176 +45,66 @@ sources:
 - **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+Halo, Sobat Bengkel-las.co.id! Saat busur berhenti lalu harus dimulai lagi, jangan menganggapnya sekadar jeda kecil yang bisa ditutup dengan menyalakan busur di titik mana pun. Ujung las yang berhenti dapat menyisakan *crater*—cekungan pada akhir jalur las—atau area yang belum siap menerima sambungan berikutnya. Titik itu dapat menjadi awal ketidakteraturan bila kondisi permukaan, urutan kerja, dan cara penyambungan kembali tidak dikendalikan.
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Jawaban singkatnya: stop dan restart harus diperlakukan sebagai bagian dari prosedur, bukan improvisasi. Sebelum melanjutkan, amati ujung jalur yang ada, bersihkan area yang akan disambung, lalu ikuti WPS (*Welding Procedure Specification*, instruksi prosedur pengelasan yang berlaku) untuk sambungan tersebut. Apa yang boleh diteruskan, ditahan, atau dinilai lebih lanjut tetap bergantung pada WPS, dokumen proyek, dan dasar penerimaan yang berlaku; kualifikasi prosedur, kualifikasi juru las, pemeriksaan, dan penerimaan hasil bukan satu hal yang sama. [ISO 15614-1](https://www.iso.org/standard/51792.html), [ISO 9606-1](https://www.iso.org/standard/54936.html), dan [ISO 3834-6](https://www.iso.org/standard/83335.html)
 
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-08-A02` → `/artikel/heat-input-preheat-dan-interpass.html` — Heat Input, Preheat, dan Interpass: Konsep Termal Tanpa Angka Tebakan
-- `WLD-08-A03` → `/artikel/urutan-pass-dan-pembersihan-antar-lapis.html` — Urutan Pass dan Pembersihan Antar-Lapis pada Las Multi-Pass
-- `WLD-08-A05` → `/artikel/gangguan-shielding-gas-las.html` — Shielding Gas Terganggu: Mendiagnosis Angin, Kebocoran, Flow, dan Kontaminasi
-- `WLD-08-A06` → `/artikel/pengelasan-lapangan-saat-cuaca-buruk.html` — Pengelasan Lapangan saat Hujan, Angin, atau Permukaan Basah: Kapan Harus Ditunda
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+[NEEDS IMAGE REVIEW: LOCAL-001]
 
 ## Mulai dari gejala, bukan tebakan penyebab
 
-- **Purpose:** Tentukan apa yang terlihat/terukur, lokasi, waktu, perubahan, dan keterbatasan pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ketika menemukan perubahan di titik start, stop, atau restart, catat dulu yang benar-benar terlihat: lokasinya pada sambungan, apakah muncul tepat di ujung jalur sebelumnya atau sesudah busur dimulai lagi, serta kapan perubahan itu diketahui. Bedakan pula antara permukaan yang tampak tidak rata, cekungan, perubahan kebersihan, dan indikasi yang baru diketahui setelah pemeriksaan. Catatan seperti ini lebih berguna daripada langsung menyebutnya retak, kurang lebur, atau cacat tertentu tanpa pemeriksaan yang memadai.
+
+Pertanyaan sederhana yang patut diajukan ialah: “Apa yang berubah sejak jalur sebelumnya berhenti?” Bisa jadi jawabannya terkait penghentian busur, kondisi permukaan saat restart, posisi kerja, bahan tambah, atau keadaan pekerjaan yang berubah. Namun jawaban itu masih hipotesis sampai dibandingkan dengan catatan pekerjaan dan pemeriksaan yang sesuai. Untuk pekerjaan baja yang lebih luas, konteks sambungan, gambar, revisi, dan penanganan fabrikasi perlu tetap terbaca sebagai satu paket, bukan sebagai titik las yang berdiri sendiri; lihat juga panduan [pekerjaan konstruksi baja](/konstruksi-baja/). Hal itu sejalan dengan kebutuhan paket fabrikasi yang memuat dokumen pengatur, identitas sambungan, urutan, titik pemeriksaan, dan dasar penerimaan; katalog [SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020) menunjukkan ruang lingkup standar, bukan angka penerimaan yang dapat dipakai tanpa dokumen lengkap.
 
 ## Saringan risiko langsung
 
-- **Purpose:** Jelaskan kapan pembaca harus membatasi akses, menghentikan pekerjaan, atau meminta pemeriksaan kompeten.
-- **Tie back to this article:** Keep the explanation specific to “Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ada keadaan ketika pekerjaan tidak patut diteruskan hanya agar jalur tampak cepat selesai. Hentikan dan batasi akses bila ada tanda kondisi tidak aman, misalnya area kerja berubah, ada material mudah terbakar yang belum dikendalikan, akses pemeriksaan tidak aman, atau kondisi sambungan tidak dapat diamati dengan layak. Pengelasan membawa risiko yang perlu dikendalikan sesuai kondisi pekerjaan, bukan hanya dengan mengandalkan kebiasaan di bengkel. [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), dan [OSHA 29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252)
+
+Rujukan luar negeri dapat membantu mengenali jenis bahaya, tetapi tidak menggantikan ketentuan Indonesia atau kontrol spesifik lokasi. Karena kondisi kerja dan aturan dapat berubah, konfirmasi pengendalian tugas kepada penanggung jawab K3 dan ketentuan yang berlaku, termasuk [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), sebelum pekerjaan diteruskan.
+
+Kawan Bengkel-las.co.id, minta pemeriksaan kompeten bila titik restart berada pada sambungan yang kritis, ada indikasi yang tidak dapat dijelaskan dari pengamatan awal, atau WPS dan dasar penerimaannya tidak tersedia. Jangan membuat keputusan penerimaan sendiri hanya karena permukaannya kemudian terlihat rapi. `[NEEDS PROJECT REVIEW: WPS yang berlaku, identitas sambungan, kondisi kerja, dan dasar penerimaan harus dikonfirmasi sebelum keputusan penerusan, perbaikan, atau penerimaan.]`
 
 ## Kemungkinan mekanisme
 
-- **Purpose:** Kelompokkan kemungkinan penyebab tanpa menyatakan diagnosis dari bukti yang belum cukup.
-- **Tie back to this article:** Keep the explanation specific to “Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Crater adalah cekungan yang dapat tertinggal ketika busur dihentikan. Jika area akhir itu tidak ditangani seperti yang dipersyaratkan prosedur, bentuk akhir jalur dan kondisi permukaannya bisa tidak mendukung penyambungan berikutnya. Saat restart, masalah juga dapat berawal dari permukaan yang belum dibersihkan, jalur lama yang belum diamati, atau penyambungan yang tidak mengikuti urutan yang ditetapkan. Istilah “overlap” dalam percakapan bengkel sering dipakai untuk menggambarkan bagian sambungan yang bertumpang tindih, tetapi lokasi dan cara penyambungan kembali tidak boleh ditebak dari kebiasaan; ikuti WPS dan dokumen kerja.
+
+Teman Bengkel-las.co.id, satu gejala dapat memiliki lebih dari satu kemungkinan mekanisme. Karena itu, jangan mengubah dugaan menjadi diagnosis hanya dari foto atau pandangan singkat. Catatan material dan bahan habis pakai, bila memang diwajibkan proyek, juga penting untuk ditelusuri bersama kondisi penyimpanan dan identitas batchnya; pengendalian bahan dan rekamannya merupakan bagian yang berbeda dari penilaian akhir sambungan. [ISO 3834-6](https://www.iso.org/standard/83335.html) Bila pekerjaan berhubungan dengan bahan pelapis atau produk kimia, identitas produk dan lembar data keselamatan yang berlaku perlu diperiksa; sumber tentang [sistem pelapisan](https://www.iso.org/standard/77795.html) dan [komunikasi bahaya](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200) tidak membuktikan kecocokan produk tertentu pada sambungan Anda.
 
 ## Urutan pemeriksaan dan pengujian
 
-- **Purpose:** Susun observasi, dokumen, tes, sampel, atau pengukuran dari yang paling aman dan informatif.
-- **Tie back to this article:** Keep the explanation specific to “Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dari pemeriksaan yang paling aman dan paling informatif. Amankan kondisi kerja terlebih dahulu, lalu identifikasi sambungan dan revisi dokumen yang mengaturnya. Setelah itu, amati titik stop dan restart dalam kondisi yang memungkinkan pemeriksaan, bandingkan dengan catatan proses yang tersedia, dan dokumentasikan lokasi serta waktu temuan. Bila rencana mutu atau prosedur proyek mensyaratkan pemeriksaan lanjutan, serahkan pemilihan metode, cakupan, dan pelaksanaannya kepada pihak yang berwenang.
+
+Urutan praktisnya dapat diringkas sebagai berikut:
+
+1. Pastikan pekerjaan aman untuk diamati dan aksesnya terkendali.
+2. Cocokkan identitas sambungan dengan WPS, gambar, revisi, dan catatan kerja yang relevan.
+3. Periksa secara visual tanpa membersihkan atau mengubah bukti sebelum temuan dicatat.
+4. Bersihkan dan siapkan area restart hanya sesuai langkah yang diizinkan prosedur.
+5. Naikkan ke pemeriksaan atau pengujian yang diwajibkan bila pengamatan awal, WPS, atau rencana mutu mengarah ke sana.
+
+Sobat Bengkel-las.co.id, pemeriksaan tak merusak atau NDT (*non-destructive testing*) bukan stempel otomatis bahwa sambungan diterima. Rencana mutu perlu menjelaskan dasar penerimaan, identitas sambungan, metode dan cakupan pemeriksaan, personel, peralatan, serta pelaporan hasil. [ISO 17635](https://www.iso.org/standard/85705.html) Lingkup kompetensi personel pemeriksa juga perlu dibaca terpisah dari keputusan penerimaan rekayasa. [ISO 9712](https://www.iso.org/standard/75614.html) Jangan memilih metode atau menyimpulkan batas penerimaan dari ringkasan standar; informasi itu harus datang dari standar lengkap dan prosedur proyek yang berlaku.
 
 ## Cara membaca hasil tanpa melompat ke kesimpulan
 
-- **Purpose:** Pisahkan hasil tes, kriteria proyek, sebab, konsekuensi, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil pengamatan menjawab apa yang teramati pada saat pemeriksaan; hasil itu belum tentu menjawab sebabnya, tingkat akibatnya, atau tindakan yang harus diambil. Pisahkan empat pertanyaan: apa indikasinya, apa dasar penerimaannya, apa kemungkinan penyebabnya, dan siapa yang berwenang menentukan disposisi. Pemisahan ini mencegah keputusan perbaikan dilakukan berdasarkan rasa yakin semata.
+
+Sebagai contoh, catatan bahwa titik restart tampak berbeda dapat memicu pemeriksaan lebih lanjut, tetapi tidak dengan sendirinya membuktikan sambungan gagal atau harus dibongkar. Sebaliknya, tidak menemukan perubahan yang mudah terlihat juga bukan alasan untuk mengabaikan ketentuan pemeriksaan yang telah ditetapkan. Tingkat mutu pengerjaan, metode NDT, evaluasi indikasi, kompetensi personel, dan penerimaan rekayasa memiliki peran yang berbeda. [ISO 5817](https://www.iso.org/standard/80209.html)
+
+Jika pekerjaan dilakukan di lapangan, tambahkan perubahan kondisi akses, cuaca, operasi di sekitar, sumber listrik, dan potensi paparan ke dalam pembacaan hasil. Kondisi itu dapat mengubah pengendalian kerja dan kualitas pengamatan, tanpa otomatis menjelaskan penyebab pada titik las. Otoritas K3 dan pihak proyek perlu menyetujui pengendalian yang sesuai tugas aktual. [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018)
 
 ## Pilihan tindakan dan titik eskalasi
 
-- **Purpose:** Bedakan kontrol sementara, pemantauan, perbaikan, penggantian, dan review profesional.
-- **Tie back to this article:** Keep the explanation specific to “Start, Stop, Crater, dan Restart: Titik Kecil yang Sering Menjadi Awal Cacat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Tindakan sementara yang paling aman biasanya adalah menghentikan kelanjutan pada area yang dipertanyakan, menjaga identitasnya, dan menyimpan catatan pengamatan. Pemantauan dapat dipilih hanya jika prosedur dan pihak berwenang memang membolehkannya. Perbaikan, penggantian, atau penggalian untuk perbaikan tidak boleh diputuskan dari artikel ini; masing-masing membutuhkan dasar penerimaan dan otoritas yang tepat. Bila pekerjaan menghasilkan sisa bahan atau media yang terkontaminasi, jangan menganggap seluruhnya otomatis dapat dicampur atau dibuang bersama; identitas, kondisi, lokasi, dan aturan penanganannya menentukan tindak lanjut. [PP No. 22 Tahun 2021](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021)
 
-## Objection or shortcut to address
+Kawan Bengkel-las.co.id, jangan memilih jalan pintas “langsung timpa saja supaya tertutup”. Menutup titik yang belum diperiksa dapat menyulitkan penelusuran kondisi awal dan berisiko mengulang masalah yang sama pada jalur berikutnya. Alternatif yang lebih andal ialah berhenti sejenak, dokumentasikan titiknya, bersihkan sesuai WPS, dan lanjutkan hanya setelah langkah restart dikonfirmasi. Bila Anda sedang memilih pihak yang akan menangani pekerjaan atau pemeriksaannya, gunakan pertanyaan tentang prosedur, pencatatan, dan kontrol mutu saat [memilih bengkel las yang profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/).
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Catatan restart tidak perlu rumit, tetapi harus cukup untuk ditelusuri. Tulis identitas sambungan, lokasi titik yang diperiksa, waktu temuan, kondisi yang terlihat, dokumen yang dirujuk, dan siapa yang menerima eskalasi. Catatan itu membantu tim membedakan pekerjaan yang benar-benar telah diperiksa dari pekerjaan yang hanya tampak sudah tertutup.
 
-## Required conclusion
+## Jadikan restart sebagai titik kendali
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Start, stop, crater, dan restart adalah titik kecil yang dapat menjadi awal masalah ketika dilewati tanpa pengamatan, pembersihan, dan urutan kerja yang dikendalikan. Perlakukan ujung jalur sebagai titik kendali: kenali kondisinya, catat temuan, ikuti WPS, lalu gunakan dasar penerimaan proyek sebelum menyatakan hasilnya aman atau perlu tindakan lain.
 
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Langkah berikutnya adalah siapkan WPS dan identitas sambungan sebelum pekerjaan dimulai, lalu pastikan catatan stop/restart dapat ditelusuri bila muncul pertanyaan. Batasnya jelas: tanpa prosedur yang berlaku, kondisi sambungan yang cukup teramati, dan keputusan dari pihak berwenang, jangan mengubah dugaan di titik restart menjadi keputusan penerimaan atau perbaikan.

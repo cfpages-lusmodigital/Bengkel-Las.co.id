@@ -3,7 +3,7 @@ article_id: WLD-04-A06
 title: "Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas"
 slug: "respons-darurat-bengkel-las"
 description: "Define alarm, isolation, evacuation, first-response boundaries, emergency contacts, drill records, and post-incident preservation"
-status: outline
+status: draft
 publication_date: "2025-09-11"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,6 +13,7 @@ reader_community: "Bengkel-las.co.id"
 reader_address: "Sobat Bengkel-las.co.id"
 final_route: "/artikel/respons-darurat-bengkel-las.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
@@ -32,37 +33,15 @@ sources:
   - "https://www.iso.org/standard/80209.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas
 
-## Assignment lock
+Halo, Sobat Bengkel-las.co.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas”
-- **Reader and situation:** Workshop manager building a response plan
-- **Reader outcome:** Define alarm, isolation, evacuation, first-response boundaries, emergency contacts, drill records, and post-incident preservation
-- **Primary intent:** Prepare emergency actions
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Sobat Bengkel-las.co.id`
-- **Natural variants:** `Kawan Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes medical treatment instructions and gas-cylinder firefighting beyond trained response; WLD-06-A05 owns cylinder escalation
-- **Final public route:** `/artikel/respons-darurat-bengkel-las.html`
-- **Appointed CMS date:** `2025-09-11` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Saat ada api, dugaan sengatan, luka akibat panas, atau kebocoran gas, keputusan awal bukan mencari penyebab sambil tetap bekerja. Aktifkan alarm sesuai rencana lokasi, hentikan pekerjaan, batasi akses, dan evakuasi menuju titik kumpul. Respons awal hanya dilakukan oleh orang yang terlatih, dengan sarana yang tersedia, dan setelah kondisi dinilai aman. Api yang mengancam silinder gas atau kebocoran yang tidak dapat diisolasi dengan aman harus langsung dieskalasikan ke layanan darurat dan penanggung jawab kompeten.
 
-## Opening instructions
+Rencana tersebut perlu tersedia sebelum kejadian: siapa memberi alarm, siapa memimpin evakuasi, siapa menghubungi bantuan, dan siapa berwenang menyatakan area aman. Rinciannya berubah menurut tata letak, proses, bahan, peralatan, dan aturan yang berlaku saat pekerjaan berjalan. [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), dan [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018) mendukung pendekatan K3 yang menyeluruh, tetapi bukan pengganti penilaian risiko untuk bengkel tertentu.
 
-- Open with the exact short salutation: **“Halo, Sobat Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Bengkel-las.co.id`, `Kawan Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-003`
@@ -73,188 +52,73 @@ sources:
 - **Selection basis:** filename/source metadata identifies `las gas` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-003]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Anchor workshop-safety content in current Indonesian law and prevent reliance on pre-July-2026 copies of sector K3 regulations.
-- **Safe grounded facts:** The 2026 record identifies partial revocations affecting, among others, workplace environment, electrical work, pressure vessels and tanks, powered/production machinery, lifting equipment, work at height, and confined spaces. A legacy regulation may still be in force while some provisions no longer are.
-- **Limits:** This register does not perform legal consolidation or interpret amended clauses. Recheck BPK and official Kemnaker text at outline approval and obtain competent Indonesian legal/K3 review for prescriptive claims.
-
-### KR-12
-
-- **Original sources:** [Permenaker No. 37 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016), [Permenaker No. 11 Tahun 2023 tentang K3 di Ruang Terbatas — BPK](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Create a hard boundary around pressure-retaining equipment, hazardous contents, entry, isolation, testing, and statutory inspection.
-- **Safe grounded facts:** Vessel/tank/pipe work can combine stored pressure, hazardous residue, oxygen deficiency/enrichment, toxic or flammable atmosphere, engulfment, hot work, line breaking, cleaning, ventilation, rescue, and integrity risks. “Empty” or “not operating” does not by itself establish a safe condition.
-- **Limits:** Do not provide a pressure design, repair detail, entry procedure, gas-test value, test pressure, interval, or return-to-service approval from this file. Specialist owner, K3, engineering, inspection, and legal review are required.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-04-A04` → `/artikel/pengelasan-di-ruang-terbatas.html` — Pengelasan di Ruang Terbatas dan Area Berpenghuni: Kapan Pekerjaan Harus Berhenti
-- `WLD-04-A05` → `/artikel/keselamatan-las-di-ketinggian.html` — Las di Ketinggian: Mengendalikan Jatuh, Percikan, Kabel, dan Benda Jatuh
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+[NEEDS IMAGE REVIEW: LOCAL-003]
 
 ## Mulai dari gejala, bukan tebakan penyebab
 
-- **Purpose:** Tentukan apa yang terlihat/terukur, lokasi, waktu, perubahan, dan keterbatasan pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Catat gejala yang dapat diamati tanpa menempatkan orang kedua dalam bahaya: apa yang terlihat atau terdengar, area asal, waktu diketahui, pekerjaan yang sedang berlangsung, dan perubahan setelah pekerjaan dihentikan. Api di area kerja, bau tidak biasa, suara desis, kabel tampak rusak, atau orang yang tidak responsif adalah informasi awal. Masing-masing belum membuktikan penyebabnya.
+
+Tanyakan siapa yang pertama melihat kejadian, proses apa yang berjalan, serta energi atau bahan apa yang sedang dipakai. Pisahkan fakta dari dugaan. Foto atau rekaman hanya boleh dibuat setelah orang selamat dan akses dinyatakan aman; jangan menjadikan dokumentasi alasan untuk mendekat. Identitas produk dan data keselamatan mutakhir juga perlu tersedia untuk bahan kimia, sejalan dengan prinsip komunikasi bahaya dalam [OSHA 29 CFR 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
+
+Kawan Bengkel-las.co.id, gunakan kalimat kerja yang hati-hati: “ada dugaan kebocoran di area X” atau “terjadi insiden sengatan saat pekerjaan Y”. Jangan langsung menyimpulkan regulator rusak atau korban hanya mengalami luka ringan. Diagnosis, perawatan medis, dan izin menyalakan kembali peralatan menunggu bukti serta otoritas yang sesuai.
 
 ## Saringan risiko langsung
 
-- **Purpose:** Jelaskan kapan pembaca harus membatasi akses, menghentikan pekerjaan, atau meminta pemeriksaan kompeten.
-- **Tie back to this article:** Keep the explanation specific to “Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Saringan pertama hanya menanyakan tiga hal: adakah bahaya yang masih aktif, masih adakah orang di zona paparan, dan dapatkah penolong mendekat tanpa menambah korban? Bila jawabannya belum jelas, perlakukan area sebagai belum aman. Hentikan pekerjaan terkait, jauhkan orang yang tidak bertugas, aktifkan alarm, dan jalankan evakuasi yang telah ditetapkan.
+
+Jangan menyentuh orang atau peralatan pada dugaan sengatan sebelum sumber listrik dipastikan telah diisolasi oleh pihak yang berwenang. Jangan masuk ke ruang, tangki, atau area yang mungkin memiliki atmosfer berbahaya untuk “menolong cepat”. Pekerjaan ruang terbatas dapat melibatkan atmosfer berbahaya, residu, energi tersimpan, dan kebutuhan penyelamatan khusus; lihat [Permenaker No. 11 Tahun 2023](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023) bersama prosedur lokasi.
+
+- Api yang tidak jelas sumbernya, meluas, atau mengancam silinder: evakuasi dan panggil bantuan darurat. Pemadaman hanya dalam batas pelatihan, sarana, dan rencana setempat.
+- Dugaan kebocoran gas yang tidak aman didekati: hindari sumber penyalaan, batasi akses, dan eskalasi. Artikel ini tidak mengajarkan pemadaman kebakaran silinder.
+- Dugaan sengatan, orang tidak responsif, atau luka serius: aktifkan bantuan medis sesuai prosedur setempat. Artikel ini bukan panduan tindakan medis.
+- Kabel, pelindung, atau sambungan yang rusak: jangan restart untuk membuktikan apakah masalahnya hilang.
+
+[NEEDS REVIEW: nomor layanan darurat, titik kumpul, rute evakuasi, petugas pengganti, dan metode alarm untuk lokasi ini.]
 
 ## Kemungkinan mekanisme
 
-- **Purpose:** Kelompokkan kemungkinan penyebab tanpa menyatakan diagnosis dari bukti yang belum cukup.
-- **Tie back to this article:** Keep the explanation specific to “Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Api pada pekerjaan las dapat terkait percikan atau panas yang mencapai bahan mudah terbakar, sumber penyalaan lain, perubahan kondisi kerja lapangan, atau masalah peralatan dan bahan. Pengendalian pekerjaan las harus mempertimbangkan paparan api serta kondisi sekitar. [OSHA 29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252) berguna untuk memahami bahaya proses, tetapi tidak boleh dipakai untuk memaksakan jarak atau prosedur asing ke lokasi Indonesia; otoritas situs dan K3 perlu menyetujui pengendalian tugas yang nyata.
+
+Sengatan dapat berhubungan dengan sumber listrik, peralatan, kabel, kondisi lingkungan, atau perubahan sistem. Kebocoran gas dapat berhubungan dengan silinder, regulator, selang, sambungan, atau sumber lain. Daftar ini bukan diagnosis dan bukan urutan isolasi universal. Pengendalian energi perlu dirancang untuk mesin, sumber energi, dan persyaratan pabrikan yang tepat; [OSHA 29 CFR 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147) menunjukkan mengapa keadaan servis dan keadaan produksi harus dibedakan, sedangkan [OSHA 29 CFR 1910.212](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212) menempatkan pengamanan mesin sebagai pertimbangan tersendiri.
+
+Jangan menganggap tangki, bejana, atau pipa yang tidak beroperasi pasti aman. Sisa tekanan, residu, atau atmosfer berbahaya dapat tetap ada. Hentikan pekerjaan dan libatkan pemilik aset, ahli K3, engineering, serta inspeksi berwenang. [Permenaker No. 37 Tahun 2016](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016) adalah rujukan yang relevan, dengan status dan penerapannya perlu dicek untuk kasus aktual.
 
 ## Urutan pemeriksaan dan pengujian
 
-- **Purpose:** Susun observasi, dokumen, tes, sampel, atau pengukuran dari yang paling aman dan informatif.
-- **Tie back to this article:** Keep the explanation specific to “Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sesudah keadaan terkendali dan akses dinyatakan aman, mulailah dari bukti yang paling tidak mengganggu: catatan waktu, daftar orang, jenis pekerjaan, izin kerja bila ada, identitas bahan, serta kondisi peralatan sebelum kejadian. Simpan bagian yang relevan apa adanya apabila aman dilakukan. Jangan membersihkan lokasi, membongkar komponen, atau mengubah setelan sebelum penanggung jawab menentukan kebutuhan penyelidikan, kecuali tindakan itu perlu untuk keselamatan segera.
+
+Urutan pertanyaan berikut membantu menjaga pemeriksaan tetap terarah:
+
+1. Apakah semua orang telah dihitung di titik kumpul dan kebutuhan bantuan sudah diteruskan?
+2. Siapa berwenang menyatakan energi telah diisolasi dan area aman untuk diperiksa?
+3. Dokumen apa yang mengikat pekerjaan: revisi gambar, identitas bahan, prosedur, manual, atau data keselamatan produk?
+4. Bukti apa yang perlu dipertahankan sebelum pembersihan atau perbaikan?
+5. Siapa yang berwenang memilih metode uji, menerima hasil, dan memberi izin kembali beroperasi?
+
+Untuk komponen las atau kerusakan yang mungkin memengaruhi integritas, metode, cakupan, personel, kondisi permukaan, peralatan, pelaporan, dan dasar penerimaan adalah bukti yang berbeda. [ISO 17635:2025](https://www.iso.org/standard/85705.html) dan [ISO 9712:2021](https://www.iso.org/standard/75614.html) menempatkan metode pemeriksaan dan kompetensi personel sebagai hal yang tidak boleh disamakan. Abstract standar tidak cukup untuk menetapkan teknik, batas penerimaan, atau kelayakan proyek.
+
+Teman Bengkel-las.co.id, latihan darurat adalah pengujian rencana, bukan pertunjukan kepatuhan. Catat tanggal, skenario, alarm, hambatan rute, kehadiran, keputusan henti kerja, dan tindakan perbaikan. [NEEDS REVIEW: frekuensi latihan, kriteria evaluasi, dan penanggung jawab persetujuan untuk bengkel ini.] Catatan tersebut membantu menemukan kegagalan komunikasi sebelum insiden nyata tanpa menjanjikan kesiapan untuk semua keadaan.
 
 ## Cara membaca hasil tanpa melompat ke kesimpulan
 
-- **Purpose:** Pisahkan hasil tes, kriteria proyek, sebab, konsekuensi, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kabel terkelupas, bau yang telah hilang, bekas panas, atau hasil inspeksi tunggal adalah bahan keputusan, bukan putusan final. Bedakan dahulu apa yang diamati dari dugaan penyebab. Setelah itu, cocokkan bukti dengan dokumen yang berlaku: desain, prosedur, manual pabrikan, data keselamatan, serta dasar penerimaan proyek. Terakhir, tentukan siapa yang memiliki otoritas menerima risiko atau memutuskan perbaikan dan pengoperasian kembali.
+
+Kriteria inspeksi dan hasil NDT tidak otomatis sama dengan keputusan rekayasa. [ISO 17635:2025](https://www.iso.org/standard/85705.html) menyatakan tingkat penerimaan NDT tidak selalu dapat diterjemahkan satu banding satu menjadi tingkat mutu pada standar lain. Karena itu, “tidak terlihat cacat” tidak cukup untuk menyatakan aman, dan “ada indikasi” tidak otomatis menentukan penyebab atau tindakan perbaikan. Paket fabrikasi yang terkendali juga perlu membedakan dokumen, identitas sambungan, urutan kerja, titik inspeksi, dan dasar penerimaan; lihat batas informasi publik pada [SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024](https://www.iso.org/standard/83335.html), dan [ISO 5817:2023](https://www.iso.org/standard/80209.html). Katalog dan abstract ini tidak memberikan nilai penerimaan untuk pekerjaan tertentu.
+
+Peraturan K3 pun dapat mengalami perubahan atau pencabutan sebagian. Catatan [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026) mencakup perubahan di sejumlah bidang K3. Sebelum mengubah prosedur atau menyatakan kepatuhan, periksa teks resmi terkini dan mintakan telaah kompeten Indonesia. [NEEDS REVIEW: dasar penerimaan, prosedur investigasi, dan otoritas pelepasan kembali yang spesifik untuk pekerjaan ini.]
 
 ## Pilihan tindakan dan titik eskalasi
 
-- **Purpose:** Bedakan kontrol sementara, pemantauan, perbaikan, penggantian, dan review profesional.
-- **Tie back to this article:** Keep the explanation specific to “Respons Darurat Bengkel Las: Kebakaran, Sengatan, Luka Bakar, dan Kebocoran Gas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kontrol sementara seperti pembatas akses dan penandaan peralatan mencegah paparan tambahan, tetapi bukan perbaikan teknis dan bukan izin untuk menyalakan kembali pekerjaan. Pemantauan hanya layak sesudah risiko, parameter, pemilik tindakan, dan batas eskalasi ditetapkan. Perbaikan atau penggantian memerlukan identifikasi komponen, pemeriksaan dampaknya terhadap sistem, serta persetujuan yang tepat.
 
-## Objection or shortcut to address
+Eskalasi segera diperlukan bila insiden melibatkan api yang mengancam gas atau bahan berbahaya, dugaan sengatan, kebutuhan pertolongan medis, kebocoran yang tidak dapat diisolasi dengan aman, bejana atau ruang terbatas, atau kerusakan yang dapat mengubah perlindungan mesin. Persyaratan pengamanan mesin dan kontrol energi perlu dikaitkan dengan mesin serta lokasi sebenarnya; [Permenaker No. 38 Tahun 2016](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016) adalah salah satu rujukan yang harus diverifikasi bersama ketentuan mutakhir.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Pintasan yang menggoda adalah menutup bau dengan ventilasi, mengganti bagian yang tampak rusak, lalu melanjutkan pekerjaan karena pesanan mendesak. Itu dapat gagal karena sumber bahaya belum tentu pada bagian yang terlihat, bukti kejadian sudah berubah, dan sistem yang diperbaiki mungkin memerlukan pemeriksaan sebelum dipakai lagi. Alternatif yang lebih andal ialah hentikan, amankan, beri tahu, catat, pertahankan bukti, lalu periksa dengan dokumen dan wewenang yang benar. Saat memilih mitra untuk pekerjaan yang menuntut disiplin proses, pakai juga pertanyaan dari panduan [memilih bengkel las yang profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) dan pertimbangkan kejelasan bahan pada [panduan bahan teralis jendela las](/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran).
 
-## Required conclusion
+## Jadikan respons darurat sebagai aturan operasi
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Respons darurat bengkel las yang layak dimulai dengan alarm, penghentian kerja, isolasi oleh pihak berwenang, evakuasi, dan eskalasi sesuai tingkat bahaya. Setelah itu, lindungi bukti, periksa fakta serta dokumen, lalu biarkan orang yang kompeten dan berwenang menetapkan pemeriksaan, perbaikan, serta pelepasan kembali. Jangan memakai artikel ini sebagai instruksi medis atau cara menghadapi kebakaran silinder gas.
 
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Sobat Bengkel-las.co.id, tindakan berikutnya adalah meninjau daftar kontak, titik kumpul, jalur keluar, identitas energi dan bahan, serta formulir catatan latihan. Tutup setiap kekosongan melalui penilaian risiko dan review K3 kompeten sebelum pekerjaan dimulai. Aturan operasinya sederhana: bila sumber bahaya belum diketahui atau area belum dinyatakan aman, pekerjaan tidak dimulai kembali.

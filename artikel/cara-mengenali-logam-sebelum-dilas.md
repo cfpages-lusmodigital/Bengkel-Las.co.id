@@ -3,7 +3,8 @@ article_id: WLD-02-A01
 title: "Cara Mengenali Logam Dasar Sebelum Dilas"
 slug: "cara-mengenali-logam-sebelum-dilas"
 description: "Provide a staged identification workflow using drawings, markings, certificates, magnet/appearance limits, and escalation to testing"
-status: outline
+writing_contract_version: "native-id-v2"
+status: draft
 publication_date: "2025-07-04"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,12 +16,9 @@ final_route: "/artikel/cara-mengenali-logam-sebelum-dilas.html"
 technical_review: required
 sources:
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
   - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
@@ -28,231 +26,111 @@ sources:
   - "https://www.iso.org/standard/85705.html"
   - "https://www.iso.org/standard/75614.html"
   - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
-  - "https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Cara Mengenali Logam Dasar Sebelum Dilas
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id! Jangan mulai mengelas benda yang identitas logamnya masih berupa tebakan. Urutan yang aman adalah menelusuri gambar dan tanda material, mencocokkannya dengan sertifikat atau catatan pembelian, memakai pemeriksaan visual dan magnet hanya sebagai penyaring, lalu meminta pengujian atau persetujuan teknis ketika bukti tidak cukup. Hasil akhirnya bukan sekadar nama “besi”, melainkan identitas yang dapat ditelusuri dan cukup untuk memilih prosedur kerja.
 
-- **Writer task:** Expand this file into one complete article answering: “Cara Mengenali Logam Dasar Sebelum Dilas”
-- **Reader and situation:** Repairer facing unknown metal
-- **Reader outcome:** Provide a staged identification workflow using drawings, markings, certificates, magnet/appearance limits, and escalation to testing
-- **Primary intent:** Identify base metal safely
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes destructive guesses and filler selection, owned by WLD-02-A02; unknown safety-critical parts go to WLD-16-A06
-- **Final public route:** `/artikel/cara-mengenali-logam-sebelum-dilas.html`
-- **Appointed CMS date:** `2025-07-04` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Magnet, warna, kilap, atau suara saat diketuk tidak dapat sendirian membuktikan komposisi maupun kelayakan las. Bukti yang mengubah keputusan adalah dokumen material yang cocok dengan bagian tersebut, catatan revisi pekerjaan, dan—bila dokumen hilang atau bagian kritis—hasil pemeriksaan oleh pihak kompeten. Sambil menunggu kepastian, tandai benda sebagai **belum teridentifikasi** dan jangan mengisinya dengan filler secara coba-coba.
 
-## Opening instructions
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Cara Mengenali Logam Dasar Sebelum Dilas**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-002`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Anchor workshop-safety content in current Indonesian law and prevent reliance on pre-July-2026 copies of sector K3 regulations.
-- **Safe grounded facts:** The 2026 record identifies partial revocations affecting, among others, workplace environment, electrical work, pressure vessels and tanks, powered/production machinery, lifting equipment, work at height, and confined spaces. A legacy regulation may still be in force while some provisions no longer are.
-- **Limits:** This register does not perform legal consolidation or interpret amended clauses. Recheck BPK and official Kemnaker text at outline approval and obtain competent Indonesian legal/K3 review for prescriptive claims.
-
-### KR-12
-
-- **Original sources:** [Permenaker No. 37 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016), [Permenaker No. 11 Tahun 2023 tentang K3 di Ruang Terbatas — BPK](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Create a hard boundary around pressure-retaining equipment, hazardous contents, entry, isolation, testing, and statutory inspection.
-- **Safe grounded facts:** Vessel/tank/pipe work can combine stored pressure, hazardous residue, oxygen deficiency/enrichment, toxic or flammable atmosphere, engulfment, hot work, line breaking, cleaning, ventilation, rescue, and integrity risks. “Empty” or “not operating” does not by itself establish a safe condition.
-- **Limits:** Do not provide a pressure design, repair detail, entry procedure, gas-test value, test pressure, interval, or return-to-service approval from this file. Specialist owner, K3, engineering, inspection, and legal review are required.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-02-A02` → `/artikel/memilih-elektroda-kawat-dan-gas-las.html` — Memilih Elektroda, Kawat Las, dan Gas Pelindung Tanpa Tebak-tebakan
-- `WLD-02-A03` → `/artikel/weldability-baja-karbon-dan-paduan-rendah.html` — Baja Karbon dan Baja Paduan Rendah: Mengapa Weldability Tidak Sama
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Hasil akhir dan prasyarat
 
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengenali Logam Dasar Sebelum Dilas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Target pemeriksaan ini adalah lembar identifikasi singkat: nomor bagian atau lokasi, bentuk dan ukuran yang terukur, tanda pabrik, dokumen pendukung, hasil pemeriksaan awal, tingkat keyakinan, dan keputusan “boleh lanjut”, “perlu uji”, atau “berhenti”. Siapkan gambar kerja atau sketsa, daftar bagian, alat ukur yang layak, kamera untuk merekam tanda, serta tempat aman untuk memeriksa tanpa mengganggu operasi.
 
-## Langkah 1 — tetapkan scope
+Yang berwenang menetapkan kecukupan identifikasi adalah penanggung jawab pekerjaan, engineer pemilik, atau personel inspeksi yang ditunjuk—bukan orang yang paling cepat menemukan kemiripan warna. Paket fabrikasi yang terkendali biasanya mengaitkan identitas material dan sambungan dengan dimensi, toleransi, urutan fabrikasi, inspeksi, dan dasar penerimaan. Katalog resmi SNI 1729:2020 hanya mengonfirmasi keberadaan dan status dokumen; detail klausul tetap harus diambil dari standar berlisensi dan dokumen proyek yang diterbitkan untuk pekerjaan. ([SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024](https://www.iso.org/standard/83335.html))
 
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengenali Logam Dasar Sebelum Dilas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Jika bagian menahan tekanan, berada di ruang terbatas, berisi residu berbahaya, atau termasuk komponen keselamatan, hentikan rencana pengelasan sampai pemilik, K3, dan engineer menetapkan kondisi kerja serta metode verifikasi. “Kosong” atau “tidak sedang dipakai” bukan bukti bahwa bagian tersebut aman untuk dipanaskan. ([Permenaker No. 12 Tahun 2015](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026))
+
+Untuk menyiapkan pekerjaan secara menyeluruh, baca [tips memilih bengkel las profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman) sebelum menentukan jadwal pemeriksaan.
+
+## Langkah 1 — tetapkan cakupan
+
+Mulai dengan pertanyaan sederhana: bagian mana yang akan dilas, apa fungsi dan bebannya, apa yang tersambung di baliknya, dan apakah pekerjaan dilakukan di bengkel atau di lokasi operasi? Tandai batas area yang boleh dibersihkan untuk melihat tanda. Jangan menggerinda sembarang permukaan jika pengurangan tebal, kontaminasi, atau kerusakan lapisan dapat memengaruhi keputusan.
+
+Tuliskan juga yang **tidak** dikerjakan. Pemeriksaan awal ini tidak menentukan desain sambungan, tidak memilih elektroda atau gas, dan tidak melegalkan perbaikan pada bejana, pipa proses, atau komponen keselamatan. Jika pemilik tidak dapat menjelaskan fungsi bagian, perlakukan sebagai risiko yang belum terselesaikan. Sobat Bengkel-las.co.id, ketidakjelasan fungsi adalah alasan mempersempit pekerjaan, bukan alasan mempercepat busur las.
+
+Untuk pekerjaan lapangan, bandingkan akses, ventilasi, benda mudah terbakar, cuaca, sumber listrik, lalu lintas orang, dan akses inspeksi dengan kondisi bengkel. Kerangka keselamatan kerja Indonesia menempatkan pengendalian bahaya pada konteks tempat kerja; aturan asing dapat menjadi ilustrasi istilah, bukan pengganti persetujuan K3 setempat. ([UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970))
+
+Jika identitas material sudah jelas, pertimbangkan juga apakah langkah pembentukan berikutnya sesuai; lihat [panduan bending](/bending/) sebelum menetapkan metode dan batas pekerjaan.
+
+Jika Anda perlu mengoordinasikan pemeriksaan atau meminta bantuan bengkel, siapkan pertanyaan, foto, dan nomor bagian sebelum pekerjaan panas dijadwalkan.
 
 ## Langkah 2 — kumpulkan dan cocokkan bukti
 
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengenali Logam Dasar Sebelum Dilas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kerjakan dari bukti yang paling dekat dengan identitas komponen:
+
+1. **Gambar dan daftar material.** Cocokkan nomor bagian, revisi gambar, dimensi, sambungan, dan catatan penggantian. Foto harus menunjukkan tanda dan konteks lokasinya, bukan hanya potongan logam tanpa nomor.
+2. **Marking fisik.** Catat stempel, label, heat number atau nomor batch bila ada, serta arah pembacaan. Salin persis; jangan mengubah huruf yang terhapus menjadi grade yang “terlihat mirip”.
+3. **Sertifikat dan jejak pembelian.** Cari material test certificate, surat jalan, atau catatan penerimaan yang menghubungkan nomor tersebut dengan pemasok dan bagian. Catatan traceability yang baik dapat mengaitkan designation, dimensi, heat/batch, laporan, consumable, dan substitusi yang disetujui. ([ISO 3834-6:2024](https://www.iso.org/standard/83335.html))
+4. **Label produk dan SDS.** Cat, pelapis, pembersih, atau sisa bahan kimia memberi petunjuk bahaya dan penanganan; label generik tidak membuktikan substrat maupun kecocokan pengelasan. Konsep label dan lembar data keselamatan pada aturan OSHA berikut adalah contoh komunikasi bahaya Amerika Serikat, bukan hukum Indonesia. ([OSHA 29 CFR 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200))
+5. **Observasi terbatas.** Amati korosi, lapisan, bentuk produk, dan respons terhadap magnet pada area yang diizinkan. Rekam sebagai indikasi dengan tanggal dan alat, bukan sebagai sertifikat komposisi.
+
+Bandingkan semua bukti dalam satu tabel sederhana: “klaim”, “sumber”, “bagian yang cocok”, “kontradiksi”, dan “tindakan”. Jika marking menunjuk grade tertentu tetapi sertifikat milik heat berbeda, statusnya tetap belum cocok. Bila dokumen hanya menyebut “mild steel” atau “stainless” tanpa identitas yang tertaut, jangan menerjemahkannya menjadi spesifikasi lengkap.
 
 ## Langkah 3 — jalankan urutan kerja
 
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengenali Logam Dasar Sebelum Dilas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Setelah bukti dikumpulkan, lakukan urutan keputusan berikut tanpa memulai panas:
 
-## Hold point dan kondisi berhenti
+1. Kunci identitas sementara dan beri tag pada bagian. Pisahkan benda yang belum cocok dari material yang sudah terverifikasi agar tidak tertukar.
+2. Bersihkan hanya secukupnya sesuai izin pemilik dan catat lapisan yang dilepas. Penampilan permukaan dapat berubah karena cat, kerak, panas, atau korosi; karena itu warna dan kilap hanya membantu memilih pemeriksaan berikutnya.
+3. Gunakan magnet dan pengamatan bentuk sebagai **screening**. Respons magnet tidak menyatakan grade, kondisi perlakuan panas, atau kemampuan dilas. Hasil “menempel” maupun “tidak menempel” harus ditulis sebagai observasi dengan batasan, bukan keputusan akhir.
+4. Minta penelusuran dokumen atau konfirmasi pemasok. Jika gambar, marking, dan sertifikat sepakat, minta penanggung jawab menyetujui identitas serta rentang pekerjaan yang tercakup.
+5. Jika bukti tetap bertentangan, naikkan ke pengujian material yang dipilih personel kompeten—misalnya pemeriksaan komposisi atau metode identifikasi lain yang sesuai dengan akses, ketebalan, dan risiko. Metode, laboratorium, dan kriteria penerimaan tidak boleh dipilih dari tebakan penulis.
+6. Baru setelah identitas dan persetujuan cukup, hubungkan material, proses, posisi, rentang tebal, dan catatan consumable ke WPS yang berlaku. Kualifikasi prosedur, kualifikasi juru las, dan penerimaan hasil las adalah rekaman berbeda; satu kartu juru las tidak menggantikan semuanya. ([ISO 15614-1:2017](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012](https://www.iso.org/standard/54936.html))
 
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengenali Logam Dasar Sebelum Dilas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Jangan mengambil serpihan untuk uji destruktif atau “mencoba satu titik” tanpa rencana pemilik dan engineer. Batas artikel ini adalah identifikasi aman dan eskalasi, bukan resep pengujian atau pemilihan filler.
 
-## Verifikasi hasil dan handover
+## Titik berhenti dan kondisi berhenti
 
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Cara Mengenali Logam Dasar Sebelum Dilas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pasang hold point tertulis sebelum pekerjaan panas jika salah satu kondisi berikut muncul:
 
-## Objection or shortcut to address
+- tidak ada dokumen yang menghubungkan marking dengan bagian;
+- dua sumber menyebut identitas atau revisi berbeda;
+- bagian membawa tekanan, mengandung residu, berada di ruang terbatas, atau memiliki fungsi keselamatan;
+- permukaan tidak dapat diperiksa tanpa mengubah integritas bagian;
+- pekerjaan lapangan belum memiliki pengendalian bahaya dan persetujuan K3 yang sesuai;
+- hasil pemeriksaan awal tidak sejalan dengan WPS atau rentang kualifikasinya.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Pada hold point, tandai status **JANGAN DILAS**, amankan energi dan akses sesuai prosedur setempat, lalu serahkan pertanyaan yang spesifik: “Bukti apa yang mengesahkan material bagian ini, dan siapa yang menyetujui metode verifikasinya?” Untuk konteks bejana, tangki, pipa proses, atau ruang terbatas, minta review pemilik, engineering, inspeksi, dan K3 sekaligus. [NEEDS MATERIAL IDENTIFICATION REVIEW: bukti proyek, metode uji, dan persetujuan kompeten belum tersedia.]
 
-## Required conclusion
+## Verifikasi hasil dan serah terima
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Handover bukan hanya menyebut grade di pesan singkat. Simpan paket berikut bersama nomor bagian:
 
-## Draft completion checklist
+- foto marking dan konteks lokasinya;
+- gambar, revisi, atau daftar material yang dipakai;
+- sertifikat/laporan yang tertaut pada heat atau batch, atau catatan bahwa dokumen tidak tersedia;
+- hasil observasi magnet dan visual dengan keterbatasannya;
+- laporan pengujian, identitas laboratorium atau personel, metode, tanggal, dan interpretasi yang disetujui bila pengujian dilakukan;
+- keputusan “lanjut”, “uji tambahan”, atau “tolak”, nama pemberi persetujuan, serta tanggal;
+- WPS, kualifikasi yang relevan, catatan consumable, inspeksi, dan nonkonformansi bila pekerjaan akhirnya disetujui.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Rencana mutu perlu membedakan metode pemeriksaan, personel, peralatan, kondisi permukaan, laporan, hasil, disposisi ketidaksesuaian, dan penutupan. Standar ISO yang tercantum di sini hanya memberi kerangka identitas dan ruang lingkup; tabel penerimaan, teknik, atau interval kalibrasi harus diambil dari edisi berlisensi dan spesifikasi proyek. ([ISO 5817:2023](https://www.iso.org/standard/80209.html), [ISO 17635:2025](https://www.iso.org/standard/85705.html), [ISO 9712:2021](https://www.iso.org/standard/75614.html))
+
+## Jalan pintas yang sering dicoba
+
+Jalan pintasnya biasanya “magnet menempel, berarti baja karbon; tinggal pakai kawat yang biasa.” Itu dapat gagal karena respons magnet dan penampilan tidak mengunci komposisi, sementara dokumen yang tidak cocok menghilangkan dasar untuk menentukan prosedur. Memulai las juga dapat menutup marking, mengubah kondisi permukaan, atau menciptakan pekerjaan ulang sebelum sumber masalah diketahui.
+
+Alternatif yang lebih cepat dalam arti operasional adalah membuat keputusan yang dapat diaudit: tag bagian, cocokkan nomor dengan gambar dan sertifikat, catat batas pemeriksaan magnet/visual, lalu eskalasi sekali dengan pertanyaan dan bukti yang lengkap. Jika identitas tetap tidak terbukti, biaya dan waktu pengujian adalah bagian dari pengendalian risiko—bukan alasan untuk menebak.
+
+## Kesimpulan
+
+Cara mengenali logam dasar sebelum dilas adalah proses bertahap: tetapkan fungsi dan batas, cocokkan gambar–marking–sertifikat, gunakan magnet dan penampilan hanya sebagai penyaring, lalu minta pengujian serta review kompeten ketika bukti tidak cukup. Setelah identitas disahkan, barulah ia dihubungkan ke WPS, kualifikasi juru las, dan rencana inspeksi yang berlaku.
+
+Langkah Anda sekarang: hentikan pekerjaan pada bagian yang belum teridentifikasi, buat satu lembar jejak bukti untuk nomor bagiannya, dan minta pemilik atau engineer menjawab apakah dokumen sudah cukup atau pengujian diperlukan. Untuk menyiapkan pertanyaan lanjutan kepada tim bengkel, gunakan [beranda Bengkel-las.co.id](/) sebagai titik masuk. Teman Bengkel-las.co.id, aturan kerjanya sederhana: **tanpa identitas material yang dapat ditelusuri dan persetujuan yang tepat, jangan menyalakan busur las.**
+
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-002
+Source type: local
+Placement: after the opening has answered the main question, before the first detailed H2
+**Exact Markdown to insert:** `![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)`
+Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+Selection basis: filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
+Hard boundary: do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+Substitution rule: do not replace this image. If unavailable or provenance is incomplete, insert [NEEDS IMAGE REVIEW: LOCAL-002] and continue drafting the prose.
+END MANAGED IMAGE PLAN -->

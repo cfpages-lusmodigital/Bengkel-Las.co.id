@@ -2,8 +2,9 @@
 article_id: WLD-03-A05
 title: "Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur"
 slug: "toleransi-fabrikasi-las"
-description: "Explain how drawings, datum, measurement sequence, temperature, distortion, and contract tolerances interact"
-status: outline
+description: "Memahami hubungan gambar, datum, urutan ukur, suhu, distorsi, dan toleransi kontrak saat menerima fabrikasi las."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-08-13"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -29,37 +30,19 @@ sources:
   - "https://www.iso.org/standard/64835.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur
 
-## Assignment lock
+Halo, Teman Bengkel-las.co.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur”
-- **Reader and situation:** Fabricator preparing inspection
-- **Reader outcome:** Explain how drawings, datum, measurement sequence, temperature, distortion, and contract tolerances interact
-- **Primary intent:** Plan dimensional acceptance
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Teman Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Kawan Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes publishing universal tolerance values; WLD-07-A05 owns distortion control
-- **Final public route:** `/artikel/toleransi-fabrikasi-las.html`
-- **Appointed CMS date:** `2025-08-13` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Toleransi fabrikasi las bukan angka yang dapat dipinjam begitu saja dari pekerjaan lain. Ia adalah batas penerimaan untuk komponen tertentu, terhadap acuan tertentu, pada gambar dan revisi yang berlaku. Karena itu, kelurusan, kerataan, ukuran, serta posisi lubang baru bermakna jika semua orang mengukur dari datum yang sama dan memakai urutan ukur yang disepakati.
 
-## Opening instructions
+Jawaban singkatnya: tetapkan dahulu dokumen pengendali, datum, kondisi benda saat diukur, alat, dan kriteria penerimaan; baru hasil pengukuran dapat dibandingkan dengan toleransi proyek. Bila gambar, kontrak, atau rencana inspeksi belum menetapkannya, jangan mengubah kebiasaan bengkel menjadi keputusan penerimaan. **[NEEDS REVIEW PROYEK: toleransi, datum, dan otoritas penerimaan yang berlaku.]**
 
-- Open with the exact short salutation: **“Halo, Teman Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Kawan Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
+*Ilustrasi umum dari aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.*
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -70,175 +53,75 @@ sources:
 - **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Apa yang sebenarnya dinilai dalam toleransi fabrikasi
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Toleransi adalah ruang penyimpangan yang diizinkan dari persyaratan yang telah ditetapkan, bukan penilaian bahwa benda kerja “terlihat lurus”. Datum adalah titik, garis, bidang, atau fitur acuan yang dinyatakan pada gambar atau dokumen kerja. Dari datum itulah panjang, posisi, tegak lurus, kerataan, dan kelurusan seharusnya ditelusuri.
 
-### KR-01
+Bedakan tiga pertanyaan yang sering tercampur. Pertama, apakah ukuran atau geometri komponen sesuai gambar? Kedua, apakah sambungan las memenuhi persyaratan pengerjaan dan pemeriksaan yang ditetapkan? Ketiga, apakah rakitan itu cocok untuk fungsi, tumpuan, pemasangan, dan kondisi layanannya? Kartu juru las, WPS, pemeriksaan visual, dan hasil ukur dimensi adalah bukti yang berlainan; tidak satu pun otomatis menggantikan yang lain. Ringkasan [ISO 15614-1](https://www.iso.org/standard/51792.html), [ISO 9606-1](https://www.iso.org/standard/54936.html), dan [ISO 3834-6](https://www.iso.org/standard/83335.html) juga memisahkan kualifikasi prosedur, kualifikasi personel, serta pengendalian mutu produksi.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+Artikel ini membahas cara menyiapkan penerimaan dimensi, bukan memberi nilai toleransi universal atau merancang anggota struktur. Kecukupan suatu pagar, rangka, kanopi, atau komponen lain tetap bergantung pada fungsi, beban, geometri, sambungan, tumpuan, kondisi eksisting, pemasangan, dan pemeliharaan. Katalog resmi [SNI 1729:2020](https://pesta.bsn.go.id/produk/detail/12882-sni17292020) tidak dapat dipakai untuk menyimpulkan ukuran anggota, kapasitas, atau kepatuhan proyek tanpa dokumen lengkap dan tinjauan yang kompeten. Bila Anda perlu menilai komponen sebagai bagian dari bangunan atau pekerjaan yang lebih luas, baca konteks [konstruksi baja](/konstruksi-baja/) dengan batas yang sama: keputusan akhir tetap mengikuti dokumen proyek.
 
-### KR-11
+## Mulai dari gambar, datum, dan revisi yang benar
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Stop generic fabrication guidance from becoming structural design or approval.
-- **Safe grounded facts:** Member size alone cannot establish adequacy. Loads, combinations, geometry, stability, connections, anchors/supports, existing condition, erection sequence, temporary stability, tolerances, fire/corrosion exposure, inspection, and maintenance all affect the complete system.
-- **Limits:** No span table, member recommendation, connection detail, anchor choice, load capacity, or “SNI compliant” claim may be generated from these catalog/abstract pages.
+Sebelum pita ukur dibuka, kumpulkan gambar yang berstatus berlaku, spesifikasi, perubahan yang disetujui, dan kontrak atau rencana mutu bila ada. Periksa nomor revisi, identitas komponen, satuan, tampak/detail yang mengendalikan, serta hubungan bagian itu dengan tumpuan atau komponen pasangan. Sebuah ukuran dapat benar terhadap gambar lama tetapi salah terhadap pekerjaan yang sedang diterima.
 
-### KR-09
+Kemudian tandai datum secara fisik atau dalam lembar ukur tanpa mengubah maksud gambar. Contohnya, satu muka referensi dapat dipakai untuk mengendalikan posisi fitur; satu garis dasar dapat dipakai untuk panjang; dan satu bidang yang dipilih dapat menjadi acuan pemeriksaan kerataan. Jangan menjadikan tepi pelat yang belum diperiksa atau bekas potong acak sebagai datum hanya karena mudah dijangkau.
 
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
+Kawan Bengkel-las.co.id, catatan ukur yang baik selalu bisa menjawab: di mana titik awalnya, ke mana arahnya, fitur apa yang diukur, dan terhadap dokumen revisi berapa hasil itu dibandingkan. Bila datum tidak ditunjukkan atau terdapat lebih dari satu tafsir yang masuk akal, hentikan keputusan penerimaan dan minta klarifikasi tertulis. **[NEEDS REVIEW PROYEK: penetapan datum dan interpretasi gambar.]**
 
-### KR-08
+Paket fabrikasi yang terkendali dapat mencakup dimensi dan datum, identitas material serta sambungan, urutan kerja, persyaratan las/pelapisan, titik tahan pemeriksaan, dasar penerimaan, penanganan, dan deviasi yang telah disetujui. Cakupan pengendalian seperti ini sejalan dengan lingkup mutu fabrikasi pada [ISO 3834-6](https://www.iso.org/standard/83335.html); nilai toleransi dan aturan pelaksanaannya sendiri harus diambil dari spesifikasi proyek atau standar berlisensi yang berlaku.
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
+## Urutan ukur yang membuat hasil dapat ditelusuri
 
-### KR-15
+Urutan ukur membantu membedakan masalah referensi dari masalah benda kerja. Mulailah dengan identitas komponen dan revisi dokumen. Setelah itu, verifikasi datum atau fitur acuan, lalu ukur fitur utama yang mengendalikan perakitan: misalnya panjang, lebar, jarak antarfitur, posisi antarmuka, kelurusan, dan kerataan sesuai kebutuhan gambar. Baru setelahnya catat fitur turunan dan kondisi lokal yang perlu diperiksa.
 
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
+Untuk kelurusan, tetapkan garis atau arah rujukan sebelum menyatakan adanya penyimpangan. Untuk kerataan, tetapkan bidang rujukan dan titik pemeriksaan. Untuk posisi lubang atau sambungan, rujuk kembali ke datum, bukan ke lubang lain yang belum diketahui statusnya. Catat alat yang dipakai, status kalibrasi atau verifikasinya, kondisi permukaan, tanggal, pemeriksa, titik ukur, hasil, dan keputusan sementara. Hasil “lulus” tanpa jejak tersebut sulit ditinjau ulang ketika komponen tidak pas saat dirakit.
 
-### KR-04
+Metode pemeriksaan, cakupan, personel, kondisi permukaan, status peralatan, pelaporan, dan dasar penerimaan memang merupakan elemen terpisah dalam rencana pemeriksaan. [ISO 17635](https://www.iso.org/standard/85705.html) menekankan pemilihan metode pemeriksaan las dan mengingatkan bahwa tingkat penerimaan NDT tidak dapat disamakan secara satu-banding-satu dengan tingkat mutu [ISO 5817](https://www.iso.org/standard/80209.html). Karena itu, pemeriksaan las tidak boleh dipakai untuk menutup ketidakjelasan toleransi dimensi, dan sebaliknya.
 
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
+## Mengapa suhu, distorsi, dan kondisi penopang mengubah pembacaan
 
-### KR-14
+Logam, alat, serta cara benda kerja ditopang dapat memengaruhi pembacaan. Pengelasan juga memasukkan panas dan dapat mengubah bentuk. Artikel ini tidak menetapkan metode pengendalian distorsi; yang perlu dikelola di sini adalah kapan dan dalam kondisi apa komponen dinilai. Ukur komponen yang masih panas, masih ditahan jig, atau baru dipindah dari penopang tanpa mencatat kondisi tersebut dapat menghasilkan perbandingan yang tidak setara dengan kondisi penerimaan yang dimaksud.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
+Sobat Bengkel-las.co.id, jangan menambal perbedaan ini dengan “kira-kira nanti dingin sendiri”. Tentukan bersama pihak yang berwenang apakah pengukuran dilakukan setelah pendinginan, setelah pelepasan jig, setelah tahap tertentu, atau pada kondisi lain yang ditulis. Bila urutan pengelasan, waktu tunggu, temperatur, metode penopang, atau batas penerimaan belum ada, hasilnya hanya observasi, bukan dasar pelepasan komponen. **[NEEDS REVIEW PROYEK: kondisi pengukuran, urutan fabrikasi, dan dampak distorsi.]**
 
-### KR-13
+Kondisi lapangan menambah variabel. Pekerjaan di lokasi dapat mengubah akses, posisi kerja, lifting, cuaca, pasokan listrik, paparan asap, kebakaran, lalu lintas sekitar, akses inspeksi, dan pekerjaan pemulihan. Kebutuhan pengendalian K3 dan persetujuan penanggung jawab lokasi tidak hilang hanya karena komponen sulit diangkut; rujuk kewajiban yang relevan dalam [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), serta ketentuan Indonesia yang berlaku termasuk [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026) bila relevan dengan pekerjaan. Panduan [OSHA tentang pengelasan](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252) dapat membantu memahami jenis bahaya, tetapi bukan pengganti persyaratan Indonesia atau izin kerja proyek.
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 12944-3:2017 — official ISO abstract](https://www.iso.org/standard/64835.html), [ISO 12944-8:2017 — official ISO abstract](https://www.iso.org/standard/64838.html).
-- **Purpose for this article:** Treat gates, railings, stairs, canopies, grilles, frames, furniture, and similar products as installed systems rather than decorative workshop objects.
-- **Safe grounded facts:** Function and risk can depend on use, users, geometry, edges and entrapment, load and impact, support/anchor substrate, drainage and water traps, dissimilar materials, exposure, access, operation/hardware, coating repair, erection, and future maintenance.
-- **Limits:** The cited sources do not provide application-specific dimensions, loads, anchors, child-safety rules, accessibility requirements, or local approvals. Resolve those from the actual project and current governing rules.
+## Contoh keputusan tanpa mengarang angka toleransi
 
-## Evidence gates
+Misalkan sebuah rangka akan dipasangkan ke bukaan yang sudah ada. Gambar menyebut ukuran dan posisi sambungan, tetapi datum untuk posisi lubang tidak jelas. Mengukur diagonal lalu menyatakan “cukup siku” tidak menyelesaikan masalah: rangka mungkin tampak baik di lantai, tetapi tetap tidak cocok dengan tumpuan di lokasi.
 
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
+Keputusan yang lebih aman dapat dipetakan sebagai berikut.
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+| Kondisi yang ditemukan | Keputusan sementara | Bukti yang perlu dilengkapi |
+| --- | --- | --- |
+| Gambar revisi berlaku, datum, dan batas penerimaan jelas | Lakukan ukur terhadap datum tersebut dan catat hasilnya | Lembar ukur, alat, pemeriksa, dan keputusan penerimaan |
+| Gambar ada, tetapi datum atau fitur pengendali ambigu | Tahan keputusan lulus/gagal | Klarifikasi tertulis dari perancang atau otoritas yang ditunjuk |
+| Hasil berubah setelah jig dilepas atau setelah pengelasan | Jangan pilih satu hasil yang menguntungkan | Kondisi ukur yang disepakati dan evaluasi urutan fabrikasi |
+| Komponen harus dicocokkan di lapangan | Jangan menganggap ukur bengkel sebagai bukti akhir | Data antarmuka aktual, rencana fit-up, K3, dan persetujuan proyek |
 
-## Internal-link plan
-
-### Existing local routes
-
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-03-A03` → `/artikel/wps-pqr-dan-kualifikasi-welder.html` — WPS, PQR atau WPQR, dan Kualifikasi Welder: Fungsi Masing-masing
-- `WLD-03-A04` → `/artikel/ukuran-las-fillet-dan-throat.html` — Ukuran Las Fillet, Throat, dan Panjang Efektif: Konsep untuk Pembaca Gambar
-- `WLD-03-A06` → `/artikel/hierarki-persyaratan-proyek-las.html` — Hierarki Persyaratan Proyek Las: Gambar, Spesifikasi, Standar, dan Kontrak
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Jika produk akan menjadi bagian dari sistem terpasang—misalnya railing, kanopi, pagar, atau rangka—cek juga fungsi, pengguna, tumpuan/anchor, paparan, drainase, akses, dan pemeliharaannya. [ISO 12944-3](https://www.iso.org/standard/64835.html) serta [ISO 12944-8](https://www.iso.org/standard/64838.html) menempatkan pertimbangan desain dan spesifikasi pelindung dalam konteks sistem, bukan sekadar benda kerja lepas. Untuk memilih mitra kerja yang siap berdiskusi tentang dokumen, pengukuran, dan pemeriksaan, baca juga [panduan memilih bengkel las yang profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/).
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Toleransi Fabrikasi Las: Datum, Kelurusan, Kerataan, dan Urutan Ukur”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Shortcut yang sering muncul adalah memakai sudut lantai atau sisi terdekat sebagai acuan, lalu memeriksa satu ukuran saja. Jalan pintas ini gagal karena kesalahan dapat terakumulasi: acuan awal bergeser, lubang berikutnya ikut salah, dan komponen baru bermasalah saat bertemu antarmuka sebenarnya. Pilihan yang lebih dapat dipertanggungjawabkan ialah menuliskan datum, titik ukur, urutan, dan keputusan siapa yang boleh menerima deviasi.
 
-## Objection or shortcut to address
+Kesalahan lain adalah menyamakan rapi tidaknya manik las dengan tepat tidaknya dimensi rakitan. Pemeriksaan visual dapat berguna, tetapi cakupan, teknik, personel, kondisi peralatan, pelaporan, dan basis penerimaan harus mengikuti rencana yang berlaku. [ISO 9712](https://www.iso.org/standard/75614.html) menjelaskan ranah sertifikasi personel NDT; sertifikasi itu bukan keputusan rekayasa atas kecocokan semua aspek proyek.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Sebelum penyerahan internal atau pengiriman, gunakan pertanyaan ini:
 
-## Required conclusion
+- Apakah nomor gambar dan revisinya sudah cocok dengan komponen?
+- Apakah datum serta arah pengukuran ditandai dan dipahami pemeriksa?
+- Apakah kondisi benda, penopang, suhu, dan tahap fabrikasi saat ukur dicatat bila relevan?
+- Apakah alat dan hasilnya dapat ditelusuri?
+- Bila ada deviasi, apakah ada keputusan tertulis dari otoritas yang memang berwenang?
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Teman Bengkel-las.co.id, jawaban “belum” pada salah satu pertanyaan yang mengubah kesesuaian pemasangan berarti komponen belum siap dinyatakan diterima. Catat temuan, pisahkan dari klaim lulus, dan bawa kembali ke gambar, spesifikasi, serta pihak pengendali proyek.
 
-## Draft completion checklist
+## Aturan kerja sebelum menerima hasil ukur
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Toleransi fabrikasi las yang dapat dipercaya lahir dari satu rantai: gambar/revisi yang berlaku, datum yang eksplisit, urutan ukur yang bisa diulang, kondisi pengukuran yang dicatat, dan batas penerimaan kontraktual atau teknis yang ditinjau pihak kompeten. Kelurusan dan kerataan bukan kesan visual; keduanya adalah hasil perbandingan terhadap acuan yang ditetapkan.
+
+Langkah berikutnya adalah membuat lembar ukur untuk komponen Anda sebelum fabrikasi berlanjut: tulis identitas dan revisi gambar, datum, fitur yang diukur, kondisi saat ukur, alat, hasil, serta kolom deviasi dan persetujuan. Jangan melepaskan atau memasang komponen berdasarkan angka kebiasaan. Aturan kerjanya sederhana: bila datum, toleransi, atau otoritas penerimaan belum tertulis dan ditinjau, hentikan keputusan lulus sampai bukti proyeknya lengkap.

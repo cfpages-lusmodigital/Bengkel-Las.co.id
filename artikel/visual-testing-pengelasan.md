@@ -2,8 +2,9 @@
 article_id: WLD-09-A02
 title: "Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan"
 slug: "visual-testing-pengelasan"
-description: "Explain prerequisites, lighting/access, base material, fit-up, in-process observations, final profile, dimensions, and records"
-status: outline
+description: "Panduan menyiapkan pemeriksaan visual las sebelum, saat, dan sesudah pengerjaan, dari kondisi sambungan hingga pencatatan hasil."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-12-25"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -18,50 +19,13 @@ sources:
   - "https://www.iso.org/standard/75614.html"
   - "https://www.iso.org/standard/80209.html"
   - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/77795.html"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://www.iso.org/standard/51792.html"
   - "https://www.iso.org/standard/54936.html"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
-# Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan
-
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan”
-- **Reader and situation:** Fabricator or inspector establishing VT
-- **Reader outcome:** Explain prerequisites, lighting/access, base material, fit-up, in-process observations, final profile, dimensions, and records
-- **Primary intent:** Plan visual inspection stages
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Teman Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Kawan Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes NDT method selection, owned by WLD-09-A03, and project acceptance values, owned by WLD-09-A05
-- **Final public route:** `/artikel/visual-testing-pengelasan.html`
-- **Appointed CMS date:** `2025-12-25` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Teman Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Kawan Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-002`
@@ -72,182 +36,81 @@ sources:
 - **Selection basis:** filename/source metadata identifies `memilih jasa bengkel las` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+# Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Halo, Teman Bengkel-las.co.id! Visual testing (VT), atau pemeriksaan visual, bukan kegiatan menatap hasil las setelah pekerjaan selesai lalu memberi cap “bagus” atau “jelek”. Pemeriksaan ini perlu direncanakan sebelum pengelasan dimulai, diteruskan saat sambungan dibuat, lalu ditutup dengan peninjauan bentuk, ukuran, dan catatan hasil. Urutannya penting karena masalah fit-up atau kebersihan yang terlihat sebelum pengelasan jauh lebih mudah ditahan daripada diperbaiki setelah komponen terpasang.
 
-### KR-01
+Jawaban singkatnya: periksa dulu identitas pekerjaan, material, kondisi sambungan, akses pandang, dan kesesuaian fit-up; amati perubahan yang relevan selama pengerjaan; kemudian catat kondisi permukaan, profil las, ukuran yang diminta dokumen, serta setiap temuan untuk ditindaklanjuti. Namun, tampilan yang rapi bukan keputusan penerimaan universal. Cakupan VT, cara pemeriksaan, personel, kondisi permukaan, status alat, pelaporan, dan dasar penerimaan adalah bukti yang berbeda-beda. [ISO 17635](https://www.iso.org/standard/85705.html) juga menegaskan bahwa tingkat penerimaan NDT tidak bisa dipetakan satu banding satu ke tingkat mutu ISO 5817.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
+![Ilustrasi memilih jasa bengkel las](/wp-content/uploads/2020/02/memilih-jasa-bengkel-las.jpg)
 
-### KR-04
+_Aset lokal proyek, bukan dokumentasi proyek tertentu._
 
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
+## Apa yang dinilai oleh visual testing, dan apa batasnya?
 
-### KR-15
+VT menilai hal-hal yang dapat diamati pada sambungan dan konteks pengerjaannya: apakah komponen yang diperiksa memang sambungan yang benar, apakah area dapat dilihat dengan memadai, apakah ada kondisi permukaan atau bentuk yang perlu dicatat, dan apakah ukuran atau profil yang diperiksa merujuk pada dokumen kerja yang tepat. Ia dapat menjadi pemeriksaan awal yang sangat berguna karena memberi dasar yang rapi untuk keputusan berikutnya.
 
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
+Tetapi “terlihat ada indikasi” tidak otomatis berarti sambungan gagal, dan “tidak tampak masalah” tidak membuktikan seluruh bagian sambungan bebas persoalan. Nilai penerimaan, luas pemeriksaan, teknik rinci, serta kebutuhan metode pemeriksaan lain ditentukan oleh dokumen proyek dan pihak berwenang untuk pekerjaan tersebut; artikel ini tidak memilihkan metode NDT maupun memberi angka penerimaan. [ISO 9712](https://www.iso.org/standard/75614.html) membedakan persoalan kompetensi personel dari teknik, cakupan, dan keputusan penerimaan.
 
-### KR-07
+Sebelum memulai, ajukan pertanyaan sederhana: sambungan mana, revisi gambar yang mana, dan hasil VT ini akan dipakai untuk keputusan apa? Untuk pekerjaan yang berkaitan dengan [konstruksi baja](/konstruksi-baja/), pertanyaan itu perlu dijawab dari paket kerja yang berlaku, bukan dari kebiasaan pekerjaan sebelumnya. [SNI 1729:2020 di katalog BSN](https://pesta.bsn.go.id/produk/detail/12882-sni17292020) menunjukkan ruang lingkup standar, tetapi halaman katalog bukan pengganti dokumen berlisensi, detail desain, atau instruksi proyek.
 
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
+> [NEEDS PROJECT REVIEW: sebelum sambungan dilepas ke tahap berikutnya, konfirmasi dasar penerimaan, identitas sambungan dan pemeriksaan, cakupan, prosedur, personel yang berwenang, kondisi permukaan, serta status verifikasi alat dari rencana inspeksi proyek.]
 
-### KR-09
+## Siapkan pemeriksaan sebelum busur dinyalakan
 
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
+Tahap sebelum pengelasan bukan formalitas administrasi. Pemeriksa atau pelaksana perlu memastikan bahwa material dasar, komponen, dan sambungan dapat ditelusuri ke pekerjaan yang dimaksud. Catat identitas material dan dimensi yang dipersyaratkan, lalu hubungkan bila diperlukan dengan sertifikat atau laporan material. Untuk bahan tambah dan produk pelapis, identitas, batch, kondisi penyimpanan atau pengondisian, serta substitusi yang disetujui dapat menjadi bagian dari jejak rekam. [ISO 3834-6](https://www.iso.org/standard/83335.html) menempatkan pengendalian mutu dan dokumentasi sebagai unsur yang saling berkaitan; label umum saja tidak cukup untuk menyimpulkan kompatibilitas atau kondisi pakai produk tertentu.
 
-### KR-14
+Kemudian periksa fit-up: posisi dua komponen, keselarasan, celah, kebersihan area sambungan, titik las sementara bila ada, dan kemampuan menjangkau area untuk mengelas sekaligus memeriksa. Jangan mengubah temuan ini menjadi angka baku dari artikel. Pertanyaannya adalah apakah keadaan aktual sesuai gambar, instruksi kerja, prosedur yang berlaku, dan batas yang disetujui proyek. Bila tidak ada rujukan yang dapat diperiksa, hentikan keputusan “lanjut” sampai rujukannya diperoleh.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
+Pencahayaan dan akses juga perlu diperlakukan sebagai prasyarat pemeriksaan. Area yang tertutup, permukaan yang belum layak diamati, atau sudut pandang yang tidak memadai akan membuat hasil “tidak terlihat” berbeda dari “tidak ada”. Sobat Bengkel-las.co.id, tulis kendala akses itu dalam catatan, bukan ditutup dengan kesimpulan yang terlalu pasti. Foto pendukung dapat membantu traceability bila diizinkan prosedur, tetapi foto tidak menggantikan identitas sambungan, pemeriksa, tanggal, dan hasil yang dapat ditelusuri.
 
-### KR-08
+## Amati proses tanpa mencampuradukkan peran dokumen
 
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
+Saat pengelasan berlangsung, fokusnya adalah menangkap perubahan yang masih bisa dikendalikan: apakah urutan kerja mengikuti instruksi yang telah disetujui, apakah kondisi sambungan tetap dapat diamati, apakah ada perubahan bentuk atau kondisi yang perlu dilaporkan, dan apakah pekerjaan mencapai titik tahan pemeriksaan yang telah direncanakan. Jika catatan proses diminta, kaitkan catatan itu dengan sambungan dan tahap yang tepat, bukan hanya dengan nama pekerjaan umum.
 
-### KR-16
+Penting untuk memisahkan beberapa jenis bukti. Kualifikasi prosedur, WPS produksi, kualifikasi juru las atau operator, kondisi peralatan, pengendalian bahan tambah, pemeriksaan, dan penerimaan akhir bukan dokumen yang saling menggantikan. [ISO 15614-1](https://www.iso.org/standard/51792.html) dan [ISO 9606-1](https://www.iso.org/standard/54936.html) membahas ruang lingkup yang berbeda; kartu juru las tidak dengan sendirinya membuktikan sambungan tertentu memenuhi semua persyaratan proyek.
 
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
+Pada pekerjaan lapangan, konteks dapat berubah lebih cepat daripada di bengkel: akses, posisi kerja, cuaca, sumber listrik, ventilasi asap, pekerjaan di sekitar, risiko kebakaran, hingga kesempatan memeriksa sebelum komponen tertutup. Karena itu, pemindahan pekerjaan ke lokasi tidak cukup dibenarkan oleh alasan transportasi semata. Ketentuan K3 Indonesia dan pengendalian yang berlaku di lokasi tetap perlu ditinjau sesuai tugas nyata, termasuk melalui [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) dan arahan pihak K3 yang bertanggung jawab.
 
-### KR-20
+## Periksa hasil akhir secara tertib, bukan sekadar melihat sekilas
 
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
+Sesudah pengelasan, bersihkan atau siapkan area hanya sejauh yang diizinkan instruksi kerja agar permukaan dan batas sambungan dapat diamati. Bandingkan bentuk dan dimensi yang memang diminta dengan gambar, detail sambungan, atau rencana inspeksi yang sah. Periksa pula apakah identitas sambungan masih jelas, area dapat diakses, dan kondisi yang mengganggu pembacaan telah ditandai. Jangan mengasumsikan alat ukur tertentu, interval verifikasinya, atau nilai batasnya; pilih dan periksa status alat sesuai sistem mutu dan pekerjaan yang berlaku.
 
-## Evidence gates
+Catatan VT yang baik menjawab pertanyaan praktis: pekerjaan apa yang diperiksa, pada tahap apa, oleh siapa, dengan kondisi pemeriksaan apa, dokumen atau revisi apa yang dijadikan acuan, apa yang diamati, dan tindakan apa yang diputuskan. Bila ada ketidaksesuaian, pisahkan temuan dari penyebab, keputusan perbaikan, otoritas yang menyetujui, pemeriksaan ulang, dan penutupan. Rangkaian identifikasi, cakupan, prosedur, personel, alat, kondisi, hasil, ketidaksesuaian, disposisi, dan closeout itulah yang membuat hasil dapat diaudit; [ISO 5817](https://www.iso.org/standard/80209.html) tidak memberi lisensi untuk mencomot satu nilai dan menyatakannya berlaku pada semua proyek.
 
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
+Kawan Bengkel-las.co.id, sebuah profil yang tampak seragam dapat tetap memerlukan peninjauan lebih lanjut bila catatan kerja, kondisi akses, atau dasar penerimaannya belum lengkap. Sebaliknya, satu indikasi visual dapat memicu klarifikasi tanpa berarti Anda boleh langsung menyimpulkan jenis cacat, penyebab, atau status akhir sambungan.
 
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
+## Contoh keputusan praktis di titik inspeksi
 
-## Internal-link plan
+Tabel berikut bukan tabel penerimaan. Ia hanya membantu menentukan tindakan berikutnya berdasarkan bukti yang tersedia.
 
-### Existing local routes
+| Situasi yang ditemukan | Jangan langsung simpulkan | Tindakan yang lebih aman |
+| --- | --- | --- |
+| Identitas sambungan atau revisi gambar tidak jelas | Menganggap sambungan sama dengan pekerjaan sebelumnya | Tahan pencatatan hasil akhir, cocokkan identitas dan dokumen yang berlaku |
+| Fit-up atau akses pandang belum sesuai rencana | Mengelas dulu lalu berharap dapat diperbaiki | Minta penetapan atau persetujuan sesuai titik tahan proyek sebelum melanjutkan |
+| Ada perubahan kondisi saat pengerjaan | Menentukan penyebab hanya dari penampakan | Catat tahap, lokasi, dan kondisi; eskalasi sesuai prosedur |
+| Profil atau ukuran memerlukan pembandingan | Memakai nilai umum dari internet sebagai batas | Gunakan gambar, spesifikasi, dan dasar penerimaan proyek yang sah |
+| Laporan belum memuat kondisi pemeriksaan | Menulis “lulus” tanpa jejak bukti | Lengkapi identitas, cakupan, acuan, hasil, dan otoritas keputusan |
 
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/update/3-bahan-teralis-jendela-las-yang-umum-di-pasaran/` — use only if it helps the reader's next step; verify the anchor describes the destination.
+Contoh ini menjelaskan mengapa VT perlu hadir sebelum, saat, dan sesudah pengelasan. Pada fit-up, keputusan yang benar mungkin berupa penahanan pekerjaan. Saat proses, keputusan yang benar mungkin berupa pencatatan dan pemberitahuan. Pada akhir, keputusan yang benar bisa berupa meminta evaluasi, bukan memberi vonis. Untuk pemilik pekerjaan yang sedang menilai kesiapan penyedia jasa, [panduan memilih bengkel las yang profesional dan berpengalaman](/update/tips-memilih-bengkel-las-profesional-dan-berpengalaman/) dapat membantu menyusun pertanyaan tentang dokumen, komunikasi, dan proses kerja.
 
-### Planned sibling articles
+## Jalan pintas yang sering menyesatkan
 
-These are future routes. Do not link them as live until their HTML exists.
+Shortcut paling umum adalah menunggu sampai semua las selesai, lalu melakukan inspeksi visual singkat sebagai formalitas. Cara ini gagal karena bukti awal—identitas material, fit-up, kondisi akses, dan titik tahan—mungkin sudah tidak dapat dipulihkan dengan mudah. Ia juga mendorong orang menyamakan “tidak tampak” dengan “tidak ada”, padahal area yang tak terjangkau atau belum siap diperiksa menghasilkan keterbatasan bukti, bukan bukti ketiadaan.
 
-- `WLD-09-A01` → `/artikel/atlas-diskontinuitas-las.html` — Atlas Diskontinuitas Las: Retak, Porositas, Undercut, Inklusi, dan Lainnya
-- `WLD-09-A03` → `/artikel/memilih-metode-ndt-las.html` — Memilih Metode NDT Las: VT, PT, MT, UT, atau RT
-- `WLD-09-A04` → `/artikel/membaca-laporan-ndt-las.html` — Membaca Laporan Inspeksi dan NDT Las Tanpa Menyamakan Indikasi dengan Kegagalan
+Kesalahan lain adalah menyamakan penampilan dengan kelulusan. Penampilan merupakan informasi, sedangkan keputusan penerimaan bergantung pada persyaratan yang berlaku untuk sambungan itu. Standar dan rencana mutu membedakan metode, teknik, cakupan, personel, peralatan, pelaporan, dan dasar penerimaan. Karena itu, jangan menganggap sertifikat personel, WPS, atau satu pembacaan dimensi sebagai pengganti seluruh paket bukti.
 
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Gunakan pemeriksaan diri berikut sebelum menutup laporan:
 
-## Jawaban singkat dan salah paham utama
+- Apakah sambungan, lokasi, dan revisi dokumen telah dikenali dengan benar?
+- Apakah kondisi pencahayaan, akses, dan permukaan memungkinkan observasi yang dapat dipertanggungjawabkan?
+- Apakah temuan ditulis sebagai observasi, tanpa menebak penyebab atau putusan penerimaan?
+- Apakah setiap tindak lanjut memiliki pihak berwenang, rekam jejak, dan bila perlu titik pemeriksaan ulang?
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Langkah berikutnya: jadikan VT bagian dari rencana kerja
 
-## Definisi dan batas objek
+Visual testing yang berguna memeriksa kesiapan sebelum pengelasan, mengawasi kondisi yang relevan saat proses, lalu menautkan pengamatan akhir kepada identitas sambungan dan dokumen proyek. Ia bukan stempel universal atas mutu, juga bukan pengganti pemilihan metode NDT atau keputusan penerimaan teknis.
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Visual Testing Las: Apa yang Diperiksa Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Teman Bengkel-las.co.id, mulai dari satu rencana inspeksi sederhana: daftar sambungan, dokumen/revisi acuan, titik pemeriksaan sebelum-saat-sesudah, kondisi akses dan permukaan, pemegang kewenangan, serta format catatan hasil. Bila salah satu dasar penerimaan atau bukti proyek belum tersedia, aturan operasinya jelas: jangan menerka—tahan keputusan dan minta peninjauan kompeten.

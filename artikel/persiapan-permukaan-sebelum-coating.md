@@ -2,8 +2,9 @@
 article_id: WLD-12-A03
 title: "Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam"
 slug: "persiapan-permukaan-sebelum-coating"
-description: "Explain contamination removal, surface profile concept, dust/salt/moisture checks, inaccessible details, timing, and records"
-status: outline
+description: "Panduan menyiapkan permukaan sebelum coating: membersihkan kontaminan, memahami profil, memeriksa debu, garam, kelembapan, area sulit, waktu aplikasi, dan rekaman."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-03-15"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,269 +17,95 @@ technical_review: required
 sources:
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
-  - "https://www.iso.org/standard/83335.html"
   - "https://www.iso.org/standard/77795.html"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://www.iso.org/standard/51792.html"
-  - "https://www.iso.org/standard/54936.html"
-  - "https://www.iso.org/standard/80209.html"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
-  - "https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
-  - "https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023"
+  - "https://www.iso.org/standard/83335.html"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam
 
-## Assignment lock
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-001
+Source type: local
+Placement: after the opening answer, before the first detailed section
+**Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
+Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+Selection basis: filename/source metadata identifies bengkel las as relevant content media; no pixels were inspected.
+Hard boundary: do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+Substitution rule: do not replace this image. If unavailable or provenance is incomplete, insert [NEEDS IMAGE REVIEW: LOCAL-001].
+END MANAGED IMAGE PLAN -->
 
-- **Writer task:** Expand this file into one complete article answering: “Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam”
-- **Reader and situation:** Fabricator or owner reviewing paint work
-- **Reader outcome:** Explain contamination removal, surface profile concept, dust/salt/moisture checks, inaccessible details, timing, and records
-- **Primary intent:** Plan coating surface preparation
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Teman Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Kawan Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes exact blast grades, DFT, or chemistry unless verified against the project coating specification
-- **Final public route:** `/artikel/persiapan-permukaan-sebelum-coating.html`
-- **Appointed CMS date:** `2026-03-15` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Halo, Teman Bengkel-las.co.id! Coating yang cepat mengelupas sering bukan gagal karena mereknya, melainkan karena permukaan dicat ketika masih berminyak, berdebu, mengandung garam, lembap, atau memiliki profil yang tidak sesuai dengan sistem cat. Persiapan permukaan sebelum coating berarti membuat substrat benar-benar siap: kontaminan dikendalikan, kondisi fisik diperiksa, lalu hasil pemeriksaan dicatat sebelum lapisan pertama diterapkan.
 
-## Opening instructions
+Urutan amannya adalah membaca spesifikasi proyek, membersihkan kontaminan, menyiapkan profil sesuai sistem yang disetujui, memeriksa debu-garam-kelembapan dan area sulit dijangkau, kemudian mengecat dalam jendela waktu yang masih valid. Angka tingkat blasting, *dry film thickness* (DFT), jenis pelarut, atau batas cuaca tidak boleh ditebak dari kebiasaan bengkel; semuanya mengikuti spesifikasi coating dan persetujuan teknis. Halaman resmi [ISO 12944-5](https://www.iso.org/standard/77795.html) hanya memberi informasi publik tentang standar pemilihan sistem cat pelindung, bukan angka penerimaan untuk proyek Anda.
 
-- Open with the exact short salutation: **“Halo, Teman Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Kawan Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
-
-### KR-07
-
-- **Original sources:** [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html), [ISO 12944-5:2019 — official ISO abstract](https://www.iso.org/standard/77795.html), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Make material and consumable records usable for fabrication, compatibility, safety, inspection, maintenance, and later failure investigation.
-- **Safe grounded facts:** Useful traceability can include material designation, dimensions/heat or batch where required, certificate/report linkage, filler/consumable classification and batch, storage/conditioning, coating product and batch, mixing/application records, replacement-part identity, and approved substitution. The US hazard-communication rule illustrates label and safety-data-sheet concepts but is not Indonesian law.
-- **Limits:** Do not infer composition, compatibility, shelf life, storage, mixing ratio, coverage, cure, welding parameter, exposure limit, or disposal route from generic labels. Verify exact product, batch, substrate, environment, and current Indonesian rules.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-09
-
-- **Original sources:** [ISO 15614-1:2017 — official ISO abstract](https://www.iso.org/standard/51792.html), [ISO 9606-1:2012 — official ISO abstract](https://www.iso.org/standard/54936.html), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Prevent an article from treating a welder card, a WPS, a procedure test, workmanship, and the finished joint's acceptance as interchangeable.
-- **Safe grounded facts:** Procedure qualification, production WPS, welder/operator qualification, material/process/position/thickness/diameter range, continuity/validity, equipment condition, consumable control, preheat/interpass control, inspection, and final acceptance are distinct records.
-- **Limits:** Both welding-qualification standards are current at verification but under revision. The public abstracts do not provide qualification ranges or test requirements; recheck editions and use licensed text plus the project specification.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-20
-
-- **Original sources:** [PP No. 22 Tahun 2021 — BPK](https://peraturan.bpk.go.id/Details/161852/pp-no-22-tahun-2021), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200).
-- **Purpose for this article:** Connect source reduction, controlled use, segregation, reuse/recycling, worker exposure, and legal waste disposition without assuming every metal offcut is harmless or recyclable.
-- **Safe grounded facts:** Waste identity, contamination, generator/site context, storage, labeling, transport, receiver authorization, records, and current local rules determine the route. Reuse and repair may avoid new material but do not automatically reduce total environmental or safety impact.
-- **Limits:** Do not classify a waste, recommend mixing, state a storage limit, name a legal carrier/receiver, or claim a quantified environmental benefit without current Indonesian/local requirements, characterization, mass/energy data, and authorized-party evidence.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Anchor workshop-safety content in current Indonesian law and prevent reliance on pre-July-2026 copies of sector K3 regulations.
-- **Safe grounded facts:** The 2026 record identifies partial revocations affecting, among others, workplace environment, electrical work, pressure vessels and tanks, powered/production machinery, lifting equipment, work at height, and confined spaces. A legacy regulation may still be in force while some provisions no longer are.
-- **Limits:** This register does not perform legal consolidation or interpret amended clauses. Recheck BPK and official Kemnaker text at outline approval and obtain competent Indonesian legal/K3 review for prescriptive claims.
-
-### KR-12
-
-- **Original sources:** [Permenaker No. 37 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016), [Permenaker No. 11 Tahun 2023 tentang K3 di Ruang Terbatas — BPK](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Create a hard boundary around pressure-retaining equipment, hazardous contents, entry, isolation, testing, and statutory inspection.
-- **Safe grounded facts:** Vessel/tank/pipe work can combine stored pressure, hazardous residue, oxygen deficiency/enrichment, toxic or flammable atmosphere, engulfment, hot work, line breaking, cleaning, ventilation, rescue, and integrity risks. “Empty” or “not operating” does not by itself establish a safe condition.
-- **Limits:** Do not provide a pressure design, repair detail, entry procedure, gas-test value, test pressure, interval, or return-to-service approval from this file. Specialist owner, K3, engineering, inspection, and legal review are required.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-12-A01` → `/artikel/mengapa-besi-berkarat.html` — Mengapa Besi Berkarat: Sel, Air, Oksigen, Garam, dan Detail yang Menjebak Air
-- `WLD-12-A02` → `/artikel/cat-galvanis-atau-powder-coating.html` — Cat, Galvanis, atau Powder Coating: Memilih Sistem Perlindungan Fabrikasi Logam
-- `WLD-12-A04` → `/artikel/inspeksi-coating-pada-hasil-las.html` — Memeriksa Coating pada Hasil Las: DFT, Coverage, Edge, dan Titik Sulit
-- `WLD-12-A05` → `/artikel/pemulihan-permukaan-stainless-setelah-las.html` — Heat Tint dan Kontaminasi Stainless Setelah Las: Membersihkan tanpa Merusak
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Permukaan yang “terlihat bersih” belum tentu siap dicat. Kebersihan di sini mencakup tidak adanya minyak, gemuk, sisa garam, debu, serpihan lepas, kelembapan, dan sisa produk pembersih yang dapat mengganggu pembasahan atau daya lekat. Profil permukaan adalah tekstur kasar-terkendali yang memberi tempat bagi lapisan untuk menempel; profil bukan sinonim dari warna kusam, dan bukan satu angka universal untuk semua cat.
+
+Artikel ini membantu fabricator atau pemilik pekerjaan merencanakan pemeriksaan dan serah-terima permukaan. Ia tidak menetapkan grade blasting, nilai profil, DFT, rasio campur, jenis bahan kimia, atau keputusan kelayakan akhir. Jika spesifikasi, lembar data produk, kondisi substrat, dan kondisi lapangan tidak selaras, hentikan aplikasi dan minta keputusan penanggung jawab coating. [NEEDS PROJECT EVIDENCE: spesifikasi coating, substrat, dan kriteria penerimaan belum tersedia]
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dengan paket kerja yang memiliki nomor revisi: gambar atau area yang dicat, material substrat, sistem coating, metode persiapan, kriteria penerimaan, titik inspeksi, dan siapa yang berwenang melepas *hold point*. Tanpa paket ini, operator dapat menganggap kebiasaan lama sebagai persyaratan baru.
+
+Setelah pekerjaan las, pemotongan, dan perbaikan mekanis selesai, singkirkan sumber kontaminasi yang nyata. Minyak atau gemuk perlu diangkat dengan cara yang disetujui produk; sisa pembersih juga harus dihilangkan. Karat lepas, mill scale yang tidak melekat, cat lama yang gagal, dan tepi tajam ditangani sesuai metode proyek. Jangan menganggap penyemprotan air, pengamplasan ringan, atau pengelapan kering otomatis menggantikan metode yang ditentukan.
+
+Berikutnya bentuk profil permukaan sesuai sistem coating yang dipilih. Profil yang terlalu dangkal dapat mengurangi jangkar mekanis, sedangkan profil yang terlalu agresif dapat menyulitkan penutupan dan menambah kebutuhan lapisan. Karena batasnya bergantung pada produk dan proyek, pengukuran memakai alat dan prosedur yang disetujui harus dilakukan pada area yang mewakili, bukan hanya pada panel yang paling mudah.
+
+Sesudah pembersihan akhir, periksa tiga hal terpisah: debu, garam, dan kelembapan. Debu dapat berasal dari pekerjaan di sebelahnya atau dari sisa media pembersih. Garam dapat tertinggal di pori, sambungan, atau area yang pernah terkena lingkungan basah. Kelembapan dapat muncul pada permukaan maupun di celah. Gunakan metode uji, lokasi sampling, alat, dan batas lulus yang tertulis di spesifikasi; jika hasil tidak tercatat atau melewati batas, permukaan belum siap.
+
+Keselamatan tidak berhenti pada masker atau sarung tangan. Identitas produk, label, dan lembar data keselamatan membantu menentukan pengendalian bahan kimia; contoh kerangka komunikasi bahaya OSHA dapat dibaca di [29 CFR 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), tetapi itu bukan hukum Indonesia. Pengendalian kerja tetap harus mengikuti kondisi lokasi dan ketentuan K3 Indonesia, termasuk rujukan [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) dan [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), dengan peninjauan kompeten bila ada bahan atau proses berisiko.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Substrat menentukan pilihan persiapan. Baja baru, baja berkarat, galvanis, stainless, dan permukaan yang sudah memiliki lapisan lama tidak boleh diperlakukan seolah sama. Sifat permukaan, kontaminasi, dan kompatibilitas sistem harus dikonfirmasi pada dokumen proyek atau lembar data produk, bukan disimpulkan dari nama material saja.
+
+Geometri juga penting. Sudut dalam, celah sempit, sisi belakang pelat, lubang baut, ujung las, dan bawah pengaku sering menerima energi pembersihan atau cat lebih sedikit. Buat daftar area sulit dijangkau pada gambar, tentukan cara akses dan cara verifikasinya, lalu minta persetujuan bila suatu area memang tidak dapat diperiksa dengan metode normal. Jangan menyatakan seluruh komponen lulus hanya karena bidang datarnya lulus.
+
+Lingkungan dapat berubah antara pemeriksaan dan aplikasi. Debu dari pekerjaan lain, embun, hujan, kondensasi, atau jeda panjang dapat mengembalikan kontaminasi. Karena itu, koordinasikan pekerjaan yang menghasilkan debu dan jadwalkan pembersihan akhir sedekat mungkin dengan aplikasi tanpa melanggar waktu tunggu produk. Sobat Bengkel-las.co.id, bila permukaan sudah lulus tetapi kemudian tersentuh tangan berminyak atau terkena kabut air, status lulus harus ditinjau ulang—bukan diasumsikan masih berlaku.
+
+Lokasi kerja juga mengubah pengendalian. Persiapan di workshop yang tertutup berbeda dari pekerjaan lapangan dengan penghuni, lalu lintas, cuaca, dan ventilasi yang berubah. [NEEDS SITE REVIEW: metode akses, isolasi area, ventilasi, pengendalian debu, dan izin kerja harus disetujui penanggung jawab lokasi]
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Gunakan tabel berikut sebagai cara berpikir, bukan sebagai pengganti kriteria proyek.
+
+| Temuan saat pemeriksaan | Keputusan sementara | Bukti yang perlu disimpan |
+| --- | --- | --- |
+| Minyak atau gemuk terlihat, atau kain lap menunjukkan residu | Jangan lanjut ke pembersihan profil; ulangi degreasing sesuai instruksi produk | Metode, produk/batch bila dipersyaratkan, area, waktu, dan pemeriksa |
+| Profil belum diukur atau alat tidak teridentifikasi | Tahan *hold point*; ukur dengan prosedur dan alat yang disetujui | Identitas alat, status kalibrasi/verifikasi, lokasi, hasil, dan kriteria |
+| Debu tampak setelah pekerjaan di sekitar | Bersihkan ulang dan lakukan pemeriksaan debu | Waktu pembersihan, metode, area sampling, hasil, dan penyebab re-kontaminasi |
+| Hasil garam atau kelembapan melewati batas proyek | Jangan menutupinya dengan cat; cari sumber, keringkan atau bersihkan sesuai prosedur, lalu uji ulang | Hasil awal, tindakan koreksi, hasil ulang, dan persetujuan pelepasan |
+| Celah atau sisi belakang tidak dapat dijangkau | Tandai pada gambar dan minta keputusan desain/inspeksi | Foto atau sketsa lokasi, alasan keterbatasan, dan keputusan tertulis |
+| Permukaan lulus tetapi aplikasi tertunda | Evaluasi ulang kondisi dan lakukan pemeriksaan ulang yang diwajibkan | Waktu lulus, waktu aplikasi, cuaca/lingkungan yang diminta proyek, dan status akhir |
+
+Contoh ini sengaja bersyarat. Ia tidak menyimpulkan bahwa satu metode atau satu nilai berlaku untuk semua coating. Kawan Bengkel-las.co.id, pertanyaan yang tepat kepada inspector adalah: “Dokumen mana yang menetapkan batas lulus, alat apa yang disetujui, dan siapa yang menandatangani pelepasan?”
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Persiapan Permukaan Sebelum Coating: Kebersihan, Profil, Debu, dan Garam”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah menyamakan penghilangan karat dengan penghilangan semua kontaminan. Minyak dapat menyebar saat digosok, sementara garam dan debu dapat tertinggal di cekungan. Tanyakan apakah ada langkah khusus untuk kontaminasi nonvisual dan apakah hasilnya dicatat.
 
-## Objection or shortcut to address
+Kesalahan kedua adalah memilih profil berdasarkan kebiasaan operator. Tanyakan sistem coating dan dokumen revisinya sebelum menentukan metode atau intensitas persiapan. Jangan memakai angka dari proyek lain tanpa persetujuan tertulis.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Kesalahan ketiga adalah menguji satu titik paling mudah lalu menggeneralisasi ke seluruh komponen. Bagi area menurut bentuk, paparan, dan metode kerja; tandai lokasi sampling sehingga pemeriksaan dapat ditelusuri.
 
-## Required conclusion
+Kesalahan keempat adalah mengecat untuk “mengunci” debu atau kelembapan. Lapisan tidak memperbaiki bukti yang belum lulus. Hentikan, koreksi sumbernya, dan ulangi pemeriksaan dalam batas prosedur.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Kesalahan terakhir adalah mengandalkan ingatan. Catat material dan area, metode pembersihan, hasil profil, hasil debu/garam/kelembapan, kondisi lingkungan yang diminta proyek, identitas produk dan batch, waktu pencampuran/aplikasi bila dipersyaratkan, nama pemeriksa, penyimpangan, dan persetujuan. Prinsip keterlacakan rekaman fabrikasi dan consumable dijelaskan pada abstrak resmi [ISO 3834-6](https://www.iso.org/standard/83335.html); detail yang diwajibkan tetap mengikuti spesifikasi pekerjaan.
 
-## Draft completion checklist
+## Jalan pintas yang perlu ditolak
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jalan pintas yang sering dipilih adalah “asal sudah disikat dan tampak mengilap, langsung cat.” Cara ini menghemat satu pemeriksaan, tetapi menghilangkan jawaban atas pertanyaan penting: apakah minyak hilang, profil sesuai, debu dan garam terkendali, permukaan kering, serta area sulit sudah tertutup? Jika salah satu jawabannya tidak berbukti, kegagalan baru terlihat setelah lapisan terlanjur menutup permukaan dan perbaikannya menjadi lebih rumit.
+
+Alternatif yang lebih andal adalah membuat *hold point* singkat sebelum coating: operator menyatakan pekerjaan persiapan selesai, inspector mencocokkan hasil dengan spesifikasi, dan penanggung jawab memberi pelepasan tertulis. Bila dokumen belum menetapkan alat, batas, atau area sampling, tandai [NEEDS COATING SPECIFICATION REVIEW] dan jangan mengisi kekosongan dengan angka perkiraan.
+
+## Kesimpulan dan langkah berikutnya
+
+Persiapan permukaan sebelum coating bukan sekadar menghilangkan karat. Permukaan harus bebas dari kontaminasi yang mengganggu, memiliki profil sesuai sistem yang disetujui, lulus pemeriksaan debu-garam-kelembapan, dapat diakses atau diberi keputusan khusus, lalu dicat dalam jendela waktu yang masih sah. Semua keputusan itu harus dapat ditelusuri ke spesifikasi dan catatan pemeriksaan.
+
+Sebelum pekerjaan berikutnya dimulai, minta empat dokumen: spesifikasi coating yang berlaku, lembar data produk dan keselamatan, formulir pemeriksaan permukaan, serta daftar area sulit pada gambar. Cocokkan alat dan batas lulusnya, tetapkan siapa yang melepas *hold point*, dan minta tinjauan teknis untuk kondisi yang tidak tercakup. Anda dapat meninjau [beranda Bengkel-las.co.id](/) untuk kembali ke konteks pekerjaan, membandingkan pertimbangan sistem pada [panduan memilih cat antikarat untuk besi](/update/tips-memilih-cat-anti-karat-untuk-besi), atau membaca konteks [pekerjaan konstruksi baja](/konstruksi-baja) bila komponen merupakan bagian dari struktur. Teman Bengkel-las.co.id, aturan operasinya sederhana: **tidak ada bukti lulus, tidak ada lapisan pertama**. Keputusan akhir tetap berada pada spesifikasi proyek dan personel kompeten yang menyetujuinya.

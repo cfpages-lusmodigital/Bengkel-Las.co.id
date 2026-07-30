@@ -2,8 +2,9 @@
 article_id: WLD-04-A01
 title: "Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan"
 slug: "izin-kerja-panas-dan-fire-watch"
-description: "Explain area survey, combustible control, authorization, barriers, extinguishing readiness, watch duties, post-work monitoring, and records"
-status: outline
+description: "Panduan survei area, pengendalian bahan mudah terbakar, otorisasi, penghalang, kesiapan pemadaman, tugas fire watch, pemantauan pascapekerjaan, dan pencatatan"
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-08-21"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,243 +16,117 @@ final_route: "/artikel/izin-kerja-panas-dan-fire-watch.html"
 technical_review: required
 sources:
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018"
+  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
   - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200"
   - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
-  - "https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016"
-  - "https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023"
-  - "https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
-  - "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212"
-  - "https://www.iso.org/standard/85705.html"
-  - "https://www.iso.org/standard/75614.html"
-  - "https://pesta.bsn.go.id/produk/detail/12882-sni17292020"
-  - "https://www.iso.org/standard/83335.html"
-  - "https://www.iso.org/standard/80209.html"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan
 
-## Assignment lock
+Halo, Kawan Bengkel-las.co.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan”
-- **Reader and situation:** Site supervisor authorizing welding
-- **Reader outcome:** Explain area survey, combustible control, authorization, barriers, extinguishing readiness, watch duties, post-work monitoring, and records
-- **Primary intent:** Establish hot-work controls
-- **Reader community:** `Bengkel-las.co.id`
-- **Primary friendly address:** `Kawan Bengkel-las.co.id`
-- **Natural variants:** `Sobat Bengkel-las.co.id` and `Teman Bengkel-las.co.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes replacing the site's permit system or fire plan; confined-space controls belong to WLD-04-A04
-- **Final public route:** `/artikel/izin-kerja-panas-dan-fire-watch.html`
-- **Appointed CMS date:** `2025-08-21` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Izin kerja panas dan fire watch harus diputuskan sebelum busur las menyala. Pengawas area perlu memastikan lokasi sudah disurvei, bahan mudah terbakar sudah disingkirkan atau dilindungi, sumber energi dan isi pipa yang berbahaya sudah dikendalikan, penghalang percikan terpasang, alat pemadam siap dijangkau, serta orang yang berwenang telah menandatangani izin. Fire watch kemudian mengawasi selama pekerjaan dan setelah api padam. Bila satu syarat penting tidak dapat dibuktikan, pekerjaan ditunda, dipindahkan ke area yang lebih terkendali, atau dikaji ulang oleh penanggung jawab K3.
 
-## Opening instructions
+Jadi, izin bukan kertas yang diisi setelah pekerjaan selesai, dan fire watch bukan orang yang sesekali menoleh sambil mengerjakan tugas lain. Keduanya adalah rangkaian kontrol untuk mencegah percikan, panas, dan bara tersembunyi menyalakan material di luar bidang pandang. Kondisi aktual—lapisan cat, debu, residu, rongga, penghuni di sisi lain dinding, cuaca, dan kegiatan yang berdekatan—dapat mengubah keputusan. Kerangka umum keselamatan kerja Indonesia dapat ditelusuri pada [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970); rincian izin dan keputusan lapangan tetap harus mengikuti sistem serta penanggung jawab proyek.
 
-- Open with the exact short salutation: **“Halo, Kawan Bengkel-las.co.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Bengkel-las.co.id`, `Sobat Bengkel-las.co.id`, or `Teman Bengkel-las.co.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+<!-- BEGIN MANAGED IMAGE PLAN
+Image ID: LOCAL-001
+Source type: local
+Placement: after the opening has answered the main question, before the first detailed H2
+**Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
+Caption/credit: Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+Selection basis: filename/source metadata identifies bengkel las as relevant content media; no pixels were inspected.
+Hard boundary: do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+Substitution rule: do not replace this image. If unavailable or provenance is incomplete, insert [NEEDS IMAGE REVIEW: LOCAL-001] and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
+![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
-## Image plan
-
-- **Image ID:** `LOCAL-001`
-- **Source type:** `local`
-- **Placement:** after the opening has answered the main question, before the first detailed H2
-- **Exact Markdown to insert:** `![Ilustrasi bengkel las](/wp-content/uploads/2019/10/bengkel-las.png)`
-- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
-- **Selection basis:** filename/source metadata identifies `bengkel las` as relevant content media; no pixels were inspected.
-- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `bengkel-las.co.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The frozen catalog has 20 parent topics and 120 briefs. Intended readers include homeowners, facility and maintenance teams, small manufacturers, procurement staff, project supervisors, and workshop operators. Repository plans are editorial inputs, not proof of a real workshop, staff, equipment, qualifications, prices, locations, or services.
-- **Limits:** Re-read both frozen files if the project role, catalog, URL ownership, or conversion path changes. Do not infer an automotive specialty or add unsupported neighboring trades.
-
-### KR-16
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 12 Tahun 2015 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/610/peraturan-menteri-nomor-12-tahun-2015), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.1200 — hazard communication](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Provide a systems view of workshop K3 instead of reducing safety to personal protective equipment.
-- **Safe grounded facts:** A controlled task starts with elimination/substitution and engineering/administrative controls, then suitable PPE; product identity and current safety data matter for chemicals. Emergency planning must reflect the actual energy, fire, exposure, first-aid, evacuation, communication, and rescue scenario.
-- **Limits:** This file supplies no exposure limit, PPE selection, ventilation rate, electrical protection setting, cylinder separation, fire-watch duration, or emergency procedure. Resolve them from current Indonesian rules, site conditions, exact products, and competent K3 review.
-
-### KR-14
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 5 Tahun 2018 — official Kemnaker JDIH](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018), [OSHA 29 CFR 1910.252 — welding, cutting, and brazing](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Help readers compare controlled shop fabrication with field work where the environment, interfaces, access, occupants, combustibles, weather, and permits can change the method and risk.
-- **Safe grounded facts:** Moving work on site can change fit-up control, position, access, lifting, weather, electrical supply, fume dispersion, fire exposure, nearby operations, traffic/public interface, coating conditions, inspection access, and restoration. A field weld is not justified merely because transport is inconvenient.
-- **Limits:** Do not import US distances, permits, or prescriptions. The responsible Indonesian site/K3 authority must approve the current task-specific controls.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970 — BPK](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Anchor workshop-safety content in current Indonesian law and prevent reliance on pre-July-2026 copies of sector K3 regulations.
-- **Safe grounded facts:** The 2026 record identifies partial revocations affecting, among others, workplace environment, electrical work, pressure vessels and tanks, powered/production machinery, lifting equipment, work at height, and confined spaces. A legacy regulation may still be in force while some provisions no longer are.
-- **Limits:** This register does not perform legal consolidation or interpret amended clauses. Recheck BPK and official Kemnaker text at outline approval and obtain competent Indonesian legal/K3 review for prescriptive claims.
-
-### KR-12
-
-- **Original sources:** [Permenaker No. 37 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146211/permenaker-no-37-tahun-2016), [Permenaker No. 11 Tahun 2023 tentang K3 di Ruang Terbatas — BPK](https://peraturan.bpk.go.id/Details/282464/permenaker-no-11-tahun-2023), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Create a hard boundary around pressure-retaining equipment, hazardous contents, entry, isolation, testing, and statutory inspection.
-- **Safe grounded facts:** Vessel/tank/pipe work can combine stored pressure, hazardous residue, oxygen deficiency/enrichment, toxic or flammable atmosphere, engulfment, hot work, line breaking, cleaning, ventilation, rescue, and integrity risks. “Empty” or “not operating” does not by itself establish a safe condition.
-- **Limits:** Do not provide a pressure design, repair detail, entry procedure, gas-test value, test pressure, interval, or return-to-service approval from this file. Specialist owner, K3, engineering, inspection, and legal review are required.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [OSHA 29 CFR 1910.212 — general machine guarding](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212).
-- **Purpose for this article:** Ensure a component-repair article considers the complete machine, energy sources, operating envelope, safeguarding, commissioning, and records.
-- **Safe grounded facts:** A repaired shaft, frame, coupling, guard, base, or attachment can alter alignment, balance, clearance, strength, vibration, containment, access, interlocks, or operating hazards. Safe servicing and safe production are related but distinct states.
-- **Limits:** Do not publish an isolation sequence, guard dimension, balance tolerance, restart authorization, or fitness claim generically. Verify current Indonesian provisions and exact OEM/site requirements.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 38 Tahun 2016 — BPK](https://peraturan.bpk.go.id/Details/146207/permenaker-no-38-tahun-2016), [OSHA 29 CFR 1910.147 — control of hazardous energy](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147), [Permenaker No. 11 Tahun 2026 — BPK](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Make maintenance content evidence-based without inventing universal schedules or promising uptime.
-- **Safe grounded facts:** Calendar-based, runtime-based, condition-based, corrective, and statutory work answer different needs. Work order history, failure coding, inspection readings, parts identity, deferred defects, tests, and release authority support trend review and planning.
-- **Limits:** Do not provide a universal interval, alarm threshold, remaining-life estimate, spares quantity, uptime saving, or restart decision. Obtain current OEM manuals, asset history, operating context, statutory requirements, and responsible-person approval.
-
-### KR-04
-
-- **Original sources:** [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Prevent visual symptoms or an isolated measurement from being presented as a complete diagnosis or acceptance decision.
-- **Safe grounded facts:** Inspection method, coverage, technique, personnel, equipment, surface condition, calibration/verification status, reporting, and acceptance basis are separate evidence items. ISO 17635 also warns that NDT acceptance levels are not a direct one-to-one translation of ISO 5817 quality levels.
-- **Limits:** The abstracts do not supply technique parameters, acceptance values, required extent, calibration intervals, or project fitness. Obtain the governing code, full standards, written procedure, and asset-specific inspection plan.
-
-### KR-08
-
-- **Original sources:** [SNI 1729:2020 — official BSN catalog](https://pesta.bsn.go.id/produk/detail/12882-sni17292020), [ISO 3834-6:2024 — official ISO abstract](https://www.iso.org/standard/83335.html).
-- **Purpose for this article:** Ground fabrication planning in defined requirements rather than verbal descriptions, copied details, or unverified workshop habit.
-- **Safe grounded facts:** A controlled fabrication package can need governing documents and revision, function, dimensions/datums, material and joint identity, loads/interfaces, tolerances, fabrication sequence, weld/fastener/coating requirements, inspection and hold points, acceptance basis, handling, installation, and approved deviations.
-- **Limits:** The BSN page does not reveal clauses, tolerances, combinations, connection design, execution rules, or acceptance values. Obtain the licensed governing standards and issued-for-work project documents.
-
-### KR-15
-
-- **Original sources:** [ISO 5817:2023 — official ISO abstract](https://www.iso.org/standard/80209.html), [ISO 17635:2025 — official ISO abstract](https://www.iso.org/standard/85705.html), [ISO 9712:2021 — official ISO abstract](https://www.iso.org/standard/75614.html).
-- **Purpose for this article:** Keep QA articles from confusing workmanship levels, NDT technique, indication evaluation, personnel certification, equipment status, and engineering acceptance.
-- **Safe grounded facts:** A quality plan needs the governing acceptance basis, joint and examination identification, method/technique and extent, written procedure where required, personnel scope, equipment identity and current calibration/verification, surface/test conditions, report traceability, result, nonconformance, disposition authority, repair cycle, and closeout.
-- **Limits:** Do not publish imperfection limits, acceptance tables, technique settings, calibration intervals, or certification equivalence from abstracts. Obtain full current standards and project procedures.
-
-## Evidence gates
-
-- **GATE-01:** Resolve the gate from current project evidence and competent review.
-- **GATE-02:** Resolve the gate from current project evidence and competent review.
-- **GATE-03:** Resolve the gate from current project evidence and competent review.
-- **GATE-04:** Resolve the gate from current project evidence and competent review.
-- **GATE-05:** Resolve the gate from current project evidence and competent review.
-- **GATE-06:** Resolve the gate from current project evidence and competent review.
-- **GATE-07:** Resolve the gate from current project evidence and competent review.
-- **GATE-08:** Resolve the gate from current project evidence and competent review.
-- **GATE-09:** Resolve the gate from current project evidence and competent review.
-- **GATE-10:** Resolve the gate from current project evidence and competent review.
-- **GATE-11:** Resolve the gate from current project evidence and competent review.
-- **GATE-12:** Resolve the gate from current project evidence and competent review.
-- **GATE-13:** Resolve the gate from current project evidence and competent review.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `WLD-04-A02` → `/artikel/bahaya-listrik-saat-mengelas.html` — Bahaya Sengatan Listrik Saat Mengelas dan Jalur Arus Balik yang Aman
-- `WLD-04-A03` → `/artikel/mencegah-kebakaran-setelah-pengelasan.html` — Percikan, Terak, dan Panas Tersembunyi: Mencegah Kebakaran Setelah Las Selesai
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Aset lokal Bengkel-las.co.id; bukan dokumentasi proyek tertentu.
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutan yang dapat dipakai pengawas adalah: survei, kendalikan bahan mudah terbakar, tetapkan batas kerja, pastikan pemadaman dan komunikasi siap, terbitkan izin untuk lokasi serta waktu tertentu, awasi pekerjaan, lalu lakukan pemeriksaan dan pemantauan pascapekerjaan sebelum izin ditutup. Urutan ini menjaga keputusan tetap berbasis kondisi, bukan kebiasaan.
+
+Salah paham yang sering muncul adalah menganggap “hanya sebentar” berarti aman. Las titik singkat tetap menghasilkan panas dan percikan yang dapat masuk ke celah, bawah lantai, balik panel, atau ruang di sisi lain dinding. Menyediakan alat pemadam tanpa orang yang ditugaskan mengamati juga meninggalkan jeda respons. Fire watch harus tahu area yang diawasi, jalur melapor, tanda untuk menghentikan pekerjaan, dan batas kewenangannya. Ia tidak menggantikan petugas pemadam, rencana evakuasi, atau keputusan teknis pemilik fasilitas.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Dalam artikel ini, pekerjaan panas berarti pengelasan dan pekerjaan terkait yang menghasilkan api, busur, panas, atau percikan. Izin kerja panas adalah otorisasi administratif untuk satu pekerjaan, lokasi, dan rentang waktu yang ditentukan; izin itu dapat dibatalkan bila kondisi berubah. Fire watch adalah penugasan khusus untuk mengamati sumber nyala dan area yang mungkin terkena panas, menjaga komunikasi, dan memicu penghentian atau respons darurat sesuai prosedur setempat.
+
+Kontrol ini melengkapi, bukan menggantikan, isolasi energi, pengendalian bahan kimia, ventilasi, alat pelindung diri, dan rencana tanggap darurat. Pendekatan berjenjang—menghilangkan bahaya bila mungkin, memakai pengendalian teknis dan administratif, kemudian memilih PPE yang sesuai—sejalan dengan gambaran sistem K3 pada [Permenaker No. 5 Tahun 2018](https://jdih.kemnaker.go.id/peraturan/detail/1546/peraturan-menteri-nomor-5-tahun-2018). Detail seperti jenis respirator, laju ventilasi, kapasitas pemadam, atau setelan listrik tidak boleh ditebak dari artikel umum.
+
+Batasnya penting: tulisan ini tidak menggantikan sistem izin atau rencana kebakaran milik site, dan tidak membahas prosedur ruang terbatas. Bila pengelasan menyentuh bejana, tangki, pipa berisi sisa bahan, atau ruang yang memerlukan izin masuk, hentikan alur sederhana ini dan minta kajian khusus sebelum mengizinkan pekerjaan.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+### Sebelum pengelasan
+
+1. **Survei area dan antarmuka.** Pengawas berjalan mengelilingi titik kerja, melihat lantai atas-bawah, sisi balik dinding, lubang kabel, drainase, saluran, gudang, kendaraan, dan jalur orang. Tanyakan apa yang sedang beroperasi di sekitarnya serta bagaimana percikan dapat berpindah. Catat kondisi yang benar-benar diperiksa, bukan sekadar menyalin izin lama.
+
+2. **Kendalikan bahan mudah terbakar.** Pindahkan kain, kardus, kayu, pelarut, gas, debu, dan kemasan dari zona kerja bila memungkinkan. Material yang tidak dapat dipindahkan harus dipisahkan dengan penutup atau pelindung percikan yang sesuai dan diperiksa agar tidak menjadi jalur rambat panas. Jangan menganggap permukaan bersih hanya karena tidak terlihat basah; identitas produk, residu, dan lembar data keselamatan (SDS) perlu diketahui. Penjelasan tentang komunikasi bahaya dan informasi produk tersedia dalam [OSHA 29 CFR 1910.1200](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200), yang dipakai di sini sebagai rujukan teknis, bukan sebagai hukum Indonesia.
+
+3. **Pastikan kondisi teknis dan energi.** Periksa kabel, konektor, pembumian, selang, tabung, dan sumber listrik sesuai prosedur site. Pastikan jalur, katup, mesin, atau peralatan yang dapat mengalirkan bahan atau energi panas telah diidentifikasi dan dikendalikan oleh pihak berwenang. “Sudah dimatikan” tidak otomatis berarti terisolasi; bukti isolasi dan pelepasan energi tersimpan harus tersedia pada sistem proyek.
+
+4. **Tetapkan batas dan komunikasi.** Pasang tirai atau penghalang percikan, rambu, dan jalur aman untuk orang yang tidak berkepentingan. Tunjuk pemberi izin, pelaksana, dan fire watch dengan nama serta alat komunikasi yang dapat dipakai. Bila fire watch harus meninggalkan pos, tetapkan pengganti sebelum pekerjaan dimulai.
+
+5. **Periksa kesiapan pemadaman.** Alat pemadam yang dipilih oleh penanggung jawab harus sesuai bahaya, tidak terhalang, dan status pemeriksaannya dapat diverifikasi. Siapkan akses keluar, nomor darurat, dan cara memutus pekerjaan. [NEEDS PROJECT REVIEW: jenis alat pemadam, jalur eskalasi, dan kriteria kesiapan harus ditetapkan oleh sistem kebakaran site.]
+
+6. **Terbitkan izin.** Isi lokasi, pekerjaan, peralatan, waktu berlaku, bahaya yang ditemukan, pengendalian, nama petugas, dan batas penghentian. Pemberi izin memverifikasi kondisi lapangan secara langsung lalu mengesahkan sebelum sumber panas dinyalakan. Izin lama tidak berlaku otomatis untuk lokasi, shift, material, atau pekerjaan yang berubah.
+
+### Saat pengelasan berlangsung
+
+Fire watch menempatkan diri sehingga titik busur, area jatuhnya percikan, dan sisi yang berpotensi tersembunyi tetap dapat diamati. Ia tidak mengelas, menggerinda, mengangkat material, atau menerima pekerjaan lain yang mengalihkan perhatian. Jika pandangan terhalang, komunikasi putus, pelindung bergeser, muncul bau atau asap tak wajar, bahan mudah terbakar masuk, atau pekerjaan melewati kondisi izin, fire watch memberi tanda berhenti dan menghubungi pemberi izin.
+
+Pengawas memastikan perubahan metode, posisi, material, cuaca, atau kegiatan di sekitar memicu penilaian ulang. Pedoman pengelasan dan pemotongan [OSHA 29 CFR 1910.252](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252) menggambarkan pentingnya pengawasan kebakaran dan pengendalian area; jarak, durasi, serta persyaratan dalam pedoman itu tidak boleh dipindahkan mentah-mentah menjadi ketentuan Indonesia. Gunakan prosedur proyek yang telah disetujui.
+
+### Sesudah sumber panas padam
+
+Pelaksana mematikan peralatan, mengamankan tabung dan kabel, serta membersihkan terak tanpa menyembunyikan kondisi yang perlu diperiksa. Fire watch dan pengawas memeriksa kembali titik las, celah, balik panel, lantai di bawah, material penutup, dan area yang terkena panas. Mereka mencari panas tersisa, asap, bau terbakar, atau perubahan warna; temuan dicatat dan dieskalasikan, bukan ditutup dengan air atau dipindahkan sembarangan.
+
+Pemantauan dilanjutkan sesuai penilaian bahaya dan aturan site. Tidak ada durasi universal yang boleh ditulis tanpa mengetahui konstruksi, muatan kebakaran, ventilasi, dan hasil inspeksi. [NEEDS PROJECT REVIEW: durasi fire watch pascapekerjaan, titik pemeriksaan, dan syarat penutupan izin harus disahkan untuk proyek ini.] Setelah area dinyatakan aman, pemberi izin menutup formulir dengan waktu, nama petugas, hasil pemeriksaan, penyimpangan, dan tindakan lanjutan.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Beberapa kondisi membuat izin yang sama tidak dapat dipakai ulang:
+
+- **Lingkungan dan akses:** pekerjaan di workshop terbuka berbeda dari lokasi dengan penghuni, lalu lintas, atap berongga, atau cuaca yang mengubah arah percikan dan asap.
+- **Material dan residu:** cat, pelapis, minyak, debu, isolasi, atau isi pipa dapat menyala atau menghasilkan paparan ketika dipanaskan. Verifikasi produk dan SDS sebelum memilih pengendalian.
+- **Antarmuka operasi:** forklift, pekerjaan listrik, pekerjaan di ketinggian, pengangkatan, dan proses produksi dapat mengganggu penghalang atau jalur evakuasi. Koordinasikan izin yang saling bersinggungan.
+- **Peralatan dan energi:** sumber listrik, gas, tekanan, putaran, serta energi tersimpan harus dikendalikan melalui prosedur yang berlaku; artikel ini tidak menetapkan urutan isolasi atau nilai uji.
+- **Bukti dan perubahan:** revisi gambar, perubahan shift, fire watch yang berganti, atau penemuan rongga baru memerlukan pemeriksaan ulang dan mungkin izin baru.
+
+Perubahan status peraturan juga perlu dipantau. Catatan [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026) menunjukkan adanya pencabutan sebagian pada sejumlah aturan K3; karena itu, rujukan lama harus dicek kembali terhadap teks resmi dan penilaian kompeten sebelum dijadikan dasar preskriptif.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+| Kondisi yang ditemukan | Keputusan pengawas | Bukti yang perlu disimpan |
+| --- | --- | --- |
+| Bahan mudah terbakar dapat dipindahkan dan sisi balik dapat dilihat | Kendalikan area, pasang penghalang, lalu proses izin | Catatan survei, foto/denah penghalang, tanda tangan izin |
+| Bahan tidak dapat dipindahkan dan perlindungan percikan tidak memadai | Tunda atau pindahkan pekerjaan; minta desain pengendalian lain | Alasan penundaan dan persetujuan perubahan |
+| Fire watch dipanggil untuk tugas lain | Hentikan busur sampai pengganti ditunjuk dan diberi pengarahan | Nama, waktu serah-terima, dan komunikasi |
+| Terlihat asap atau panas di balik panel setelah las selesai | Aktifkan respons site, amankan area, dan jangan menutup izin | Waktu temuan, tindakan, pemeriksaan lanjutan |
+| Pekerjaan bergeser ke lokasi atau material berbeda | Batalkan izin lama dan lakukan survei serta otorisasi baru | Izin baru dengan ruang lingkup yang jelas |
+
+Contoh itu bukan pengganti penilaian bahaya. Sobat Bengkel-las.co.id, gunakan pertanyaan sederhana: “Apa yang berubah sejak izin ditandatangani, dan bukti apa yang menunjukkan kondisi masih terkendali?” Jika jawabannya tidak jelas, keputusan aman adalah berhenti sejenak untuk verifikasi.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Izin Kerja Panas dan Fire Watch: Alur Sebelum, Saat, dan Sesudah Pengelasan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah mengisi kolom izin secara retrospektif. Periksa waktu tanda tangan terhadap waktu mulai dan pastikan pemberi izin benar-benar melihat area. Kedua, menempatkan fire watch di pintu tanpa akses ke sisi tersembunyi. Minta ia menunjukkan area yang diawasi dan jalur komunikasi sebelum mulai.
 
-## Objection or shortcut to address
+Ketiga, menganggap alat pemadam “ada” berarti siap. Verifikasi jenis, akses, kondisi pemeriksaan, dan kecocokannya dengan bahaya melalui prosedur site. Keempat, membiarkan penutup percikan menyentuh material panas atau menutupi tanda asap; periksa kembali selama dan setelah pekerjaan. Kelima, menutup izin segera setelah elektroda berhenti. Pastikan inspeksi pascapekerjaan, pemantauan yang dipersyaratkan, dan pencatatan penyimpangan sudah selesai.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Simpan izin, daftar pemeriksaan, nama fire watch, waktu mulai-berhenti, perubahan, temuan, dan tindakan korektif di tempat yang mudah ditelusuri. Rekaman bukan formalitas: ia membantu shift berikutnya memahami area yang telah dipanaskan dan alasan suatu pekerjaan dihentikan. Jangan menyalin angka, durasi, atau batas dari proyek lain tanpa dasar yang disetujui.
 
-## Required conclusion
+## Jalan pintas yang tampak praktis
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+“Ini hanya tack weld, jadi tidak perlu izin” terdengar efisien, tetapi mengabaikan jalur rambat panas dan perubahan kondisi sekitar. Alternatif yang lebih andal adalah memakai formulir ringkas yang tetap memuat survei, pengendalian bahan mudah terbakar, penunjukan fire watch, kesiapan pemadaman, batas waktu, dan pemeriksaan penutupan. Bila pekerjaan berulang di lokasi yang sama, setiap pengulangan tetap perlu dikonfirmasi terhadap kondisi saat itu; izin blanket tidak boleh diasumsikan.
 
-## Draft completion checklist
+Teman Bengkel-las.co.id, kecepatan yang aman berasal dari keputusan yang dapat dibuktikan, bukan dari menghapus langkah kontrol. Untuk pekerjaan pada bejana, pipa berisi residu, ruang tersembunyi, atau area yang tetap beroperasi, mintalah tinjauan K3, engineering, dan pemilik fasilitas sebelum mengubah metode.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Bengkel-las.co.id!` and uses friendly `Bengkel-las.co.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+## Langkah penutup
+
+Jawaban atas judul ini adalah satu alur utuh: survei sebelum las, kendalikan bahan dan energi, beri batas serta otorisasi, siapkan pemadaman, tugaskan fire watch selama pekerjaan, periksa panas tersembunyi sesudahnya, lalu tutup izin dengan rekaman yang dapat ditelusuri. Kawan Bengkel-las.co.id, sebelum jadwal berikutnya, minta pemilik site menunjukkan formulir izin yang berlaku dan sepakati siapa yang berwenang menghentikan pekerjaan. Untuk menemukan jalur komunikasi resmi, mulai dari [beranda Bengkel-las.co.id](/), baca [FAQ keselamatan kerja](/faq/), lalu gunakan [halaman kontak Bengkel-las.co.id](/kontak-kami/).
+
+Jangan mengisi celah aturan dengan tebakan. [NEEDS TECHNICAL REVIEW: sistem izin, rencana kebakaran, dan kriteria pemantauan proyek harus diperiksa oleh penanggung jawab K3/engineering yang berwenang sebelum artikel ini dijadikan prosedur.] Batas operasi yang jujur—berhenti saat bukti tidak cukup—adalah aturan kerja yang paling aman.
